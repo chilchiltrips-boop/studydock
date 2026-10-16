@@ -28,10 +28,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Confirm preinstalled Android SDK
-        run: |
-          echo "Android SDK: ${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
-          command -v sdkmanager
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
 
       - name: Install Android platform and build tools
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
