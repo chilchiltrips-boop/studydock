@@ -1,0 +1,9 @@
+# Never commit private Android signing assets
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+**/local.properties
+**/.gradle/
+**/build/
