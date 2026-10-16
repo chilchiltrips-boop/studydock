@@ -17,8 +17,8 @@ android {
         applicationId = "com.studydock.learning"
         minSdk = 24
         targetSdk = 35
-        versionCode = providers.environmentVariable("STUDYDOCK_VERSION_CODE").orNull?.toIntOrNull() ?: 3
-        versionName = providers.environmentVariable("STUDYDOCK_VERSION_NAME").orNull ?: "0.3.0-native"
+        versionCode = providers.environmentVariable("STUDYDOCK_VERSION_CODE").orNull?.toIntOrNull() ?: 4
+        versionName = providers.environmentVariable("STUDYDOCK_VERSION_NAME").orNull ?: "0.3.1-native"
         vectorDrawables.useSupportLibrary = true
     }
     if (canSign) {
