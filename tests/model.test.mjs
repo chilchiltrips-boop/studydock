@@ -12,3 +12,13 @@ test('rejects wrong answer keys',()=>{const bad=structuredClone(part);bad.questi
 test('accepts one of eight valid part ids only',()=>{const bad=structuredClone(part);bad.partId=9;assert.ok(validateImport(bad,d).errors.some(e=>e.includes('partId')))});
 test('demo seed is removed once a real textbook part is imported',()=>{const merged=mergePart(d,part);assert.equal(merged.chapters.length,1);assert.ok(merged.questions.every(q=>!q.id.startsWith('demo-')))});
 test('rejects notes with missing diagram references',()=>{const bad=structuredClone(part);bad.notes[0].imageIds=['missing'];assert.ok(validateImport(bad,d).errors.some(e=>e.includes('Note n1: image missing not found')))});
+test('retains original non-scoreable questions as review-only records',()=>{
+  const enriched=structuredClone(part);
+  enriched.source={bookTitle:'Verified sample book'};
+  enriched.unresolvedOriginalQuestions=[{id:'source-q-unresolved',stem:'Ambiguous source question',partId:1,sourcePage:11,status:'unverified',correct:[]}];
+  const merged=mergePart(d,enriched);
+  assert.equal(merged.unresolvedOriginalQuestions.length,1);
+  assert.equal(merged.book.title,'Verified sample book');
+  assert.equal(questionSet(merged).length,1);
+  assert.ok(!questionSet(merged).some(q=>q.id==='source-q-unresolved'));
+});
