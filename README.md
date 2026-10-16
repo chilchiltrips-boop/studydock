@@ -1,3 +1,13 @@
+# StudyDock — Native Android
+
+**A ZEBJUS LLP Product**
+
+The current Android app has been migrated to **Kotlin + Jetpack Compose Material 3**, with offline ZIP import, notes, quizzes, image study, and progress. No WebView is used by the Android application. The older web prototype remains under app/ for reference only and is not the Android app. See NATIVE_ANDROID_MIGRATION.md and android/README.md for build/import requirements. Native CI and physical-device acceptance are separate release gates.
+
+---
+
+## Legacy prototype documentation
+
 # StudyDock v0.2 — Android ZIP import
 
 **Important:** This public source project contains NO textbook question, copyrighted image, or scan assets. The original textbook archive is imported directly on the user's Android phone and stored only in app-private storage.

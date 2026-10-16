@@ -1,1 +1,4 @@
-<resources><string name="app_name">StudyDock</string></resources>
+<resources>
+    <string name="app_name">StudyDock</string>
+    <string name="brand_attribution">A ZEBJUS LLP Product</string>
+</resources>

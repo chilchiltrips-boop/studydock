@@ -1,267 +1,684 @@
 package com.studydock.learning
 
-import android.app.Activity
+import android.graphics.Color as AndroidColor
 import android.os.Bundle
-import android.content.Intent
-import android.content.ActivityNotFoundException
 import android.net.Uri
-import android.webkit.JavascriptInterface
-import android.webkit.ValueCallback
-import android.webkit.WebChromeClient
-import android.webkit.WebResourceRequest
-import android.webkit.WebView
-import android.webkit.WebViewClient
-import android.webkit.WebResourceResponse
-import androidx.webkit.WebViewAssetLoader
-import android.widget.Toast
-import java.io.IOException
-import java.io.File
-import java.io.FileOutputStream
-import java.io.FileInputStream
-import java.security.MessageDigest
-import java.util.zip.ZipFile
 import org.json.JSONObject
+import java.io.File
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.activity.compose.BackHandler
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.graphics.ImageBitmap
+import android.graphics.BitmapFactory
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.delay
 
-/**
- * Android WebView shell for the SAME bundled, offline StudyDock web app.
- * File chooser supports local JSON imports. The small JS bridge writes exported JSON
- * via the Android Storage Access Framework, avoiding fragile blob: downloads.
- * No textbook images or student data leave the device.
- */
-class MainActivity : Activity() {
-    private lateinit var web: WebView
-    private lateinit var assetLoader: WebViewAssetLoader
-    private var pendingChooser: ValueCallback<Array<Uri>>? = null
-    private var pendingExport: String? = null
-    private val CHOOSE_FILE = 201
-    private val SAVE_FILE = 202
-    private val IMPORT_ZIP = 203
-    private val imageDir by lazy { File(filesDir, "studydock-images").apply { mkdirs() } }
-    private val importDir by lazy { File(filesDir, "studydock-imports").apply { mkdirs() } }
+private val Navy = Color(0xFF0B1F41)
+private val Sky = Color(0xFF0877E8)
+private val Aqua = Color(0xFF00BBD4)
+private val Background = Color(0xFFF6F8FC)
+private val Muted = Color(0xFF66758B)
+private val Outline = Color(0xFFE3EAF5)
+private val Green = Color(0xFF0C8062)
+
+private enum class Screen(val label: String, val icon: ImageVector) {
+    Home("Home", Icons.Filled.Home),
+    Notes("Notes", Icons.Filled.MenuBook),
+    Practice("Practice", Icons.Filled.Quiz),
+    Images("Images", Icons.Filled.Image),
+    Progress("Progress", Icons.Filled.Insights),
+    Library("Library", Icons.Filled.LibraryBooks)
+}
+
+class MainActivity : ComponentActivity() {
+    private val library by lazy { StudyLibrary(this) }
+    private val progress by lazy { StudyProgress(this) }
+    private var part by mutableStateOf<StudyPart?>(null)
+    private var importMessage by mutableStateOf("")
+    private var importing by mutableStateOf(false)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        assetLoader = WebViewAssetLoader.Builder()
-            // The first handler serves verified original textbook images stored privately on device.
-            .addPathHandler("/v2/assets/images/", WebViewAssetLoader.InternalStoragePathHandler(this, imageDir))
-            .addPathHandler("/v2/imports/", WebViewAssetLoader.InternalStoragePathHandler(this, importDir))
-            .addPathHandler("/v2/", WebViewAssetLoader.AssetsPathHandler(this))
-            .build()
-        web = WebView(this)
-        setContentView(web)
-        web.settings.javaScriptEnabled = true
-        web.settings.domStorageEnabled = true
-        web.settings.allowFileAccess = true
-        web.settings.allowContentAccess = true
-        web.settings.allowFileAccessFromFileURLs = false
-        web.settings.allowUniversalAccessFromFileURLs = false
-        web.settings.setSupportZoom(false)
-        web.webViewClient = object : WebViewClient() {
-            override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest): WebResourceResponse? = assetLoader.shouldInterceptRequest(request.url)
-            override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
-                val url = request.url
-                if (url.host == "appassets.androidplatform.net" && url.scheme == "https" && url.path?.startsWith("/v2/") == true) return false
-                return try {
-                    startActivity(Intent(Intent.ACTION_VIEW, url))
-                    true
-                } catch (_: ActivityNotFoundException) { true }
-            }
-        }
-        web.webChromeClient = object : WebChromeClient() {
-            override fun onShowFileChooser(webView: WebView?, filePathCallback: ValueCallback<Array<Uri>>?, fileChooserParams: FileChooserParams?): Boolean {
-                pendingChooser?.onReceiveValue(null)
-                pendingChooser = filePathCallback
-                val intent = Intent(Intent.ACTION_GET_CONTENT).apply {
-                    type = "application/json"
-                    addCategory(Intent.CATEGORY_OPENABLE)
+        window.statusBarColor = AndroidColor.rgb(11,31,65)
+        window.navigationBarColor = AndroidColor.rgb(246,248,252)
+        window.decorView.systemUiVisibility = android.view.View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR
+        part = try { library.readPart() } catch (e: Exception) { importMessage = e.message ?: "Cannot read imported content"; null }
+        setContent {
+            StudyDockTheme {
+                val chooser = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+                    if (uri != null) importPart(uri)
                 }
-                return try { startActivityForResult(Intent.createChooser(intent, "Select textbook JSON"), CHOOSE_FILE); true }
-                catch (_: ActivityNotFoundException) { pendingChooser = null; false }
-            }
-        }
-        web.addJavascriptInterface(LocalExport(), "AndroidBridge")
-        web.loadUrl("https://appassets.androidplatform.net/v2/index.html")
-    }
-
-    inner class LocalExport {
-        @JavascriptInterface
-        fun chooseTextbookZip() {
-            runOnUiThread {
-                val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
-                    type = "application/zip"
-                    addCategory(Intent.CATEGORY_OPENABLE)
-                    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-                    putExtra(Intent.EXTRA_MIME_TYPES, arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream"))
+                var splash by remember { mutableStateOf(savedInstanceState == null) }
+                LaunchedEffect(Unit) {
+                    delay(5000)
+                    splash = false
                 }
-                try {
-                    startActivityForResult(Intent.createChooser(intent, "Choose StudyDock textbook content ZIP"), IMPORT_ZIP)
-                } catch (_: ActivityNotFoundException) {
-                    notifyZipError("No ZIP file picker available on this device")
-                }
-            }
-        }
-
-        @JavascriptInterface
-        fun saveJson(name: String, body: String) {
-            // Only the first-party, bundled offline app can use this bridge.
-            val filename = name.replace(Regex("[^a-zA-Z0-9_.-]"), "_").take(90).ifBlank { "studydock-backup.json" }
-            runOnUiThread {
-                pendingExport = body
-                val intent = Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
-                    addCategory(Intent.CATEGORY_OPENABLE)
-                    type = "application/json"
-                    putExtra(Intent.EXTRA_TITLE, filename)
-                }
-                startActivityForResult(intent, SAVE_FILE)
+                if (splash) NativeSplash(onSkip = { splash = false }) else NativeApp(
+                    part = part, progress = progress, importing = importing,
+                    importMessage = importMessage,
+                    onImport = { chooser.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) }
+                )
             }
         }
     }
 
-    @Deprecated("Compatibility with the self-contained Android shell")
-    override fun onActivityResult(requestCode: Int, resultCode: Int, resultData: Intent?) {
-        super.onActivityResult(requestCode, resultCode, resultData)
-        when (requestCode) {
-            CHOOSE_FILE -> {
-                val uri = if (resultCode == RESULT_OK) resultData?.data else null
-                pendingChooser?.onReceiveValue(uri?.let { arrayOf(it) })
-                pendingChooser = null
-            }
-            IMPORT_ZIP -> {
-                val uri = if (resultCode == RESULT_OK) resultData?.data else null
-                if (uri != null) {
-                    runOnUiThread { web.evaluateJavascript("window.studyDockZipStatus?.('Reading and verifying textbook ZIP…')", null) }
-                    Thread {
-                        try { importTextbookZip(uri) }
-                        catch (e: Exception) { notifyZipError(e.message ?: "Unable to import ZIP") }
-                    }.start()
+    private fun importPart(uri: Uri) {
+        if (importing) return
+        importing = true
+        importMessage = "Verifying Part 1 images and content…"
+        Thread {
+            try {
+                val result = library.importZip(uri)
+                runOnUiThread {
+                    part = result
+                    importMessage = "Part 1 imported: ${result.questions.size} verified questions and ${result.images.size} original images."
+                    importing = false
+                }
+            } catch (error: Exception) {
+                runOnUiThread {
+                    importMessage = error.message?.take(200) ?: "Import failed; previous content was retained."
+                    importing = false
                 }
             }
-            SAVE_FILE -> {
-                val json = pendingExport
-                pendingExport = null
-                if (resultCode == RESULT_OK && json != null && resultData?.data != null) {
-                    try {
-                        contentResolver.openOutputStream(resultData.data!!)?.use { it.write(json.toByteArray(Charsets.UTF_8)) }
-                        Toast.makeText(this, "JSON saved", Toast.LENGTH_SHORT).show()
-                    } catch (_: IOException) {
-                        Toast.makeText(this, "Unable to save JSON", Toast.LENGTH_LONG).show()
-                    }
-                }
-            }
+        }.start()
+    }
+}
+
+@Composable
+private fun StudyDockTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = lightColorScheme(
+            primary = Sky, onPrimary = Color.White, background = Background,
+            surface = Color.White, onSurface = Navy, onBackground = Navy,
+            outline = Outline, secondary = Aqua
+        ),
+        shapes = Shapes(
+            small = RoundedCornerShape(12.dp), medium = RoundedCornerShape(18.dp),
+            large = RoundedCornerShape(26.dp)
+        ),
+        content = content
+    )
+}
+
+@Composable
+private fun NativeSplash(onSkip: () -> Unit) {
+    Box(
+        Modifier.fillMaxSize().background(
+            Brush.verticalGradient(listOf(Navy, Color(0xFF10366D), Color(0xFF0B1F41)))
+        )
+    ) {
+        Column(Modifier.align(Alignment.Center).padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Image(
+                painterResource(R.drawable.studydock_logo),
+                contentDescription = "StudyDock open-book logo",
+                modifier = Modifier.size(132.dp).clip(RoundedCornerShape(32.dp))
+            )
+            Spacer(Modifier.height(24.dp))
+            Text("StudyDock", color = Color.White, fontWeight = FontWeight.ExtraBold, fontSize = 37.sp)
+            Spacer(Modifier.height(5.dp))
+            Text("Learn · Practice · Succeed", color = Color(0xFFBCD9FF), fontSize = 14.sp)
+            Spacer(Modifier.height(42.dp))
+            LinearProgressIndicator(modifier = Modifier.width(140.dp).height(4.dp), color = Aqua, trackColor = Color.White.copy(alpha = 0.16f))
+        }
+        Column(Modifier.align(Alignment.BottomCenter).padding(bottom = 48.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("A ZEBJUS LLP Product", color = Color.White, fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
+            TextButton(onClick = onSkip) { Text("Skip intro", color = Color(0xFFB7DBFF)) }
         }
     }
+}
 
-    private fun notifyZipError(message: String) {
-        runOnUiThread {
-            if (::web.isInitialized) {
-                web.evaluateJavascript("window.studyDockZipError?.(" + JSONObject.quote(message.take(300)) + ")", null)
-            }
-        }
-    }
-
-    /**
-     * Import verified part JSON + original images with bounded memory usage.
-     * Images are extracted only from manifest-declared safe paths and SHA-256 checked.
-     * Other archive contents (PDFs, evidence exports) stay inside the uploaded ZIP.
-     */
-    private fun importTextbookZip(uri: Uri) {
-        val archive = File.createTempFile("studydock-incoming-", ".zip", cacheDir)
-        val stage = File(cacheDir, "studydock-stage-" + System.nanoTime())
-        try {
-            contentResolver.openInputStream(uri)?.use { input ->
-                FileOutputStream(archive).use { output ->
-                    val buffer = ByteArray(64 * 1024)
-                    var total = 0L
-                    while (true) {
-                        val count = input.read(buffer)
-                        if (count < 0) break
-                        total += count
-                        if (total > 250_000_000) throw IOException("ZIP exceeds 250 MB size limit")
-                        output.write(buffer, 0, count)
-                    }
-                }
-            } ?: throw IOException("Unable to read selected ZIP")
-
-            ZipFile(archive).use { zip ->
-                val manifests = zip.entries().asSequence().filter { it.name.matches(Regex("part[1-8]\\.json")) }.toList()
-                if (manifests.size != 1) throw IOException("ZIP must contain exactly one part1.json … part8.json in its root")
-                val manifestFile = manifests.single()
-                if (manifestFile.size !in 1..8_000_000) throw IOException("Invalid textbook JSON size")
-                val content = zip.getInputStream(manifestFile).bufferedReader(Charsets.UTF_8).use { it.readText() }
-                val payload = JSONObject(content)
-                if (payload.optInt("schemaVersion") != 1) throw IOException("Unsupported textbook schema")
-                val part = payload.optInt("partId", 0)
-                if (part !in 1..8 || manifestFile.name != "part$part.json") throw IOException("Part ID and JSON filename differ")
-                val images = payload.getJSONArray("images")
-                if (images.length() > 4000) throw IOException("Too many images in content manifest")
-                stage.mkdirs()
-                var totalBytes = 0L
-                val buffer = ByteArray(64 * 1024)
-                for (i in 0 until images.length()) {
-                    val im = images.getJSONObject(i)
-                    val name = im.getString("path")
-                    if (!name.matches(Regex("assets/images/[a-zA-Z0-9_./-]+\\.(?i:jpg|jpeg|png|webp)")) ||
-                        name.split('/').any { it == ".." || it == "." }) {
-                        throw IOException("Unsafe image path: " + name.take(80))
-                    }
-                    val zipEntry = zip.getEntry(name) ?: throw IOException("Missing original image: " + name.take(80))
-                    if (zipEntry.isDirectory || zipEntry.size < 0 || zipEntry.size > 20_000_000) throw IOException("Image size is invalid")
-                    totalBytes += zipEntry.size
-                    if (totalBytes > 250_000_000) throw IOException("Images exceed 250 MB unpacked limit")
-                    val relative = name.removePrefix("assets/images/")
-                    val target = File(stage, relative)
-                    if (!target.canonicalPath.startsWith(stage.canonicalPath + File.separator)) throw IOException("Unsafe archive path")
-                    target.parentFile?.mkdirs()
-                    val md = MessageDigest.getInstance("SHA-256")
-                    var copied = 0L
-                    zip.getInputStream(zipEntry).use { input ->
-                        FileOutputStream(target).use { output ->
-                            while (true) {
-                                val count = input.read(buffer)
-                                if (count < 0) break
-                                copied += count
-                                if (copied > 20_000_000) throw IOException("Image too large")
-                                md.update(buffer, 0, count)
-                                output.write(buffer, 0, count)
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String, onImport: () -> Unit) {
+    var screen by remember { mutableStateOf(Screen.Home) }
+    var practiceAsImage by remember { mutableStateOf(false) }
+    BackHandler(enabled = screen != Screen.Home) { screen = Screen.Home }
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        val wide = maxWidth >= 720.dp
+        Scaffold(
+            containerColor = Background,
+            topBar = {
+                TopAppBar(
+                    title = {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Image(painterResource(R.drawable.studydock_logo), contentDescription = null,
+                                modifier = Modifier.size(42.dp).clip(RoundedCornerShape(11.dp)))
+                            Spacer(Modifier.width(10.dp))
+                            Column {
+                                Text("StudyDock", fontWeight = FontWeight.ExtraBold, fontSize = 19.sp, lineHeight = 23.sp)
+                                Text("A ZEBJUS LLP Product", color = Muted, fontSize = 10.sp, lineHeight = 14.sp)
                             }
                         }
+                    },
+                    actions = {
+                        IconButton(onClick = { screen = Screen.Library }) {
+                            Icon(Icons.Default.FolderOpen, contentDescription = "Open library", tint = Sky)
+                        }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)
+                )
+            },
+            bottomBar = {
+                if (!wide) {
+                    NavigationBar(containerColor = Color.White, tonalElevation = 8.dp) {
+                        listOf(Screen.Home, Screen.Notes, Screen.Practice, Screen.Images, Screen.Progress).forEach { tab ->
+                            NavigationBarItem(
+                                selected = screen == tab, onClick = {
+                                    practiceAsImage = tab == Screen.Images
+                                    screen = tab
+                                },
+                                icon = { Icon(tab.icon, contentDescription = null, modifier = Modifier.size(23.dp)) },
+                                label = { Text(tab.label, fontSize = 10.sp, maxLines = 1) },
+                                alwaysShowLabel = true
+                            )
+                        }
                     }
-                    if (copied != zipEntry.size) throw IOException("Image is truncated")
-                    val hash = md.digest().joinToString("") { "%02x".format(it) }
-                    if (im.has("sha256") && !hash.equals(im.getString("sha256"), true)) throw IOException("Image checksum failed: " + name.take(80))
-                }
-                // Commit only after ALL images have passed validation.
-                stage.walkTopDown().filter { it.isFile }.forEach { source ->
-                    val relative = source.relativeTo(stage).path
-                    val target = File(imageDir, relative)
-                    target.parentFile?.mkdirs()
-                    val tmp = File(target.parentFile, target.name + ".incoming")
-                    source.copyTo(tmp, overwrite = true)
-                    if (target.exists() && !target.delete()) throw IOException("Cannot replace previous image")
-                    if (!tmp.renameTo(target)) throw IOException("Cannot save image")
-                }
-                val filename = "part$part.json"
-                val saved = File(importDir, filename)
-                FileOutputStream(saved).bufferedWriter(Charsets.UTF_8).use { it.write(content) }
-                runOnUiThread {
-                    val url = "imports/$filename"
-                    web.evaluateJavascript("window.studyDockImportFromZip?.(" + JSONObject.quote(url) + ")", null)
                 }
             }
-        } finally {
-            archive.delete()
-            stage.deleteRecursively()
+        ) { padding ->
+            Row(Modifier.fillMaxSize().padding(padding)) {
+                if (wide) {
+                    NavigationRail(containerColor = Color.White) {
+                        Spacer(Modifier.height(14.dp))
+                        Screen.entries.forEach { tab ->
+                            NavigationRailItem(
+                                selected = screen == tab,
+                                onClick = { practiceAsImage = tab == Screen.Images; screen = tab },
+                                icon = { Icon(tab.icon, contentDescription = null) },
+                                label = { Text(tab.label) }
+                            )
+                        }
+                    }
+                }
+                Box(Modifier.weight(1f).fillMaxHeight(), contentAlignment = Alignment.TopCenter) {
+                    Box(Modifier.fillMaxWidth().widthIn(max = 1000.dp)) {
+                        when (screen) {
+                            Screen.Home -> HomeScreen(part, progress,
+                                onNavigate = { practiceAsImage = it == Screen.Images; screen = it },
+                                onImport = onImport)
+                            Screen.Notes -> NotesScreen(part)
+                            Screen.Practice, Screen.Images -> QuizScreen(part, progress, practiceAsImage)
+                            Screen.Progress -> ProgressScreen(part, progress)
+                            Screen.Library -> LibraryScreen(part, importing, importMessage, onImport)
+                        }
+                    }
+                }
+            }
         }
     }
+}
 
-    @Deprecated("Back behavior for app shell")
-    override fun onBackPressed() {
-        if (web.canGoBack()) web.goBack() else super.onBackPressed()
+@Composable
+private fun ContentCard(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
+    Surface(modifier = modifier, shape = RoundedCornerShape(22.dp), color = Color.White,
+        shadowElevation = 1.dp, border = androidx.compose.foundation.BorderStroke(1.dp, Outline)) {
+        Column(Modifier.padding(18.dp), content = content)
     }
+}
 
-    override fun onDestroy() {
-        web.removeJavascriptInterface("AndroidBridge")
-        web.destroy()
-        super.onDestroy()
+@Composable
+private fun SectionHeader(title: String, action: String? = null, onAction: (() -> Unit)? = null) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
+        Text(title, fontWeight = FontWeight.Bold, fontSize = 19.sp, color = Navy)
+        if (action != null && onAction != null) TextButton(onClick = onAction) { Text(action) }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (Screen) -> Unit, onImport: () -> Unit) {
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(17.dp)) {
+        Surface(shape = RoundedCornerShape(26.dp), color = Navy) {
+            Column(
+                Modifier.background(Brush.linearGradient(listOf(Navy, Color(0xFF1456A2)))).padding(24.dp),
+                verticalArrangement = Arrangement.spacedBy(9.dp)
+            ) {
+                Text("YOUR LEARNING COMPANION", color = Color(0xFF80DCFF), fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                Text("Make every study session count.", color = Color.White,
+                    fontWeight = FontWeight.ExtraBold, fontSize = 27.sp, lineHeight = 33.sp)
+                Text("Textbook-backed notes, original images, and verified practice — all offline.",
+                    color = Color(0xFFDBE9FC), fontSize = 14.sp, lineHeight = 21.sp)
+                Spacer(Modifier.height(7.dp))
+                Button(onClick = { if (part == null) onImport() else onNavigate(Screen.Notes) },
+                    colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Navy),
+                    contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
+                    Text(if (part == null) "Import Part 1 content" else "Continue studying", fontWeight = FontWeight.Bold)
+                    Spacer(Modifier.width(8.dp)); Icon(Icons.Default.ArrowForward, null, Modifier.size(18.dp))
+                }
+            }
+        }
+        if (part != null) {
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                MetricCard("Questions", "${part.questions.size}", Modifier.weight(1f))
+                MetricCard("Notes", "${part.notes.size}", Modifier.weight(1f))
+                MetricCard("Images", "${part.images.size}", Modifier.weight(1f))
+            }
+        }
+        SectionHeader("Your learning space")
+        BoxWithConstraints(Modifier.fillMaxWidth()) {
+            val tileWidth = (maxWidth - 12.dp) / 2
+            androidx.compose.foundation.layout.FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp), maxItemsInEachRow = 2) {
+                HomeAction("Study notes", "Review every topic", Icons.Default.MenuBook, Color(0xFFE8F1FF), Sky, tileWidth) { onNavigate(Screen.Notes) }
+                HomeAction("Practice MCQs", "Answer with feedback", Icons.Default.Quiz, Color(0xFFF0EAFF), Color(0xFF7255BD), tileWidth) { onNavigate(Screen.Practice) }
+                HomeAction("Image questions", "Learn from diagrams", Icons.Default.Image, Color(0xFFE6FAF6), Green, tileWidth) { onNavigate(Screen.Images) }
+                HomeAction("My progress", "Track your growth", Icons.Default.ShowChart, Color(0xFFFFF2E5), Color(0xFFB97D27), tileWidth) { onNavigate(Screen.Progress) }
+            }
+        }
+        ContentCard {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(Icons.Default.LibraryBooks, contentDescription = null, tint = Sky)
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text("Your textbook library", fontWeight = FontWeight.Bold)
+                    Text(if (part != null) "Part 1 · 150 source pages" else "Import your verified textbook ZIP", fontSize = 12.sp, color = Muted)
+                }
+                TextButton(onClick = { onNavigate(Screen.Library) }) { Text("Open") }
+            }
+        }
+        Text("A ZEBJUS LLP Product", Modifier.fillMaxWidth(), color = Muted, fontSize = 12.sp, textAlign = TextAlign.Center)
+        Spacer(Modifier.height(8.dp))
+    }
+}
+
+@Composable
+private fun MetricCard(name: String, number: String, modifier: Modifier = Modifier) {
+    ContentCard(modifier) {
+        Text(number, fontSize = 23.sp, fontWeight = FontWeight.ExtraBold, color = Navy)
+        Text(name, color = Muted, fontSize = 11.sp)
+    }
+}
+
+@Composable
+private fun HomeAction(title: String, detail: String, icon: ImageVector, bg: Color, tint: Color, width: androidx.compose.ui.unit.Dp, onClick: () -> Unit) {
+    Surface(
+        modifier = Modifier.width(width).heightIn(min = 143.dp).clickable(onClick = onClick),
+        shape = RoundedCornerShape(21.dp), color = Color.White,
+        border = androidx.compose.foundation.BorderStroke(1.dp, Outline)
+    ) {
+        Column(Modifier.padding(15.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
+            Box(Modifier.size(44.dp).background(bg, RoundedCornerShape(13.dp)), contentAlignment = Alignment.Center) {
+                Icon(icon, contentDescription = null, tint = tint)
+            }
+            Text(title, fontSize = 14.sp, fontWeight = FontWeight.Bold)
+            Text(detail, fontSize = 11.sp, color = Muted, lineHeight = 15.sp)
+        }
+    }
+}
+
+@Composable
+private fun EmptyLibrary(onImport: (() -> Unit)? = null) {
+    Column(Modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Icon(Icons.Default.Inventory2, null, Modifier.size(54.dp), tint = Sky)
+        Text("No textbook content yet", fontWeight = FontWeight.Bold, fontSize = 20.sp)
+        Text("Import the verified StudyDock Part 1 ZIP to unlock offline notes, diagrams and quizzes.",
+            color = Muted, textAlign = TextAlign.Center, fontSize = 13.sp)
+        if (onImport != null) Button(onClick = onImport) { Text("Import content ZIP") }
+    }
+}
+
+@Composable
+private fun NotesScreen(part: StudyPart?) {
+    if (part == null) { EmptyLibrary(); return }
+    var query by remember { mutableStateOf("") }
+    var selected by remember { mutableStateOf<StudyNote?>(null) }
+    if (selected != null) {
+        val note = selected!!
+        Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp)) {
+            TextButton(onClick = { selected = null }) { Icon(Icons.Default.ArrowBack, null); Spacer(Modifier.width(6.dp)); Text("All study notes") }
+            ContentCard {
+                Text(note.title, fontSize = 22.sp, fontWeight = FontWeight.ExtraBold)
+                Spacer(Modifier.height(14.dp))
+                Text(note.body, fontSize = 15.sp, lineHeight = 24.sp)
+            }
+        }
+    } else {
+        Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Study notes", fontWeight = FontWeight.ExtraBold, fontSize = 27.sp)
+            Text("Textbook-linked learning, chapter by chapter", color = Muted, fontSize = 13.sp)
+            OutlinedTextField(value = query, onValueChange = { query = it }, label = { Text("Search topics") },
+                leadingIcon = { Icon(Icons.Default.Search, null) }, singleLine = true,
+                modifier = Modifier.fillMaxWidth())
+            val filtered = remember(query, part) { part.notes.filter {
+                it.title.contains(query, true) || part.chapters.firstOrNull { c -> c.id == it.chapterId }?.title?.contains(query, true) == true
+            }}
+            LazyColumn(verticalArrangement = Arrangement.spacedBy(10.dp), contentPadding = PaddingValues(bottom = 18.dp)) {
+                items(filtered, key = { it.id }) { note ->
+                    ContentCard(Modifier.fillMaxWidth().clickable { selected = note }) {
+                        Text(note.title, fontWeight = FontWeight.Bold, fontSize = 15.sp)
+                        Spacer(Modifier.height(5.dp))
+                        Text(note.body.replace('\n', ' ').take(160), fontSize = 12.sp, color = Muted, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                        Spacer(Modifier.height(7.dp))
+                        Text("Read notes  →", fontSize = 12.sp, color = Sky, fontWeight = FontWeight.Bold)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun QuizScreen(part: StudyPart?, progress: StudyProgress, imageOnly: Boolean) {
+    if (part == null) { EmptyLibrary(); return }
+    var session by remember(part, imageOnly) { mutableStateOf<List<StudyQuestion>?>(null) }
+    var count by remember { mutableIntStateOf(10) }
+    var difficulty by remember { mutableStateOf("All") }
+    var source by remember { mutableStateOf("All") }
+    var topicQuery by remember { mutableStateOf("") }
+    var reviewOnly by remember { mutableStateOf(false) }
+    if (session == null) {
+        val available = part.questions.filter { q ->
+            (!imageOnly || q.isImage) && (difficulty == "All" || q.difficulty.equals(difficulty, true)) &&
+                (source == "All" || (source == "Original" && q.origin == "textbook") || (source == "Practice" && q.origin != "textbook")) &&
+                (!reviewOnly || q.id in progress.incorrectIds()) &&
+                (topicQuery.isBlank() || q.topic.contains(topicQuery, true) ||
+                    part.chapters.firstOrNull { it.id == q.chapterId }?.title?.contains(topicQuery, true) == true)
+        }
+        Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text(if (imageOnly) "Image-based quiz" else "Practice MCQs", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+            Text(if (imageOnly) "Identify original textbook images and interpret diagrams." else "Practice with textbook-verified answers and explanations.", color = Muted, fontSize = 13.sp)
+            ContentCard {
+                Text("Difficulty", fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(8.dp))
+                ChoiceChips(listOf("All", "Easy", "Medium", "Hard"), difficulty) { difficulty = it }
+                Spacer(Modifier.height(14.dp))
+                Text("Question type", fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(8.dp))
+                ChoiceChips(listOf("All", "Original", "Practice"), source) { source = it }
+                Spacer(Modifier.height(14.dp))
+                OutlinedTextField(value = topicQuery, onValueChange = { topicQuery = it },
+                    label = { Text("Filter by chapter or topic") },
+                    leadingIcon = { Icon(Icons.Default.Search, null) },
+                    singleLine = true, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(14.dp))
+                Text("Number of questions", fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(8.dp))
+                ChoiceChips(listOf("5", "10", "20", "50", "All"), if (count == 0) "All" else "$count") {
+                    count = it.toIntOrNull() ?: 0
+                }
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Switch(checked = reviewOnly, onCheckedChange = { reviewOnly = it })
+                    Spacer(Modifier.width(8.dp))
+                    Text("Review incorrect answers", fontSize = 13.sp)
+                }
+            }
+            Text("${available.size} eligible questions available", color = Muted, fontSize = 12.sp)
+            Button(onClick = { session = available.shuffled().take(if (count == 0) available.size else count) },
+                enabled = available.isNotEmpty(), modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                Icon(Icons.Default.PlayArrow, null); Spacer(Modifier.width(8.dp)); Text("Start practice", fontWeight = FontWeight.Bold)
+            }
+        }
+    } else {
+        QuizSession(session!!, part, progress, onExit = { session = null })
+    }
+}
+
+@Composable
+private fun ChoiceChips(choices: List<String>, selected: String, onSelect: (String) -> Unit) {
+    LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        items(choices) { option ->
+            FilterChip(selected = option == selected, onClick = { onSelect(option) }, label = { Text(option) })
+        }
+    }
+}
+
+@Composable
+private fun QuizSession(questions: List<StudyQuestion>, part: StudyPart, progress: StudyProgress, onExit: () -> Unit) {
+    if (questions.isEmpty()) { EmptyLibrary(); return }
+    var index by remember(questions) { mutableIntStateOf(0) }
+    var finished by remember(questions) { mutableStateOf(false) }
+    val selections = remember(questions) { mutableStateMapOf<String, String>() }
+    val submissions = remember(questions) { mutableStateMapOf<String, Boolean>() }
+    val hints = remember(questions) { mutableStateMapOf<String, Boolean>() }
+    if (finished) {
+        val answered = submissions.count { it.value }
+        val earned = questions.count { q -> submissions[q.id] == true && selections[q.id] == q.correct }
+        Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            Spacer(Modifier.height(24.dp))
+            Icon(Icons.Default.EmojiEvents, null, Modifier.size(60.dp), tint = Sky)
+            Text("Practice complete", fontSize = 26.sp, fontWeight = FontWeight.ExtraBold)
+            Text("$earned / ${questions.size}", fontSize = 42.sp, fontWeight = FontWeight.ExtraBold, color = Navy)
+            Text("${(earned * 100f / questions.size).toInt()}% score · ${questions.size - answered} unanswered", color = Muted)
+            LinearProgressIndicator(progress = { earned.toFloat() / questions.size }, modifier = Modifier.fillMaxWidth().height(10.dp))
+            Button(onClick = onExit, modifier = Modifier.fillMaxWidth()) { Text("Return to practice") }
+        }
+        return
+    }
+    val question = questions[index]
+    val selected = selections[question.id]
+    val submitted = submissions[question.id] == true
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(13.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+            TextButton(onClick = onExit) { Icon(Icons.Default.Close, null); Spacer(Modifier.width(5.dp)); Text("End") }
+            Text("Question ${index + 1} of ${questions.size}", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Muted)
+        }
+        LinearProgressIndicator(progress = { (index + 1f) / questions.size }, modifier = Modifier.fillMaxWidth().height(6.dp))
+        ContentCard {
+            Text("${question.topic} · PDF p. ${question.sourcePage}", color = Sky, fontSize = 11.sp, fontWeight = FontWeight.SemiBold)
+            Spacer(Modifier.height(10.dp))
+            Text(question.stem, fontWeight = FontWeight.Bold, fontSize = 18.sp, lineHeight = 26.sp)
+            if (question.images.isNotEmpty()) {
+                Spacer(Modifier.height(14.dp))
+                question.images.forEach { id ->
+                    val imageFile = part.imageFile(id)
+                    if (imageFile != null) OriginalFigure(imageFile.absolutePath)
+                    else Text("Required source image unavailable — not suitable for scoring", color = Color.Red)
+                }
+            }
+            Spacer(Modifier.height(12.dp))
+            question.options.forEach { option ->
+                val correctAnswer = submitted && option.id == question.correct
+                val incorrectSelected = submitted && selected == option.id && !correctAnswer
+                val border = when { correctAnswer -> Green; incorrectSelected -> Color(0xFFBD4C48); selected == option.id -> Sky; else -> Outline }
+                Surface(
+                    onClick = { if (!submitted) selections[question.id] = option.id },
+                    enabled = !submitted, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                    shape = RoundedCornerShape(15.dp), color = if (correctAnswer) Color(0xFFE5F7F0) else Color.White,
+                    border = androidx.compose.foundation.BorderStroke(if (selected == option.id) 2.dp else 1.dp, border)
+                ) {
+                    Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+                        Text(option.id, fontWeight = FontWeight.Bold, color = border, modifier = Modifier.width(31.dp))
+                        Text(option.text, fontSize = 14.sp, lineHeight = 20.sp, modifier = Modifier.weight(1f))
+                        if (correctAnswer) Icon(Icons.Default.CheckCircle, null, tint = Green)
+                    }
+                }
+            }
+            if (!submitted && question.hint.isNotBlank()) {
+                TextButton(onClick = { hints[question.id] = !(hints[question.id] ?: false) }) {
+                    Icon(Icons.Default.Lightbulb, null); Spacer(Modifier.width(5.dp)); Text("Hint")
+                }
+                if (hints[question.id] == true) Text(question.hint, color = Muted, fontSize = 13.sp)
+            }
+            AnimatedVisibility(submitted) {
+                Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                    Spacer(Modifier.height(10.dp))
+                    Text(if (selected == question.correct) "Correct answer" else "Correct answer: ${question.correct}",
+                        color = if (selected == question.correct) Green else Color(0xFFAD554B), fontWeight = FontWeight.Bold)
+                    Text(question.explanation, fontSize = 13.sp, lineHeight = 20.sp)
+                    if (selected != question.correct && selected != null) {
+                        question.incorrectExplanation[selected]?.let { Text(it, color = Muted, fontSize = 12.sp) }
+                    }
+                }
+            }
+        }
+        if (!submitted) {
+            Button(
+                onClick = {
+                    if (selected != null) {
+                        submissions[question.id] = true
+                        progress.record(question, selected)
+                    }
+                }, enabled = selected != null && question.images.all { id -> part.imageFile(id)?.isFile == true },
+                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)
+            ) { Text("Submit answer") }
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+            OutlinedButton(onClick = { index-- }, enabled = index > 0, modifier = Modifier.weight(1f)) { Text("Previous") }
+            Button(onClick = { if (index == questions.lastIndex) finished = true else index++ },
+                modifier = Modifier.weight(1f)) { Text(if (index == questions.lastIndex) "Results" else "Next") }
+        }
+    }
+}
+
+@Composable
+private fun OriginalFigure(filePath: String) {
+    val img = remember(filePath) { loadBitmap(filePath) }
+    var enlarged by remember { mutableStateOf(false) }
+    if (img == null) { Text("Original image unavailable", color = Color.Red); return }
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Image(bitmap = img, contentDescription = "Original textbook question image. Tap to enlarge.",
+            modifier = Modifier.fillMaxWidth().heightIn(min = 140.dp, max = 310.dp).clickable { enlarged = true },
+            contentScale = ContentScale.Fit)
+        TextButton(onClick = { enlarged = true }) { Icon(Icons.Default.ZoomIn, null); Spacer(Modifier.width(5.dp)); Text("Enlarge original image") }
+    }
+    if (enlarged) {
+        AlertDialog(onDismissRequest = { enlarged = false }, confirmButton = { TextButton(onClick = { enlarged = false }) { Text("Close") } },
+            title = { Text("Original textbook image") },
+            text = { Image(bitmap = img, contentDescription = "Enlarged original textbook image", contentScale = ContentScale.Fit, modifier = Modifier.fillMaxWidth()) })
+    }
+}
+
+private fun loadBitmap(path: String): ImageBitmap? = try {
+    val options = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+    BitmapFactory.decodeFile(path, options)
+    var sample = 1
+    while (options.outWidth / sample > 1400 || options.outHeight / sample > 1400) sample *= 2
+    options.inJustDecodeBounds = false
+    options.inSampleSize = sample
+    BitmapFactory.decodeFile(path, options)?.asImageBitmap()
+} catch (_: Exception) { null }
+
+@Composable
+private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Text("My progress", fontWeight = FontWeight.ExtraBold, fontSize = 27.sp)
+        Text("Your practice history stays privately on this device.", color = Muted, fontSize = 13.sp)
+        ContentCard {
+            Text("Lifetime accuracy", fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(9.dp))
+            val attempted = progress.attempts()
+            val accuracy = if (attempted == 0) 0f else progress.correct().toFloat() / attempted
+            Text("${(accuracy * 100).toInt()}%", fontSize = 40.sp, fontWeight = FontWeight.ExtraBold, color = Sky)
+            LinearProgressIndicator(progress = { accuracy }, modifier = Modifier.fillMaxWidth().height(9.dp))
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            MetricCard("Answered", "${progress.attempts()}", Modifier.weight(1f))
+            MetricCard("Correct", "${progress.correct()}", Modifier.weight(1f))
+        }
+        ContentCard {
+            Text("Questions to revise", fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(8.dp))
+            Text("${progress.incorrectIds().size} incorrect-answer IDs ready for revision in Practice.", color = Muted, fontSize = 13.sp)
+            if (part == null) Text("Import Part 1 to start learning.", color = Muted, fontSize = 12.sp)
+        }
+    }
+}
+
+@Composable
+private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: String, onImport: () -> Unit) {
+    var showUnresolved by remember { mutableStateOf(false) }
+    if (showUnresolved && part != null) {
+        val originals = remember(part) {
+            try {
+                val json = JSONObject(File(part.directory, "part1.json").readText())
+                val items = json.optJSONArray("unresolvedOriginalQuestions")
+                (0 until (items?.length() ?: 0)).map { i ->
+                    val q = items!!.getJSONObject(i)
+                    "${q.optString("id")} · PDF p. ${q.optInt("sourcePage")}\n${q.optString("stem", q.optString("question_text"))}"
+                }
+            } catch (_: Exception) { listOf("Unresolved original record cannot be displayed. The imported JSON remains unchanged.") }
+        }
+        AlertDialog(onDismissRequest = { showUnresolved = false },
+            confirmButton = { TextButton(onClick = { showUnresolved = false }) { Text("Close") } },
+            title = { Text("Source questions · Reference only") },
+            text = {
+                Column(Modifier.heightIn(max = 430.dp).verticalScroll(rememberScrollState())) {
+                    Text("These 14 originals are retained but intentionally excluded from scored quizzes.", color = Muted, fontSize = 12.sp)
+                    originals.forEach { text ->
+                        HorizontalDivider(Modifier.padding(vertical = 8.dp))
+                        Text(text, fontSize = 13.sp)
+                    }
+                }
+            })
+    }
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(15.dp)) {
+        Text("Textbook library", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+        Text("Offline source-backed content. Your textbook images stay on the device.", color = Muted, fontSize = 13.sp)
+        ContentCard {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(Icons.Default.AutoStories, null, tint = Sky, modifier = Modifier.size(30.dp))
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text("TARGET HIGH · Part 1", fontWeight = FontWeight.Bold)
+                    Text(if (part == null) "Not imported" else "150 pages · ${part.questions.size} scoreable MCQs", color = Muted, fontSize = 12.sp)
+                }
+            }
+            Spacer(Modifier.height(14.dp))
+            Button(onClick = onImport, enabled = !importing, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                Icon(Icons.Default.FileUpload, null); Spacer(Modifier.width(8.dp))
+                Text(if (part == null) "Import Part 1 ZIP" else "Re-import / update Part 1 ZIP")
+            }
+            if (importing) {
+                Spacer(Modifier.height(12.dp))
+                LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+            }
+            if (importMessage.isNotBlank()) {
+                Spacer(Modifier.height(10.dp))
+                Text(importMessage, color = Muted, fontSize = 12.sp)
+            }
+        }
+        if (part != null) {
+            ContentCard {
+                Text("Content integrity", fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(9.dp))
+                Text("${part.chapters.size} sections · ${part.notes.size} notes · ${part.images.size} checked images", fontSize = 13.sp)
+                Spacer(Modifier.height(6.dp))
+                TextButton(onClick = { showUnresolved = true }) { Text("View ${part.unresolved} unresolved originals · Reference only") }
+                Text("${part.multiAnswerReference} unsupported multi-answer questions (reference only)", fontSize = 12.sp, color = Muted)
+            }
+        }
+        ContentCard {
+            Text("About StudyDock", fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(7.dp))
+            Text("A ZEBJUS LLP Product", color = Sky, fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(5.dp))
+            Text("Native Android · Offline-first · No WebView", color = Muted, fontSize = 12.sp)
+            Text("Clinical material from the historical source is for examination study, not current treatment guidance.", color = Muted, fontSize = 12.sp)
+        }
     }
 }
