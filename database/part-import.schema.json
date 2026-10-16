@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"StudyDock one-part textbook manifest",
+  "type":"object",
+  "required":["schemaVersion","partId","chapters","notes","images","questions"],
+  "properties":{
+    "schemaVersion":{"const":1},
+    "partId":{"type":"integer","minimum":1,"maximum":8},
+    "firstPage":{"type":["integer","null"],"minimum":1},
+    "lastPage":{"type":["integer","null"],"maximum":1317},
+    "chapters":{"type":"array","items":{"type":"object","required":["id","title"],"properties":{"id":{"type":"string","minLength":1},"title":{"type":"string","minLength":1},"number":{"type":"integer"},"description":{"type":"string"},"subject":{"type":"string"}}}},
+    "notes":{"type":"array","items":{"type":"object","required":["id","chapterId","title","body"],"properties":{"id":{"type":"string"},"chapterId":{"type":"string"},"title":{"type":"string"},"body":{"type":"string"},"imageIds":{"type":"array","items":{"type":"string"}},"bullets":{"type":"array","items":{"type":"string"}}}}},
+    "images":{"type":"array","items":{"type":"object","required":["id","path","alt"],"properties":{"id":{"type":"string"},"path":{"type":"string"},"alt":{"type":"string"},"origin":{"enum":["textbook","demo","generated"]},"status":{"enum":["verified","unverified","rejected"]}}}},
+    "questions":{"type":"array","items":{"type":"object","required":["id","chapterId","type","stem","options","correct","status"],"properties":{"id":{"type":"string"},"chapterId":{"type":"string"},"type":{"enum":["mcq","image"]},"stem":{"type":"string"},"options":{"type":"array","minItems":4,"maxItems":4,"items":{"type":"object","required":["id","label"],"properties":{"id":{"enum":["A","B","C","D"]},"label":{"type":"string"}}}},"correct":{"type":"array","minItems":1,"maxItems":1,"items":{"enum":["A","B","C","D"]}},"imageIds":{"type":"array","items":{"type":"string"}},"sourcePage":{"type":["integer","null"]},"status":{"enum":["verified","unverified","rejected"]},"origin":{"enum":["textbook","demo","generated"]}}}}
+  }
+}
