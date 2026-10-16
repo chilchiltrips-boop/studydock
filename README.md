@@ -1,3 +1,13 @@
+# StudyDock v0.2 — Android ZIP import
+
+**Important:** This public source project contains NO textbook question, copyrighted image, or scan assets. The original textbook archive is imported directly on the user's Android phone and stored only in app-private storage.
+
+Android setup: install the debug APK, open StudyDock → 8-part library → Import new part → **Import textbook ZIP + images**, select `StudyDock_Part1_Content.zip`, and wait for SHA-256 verification of all 355 original image files. Once import completes, 173 scored questions, 41 image-based quizzes, 105 study notes and the 14 unverified originals become available locally. The 14 unresolved questions are read-only and excluded from scored quizzes. Some originally video-based questions have only printed still-image evidence. Clinical information comes from a 2020 textbook and is NOT a current clinical protocol.
+
+This is a prototype with locally stored content and scores, not a secure examination system. Publishing/distributing copyrighted textbook scans requires appropriate rights.
+
+---
+
 # StudyDock — textbook learning MVP
 
 **Status: working offline-first web prototype + Android Studio source project.** No production server, textbook content, or compiled APK is included.
