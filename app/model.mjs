@@ -41,6 +41,11 @@ export function isSafeAssetPath(p){return /^assets\/[A-Za-z0-9_./-]+\.(svg|png|j
 export function mergePart(current,payload){
  const check=validateImport(payload,current);if(check.errors.length)throw new Error(check.errors.join('\n'));
  const next=deepClone(current), partId=check.partId;
+ // Non-scoreable originals remain accessible for review, with no fabricated answer keys.
+ if (payload.unresolvedOriginalQuestions) {
+   next.unresolvedOriginalQuestions=[...(next.unresolvedOriginalQuestions||[]).filter(x=>x.sourcePdfPart!==partId && x.partId!==partId),...payload.unresolvedOriginalQuestions.map(x=>({...x,partId}))];
+ }
+ if(payload.source?.bookTitle) next.book={...next.book,title:payload.source.bookTitle};
  // Keep demo content completely separate from a real imported textbook.
  if (!next.parts.some(p=>p.status==='imported')) {
    for (const key of ['chapters','notes','questions','images']) next[key]=next[key].filter(item=>!item.id.startsWith('demo-'));
