@@ -25,9 +25,10 @@ data class StudyQuestion(
 data class StudyPart(
     val id: Int, val chapters: List<StudyChapter>, val notes: List<StudyNote>,
     val images: Map<String, StudyImage>, val questions: List<StudyQuestion>,
-    val unresolved: Int, val multiAnswerReference: Int, val directory: File
+    val unresolved: Int, val multiAnswerReference: Int, val directory: File,
+    val imageDirectories: Map<String, File> = emptyMap()
 ) {
-    fun imageFile(id: String): File? = images[id]?.let { File(directory, it.path) }
+    fun imageFile(id: String): File? = images[id]?.let { File(imageDirectories[id] ?: directory, it.path) }
 }
 
 private fun JSONArray.stringItems(): List<String> = (0 until length()).mapNotNull { optString(it).takeIf(String::isNotBlank) }
@@ -35,11 +36,40 @@ private fun JSONArray.stringItems(): List<String> = (0 until length()).mapNotNul
 class StudyLibrary(private val context: Context) {
     private val root = File(context.filesDir, "studydock-native/parts").apply { mkdirs() }
 
-    fun readPart(partId: Int = 1): StudyPart? {
-        val dir = File(root, "part$partId")
-        val file = File(dir, "part$partId.json")
-        if (!file.isFile) return null
-        return parse(JSONObject(file.readText(Charsets.UTF_8)), dir)
+    /** Read one part by ID, or merge all installed parts without overwriting earlier content. */
+    fun readPart(partId: Int = 0): StudyPart? {
+        val ids = if (partId in 1..8) listOf(partId) else (1..8).toList()
+        val parts = ids.mapNotNull { id ->
+            val dir = File(root, "part$id")
+            val manifest = File(dir, "part$id.json")
+            if (manifest.isFile) parse(JSONObject(manifest.readText(Charsets.UTF_8)), dir) else null
+        }
+        if (parts.isEmpty()) return null
+        if (parts.size == 1) return parts.first()
+        val chapters = linkedMapOf<String, StudyChapter>()
+        val notes = linkedMapOf<String, StudyNote>()
+        val images = linkedMapOf<String, StudyImage>()
+        val questions = linkedMapOf<String, StudyQuestion>()
+        val imageDirectories = mutableMapOf<String, File>()
+        for (part in parts) {
+            for (c in part.chapters) if (!chapters.containsKey(c.id)) chapters[c.id] = c
+            for (n in part.notes) {
+                if (notes.containsKey(n.id)) throw IOException("Duplicate note ID across parts: ${n.id}")
+                notes[n.id] = n
+            }
+            for ((id, img) in part.images) {
+                if (images.containsKey(id)) throw IOException("Duplicate image ID across parts: $id")
+                images[id] = img
+                imageDirectories[id] = part.directory
+            }
+            for (q in part.questions) {
+                if (questions.containsKey(q.id)) throw IOException("Duplicate question ID across parts: ${q.id}")
+                questions[q.id] = q
+            }
+        }
+        return StudyPart(0, chapters.values.toList(), notes.values.toList(), images,
+            questions.values.toList(), parts.sumOf { it.unresolved },
+            parts.sumOf { it.multiAnswerReference }, parts.first().directory, imageDirectories)
     }
 
     private fun parse(payload: JSONObject, directory: File): StudyPart {
@@ -89,7 +119,7 @@ class StudyLibrary(private val context: Context) {
     /** Only manifest-declared image assets are accepted; streaming SHA-256 and ZIP size limits. */
     fun importZip(uri: Uri): StudyPart {
         val incoming = File.createTempFile("incoming-", ".zip", context.cacheDir)
-        val stage = File(root, "part1-new-${System.nanoTime()}")
+        val stage = File(root, "part-new-${System.nanoTime()}")
         var backup: File? = null
         try {
             context.contentResolver.openInputStream(uri)?.use { input ->
@@ -104,13 +134,19 @@ class StudyLibrary(private val context: Context) {
                 }
             } ?: throw IOException("Cannot open selected ZIP")
             ZipFile(incoming).use { zip ->
-                val jsonEntry = zip.getEntry("part1.json") ?: throw IOException("part1.json missing from ZIP root")
-                if (jsonEntry.size !in 1..8_000_000) throw IOException("Invalid part1.json size")
+                val available = (1..8).mapNotNull { i -> zip.getEntry("part$i.json")?.let { i to it } }
+                if (available.size != 1) throw IOException("ZIP must include exactly one root partN.json (N=1..8)")
+                val (partId, jsonEntry) = available.single()
+                if (jsonEntry.size !in 1..8_000_000) throw IOException("Invalid part manifest size")
                 val json = zip.getInputStream(jsonEntry).bufferedReader(Charsets.UTF_8).use { it.readText() }
                 val data = JSONObject(json)
-                if (data.optInt("schemaVersion") != 1 || data.optInt("partId") != 1 ||
-                    data.optInt("firstPage") != 1 || data.optInt("lastPage") != 150) {
-                    throw IOException("Expected StudyDock Part 1 schemaVersion 1 (pages 1–150)")
+                val firstPage = data.optInt("firstPage", -1)
+                val lastPage = data.optInt("lastPage", -1)
+                if (data.optInt("schemaVersion") != 1 || data.optInt("partId") != partId ||
+                    firstPage !in 1..1317 || lastPage !in firstPage..1317 ||
+                    (partId == 1 && (firstPage != 1 || lastPage != 150)) ||
+                    (partId == 2 && (firstPage != 151 || lastPage != 300))) {
+                    throw IOException("Invalid StudyDock part number, schema or page range")
                 }
                 val chapters = data.getJSONArray("chapters")
                 val notes = data.getJSONArray("notes")
@@ -165,13 +201,21 @@ class StudyLibrary(private val context: Context) {
                     if (record.optString("sha256").length != 64 ||
                         !actual.equals(record.getString("sha256"), ignoreCase = true)) throw IOException("Image hash failed: $path")
                 }
-                File(stage, "part1.json").writeText(json, Charsets.UTF_8)
+                File(stage, "part$partId.json").writeText(json, Charsets.UTF_8)
                 // Parse + validate all references before changing the active library.
                 val result = parse(data, stage)
                 if (result.questions.size != questions.length()) throw IOException("Some scored questions failed validation")
-                val current = File(root, "part1")
+                // Prevent content from an earlier installed part being replaced or shadowed.
+                for (id in 1..8) if (id != partId) {
+                    val previous = readPart(id) ?: continue
+                    if (result.questions.any { q -> previous.questions.any { it.id == q.id } } ||
+                        result.notes.any { n -> previous.notes.any { it.id == n.id } } ||
+                        result.images.keys.any { it in previous.images })
+                        throw IOException("Question, note or image IDs conflict with installed Part $id")
+                }
+                val current = File(root, "part$partId")
                 if (current.exists()) {
-                    backup = File(root, "part1-old-${System.nanoTime()}")
+                    backup = File(root, "part$partId-old-${System.nanoTime()}")
                     if (!current.renameTo(backup)) throw IOException("Cannot preserve previous content")
                 }
                 if (!stage.renameTo(current)) {
@@ -179,7 +223,7 @@ class StudyLibrary(private val context: Context) {
                     throw IOException("Cannot activate new content")
                 }
                 backup?.deleteRecursively()
-                return parse(data, current)
+                return readPart() ?: parse(data, current)
             }
         } finally {
             incoming.delete()
