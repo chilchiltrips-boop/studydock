@@ -709,13 +709,12 @@ private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: S
             confirmButton = { TextButton(onClick = { showUnresolved = false }) { Text("Close") } },
             title = { Text("Source questions · Reference only") },
             text = {
-                Column(Modifier.heightIn(max = 430.dp).verticalScroll(rememberScrollState())) {
-                    Text("Unresolved originals from all installed parts are excluded from scored quizzes.", color = Muted, fontSize = 12.sp)
-                    originals.take(250).forEach { text ->
+                LazyColumn(Modifier.heightIn(max = 430.dp)) {
+                    item { Text("All unresolved originals from installed parts are retained as reference only.", color = Muted, fontSize = 12.sp) }
+                    items(originals) { text ->
                         HorizontalDivider(Modifier.padding(vertical = 8.dp))
                         Text(text, fontSize = 13.sp)
                     }
-                    if (originals.size > 250) Text("Additional source records remain in the imported manifests.", color = Muted)
                 }
             })
     }
