@@ -61,5 +61,21 @@ window.studyDockImportFromZip=async url=>{
   }catch(error){window.studyDockZipError(error.message||String(error))}
 };
 
+// Offline web/Android source distributions may contain a bundled verified-content manifest.
+// On public code-only deployments part2.json is absent and the app simply keeps its local library.
+async function importBundledPart2Once(){
+  if(data.parts.some(p=>p.id===2&&p.status==='imported'))return;
+  try{
+    const response=await fetch('./part2.json');
+    if(!response.ok)return;
+    const payload=await response.json();
+    const checked=validateImport(payload,data);
+    if(checked.errors.length){console.warn('Bundled Part 2 validation failed',checked.errors.slice(0,5));return;}
+    const previous=data;data=mergePart(data,payload);
+    if(!persist()){data=previous;return;}
+    if(!quiz){render();}
+  }catch(e){console.warn('Optional bundled Part 2 unavailable:',e?.message||String(e))}
+}
 render();
+importBundledPart2Once();
 if(!window.AndroidBridge&&location.protocol.startsWith('http')&&'serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
