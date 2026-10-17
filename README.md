@@ -102,3 +102,8 @@ node --test tests/model.test.mjs
 
 ## GitHub content delivery and 10 levels (v0.4)
 The native Android app now syncs a public GitHub catalog at content/catalog.json, verifies SHA-256 pinned GitHub Release content ZIPs, and offers Levels 1–10 drawn from verified question IDs. No source textbook files or manufactured questions are publicly bundled. To make real Part 1 available, publish licensed content through the instructions in content/README.md. Previous local imported data are retained as fallback during failed sync.
+
+
+## Fresh revision lessons (October 2026)
+
+The native Android app stays Kotlin + Jetpack Compose. Its GitHub-delivered guided lessons in `content/learning/v1.json` are being revised to revision 2: 10 levels, 30 fresh learning concepts and 50 newly adapted MCQs based on selected pages of the uploaded Part 2 scan. These are not original numbered textbook questions, not complete Part 2 extraction and not current clinical protocols. Previously imported Part 1 questions/images/progress are not overwritten. The separate web prototype under `app/` has 48 adapted MCQs, 13 structured notes and four newly authored StudyDock schematic figures.

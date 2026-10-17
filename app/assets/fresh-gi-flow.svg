@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="715" viewBox="0 0 900 715" role="img" aria-label="Digestive tract — food pathway">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ebf7f3"/><stop offset="1" stop-color="#eaf1fc"/></linearGradient></defs>
+<rect width="900" height="715" rx="24" fill="#f7faf9"/>
+<text x="450" y="50" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="30" fill="#133e35">Digestive tract — food pathway</text>
+<rect x="125" y="75" width="650" height="82" rx="18" fill="url(#b)" stroke="#91b7ae" stroke-width="2"/>
+<text x="450" y="109" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#183c36">Mouth and pharynx</text>
+<text x="450" y="139" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#526866">Chewing and swallowing</text>
+<path d="M450 158 v23 m-11 -11 l11 11 11 -11" fill="none" stroke="#25816a" stroke-width="4" stroke-linecap="round"/>
+<rect x="125" y="185" width="650" height="82" rx="18" fill="url(#b)" stroke="#91b7ae" stroke-width="2"/>
+<text x="450" y="219" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#183c36">Oesophagus</text>
+<text x="450" y="249" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#526866">Propels material towards stomach</text>
+<path d="M450 268 v23 m-11 -11 l11 11 11 -11" fill="none" stroke="#25816a" stroke-width="4" stroke-linecap="round"/>
+<rect x="125" y="295" width="650" height="82" rx="18" fill="url(#b)" stroke="#91b7ae" stroke-width="2"/>
+<text x="450" y="329" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#183c36">Stomach</text>
+<text x="450" y="359" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#526866">Mechanical mixing and gastric secretions</text>
+<path d="M450 378 v23 m-11 -11 l11 11 11 -11" fill="none" stroke="#25816a" stroke-width="4" stroke-linecap="round"/>
+<rect x="125" y="405" width="650" height="82" rx="18" fill="url(#b)" stroke="#91b7ae" stroke-width="2"/>
+<text x="450" y="439" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#183c36">Small intestine</text>
+<text x="450" y="469" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#526866">Duodenum → jejunum → ileum</text>
+<path d="M450 488 v23 m-11 -11 l11 11 11 -11" fill="none" stroke="#25816a" stroke-width="4" stroke-linecap="round"/>
+<rect x="125" y="515" width="650" height="82" rx="18" fill="url(#b)" stroke="#91b7ae" stroke-width="2"/>
+<text x="450" y="549" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#183c36">Large intestine</text>
+<text x="450" y="579" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#526866">Water handling → stool → rectum</text>
+<text x="450" y="689" font-size="14" text-anchor="middle" font-family="sans-serif" fill="#536662">StudyDock-generated learning schematic — not an original textbook image</text></svg>

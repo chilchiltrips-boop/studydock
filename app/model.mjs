@@ -1,6 +1,24 @@
-import {demo} from './seed.mjs';
+import {starter} from './seed.mjs';
 export const deepClone=x=>JSON.parse(JSON.stringify(x));
-export function initialData(){return deepClone(demo)}
+export function initialData(){return deepClone(starter)}
+export function upgradeLocalData(stored){
+  // Migrate pre-v0.3 local installs without erasing imported original textbook data.
+  const fresh=initialData();
+  if(!stored||typeof stored!=='object'||!Array.isArray(stored.questions))return fresh;
+  const next=deepClone(stored);
+  for(const key of ['chapters','notes','questions','images']){
+    const old=Array.isArray(next[key])?next[key]:[];
+    const preserved=old.filter(item=>item && item.origin!=='demo' && !String(item.id||'').startsWith('demo-'));
+    const byId=new Map(preserved.map(item=>[item.id,item]));
+    // Replace only StudyDock's own starter items. Preserve every imported book ID.
+    for(const item of fresh[key]) if(!byId.has(item.id)||String(item.id).startsWith('fresh-')) byId.set(item.id,item);
+    next[key]=[...byId.values()];
+  }
+  if(!Array.isArray(next.parts)||next.parts.length!==8)next.parts=fresh.parts;
+  if(!next.book||next.book.id==='demo-science')next.book=fresh.book;
+  next.starterRevision=fresh.starterRevision;
+  return next;
+}
 export function scoreQuestion(q,selected){return Array.isArray(selected)&&selected.length===q.correct.length&&[...selected].sort().join('|')===[...q.correct].sort().join('|')}
 export function normaliseQuestion(q){return {...q,answerMode:q.answerMode||'single',type:q.type||'mcq',imageIds:q.imageIds||[],origin:q.origin||'imported',status:q.status||'unverified',partId:Number(q.partId)}}
 export function validateImport(payload,current){
@@ -52,13 +70,7 @@ export function mergePart(current,payload){
  }
  for(const key of ['chapters','notes','questions','images']){
    const collection=new Map(next[key].map(item=>[item.id,item]));
-   for(const item of payload[key]){
-     // A chapter spanning two PDF parts keeps its original identity, metadata and part ownership.
-     // Questions and notes can still reference the shared chapter ID from the new part.
-     if(key==='chapters' && collection.has(item.id)) continue;
-     const ownerPart = key==='chapters' && Number.isInteger(item.partId) ? item.partId : partId;
-     collection.set(item.id,{...item,...(key==='questions'?{partId}:key==='chapters'?{partId:ownerPart}:{}),origin:item.origin||'imported'});
-   }
+   for(const item of payload[key])collection.set(item.id,{...item,...((key==='questions'||key==='chapters')?{partId}:{}),origin:item.origin||'imported'});
    next[key]=[...collection.values()];
  }
  const i=next.parts.findIndex(p=>p.id===partId);next.parts[i]={...next.parts[i],status:'imported',firstPage:payload.firstPage??null,lastPage:payload.lastPage??null};
@@ -67,4 +79,13 @@ export function mergePart(current,payload){
 export const eligible=q=>q.status==='verified'&&q.correct?.length===1&&(!q.imageIds?.length||q.imageIds.length>0);
 export function questionSet(data,{chapterId='all',type='all',difficulty='all',source='all',wrongIds=[]}={}){return data.questions.filter(q=>eligible(q)&&(chapterId==='all'||q.chapterId===chapterId)&&(type==='all'||q.type===type)&&(difficulty==='all'||q.difficulty===difficulty)&&(source==='all'||(source==='wrong'?wrongIds.includes(q.id):q.origin===source)))}
 export function buildQuiz(questions,count=10,seed=Math.random){const shuffled=[...questions];for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(seed()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}return shuffled.slice(0,Math.min(count,shuffled.length)).map(q=>q.id)}
-export function getStats(data,progress){const imported=data.parts.filter(p=>p.status==='imported').length,attempts=progress.attempts||[];return {imported,chapters:data.chapters.filter(c=>c.origin!=='demo').length,questions:data.questions.filter(q=>q.origin!=='demo'&&eligible(q)).length,demoQuestions:data.questions.filter(q=>q.origin==='demo').length,attempts:attempts.length,best:attempts.length?Math.max(...attempts.map(a=>Math.round(a.correct/a.total*100))):null};}
+export function getStats(data,progress){
+ const imported=data.parts.filter(p=>p.status==='imported').length,attempts=progress.attempts||[];
+ return {imported,
+   chapters:data.chapters.filter(c=>c.origin!=='demo').length,
+   questions:data.questions.filter(q=>eligible(q)).length,
+   starterQuestions:data.questions.filter(q=>q.partId===0&&q.origin==='generated'&&eligible(q)).length,
+   originalQuestions:data.questions.filter(q=>q.origin==='textbook'&&eligible(q)).length,
+   attempts:attempts.length,
+   best:attempts.length?Math.max(...attempts.filter(a=>a.total>0).map(a=>Math.round(a.correct/a.total*100))):null};
+}
