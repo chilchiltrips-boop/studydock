@@ -52,7 +52,13 @@ export function mergePart(current,payload){
  }
  for(const key of ['chapters','notes','questions','images']){
    const collection=new Map(next[key].map(item=>[item.id,item]));
-   for(const item of payload[key])collection.set(item.id,{...item,...((key==='questions'||key==='chapters')?{partId}:{}),origin:item.origin||'imported'});
+   for(const item of payload[key]){
+     // A chapter spanning two PDF parts keeps its original identity, metadata and part ownership.
+     // Questions and notes can still reference the shared chapter ID from the new part.
+     if(key==='chapters' && collection.has(item.id)) continue;
+     const ownerPart = key==='chapters' && Number.isInteger(item.partId) ? item.partId : partId;
+     collection.set(item.id,{...item,...(key==='questions'?{partId}:key==='chapters'?{partId:ownerPart}:{}),origin:item.origin||'imported'});
+   }
    next[key]=[...collection.values()];
  }
  const i=next.parts.findIndex(p=>p.id===partId);next.parts[i]={...next.parts[i],status:'imported',firstPage:payload.firstPage??null,lastPage:payload.lastPage??null};
