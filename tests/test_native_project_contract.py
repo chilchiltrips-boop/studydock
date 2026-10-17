@@ -14,5 +14,14 @@ assert 'com.studydock.learning' in gradle
 assert 'minSdk = 24' in gradle and 'compose = true' in gradle
 assert 'SHA-256' in data and 'unresolvedOriginalQuestions' in data
 assert 'assets/images/' in data
-assert 'INTERNET' not in manifest
+assert 'android.permission.INTERNET' in manifest
+remote = (ROOT / 'android/app/src/main/java/com/studydock/learning/RemoteStudySource.kt').read_text()
+levels = (ROOT / 'android/app/src/main/java/com/studydock/learning/LevelEngine.kt').read_text()
+catalog = (ROOT / 'content/catalog.json').read_text()
+import json
+assert 'raw.githubusercontent.com/chilchiltrips-boop/studydock/main/content/catalog.json' in remote
+assert 'studydock/releases/download/' in remote and 'SHA-256' in remote
+assert 'LEVEL_COUNT = 10' in levels
+assert len(json.loads(catalog)['parts']) == 0
+assert 'Levels 1–10' in activity and 'syncRemote()' in activity
 print('Native static structure checks passed')

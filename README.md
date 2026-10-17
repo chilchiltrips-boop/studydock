@@ -20,7 +20,7 @@ This is a prototype with locally stored content and scores, not a secure examina
 
 # StudyDock — textbook learning MVP
 
-**Status: working offline-first web prototype + Android Studio source project.** No production server, textbook content, or compiled APK is included.
+**Status: working online-first web prototype + Android Studio source project.** No production server, textbook content, or compiled APK is included.
 
 ## What is working
 
@@ -71,7 +71,7 @@ The demo questions and sample diagrams are **not extracted from the user’s 1,3
 ## Project map
 
 ```
-app/                   # deployable offline-first web application
+app/                   # deployable online-first web application
   index.html, styles.css, app.js, model.mjs, seed.mjs
   assets/              # demo diagrams; add verified textbook assets here
   sw.js, manifest.webmanifest
@@ -98,3 +98,7 @@ node --test tests/model.test.mjs
 - No original images or questions are included unless they are actually imported and bundled.
 - The Android project hasn't been compiled or tested on a device; no APK or release signing is claimed.
 - Rights to reproduce/distribute textbook images and text must be confirmed before sharing with students.
+
+
+## GitHub content delivery and 10 levels (v0.4)
+The native Android app now syncs a public GitHub catalog at content/catalog.json, verifies SHA-256 pinned GitHub Release content ZIPs, and offers Levels 1–10 drawn from verified question IDs. No source textbook files or manufactured questions are publicly bundled. To make real Part 1 available, publish licensed content through the instructions in content/README.md. Previous local imported data are retained as fallback during failed sync.

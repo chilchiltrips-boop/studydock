@@ -192,12 +192,20 @@ class StudyProgress(context: Context) {
     private val prefs = context.getSharedPreferences("study_progress", Context.MODE_PRIVATE)
     fun attempts(): Int = prefs.getInt("attempted", 0)
     fun correct(): Int = prefs.getInt("correct", 0)
+    fun masteredIds(): Set<String> = prefs.getStringSet("masteredQuestionIds", emptySet()).orEmpty().toSet()
     fun incorrectIds(): Set<String> = prefs.getStringSet("incorrectIds", emptySet()).orEmpty().toSet()
     fun record(question: StudyQuestion, answer: String) {
         val wrong = incorrectIds().toMutableSet()
-        if (answer == question.correct) wrong.remove(question.id) else wrong.add(question.id)
+        val mastered = masteredIds().toMutableSet()
+        if (answer == question.correct) {
+            wrong.remove(question.id)
+            mastered.add(question.id)
+        } else {
+            wrong.add(question.id)
+        }
         prefs.edit().putInt("attempted", attempts() + 1)
             .putInt("correct", correct() + if (answer == question.correct) 1 else 0)
+            .putStringSet("masteredQuestionIds", mastered)
             .putStringSet("incorrectIds", wrong).apply()
     }
 }

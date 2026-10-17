@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "app": "StudyDock",
+  "publisher": "ZEBJUS LLP",
+  "contentSource": "GitHub Releases",
+  "parts": [],
+  "levels": {
+    "count": 10,
+    "unlockRule": "Master 80% of previous level to unlock next"
+  }
+}

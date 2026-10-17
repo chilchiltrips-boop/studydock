@@ -61,15 +61,18 @@ private enum class Screen(val label: String, val icon: ImageVector) {
     Practice("Practice", Icons.Filled.Quiz),
     Images("Images", Icons.Filled.Image),
     Progress("Progress", Icons.Filled.Insights),
-    Library("Library", Icons.Filled.LibraryBooks)
+    Library("Library", Icons.Filled.LibraryBooks),
+    Levels("Levels", Icons.Filled.EmojiEvents)
 }
 
 class MainActivity : ComponentActivity() {
     private val library by lazy { StudyLibrary(this) }
     private val progress by lazy { StudyProgress(this) }
+    private val github by lazy { RemoteStudySource(this, library) }
     private var part by mutableStateOf<StudyPart?>(null)
     private var importMessage by mutableStateOf("")
     private var importing by mutableStateOf(false)
+    private var remoteMessage by mutableStateOf("Checking GitHub…")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,9 +82,6 @@ class MainActivity : ComponentActivity() {
         part = try { library.readPart() } catch (e: Exception) { importMessage = e.message ?: "Cannot read imported content"; null }
         setContent {
             StudyDockTheme {
-                val chooser = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
-                    if (uri != null) importPart(uri)
-                }
                 var splash by remember { mutableStateOf(savedInstanceState == null) }
                 LaunchedEffect(Unit) {
                     delay(5000)
@@ -89,28 +89,29 @@ class MainActivity : ComponentActivity() {
                 }
                 if (splash) NativeSplash(onSkip = { splash = false }) else NativeApp(
                     part = part, progress = progress, importing = importing,
-                    importMessage = importMessage,
-                    onImport = { chooser.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) }
+                    importMessage = remoteMessage, onImport = { syncRemote() }
                 )
             }
         }
+        syncRemote()
     }
 
-    private fun importPart(uri: Uri) {
+    private fun syncRemote() {
         if (importing) return
         importing = true
-        importMessage = "Verifying Part 1 images and content…"
+        remoteMessage = "Contacting GitHub content repository…"
         Thread {
             try {
-                val result = library.importZip(uri)
+                val result = github.sync()
                 runOnUiThread {
-                    part = result
-                    importMessage = "Part 1 imported: ${result.questions.size} verified questions and ${result.images.size} original images."
+                    part = result.part
+                    remoteMessage = result.message
                     importing = false
                 }
             } catch (error: Exception) {
                 runOnUiThread {
-                    importMessage = error.message?.take(200) ?: "Import failed; previous content was retained."
+                    remoteMessage = "GitHub sync unavailable: " + (error.message ?: "network error").take(170) +
+                        ". Previously verified content is retained."
                     importing = false
                 }
             }
@@ -166,6 +167,7 @@ private fun NativeSplash(onSkip: () -> Unit) {
 private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String, onImport: () -> Unit) {
     var screen by remember { mutableStateOf(Screen.Home) }
     var practiceAsImage by remember { mutableStateOf(false) }
+    var selectedLevel by remember { mutableStateOf<Int?>(null) }
     BackHandler(enabled = screen != Screen.Home) { screen = Screen.Home }
     BoxWithConstraints(Modifier.fillMaxSize()) {
         val wide = maxWidth >= 720.dp
@@ -195,10 +197,11 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
             bottomBar = {
                 if (!wide) {
                     NavigationBar(containerColor = Color.White, tonalElevation = 8.dp) {
-                        listOf(Screen.Home, Screen.Notes, Screen.Practice, Screen.Images, Screen.Progress).forEach { tab ->
+                        listOf(Screen.Home, Screen.Notes, Screen.Levels, Screen.Practice, Screen.Progress).forEach { tab ->
                             NavigationBarItem(
                                 selected = screen == tab, onClick = {
                                     practiceAsImage = tab == Screen.Images
+                                    selectedLevel = null
                                     screen = tab
                                 },
                                 icon = { Icon(tab.icon, contentDescription = null, modifier = Modifier.size(23.dp)) },
@@ -217,7 +220,7 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                         Screen.entries.forEach { tab ->
                             NavigationRailItem(
                                 selected = screen == tab,
-                                onClick = { practiceAsImage = tab == Screen.Images; screen = tab },
+                                onClick = { practiceAsImage = tab == Screen.Images; selectedLevel = null; screen = tab },
                                 icon = { Icon(tab.icon, contentDescription = null) },
                                 label = { Text(tab.label) }
                             )
@@ -228,10 +231,15 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                     Box(Modifier.fillMaxWidth().widthIn(max = 1000.dp)) {
                         when (screen) {
                             Screen.Home -> HomeScreen(part, progress,
-                                onNavigate = { practiceAsImage = it == Screen.Images; screen = it },
+                                onNavigate = { practiceAsImage = it == Screen.Images; selectedLevel = null; screen = it },
                                 onImport = onImport)
                             Screen.Notes -> NotesScreen(part)
-                            Screen.Practice, Screen.Images -> QuizScreen(part, progress, practiceAsImage)
+                            Screen.Practice, Screen.Images -> QuizScreen(part, progress, practiceAsImage, selectedLevel)
+                            Screen.Levels -> LevelsScreen(part, progress) { level ->
+                                selectedLevel = level
+                                practiceAsImage = false
+                                screen = Screen.Practice
+                            }
                             Screen.Progress -> ProgressScreen(part, progress)
                             Screen.Library -> LibraryScreen(part, importing, importMessage, onImport)
                         }
@@ -270,13 +278,13 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 Text("YOUR LEARNING COMPANION", color = Color(0xFF80DCFF), fontWeight = FontWeight.Bold, fontSize = 11.sp)
                 Text("Make every study session count.", color = Color.White,
                     fontWeight = FontWeight.ExtraBold, fontSize = 27.sp, lineHeight = 33.sp)
-                Text("Textbook-backed notes, original images, and verified practice — all offline.",
+                Text("Verified textbook content synced from GitHub. Practice across 10 levels.",
                     color = Color(0xFFDBE9FC), fontSize = 14.sp, lineHeight = 21.sp)
                 Spacer(Modifier.height(7.dp))
                 Button(onClick = { if (part == null) onImport() else onNavigate(Screen.Notes) },
                     colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Navy),
                     contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
-                    Text(if (part == null) "Import Part 1 content" else "Continue studying", fontWeight = FontWeight.Bold)
+                    Text(if (part == null) "Sync from GitHub" else "Continue studying", fontWeight = FontWeight.Bold)
                     Spacer(Modifier.width(8.dp)); Icon(Icons.Default.ArrowForward, null, Modifier.size(18.dp))
                 }
             }
@@ -294,6 +302,7 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
             androidx.compose.foundation.layout.FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp), maxItemsInEachRow = 2) {
                 HomeAction("Study notes", "Review every topic", Icons.Default.MenuBook, Color(0xFFE8F1FF), Sky, tileWidth) { onNavigate(Screen.Notes) }
+                HomeAction("Levels 1–10", "Master each stage", Icons.Default.EmojiEvents, Color(0xFFEDF5FF), Sky, tileWidth) { onNavigate(Screen.Levels) }
                 HomeAction("Practice MCQs", "Answer with feedback", Icons.Default.Quiz, Color(0xFFF0EAFF), Color(0xFF7255BD), tileWidth) { onNavigate(Screen.Practice) }
                 HomeAction("Image questions", "Learn from diagrams", Icons.Default.Image, Color(0xFFE6FAF6), Green, tileWidth) { onNavigate(Screen.Images) }
                 HomeAction("My progress", "Track your growth", Icons.Default.ShowChart, Color(0xFFFFF2E5), Color(0xFFB97D27), tileWidth) { onNavigate(Screen.Progress) }
@@ -305,7 +314,7 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
                     Text("Your textbook library", fontWeight = FontWeight.Bold)
-                    Text(if (part != null) "Part 1 · 150 source pages" else "Import your verified textbook ZIP", fontSize = 12.sp, color = Muted)
+                    Text(if (part != null) "Part 1 · 150 source pages" else "GitHub content not published yet", fontSize = 12.sp, color = Muted)
                 }
                 TextButton(onClick = { onNavigate(Screen.Library) }) { Text("Open") }
             }
@@ -345,10 +354,10 @@ private fun EmptyLibrary(onImport: (() -> Unit)? = null) {
     Column(Modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Icon(Icons.Default.Inventory2, null, Modifier.size(54.dp), tint = Sky)
-        Text("No textbook content yet", fontWeight = FontWeight.Bold, fontSize = 20.sp)
-        Text("Import the verified StudyDock Part 1 ZIP to unlock offline notes, diagrams and quizzes.",
+        Text("Waiting for GitHub content", fontWeight = FontWeight.Bold, fontSize = 20.sp)
+        Text("Connect to GitHub to download verified textbook questions, images and notes when published.",
             color = Muted, textAlign = TextAlign.Center, fontSize = 13.sp)
-        if (onImport != null) Button(onClick = onImport) { Text("Import content ZIP") }
+        if (onImport != null) Button(onClick = onImport) { Text("Sync from GitHub") }
     }
 }
 
@@ -393,24 +402,29 @@ private fun NotesScreen(part: StudyPart?) {
 }
 
 @Composable
-private fun QuizScreen(part: StudyPart?, progress: StudyProgress, imageOnly: Boolean) {
+private fun QuizScreen(part: StudyPart?, progress: StudyProgress, imageOnly: Boolean, levelNumber: Int? = null) {
     if (part == null) { EmptyLibrary(); return }
-    var session by remember(part, imageOnly) { mutableStateOf<List<StudyQuestion>?>(null) }
+    var session by remember(part, imageOnly, levelNumber) { mutableStateOf<List<StudyQuestion>?>(null) }
     var count by remember { mutableIntStateOf(10) }
     var difficulty by remember { mutableStateOf("All") }
     var source by remember { mutableStateOf("All") }
     var topicQuery by remember { mutableStateOf("") }
     var reviewOnly by remember { mutableStateOf(false) }
+    val selectedLevelIds = levelNumber?.let { number ->
+        LevelEngine.levels(part, progress).getOrNull(number - 1)?.takeIf { it.unlocked }
+            ?.questions?.map { it.id }?.toSet()
+    }
     if (session == null) {
         val available = part.questions.filter { q ->
-            (!imageOnly || q.isImage) && (difficulty == "All" || q.difficulty.equals(difficulty, true)) &&
+            (!imageOnly || q.isImage) && (levelNumber == null || selectedLevelIds?.contains(q.id) == true) &&
+                (difficulty == "All" || q.difficulty.equals(difficulty, true)) &&
                 (source == "All" || (source == "Original" && q.origin == "textbook") || (source == "Practice" && q.origin != "textbook")) &&
                 (!reviewOnly || q.id in progress.incorrectIds()) &&
                 (topicQuery.isBlank() || q.topic.contains(topicQuery, true) ||
                     part.chapters.firstOrNull { it.id == q.chapterId }?.title?.contains(topicQuery, true) == true)
         }
         Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            Text(if (imageOnly) "Image-based quiz" else "Practice MCQs", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+            Text(if (levelNumber != null) "Level $levelNumber · Practice" else if (imageOnly) "Image-based quiz" else "Practice MCQs", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
             Text(if (imageOnly) "Identify original textbook images and interpret diagrams." else "Practice with textbook-verified answers and explanations.", color = Muted, fontSize = 13.sp)
             ContentCard {
                 Text("Difficulty", fontWeight = FontWeight.Bold)
@@ -584,6 +598,42 @@ private fun loadBitmap(path: String): ImageBitmap? = try {
 } catch (_: Exception) { null }
 
 @Composable
+private fun LevelsScreen(part: StudyPart?, progress: StudyProgress, onStart: (Int) -> Unit) {
+    val levels = LevelEngine.levels(part, progress)
+    Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text("Levels 1–10", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+        Text("Master 80% of a level's verified questions to unlock the next.", color = Muted, fontSize = 13.sp)
+        if (part == null) Text("No levels until verified GitHub content is published and synced.", color = Muted, fontSize = 13.sp)
+        LazyColumn(verticalArrangement = Arrangement.spacedBy(10.dp), contentPadding = PaddingValues(bottom = 20.dp)) {
+            items(levels, key = { it.number }) { level ->
+                ContentCard(Modifier.fillMaxWidth()) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Icon(if (level.unlocked) Icons.Default.EmojiEvents else Icons.Default.Lock, null,
+                            tint = if (level.unlocked) Sky else Muted)
+                        Spacer(Modifier.width(12.dp))
+                        Column(Modifier.weight(1f)) {
+                            Text("Level " + level.number, fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                            Text(level.mastered.toString() + " / " + level.questions.size + " mastered", fontSize = 12.sp, color = Muted)
+                        }
+                        if (level.unlocked) Button(onClick = { onStart(level.number) }) { Text("Start") }
+                        else Text("Locked", color = Muted, fontSize = 12.sp)
+                    }
+                    Spacer(Modifier.height(10.dp))
+                    LinearProgressIndicator(
+                        progress = { if (level.questions.isEmpty()) 0f else level.mastered.toFloat() / level.questions.size },
+                        modifier = Modifier.fillMaxWidth().height(7.dp))
+                    if (level.unlocked && level.number < 10) {
+                        Spacer(Modifier.height(5.dp))
+                        Text("Master " + level.neededToUnlockNext + " answers to unlock Level " + (level.number + 1),
+                            color = Muted, fontSize = 11.sp)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
 private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text("My progress", fontWeight = FontWeight.ExtraBold, fontSize = 27.sp)
@@ -604,7 +654,7 @@ private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
             Text("Questions to revise", fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(8.dp))
             Text("${progress.incorrectIds().size} incorrect-answer IDs ready for revision in Practice.", color = Muted, fontSize = 13.sp)
-            if (part == null) Text("Import Part 1 to start learning.", color = Muted, fontSize = 12.sp)
+            if (part == null) Text("Sync published Part 1 from GitHub to begin.", color = Muted, fontSize = 12.sp)
         }
     }
 }
@@ -638,20 +688,20 @@ private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: S
     }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(15.dp)) {
         Text("Textbook library", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
-        Text("Offline source-backed content. Your textbook images stay on the device.", color = Muted, fontSize = 13.sp)
+        Text("Online-first · Sync verified textbook files from GitHub Releases.", color = Muted, fontSize = 13.sp)
         ContentCard {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.AutoStories, null, tint = Sky, modifier = Modifier.size(30.dp))
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
                     Text("TARGET HIGH · Part 1", fontWeight = FontWeight.Bold)
-                    Text(if (part == null) "Not imported" else "150 pages · ${part.questions.size} scoreable MCQs", color = Muted, fontSize = 12.sp)
+                    Text(if (part == null) "Not published to GitHub" else "150 pages · ${part.questions.size} scoreable MCQs", color = Muted, fontSize = 12.sp)
                 }
             }
             Spacer(Modifier.height(14.dp))
             Button(onClick = onImport, enabled = !importing, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
-                Icon(Icons.Default.FileUpload, null); Spacer(Modifier.width(8.dp))
-                Text(if (part == null) "Import Part 1 ZIP" else "Re-import / update Part 1 ZIP")
+                Icon(Icons.Default.CloudDownload, null); Spacer(Modifier.width(8.dp))
+                Text(if (part == null) "Sync Part 1 from GitHub" else "Check GitHub for updates")
             }
             if (importing) {
                 Spacer(Modifier.height(12.dp))
@@ -677,7 +727,7 @@ private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: S
             Spacer(Modifier.height(7.dp))
             Text("A ZEBJUS LLP Product", color = Sky, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(5.dp))
-            Text("Native Android · Offline-first · No WebView", color = Muted, fontSize = 12.sp)
+            Text("Native Android · GitHub-hosted content · No WebView", color = Muted, fontSize = 12.sp)
             Text("Clinical material from the historical source is for examination study, not current treatment guidance.", color = Muted, fontSize = 12.sp)
         }
     }

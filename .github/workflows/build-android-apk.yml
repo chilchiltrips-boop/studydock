@@ -43,7 +43,7 @@ jobs:
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK"
           BADGING="$("$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK")"
           if [[ "$BADGING" != *"name='com.studydock.learning'"* ]] ||
-             [[ "$BADGING" != *"versionCode='4'"* ]]; then
+             [[ "$BADGING" != *"versionCode='5'"* ]]; then
             echo "::error::Unexpected StudyDock application ID or versionCode"
             exit 1
           fi

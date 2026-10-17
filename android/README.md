@@ -3,10 +3,12 @@ A ZEBJUS LLP Product
 
 Kotlin + Jetpack Compose Material 3. The Android APK is a pure native app, not a WebView/PWA.
 The legacy app/ web prototype remains outside the Android build for historical reference.
+
+The **online-first** native app reads the GitHub content catalog on launch and on Library Sync. Verified Part 1 ZIPs are distributed through GitHub Releases, pinned to a SHA-256 hash and checked by the existing importer. The catalog currently has no textbook asset: publish only material you have the legal right to distribute. Levels 1–10 use verified questions already present in downloaded content; 80% mastery of each level unlocks the next. No dummy questions are generated.
 Android 7.0+ is configured (minSdk 24); requires Android SDK 35, Gradle 8.9 and Java 17.
 
 Open android/ in Android Studio, or run gradle -p android :app:assembleDebug.
-After build, choose Library > Import Part 1 ZIP to import the separate StudyDock_Part1_Content.zip.
+After build, use Library > Sync Part 1 from GitHub. See content/README.md for the rights-aware publishing workflow.
 The public repository intentionally does not contain copyrighted textbook scans.
 The import validates schema, cross-references, bounded ZIP paths/sizes and SHA-256 image hashes.
 
