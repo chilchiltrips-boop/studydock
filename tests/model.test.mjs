@@ -22,3 +22,16 @@ test('retains original non-scoreable questions as review-only records',()=>{
   assert.equal(questionSet(merged).length,1);
   assert.ok(!questionSet(merged).some(q=>q.id==='source-q-unresolved'));
 });
+test('adding the next part preserves a shared earlier chapter identity and metadata',()=>{
+  const first=mergePart(initialData(),part);
+  const continued=structuredClone(part); continued.partId=2;continued.firstPage=151;continued.lastPage=300;
+  continued.chapters=[{id:'ch1',title:'This must not overwrite the first-part title'}];
+  continued.images=[{id:'img2',path:'assets/new.png',alt:'Imported'}];
+  continued.notes=[{id:'n2',chapterId:'ch1',title:'Continued',body:'Continuation'}];
+  continued.questions=[{id:'q2',chapterId:'ch1',type:'mcq',stem:'Continued Q?',options:['A','B','C','D'].map(id=>({id,label:id})),correct:['A'],status:'verified'}];
+  const merged=mergePart(first,continued);
+  assert.equal(merged.chapters.find(c=>c.id==='ch1').title,'Hello');
+  assert.equal(merged.chapters.find(c=>c.id==='ch1').partId,1);
+  assert.equal(merged.questions.filter(q=>['q1','q2'].includes(q.id)).length,2);
+  assert.equal(merged.parts.filter(p=>p.status==='imported').length,2);
+});

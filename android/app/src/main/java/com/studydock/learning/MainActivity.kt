@@ -87,13 +87,39 @@ class MainActivity : ComponentActivity() {
                     delay(5000)
                     splash = false
                 }
+                val zipPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+                    if (uri != null) importLocalZip(uri)
+                }
                 if (splash) NativeSplash(onSkip = { splash = false }) else NativeApp(
                     part = part, progress = progress, importing = importing,
-                    importMessage = remoteMessage, onImport = { syncRemote() }
+                    importMessage = remoteMessage, onImport = { syncRemote() },
+                    onImportZip = { zipPicker.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) }
                 )
             }
         }
         syncRemote()
+    }
+
+    private fun importLocalZip(uri: Uri) {
+        if (importing) return
+        importing = true
+        remoteMessage = "Verifying local textbook ZIP and original images…"
+        Thread {
+            try {
+                val result = library.importZip(uri)
+                runOnUiThread {
+                    part = result
+                    remoteMessage = "Verified local import complete. ${result.questions.size} scoreable questions across installed parts."
+                    importing = false
+                }
+            } catch (error: Exception) {
+                runOnUiThread {
+                    remoteMessage = "Local import failed: " + (error.message ?: "unknown error").take(180) +
+                        ". Previously installed parts were retained."
+                    importing = false
+                }
+            }
+        }.start()
     }
 
     private fun syncRemote() {
@@ -164,7 +190,7 @@ private fun NativeSplash(onSkip: () -> Unit) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String, onImport: () -> Unit) {
+private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String, onImport: () -> Unit, onImportZip: () -> Unit) {
     var screen by remember { mutableStateOf(Screen.Home) }
     var practiceAsImage by remember { mutableStateOf(false) }
     var selectedLevel by remember { mutableStateOf<Int?>(null) }
@@ -241,7 +267,7 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                                 screen = Screen.Practice
                             }
                             Screen.Progress -> ProgressScreen(part, progress)
-                            Screen.Library -> LibraryScreen(part, importing, importMessage, onImport)
+                            Screen.Library -> LibraryScreen(part, importing, importMessage, onImport, onImportZip)
                         }
                     }
                 }
@@ -314,7 +340,7 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
                     Text("Your textbook library", fontWeight = FontWeight.Bold)
-                    Text(if (part != null) "Part 1 · 150 source pages" else "GitHub content not published yet", fontSize = 12.sp, color = Muted)
+                    Text(if (part != null) "Installed verified textbook parts" else "GitHub content not published yet", fontSize = 12.sp, color = Muted)
                 }
                 TextButton(onClick = { onNavigate(Screen.Library) }) { Text("Open") }
             }
@@ -660,26 +686,32 @@ private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
 }
 
 @Composable
-private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: String, onImport: () -> Unit) {
+private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: String, onImport: () -> Unit, onImportZip: () -> Unit) {
     var showUnresolved by remember { mutableStateOf(false) }
     if (showUnresolved && part != null) {
         val originals = remember(part) {
-            try {
-                val json = JSONObject(File(part.directory, "part1.json").readText())
-                val items = json.optJSONArray("unresolvedOriginalQuestions")
-                (0 until (items?.length() ?: 0)).map { i ->
-                    val q = items!!.getJSONObject(i)
-                    "${q.optString("id")} · PDF p. ${q.optInt("sourcePage")}\n${q.optString("stem", q.optString("question_text"))}"
-                }
-            } catch (_: Exception) { listOf("Unresolved original record cannot be displayed. The imported JSON remains unchanged.") }
+            val parent = part.directory.parentFile
+            (1..8).flatMap { partId ->
+                runCatching {
+                    val file = File(File(parent, "part$partId"), "part$partId.json")
+                    if (!file.isFile) emptyList() else {
+                        val json = JSONObject(file.readText(Charsets.UTF_8))
+                        val items = json.optJSONArray("unresolvedOriginalQuestions")
+                        (0 until (items?.length() ?: 0)).map { i ->
+                            val q = items!!.getJSONObject(i)
+                            "Part $partId · ${q.optString("id")} · PDF p. ${q.optInt("sourcePage")}\\n${q.optString("stem", q.optString("question_text"))}"
+                        }
+                    }
+                }.getOrDefault(emptyList())
+            }
         }
         AlertDialog(onDismissRequest = { showUnresolved = false },
             confirmButton = { TextButton(onClick = { showUnresolved = false }) { Text("Close") } },
             title = { Text("Source questions · Reference only") },
             text = {
-                Column(Modifier.heightIn(max = 430.dp).verticalScroll(rememberScrollState())) {
-                    Text("These 14 originals are retained but intentionally excluded from scored quizzes.", color = Muted, fontSize = 12.sp)
-                    originals.forEach { text ->
+                LazyColumn(Modifier.heightIn(max = 430.dp)) {
+                    item { Text("All unresolved originals from installed parts are retained as reference only.", color = Muted, fontSize = 12.sp) }
+                    items(originals) { text ->
                         HorizontalDivider(Modifier.padding(vertical = 8.dp))
                         Text(text, fontSize = 13.sp)
                     }
@@ -688,20 +720,26 @@ private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: S
     }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(15.dp)) {
         Text("Textbook library", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
-        Text("Online-first · Sync verified textbook files from GitHub Releases.", color = Muted, fontSize = 13.sp)
+        Text("Offline local ZIP imports · Optional GitHub sync for authorized content.", color = Muted, fontSize = 13.sp)
         ContentCard {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.AutoStories, null, tint = Sky, modifier = Modifier.size(30.dp))
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
-                    Text("TARGET HIGH · Part 1", fontWeight = FontWeight.Bold)
-                    Text(if (part == null) "Not published to GitHub" else "150 pages · ${part.questions.size} scoreable MCQs", color = Muted, fontSize = 12.sp)
+                    Text("TARGET HIGH · Parts 1–8", fontWeight = FontWeight.Bold)
+                    Text(if (part == null) "No textbook content installed" else "${part.questions.size} scoreable MCQs · ${part.chapters.size} chapters", color = Muted, fontSize = 12.sp)
                 }
             }
             Spacer(Modifier.height(14.dp))
             Button(onClick = onImport, enabled = !importing, modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
                 Icon(Icons.Default.CloudDownload, null); Spacer(Modifier.width(8.dp))
-                Text(if (part == null) "Sync Part 1 from GitHub" else "Check GitHub for updates")
+                Text(if (part == null) "Check authorized GitHub content" else "Check GitHub for updates")
+            }
+            Spacer(Modifier.height(10.dp))
+            OutlinedButton(onClick = onImportZip, enabled = !importing,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
+                Icon(Icons.Default.FolderOpen, null); Spacer(Modifier.width(8.dp))
+                Text("Import Part 1–8 ZIP from phone")
             }
             if (importing) {
                 Spacer(Modifier.height(12.dp))

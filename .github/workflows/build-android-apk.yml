@@ -43,7 +43,7 @@ jobs:
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK"
           BADGING="$("$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK")"
           if [[ "$BADGING" != *"name='com.studydock.learning'"* ]] ||
-             [[ "$BADGING" != *"versionCode='5'"* ]]; then
+             [[ "$BADGING" != *"versionCode='6'"* ]]; then
             echo "::error::Unexpected StudyDock application ID or versionCode"
             exit 1
           fi
@@ -51,5 +51,14 @@ jobs:
         with:
           name: StudyDock-Native-Android-debug-APK
           path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Archive complete public source tree
+        run: git archive --format=zip -o StudyDock_Public_Source_snapshot.zip HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StudyDock-Native-Source-snapshot
+          path: StudyDock_Public_Source_snapshot.zip
           if-no-files-found: error
           retention-days: 30
