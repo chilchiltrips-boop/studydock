@@ -1,943 +1,955 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
+  "revision": 2,
   "publisher": "ZEBJUS LLP",
   "app": "StudyDock",
   "kind": "original-concept-learning",
   "language": "en",
-  "sourceScope": "StudyDock learning summaries derived from Part 1 medical surgical nursing concepts; source edition 2020.",
-  "rightsNotice": "Original StudyDock-authored summaries and practice questions; no scanned textbook pages, copied diagrams or verbatim source MCQs.",
-  "clinicalNotice": "For examination revision only. Historical source content must not be used as current patient-care guidance.",
+  "sourceScope": "Fresh paraphrased StudyDock exam revision based on selected scanned pages 11–66 of TARGET HIGH BOOK 151-300.pdf (Part 2). NOT a full Part 2 extraction; textbook printed page numbers differ from PDF page indices.",
+  "rightsNotice": "StudyDock-authored summaries and adapted MCQs. No verbatim original textbook questions, scanned textbook images, or copied diagrams are included in this public JSON.",
+  "clinicalNotice": "For nursing exam revision only. Some source material is historical, and clinical care must follow current approved medical/nursing guidance.",
   "passingPercent": 80,
   "levels": [
     {
       "number": 1,
-      "title": "Recognize inflammation",
+      "title": "Digestive tract & organ functions",
       "sourcePages": [
-        122
+        11,
+        12,
+        13
       ],
-      "summary": "Begin with the body's local response to tissue injury and separate local signs from whole-body responses.",
+      "summary": "Learn digestive tract & organ functions through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in recognize inflammation.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Why inflammation occurs",
-          "body": "Inflammation is a protective local tissue response to injury or an offending agent; it also prepares damaged tissue for repair.",
-          "example": "A reddened area around a minor injury is a local response, not proof of infection."
+          "title": "Core concept",
+          "body": "The gastrointestinal tract is a continuous pathway for food and digestive contents. The textbook illustration labels the mouth, pharynx, oesophagus, stomach, small intestine, large intestine, rectum and anus. Associated digestive organs include the liver, gallbladder and pancreas.",
+          "example": "Small intestine: duodenum → jejunum → ileum."
         },
         {
-          "title": "Five classic signs",
-          "body": "Remember redness, warmth, swelling, pain, and reduced function. Look for the combination rather than one sign in isolation.",
-          "example": "A swollen joint that hurts on movement displays more than one sign."
+          "title": "Mouth to stomach",
+          "body": "Mechanical breakdown and swallowing begin at the mouth. The oesophagus conveys swallowed material into the stomach. Its upper and lower sphincters help coordinate passage of contents.",
+          "example": "Liver and pancreas contribute digestive secretions, but food does not pass through these organs."
         },
         {
-          "title": "Local versus systemic",
-          "body": "Local findings occur at the affected site. Fever is an example of a systemic, whole-body response.",
-          "example": "An elevated temperature is not itself one of the five local signs."
+          "title": "Intestinal organisation",
+          "body": "The small intestine is divided into the duodenum, jejunum and ileum; digestion and nutrient absorption occur mainly here. The large intestine includes the caecum, colon, rectum and anal canal and is important for water and stool handling.",
+          "example": "Large intestine includes ascending, transverse, descending and sigmoid colon."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L01-Q01",
-          "prompt": "Which finding belongs to the classic local signs of inflammation?",
+          "id": "SD-R2-L01-Q01",
+          "prompt": "Which structure carries swallowed food from the pharynx toward the stomach?",
           "options": [
-            "Fever",
-            "Redness",
-            "Nausea",
-            "Fatigue"
+            "Trachea",
+            "Oesophagus",
+            "Pancreas",
+            "Gallbladder"
           ],
           "correctIndex": 1,
-          "explanation": "Redness is one of the five classic local signs."
+          "explanation": "The oesophagus is the muscular tube joining the pharynx to the stomach."
         },
         {
-          "id": "SD-L01-Q02",
-          "prompt": "Which finding is a systemic response rather than a local cardinal sign?",
+          "id": "SD-R2-L01-Q02",
+          "prompt": "What is the correct order of the three portions of the small intestine?",
           "options": [
-            "Swelling",
-            "Warmth",
-            "Fever",
-            "Pain"
+            "Jejunum → ileum → duodenum",
+            "Ileum → duodenum → jejunum",
+            "Duodenum → jejunum → ileum",
+            "Duodenum → ileum → jejunum"
           ],
           "correctIndex": 2,
-          "explanation": "Fever affects the whole body and is considered systemic."
+          "explanation": "The small intestine progresses from the duodenum to jejunum and then ileum."
         },
         {
-          "id": "SD-L01-Q03",
-          "prompt": "A key purpose of inflammation is to…",
+          "id": "SD-R2-L01-Q03",
+          "prompt": "Which is a major function of the small intestine?",
           "options": [
-            "Stop all blood flow permanently",
-            "Prepare injured tissue for repair",
-            "Prevent every future infection",
-            "Replace all damaged tissue instantly"
+            "Production of urine",
+            "Absorption of nutrients",
+            "Formation of erythrocytes",
+            "Exchange of respiratory gases"
           ],
           "correctIndex": 1,
-          "explanation": "The response helps address a harmful agent and initiates repair."
+          "explanation": "Much digestion and absorption takes place in the small intestine."
         },
         {
-          "id": "SD-L01-Q04",
-          "prompt": "Which pairing includes two classic local signs?",
+          "id": "SD-R2-L01-Q04",
+          "prompt": "Which structure is primarily responsible for bile storage?",
           "options": [
-            "Warmth and pain",
-            "Fever and fatigue",
-            "Nausea and dizziness",
-            "Headache and thirst"
+            "Pancreas",
+            "Spleen",
+            "Gallbladder",
+            "Appendix"
+          ],
+          "correctIndex": 2,
+          "explanation": "The liver makes bile; the gallbladder stores and concentrates it."
+        },
+        {
+          "id": "SD-R2-L01-Q05",
+          "prompt": "Which layer lines the inner surface of the gastrointestinal tract?",
+          "options": [
+            "Mucosa",
+            "Serosa",
+            "Adventitia",
+            "Outer longitudinal muscle"
           ],
           "correctIndex": 0,
-          "explanation": "Warmth and pain are local cardinal signs."
-        },
-        {
-          "id": "SD-L01-Q05",
-          "prompt": "Loss of function during inflammation refers to…",
-          "options": [
-            "An inability to form antibodies",
-            "Reduced normal activity of the affected area",
-            "Always permanent disability",
-            "A normal body temperature"
-          ],
-          "correctIndex": 1,
-          "explanation": "The inflamed region may not function as usual due to tissue changes and discomfort."
+          "explanation": "The mucosa is the innermost layer in contact with luminal contents."
         }
       ]
     },
     {
       "number": 2,
-      "title": "Inflammatory mediators and phases",
+      "title": "Digestion & GI procedures",
       "sourcePages": [
-        122
+        11,
+        12,
+        13,
+        15
       ],
-      "summary": "Connect the mediators at an injury site with the sequence of inflammation, repair, and remodeling.",
+      "summary": "Learn digestion & gi procedures through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in inflammatory mediators and phases.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Histamine",
-          "body": "Mast cells can release histamine; it is associated with vessel widening and increased permeability.",
-          "example": "More permeable vessels allow fluid to move into local tissues."
+          "title": "Digestive process",
+          "body": "Food must be broken into smaller components that can be absorbed. The source's digestion table distinguishes carbohydrate, protein and fat digestion along the digestive tract.",
+          "example": "Villi and microvilli increase intestinal absorptive surface area."
         },
         {
-          "title": "Early response",
-          "body": "A brief vascular change is followed by vasodilation, greater capillary permeability, and movement of defensive cells.",
-          "example": "Early redness and swelling fit these vascular effects."
+          "title": "Main locations",
+          "body": "The mouth starts food processing and salivary activity. In the stomach, gastric secretions participate particularly in protein digestion. In the small intestine, pancreatic enzymes and bile act with the intestinal environment to enable digestion and absorption.",
+          "example": "Pancreatic enzymes participate in protein, carbohydrate and fat digestion."
         },
         {
-          "title": "Repair then remodeling",
-          "body": "New collagen is laid down during repair; over time it is reorganized and tissue strength improves.",
-          "example": "Healing continues after the surface of a wound appears closed."
+          "title": "Layered wall",
+          "body": "From inner to outer, the source describes a mucosal lining, submucosa, muscular layer and serosa/adventitia. Circular and longitudinal muscles support movement. The mucosa contacts luminal contents; the submucosa carries supporting structures.",
+          "example": "The colon contributes to stool formation and water conservation."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L02-Q01",
-          "prompt": "Which cell type is a source of histamine at an injury site?",
+          "id": "SD-R2-L02-Q01",
+          "prompt": "Which pancreatic enzyme is most directly associated with fat digestion?",
           "options": [
-            "Mast cell",
-            "Red blood cell",
-            "Platelet only",
-            "Osteocyte"
+            "Amylase",
+            "Pepsin",
+            "Lipase",
+            "Maltase"
           ],
-          "correctIndex": 0,
-          "explanation": "Mast cells are described as releasing histamine locally."
+          "correctIndex": 2,
+          "explanation": "Pancreatic lipase digests fats; pancreatic amylase is associated with carbohydrate digestion."
         },
         {
-          "id": "SD-L02-Q02",
-          "prompt": "Histamine is linked most directly with…",
+          "id": "SD-R2-L02-Q02",
+          "prompt": "Which part of the digestive tract comes immediately after the stomach?",
           "options": [
-            "Vessel widening and permeability",
-            "Immediate bone resorption",
-            "Permanent scar removal",
-            "Closure of every blood vessel"
+            "Colon",
+            "Rectum",
+            "Small intestine",
+            "Pharynx"
           ],
-          "correctIndex": 0,
-          "explanation": "Histamine supports vasodilation and increased vascular permeability."
+          "correctIndex": 2,
+          "explanation": "The stomach empties via the pylorus into the duodenum, the first section of small intestine."
         },
         {
-          "id": "SD-L02-Q03",
-          "prompt": "Which event commonly follows the early brief vascular response?",
+          "id": "SD-R2-L02-Q03",
+          "prompt": "Which statement best distinguishes digestion from absorption?",
           "options": [
-            "Vasodilation",
-            "Complete immunity to infection",
-            "Bone formation",
-            "Irreversible tissue closure"
-          ],
-          "correctIndex": 0,
-          "explanation": "Vasodilation and permeability changes characterize the early response."
-        },
-        {
-          "id": "SD-L02-Q04",
-          "prompt": "Collagen deposition is especially associated with…",
-          "options": [
-            "Repair phase",
-            "Loss of all function",
-            "Only a fever",
-            "No tissue activity"
-          ],
-          "correctIndex": 0,
-          "explanation": "Repair involves laying down new collagen."
-        },
-        {
-          "id": "SD-L02-Q05",
-          "prompt": "What best describes tissue remodeling?",
-          "options": [
-            "No further tissue change",
-            "Collagen reorganization over time",
-            "Immediate elimination of all scarring",
-            "A new episode of bleeding by definition"
+            "Digestion moves oxygen; absorption removes carbon dioxide",
+            "Digestion breaks down food; absorption transfers nutrients into the body",
+            "Digestion occurs only in the mouth; absorption only in the stomach",
+            "Digestion and absorption mean exactly the same process"
           ],
           "correctIndex": 1,
-          "explanation": "Remodeling changes collagen organization and increasing tissue strength."
+          "explanation": "Digestion prepares absorbable molecules; absorption moves them across intestinal surfaces."
+        },
+        {
+          "id": "SD-R2-L02-Q04",
+          "prompt": "If a GI procedure uses oral contrast, what should determine its actual preparation requirements?",
+          "options": [
+            "Current local protocol and clinical orders",
+            "A fixed instruction from any old textbook",
+            "The patient’s preferred time only",
+            "The result of an unrelated eye test"
+          ],
+          "correctIndex": 0,
+          "explanation": "Specific preparation must be checked against the clinical service’s current instructions rather than assuming historical guidance remains valid."
+        },
+        {
+          "id": "SD-R2-L02-Q05",
+          "prompt": "Which procedure uses a swallowable camera to obtain GI images?",
+          "options": [
+            "Capsule endoscopy",
+            "Tonometry",
+            "Rinne test",
+            "Spirometry"
+          ],
+          "correctIndex": 0,
+          "explanation": "Capsule endoscopy uses a camera capsule to image portions of the gastrointestinal tract."
         }
       ]
     },
     {
       "number": 3,
-      "title": "Recognize wound exudates",
+      "title": "GI tests & common findings",
       "sourcePages": [
-        122
+        14,
+        15,
+        16,
+        20,
+        21
       ],
-      "summary": "Learn to distinguish common inflammatory fluid descriptions without diagnosing a wound from appearance alone.",
+      "summary": "Learn gi tests & common findings through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in recognize wound exudates.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Serous and fibrinous",
-          "body": "Serous exudate is typically watery. Fibrinous exudate contains fibrin.",
-          "example": "A description of clear, watery fluid suggests serous exudate."
+          "title": "Purpose of assessment",
+          "body": "Gastrointestinal assessment uses the history, physical findings and targeted investigations. The source compares stool tests, abdominal ultrasonography, upper and lower GI contrast studies, endoscopy and capsule endoscopy.",
+          "example": "Know what each test visualises, rather than memorising obsolete preparation schedules."
         },
         {
-          "title": "Purulent and hemorrhagic",
-          "body": "Purulent material is pus-like; hemorrhagic exudate has a bloody appearance.",
-          "example": "A red or blood-stained sample is described as hemorrhagic."
+          "title": "Examples",
+          "body": "A stool specimen may be examined for occult blood or organisms. Ultrasonography uses sound waves to visualise abdominal structures. An upper GI contrast study outlines part of the digestive tract using contrast; an endoscopy allows direct mucosal inspection. Capsule endoscopy obtains images as a swallowed camera travels through the tract.",
+          "example": "Explain that non-invasive imaging and endoscopy answer different clinical questions."
         },
         {
-          "title": "Use descriptions carefully",
-          "body": "Fluid appearance is an exam classification clue, not a complete clinical diagnosis.",
-          "example": "The same appearance can occur in different contexts; assess the person, not just the color."
+          "title": "Nursing focus",
+          "body": "Before any investigation, confirm the requested procedure, identity, consent as applicable, allergies, preparation orders and relevant safety checks. Monitor the patient's comfort, symptoms and post-procedure status. Use the institution's CURRENT protocol rather than old timing or medication instructions from the book.",
+          "example": "Source is historical: specific fasting, sedation and preparation requirements need current local verification."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L03-Q01",
-          "prompt": "Which exudate is described as watery?",
+          "id": "SD-R2-L03-Q01",
+          "prompt": "A stool occult blood test is intended primarily to detect which finding?",
           "options": [
-            "Purulent",
-            "Serous",
-            "Hemorrhagic",
-            "Fibrinous"
+            "Urinary proteins",
+            "Invisible blood in stool",
+            "Audiometric threshold",
+            "Lens opacity"
           ],
           "correctIndex": 1,
-          "explanation": "Serous is the watery category."
+          "explanation": "The source includes stool testing for blood not evident to the naked eye."
         },
         {
-          "id": "SD-L03-Q02",
-          "prompt": "A fibrin-containing exudate is called…",
+          "id": "SD-R2-L03-Q02",
+          "prompt": "What type of diagnostic examination directly visualises the inside of the upper GI tract?",
           "options": [
-            "Fibrinous",
-            "Serous",
-            "Hemorrhagic",
-            "Purulent"
+            "Spirometry",
+            "Endoscopy",
+            "Audiometry",
+            "Tonometry"
           ],
-          "correctIndex": 0,
-          "explanation": "The term names the presence of fibrin."
+          "correctIndex": 1,
+          "explanation": "Endoscopy permits direct observation of the lumen and mucosal surfaces."
         },
         {
-          "id": "SD-L03-Q03",
-          "prompt": "Which term means pus-like material?",
+          "id": "SD-R2-L03-Q03",
+          "prompt": "Which term describes reflux of gastric contents into the oesophagus?",
           "options": [
-            "Fibrinous",
-            "Hemorrhagic",
-            "Purulent",
-            "Serous"
+            "Appendicitis",
+            "Pancreatitis",
+            "GERD",
+            "Otitis media"
           ],
           "correctIndex": 2,
-          "explanation": "Purulent refers to pus-like exudate."
+          "explanation": "Gastro-oesophageal reflux involves backward flow from stomach toward oesophagus."
         },
         {
-          "id": "SD-L03-Q04",
-          "prompt": "A bloody appearance corresponds to which category?",
+          "id": "SD-R2-L03-Q04",
+          "prompt": "Which anatomical structure is inflamed in appendicitis?",
           "options": [
-            "Serous",
-            "Hemorrhagic",
-            "Fibrinous",
-            "Watery"
+            "Gallbladder",
+            "Vermiform appendix",
+            "Pancreatic duct",
+            "Pleura"
           ],
           "correctIndex": 1,
-          "explanation": "Hemorrhagic exudate is blood-containing."
+          "explanation": "Appendicitis is inflammation of the appendix."
         },
         {
-          "id": "SD-L03-Q05",
-          "prompt": "What is the safest use of an exudate label?",
+          "id": "SD-R2-L03-Q05",
+          "prompt": "Which finding is classically associated with appendicitis in exam questions?",
           "options": [
-            "A complete diagnosis",
-            "A descriptive observation for further assessment",
-            "A substitute for examining the wound",
-            "A guarantee of a single cause"
+            "Right lower quadrant abdominal tenderness",
+            "Left ear tinnitus",
+            "Corneal clouding",
+            "Pain only in the left shoulder"
           ],
-          "correctIndex": 1,
-          "explanation": "Appearance is one piece of assessment, not a stand-alone diagnosis."
+          "correctIndex": 0,
+          "explanation": "The source highlights the right lower quadrant and McBurney’s point in its appendicitis discussion."
         }
       ]
     },
     {
       "number": 4,
-      "title": "How wounds close",
+      "title": "Appendicitis, peritonitis & obstruction",
       "sourcePages": [
-        122,
-        123
+        15,
+        21,
+        22,
+        23,
+        24
       ],
-      "summary": "Compare primary, secondary, and delayed closure intentions and identify when wound edges are approximated.",
+      "summary": "Learn appendicitis, peritonitis & obstruction through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in how wounds close.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Primary intention",
-          "body": "Wound edges are brought together, with relatively little tissue loss.",
-          "example": "A neatly closed surgical incision illustrates the general pattern."
+          "title": "Peritonitis",
+          "body": "The peritoneum is the serous membrane lining the abdominal cavity and covering many organs. Peritonitis is inflammation of that membrane; the textbook describes severe abdominal pain, tenderness and guarding as important assessment findings.",
+          "example": "Adhesions, hernia and intussusception are pictured in the source."
         },
         {
-          "title": "Secondary intention",
-          "body": "With substantial tissue loss or separated edges, granulation tissue and epithelial growth fill the defect.",
-          "example": "A wound left open to heal gradually illustrates secondary intention."
+          "title": "Intestinal obstruction",
+          "body": "Obstruction interferes with the normal onward passage of intestinal contents. The source illustrates adhesions, hernia and intussusception among its causes or mechanisms. Abdominal distention, pain and vomiting can occur, depending on the obstruction.",
+          "example": "Melaena refers to dark, tarry stool associated with digested blood."
         },
         {
-          "title": "Tertiary intention",
-          "body": "Closure is deliberately delayed rather than performed immediately.",
-          "example": "Delayed closure describes timing, not a separate kind of collagen."
+          "title": "Hernia",
+          "body": "A hernia is protrusion of an organ or tissue through a weakened area. The book distinguishes reducible, irreducible, incarcerated, strangulated and obstructed forms. Suspected strangulation is a medical emergency.",
+          "example": "Acute obstruction or peritonitis warrants urgent clinical assessment."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L04-Q01",
-          "prompt": "Which healing intention typically involves closely approximated wound edges?",
+          "id": "SD-R2-L04-Q01",
+          "prompt": "What is meant by intestinal obstruction?",
           "options": [
-            "Secondary",
-            "Primary",
-            "Tertiary only",
-            "No intention"
+            "Increased salivary secretion",
+            "Impaired onward passage of intestinal contents",
+            "Inflammation of the tympanic membrane",
+            "Increased production of visual pigments"
           ],
           "correctIndex": 1,
-          "explanation": "Primary intention refers to approximation of wound edges."
+          "explanation": "The source defines intestinal obstruction as interference with normal intestinal transit."
         },
         {
-          "id": "SD-L04-Q02",
-          "prompt": "A wound healing through granulation after tissue loss is most consistent with…",
+          "id": "SD-R2-L04-Q02",
+          "prompt": "Which term refers to inflammation of the peritoneum?",
           "options": [
-            "Secondary intention",
-            "Primary intention",
-            "No repair",
-            "Immediate remodeling only"
+            "Peritonitis",
+            "Otitis externa",
+            "Iritis",
+            "Rhinitis"
           ],
           "correctIndex": 0,
-          "explanation": "Secondary intention often involves a gap filled by granulation and epithelialization."
+          "explanation": "Peritonitis is inflammation of the abdominal serous membrane known as the peritoneum."
         },
         {
-          "id": "SD-L04-Q03",
-          "prompt": "The term tertiary intention refers to…",
+          "id": "SD-R2-L04-Q03",
+          "prompt": "Which condition involves protrusion of tissue through a weakened body wall?",
           "options": [
-            "Delayed closure",
-            "Closure without any edges",
-            "An immunoglobulin response",
-            "Bone remodeling"
+            "Hernia",
+            "Cataract",
+            "Cirrhosis",
+            "Glaucoma"
           ],
           "correctIndex": 0,
-          "explanation": "Tertiary intention means delayed primary closure."
+          "explanation": "A hernia is protrusion of an organ or tissue through a weak region in its surrounding wall."
         },
         {
-          "id": "SD-L04-Q04",
-          "prompt": "Which process is prominent in secondary intention?",
+          "id": "SD-R2-L04-Q04",
+          "prompt": "Which is a valid preparation priority before a diagnostic test?",
           "options": [
-            "Granulation tissue formation",
-            "Absence of all new cells",
-            "Immediate scar elimination",
-            "Only clot breakdown"
+            "Ignore the patient’s name",
+            "Confirm the patient’s identity and order",
+            "Assume every procedure is identical",
+            "Skip questions about allergies"
           ],
-          "correctIndex": 0,
-          "explanation": "Granulation is central when an open defect fills over time."
+          "correctIndex": 1,
+          "explanation": "Identity and orders are fundamental preprocedure safety checks; the old textbook’s specific preparation details need current verification."
         },
         {
-          "id": "SD-L04-Q05",
-          "prompt": "An incision whose edges are held together exemplifies…",
+          "id": "SD-R2-L04-Q05",
+          "prompt": "Which postoperative mechanism is a recognised cause of mechanical intestinal obstruction?",
           "options": [
-            "Primary intention",
-            "Secondary intention by definition",
-            "Purulent exudate",
-            "Evisceration"
+            "Abdominal adhesions",
+            "Age-related lens opacity",
+            "Earwax impaction",
+            "Otitis externa"
           ],
           "correctIndex": 0,
-          "explanation": "Well-approximated edges describe primary healing."
+          "explanation": "The source discusses adhesions as an important possible cause of intestinal obstruction, particularly after abdominal surgery."
         }
       ]
     },
     {
       "number": 5,
-      "title": "Wound terminology",
+      "title": "Liver, bile & digestion",
       "sourcePages": [
-        122,
-        123,
-        124
+        24,
+        25,
+        26
       ],
-      "summary": "Build the vocabulary used to describe wound integrity and tissue condition.",
+      "summary": "Learn liver, bile & digestion through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in wound terminology.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Dehiscence versus evisceration",
-          "body": "Dehiscence means wound edges separate. Evisceration refers to internal organs protruding through a disrupted wound.",
-          "example": "Remember: separation is not automatically organ protrusion."
+          "title": "Liver functions",
+          "body": "The liver is a major metabolic organ involved in nutrient processing, protein synthesis, detoxification and bile production. The textbook locates it predominantly in the right upper abdomen and illustrates its relationship to the gallbladder and bile ducts.",
+          "example": "Liver produces bile; gallbladder stores and concentrates bile."
         },
         {
-          "title": "Maceration and slough",
-          "body": "Maceration is tissue softening from excess moisture. Slough is devitalized material in a wound.",
-          "example": "Moisture effects and dead tissue are different observations."
+          "title": "Biliary system",
+          "body": "The gallbladder stores and concentrates bile. Bile travels from the liver through hepatic/biliary ducts and eventually toward the small intestine. Bile helps fat digestion by aiding emulsification.",
+          "example": "Bile supports fat digestion but is not itself a digestive enzyme."
         },
         {
-          "title": "Gangrene comparison",
-          "body": "The source contrasts comparatively dry ischemic tissue changes with moist, infected presentations; avoid using its historical summary as treatment instructions.",
-          "example": "Describe the tissue findings accurately and seek current clinical protocols for care."
+          "title": "Bilirubin",
+          "body": "Breakdown of haem produces bilirubin that undergoes hepatic processing and excretion into bile. The source's schematic separates unconjugated and conjugated bilirubin and includes enterohepatic circulation.",
+          "example": "The bilirubin pathway helps frame basic jaundice questions."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L05-Q01",
-          "prompt": "Separation of wound edges is termed…",
+          "id": "SD-R2-L05-Q01",
+          "prompt": "Which organ produces bile?",
           "options": [
-            "Evisceration",
-            "Maceration",
-            "Dehiscence",
-            "Granulation"
-          ],
-          "correctIndex": 2,
-          "explanation": "Dehiscence describes wound-edge separation."
-        },
-        {
-          "id": "SD-L05-Q02",
-          "prompt": "Protrusion of internal organs through a disrupted wound is termed…",
-          "options": [
-            "Evisceration",
-            "Slough",
-            "Serous exudate",
-            "Maturation"
-          ],
-          "correctIndex": 0,
-          "explanation": "Evisceration is more specific than dehiscence."
-        },
-        {
-          "id": "SD-L05-Q03",
-          "prompt": "Tissue softening related to excessive moisture is…",
-          "options": [
-            "Maceration",
-            "Primary intention",
-            "Exudation",
-            "Ossification"
-          ],
-          "correctIndex": 0,
-          "explanation": "Maceration refers to moisture-associated softening."
-        },
-        {
-          "id": "SD-L05-Q04",
-          "prompt": "Devitalized wound material is often described as…",
-          "options": [
-            "Healthy granulation",
-            "Slough",
-            "Normal collagen only",
-            "New epithelium"
+            "Gallbladder",
+            "Liver",
+            "Kidney",
+            "Spleen"
           ],
           "correctIndex": 1,
-          "explanation": "Slough names devitalized tissue."
+          "explanation": "The liver produces bile. The gallbladder stores and concentrates bile."
         },
         {
-          "id": "SD-L05-Q05",
-          "prompt": "Which pairing is accurate?",
+          "id": "SD-R2-L05-Q02",
+          "prompt": "Which organ stores and concentrates bile?",
           "options": [
-            "Dehiscence — wound-edge separation",
-            "Maceration — bone growth",
-            "Slough — healthy skin only",
-            "Evisceration — watery drainage"
+            "Gallbladder",
+            "Pancreas",
+            "Stomach",
+            "Caecum"
           ],
           "correctIndex": 0,
-          "explanation": "The other pairings confuse distinct wound-care terms."
+          "explanation": "Bile is made in the liver and stored in the gallbladder."
+        },
+        {
+          "id": "SD-R2-L05-Q03",
+          "prompt": "What is a key digestive function of bile?",
+          "options": [
+            "To produce insulin",
+            "To emulsify fats",
+            "To break down starch by amylase",
+            "To generate gastric acid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bile facilitates fat emulsification, assisting subsequent digestion."
+        },
+        {
+          "id": "SD-R2-L05-Q04",
+          "prompt": "Which pancreas-associated enzyme is most connected with carbohydrate digestion?",
+          "options": [
+            "Lipase",
+            "Amylase",
+            "Trypsin",
+            "Pepsin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pancreatic amylase helps digest carbohydrates."
+        },
+        {
+          "id": "SD-R2-L05-Q05",
+          "prompt": "Which term means abnormal fluid accumulation in the peritoneal cavity?",
+          "options": [
+            "Ascites",
+            "Dyspnoea",
+            "Epistaxis",
+            "Diplopia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ascites is accumulation of free fluid in the abdominal/peritoneal cavity."
         }
       ]
     },
     {
       "number": 6,
-      "title": "First-line immune defenses",
+      "title": "Pancreas & biliary conditions",
       "sourcePages": [
-        128
+        16,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
       ],
-      "summary": "Understand barriers, innate responses, and the specificity of adaptive immunity.",
+      "summary": "Learn pancreas & biliary conditions through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in first-line immune defenses.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Barriers first",
-          "body": "Intact skin and mucosal surfaces help reduce entry of harmful organisms.",
-          "example": "Skin is a physical barrier before a targeted immune response develops."
+          "title": "Pancreas: two functional roles",
+          "body": "The pancreas has digestive (exocrine) and hormonal (endocrine) functions. The source lists amylase with carbohydrate digestion, proteolytic enzymes with protein digestion, and lipase with fat digestion.",
+          "example": "Amylase → carbohydrate; lipase → fat; proteases → protein."
         },
         {
-          "title": "Innate response",
-          "body": "Phagocytic cells and natural killer cells belong to broadly acting early defenses.",
-          "example": "The response is not built around one unique antigen."
+          "title": "Gallbladder and bile ducts",
+          "body": "Cholelithiasis refers to gallstones; cholecystitis to inflammation of the gallbladder. Their definitions are related but not interchangeable.",
+          "example": "Cholelithiasis (stones) differs from cholecystitis (inflammation)."
         },
         {
-          "title": "Adaptive response",
-          "body": "B and T lymphocytes support antigen-specific immune responses through different routes.",
-          "example": "Antibody production and cell-mediated activity are adaptive mechanisms."
+          "title": "Liver conditions",
+          "body": "The source also summarises hepatitis, cirrhosis, portal hypertension and ascites. Ascites is abnormal free-fluid accumulation in the peritoneal cavity. The listed historical nursing interventions need current confirmation before clinical use.",
+          "example": "Ascites means free fluid in the peritoneal cavity."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L06-Q01",
-          "prompt": "Which is a physical first-line defense?",
+          "id": "SD-R2-L06-Q01",
+          "prompt": "What does cholelithiasis mean?",
           "options": [
-            "Intact skin",
-            "Plasma antibody only",
-            "Bone marrow cavity",
-            "Joint capsule"
+            "Inflammation of the pancreas",
+            "Presence of gallstones",
+            "Inflammation of the inner ear",
+            "Opacity of the lens"
           ],
-          "correctIndex": 0,
-          "explanation": "Skin is a physical barrier."
+          "correctIndex": 1,
+          "explanation": "Cholelithiasis means stones in the gallbladder or biliary system."
         },
         {
-          "id": "SD-L06-Q02",
-          "prompt": "Which cell type belongs to innate defense?",
+          "id": "SD-R2-L06-Q02",
+          "prompt": "Into which section of the small intestine does bile ultimately flow?",
           "options": [
-            "Natural killer cell",
-            "Only plasma cell",
-            "Only memory B cell",
-            "Only antigen-specific helper T cell"
+            "Colon",
+            "Duodenum",
+            "Rectum",
+            "Oesophagus"
           ],
-          "correctIndex": 0,
-          "explanation": "NK cells are part of innate immunity."
+          "correctIndex": 1,
+          "explanation": "Bile drains through the biliary system into the duodenum, the first segment of the small intestine."
         },
         {
-          "id": "SD-L06-Q03",
-          "prompt": "Adaptive immunity is distinguished by…",
+          "id": "SD-R2-L06-Q03",
+          "prompt": "Which condition denotes inflammation of pancreatic tissue?",
           "options": [
-            "Antigen-specific responses",
-            "Absence of lymphocytes",
-            "Being only a physical barrier",
-            "No recognition of antigens"
+            "Cirrhosis",
+            "Cholelithiasis",
+            "Pancreatitis",
+            "Appendicitis"
           ],
-          "correctIndex": 0,
-          "explanation": "Adaptive responses recognize particular antigens."
+          "correctIndex": 2,
+          "explanation": "Pancreatitis is inflammation of the pancreas."
         },
         {
-          "id": "SD-L06-Q04",
-          "prompt": "Which pairing is accurate?",
+          "id": "SD-R2-L06-Q04",
+          "prompt": "Which option is the safest interpretation of an older nursing textbook?",
           "options": [
-            "Mucosa — barrier defense",
-            "Skin — circulating antibody",
-            "NK cell — red blood cell",
-            "T cell — exudate category"
+            "All drug dosages remain current",
+            "Historic management plans must be checked against current evidence",
+            "The textbook should replace hospital policies",
+            "Every listed answer is infallible"
           ],
-          "correctIndex": 0,
-          "explanation": "Mucosal surfaces participate in barrier defense."
+          "correctIndex": 1,
+          "explanation": "Clinical guidance evolves; older printed guidance can be used for exam context but must be verified before real-world application."
         },
         {
-          "id": "SD-L06-Q05",
-          "prompt": "Phagocytic cells are associated with…",
+          "id": "SD-R2-L06-Q05",
+          "prompt": "Which term means inflammation of the gallbladder?",
           "options": [
-            "Innate immune activity",
-            "Only bone remodeling",
-            "Only wound closure intention",
-            "Nothing related to defense"
+            "Cholelithiasis",
+            "Cholecystitis",
+            "Pancreatitis",
+            "Appendicitis"
           ],
-          "correctIndex": 0,
-          "explanation": "Phagocytes are an innate component."
+          "correctIndex": 1,
+          "explanation": "Cholecystitis describes gallbladder inflammation; cholelithiasis describes gallstones."
         }
       ]
     },
     {
       "number": 7,
-      "title": "B cells, T cells and antibodies",
+      "title": "Ear structure & balance",
       "sourcePages": [
-        128,
-        132
+        50,
+        51
       ],
-      "summary": "Learn the main lymphocyte distinctions and identify antibody-producing plasma cells.",
+      "summary": "Learn ear structure & balance through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in b cells, t cells and antibodies.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "B cell pathway",
-          "body": "B lymphocytes can differentiate into plasma cells that secrete antibodies.",
-          "example": "Think B cell → plasma cell → antibody."
+          "title": "Three anatomical regions",
+          "body": "The external ear includes the auricle and external auditory canal and directs sound inward. The tympanic membrane separates the external canal from the middle-ear cavity.",
+          "example": "Ossicles: malleus, incus and stapes."
         },
         {
-          "title": "T cell pathway",
-          "body": "T lymphocytes take roles in cell-mediated adaptive immune responses.",
-          "example": "T cells are not generally the antibody-secreting plasma cells."
+          "title": "Middle ear",
+          "body": "The ossicles are malleus, incus and stapes. They transmit vibrations from the tympanic membrane toward the inner ear. The auditory (Eustachian) tube connects the middle ear to the nasopharynx and helps equalise pressure.",
+          "example": "Cochlea is linked to hearing; semicircular canals are linked to balance."
         },
         {
-          "title": "Immunoglobulin categories",
-          "body": "IgG, IgM, IgA, IgD, and IgE are antibody classes discussed in the source. IgG is highlighted in the secondary response.",
-          "example": "Class names are not interchangeable with cell types."
+          "title": "Inner ear",
+          "body": "The cochlea is important for hearing. Vestibular structures, including semicircular canals, participate in balance. The vestibulocochlear nerve carries hearing and balance information toward the brain.",
+          "example": "A perforated tympanic membrane may affect sound conduction."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L07-Q01",
-          "prompt": "Plasma cells most directly arise from which lymphocyte lineage?",
+          "id": "SD-R2-L07-Q01",
+          "prompt": "Which trio forms the middle-ear ossicles?",
           "options": [
-            "B cells",
-            "Red blood cells",
-            "Platelets",
-            "Osteoclasts"
+            "Malleus, incus and stapes",
+            "Cochlea, utricle and saccule",
+            "Iris, pupil and lens",
+            "Duodenum, jejunum and ileum"
           ],
           "correctIndex": 0,
-          "explanation": "Plasma cells develop from activated B cells."
+          "explanation": "The ossicles are malleus, incus and stapes."
         },
         {
-          "id": "SD-L07-Q02",
-          "prompt": "Which cell is specialized to secrete antibodies?",
+          "id": "SD-R2-L07-Q02",
+          "prompt": "Which structure separates the external auditory canal from the middle-ear cavity?",
           "options": [
-            "Plasma cell",
-            "Osteocyte",
-            "Erythrocyte",
-            "Chondrocyte"
+            "Eustachian tube",
+            "Tympanic membrane",
+            "Cochlear nerve",
+            "Semicircular canal"
           ],
-          "correctIndex": 0,
-          "explanation": "Antibody secretion is a plasma-cell function."
+          "correctIndex": 1,
+          "explanation": "The eardrum (tympanic membrane) marks the boundary between external canal and middle ear."
         },
         {
-          "id": "SD-L07-Q03",
-          "prompt": "Which immunoglobulin is emphasized in a secondary immune response?",
+          "id": "SD-R2-L07-Q03",
+          "prompt": "Which inner-ear structure is chiefly associated with hearing?",
           "options": [
-            "IgG",
-            "IgD",
-            "IgE",
-            "IgM only"
+            "Cochlea",
+            "Stapes",
+            "Auricle",
+            "Ossicular chain"
           ],
           "correctIndex": 0,
-          "explanation": "The source highlights IgG in secondary immune responses."
+          "explanation": "The cochlea contains sensory structures for hearing."
         },
         {
-          "id": "SD-L07-Q04",
-          "prompt": "Cell-mediated adaptive immunity is primarily associated with…",
+          "id": "SD-R2-L07-Q04",
+          "prompt": "Which inner-ear structures contribute prominently to balance?",
           "options": [
-            "T lymphocytes",
-            "Only blood plasma",
-            "Osteoblasts",
-            "Epithelial mucus alone"
+            "Tympanic membrane",
+            "Semicircular canals",
+            "Malleus and incus",
+            "External auditory meatus"
           ],
-          "correctIndex": 0,
-          "explanation": "T lymphocytes play central roles in cell-mediated immunity."
+          "correctIndex": 1,
+          "explanation": "Semicircular canals form part of the vestibular balance apparatus."
         },
         {
-          "id": "SD-L07-Q05",
-          "prompt": "Which of the following is an immunoglobulin class?",
+          "id": "SD-R2-L07-Q05",
+          "prompt": "Which bedside test compares air and bone conduction?",
           "options": [
-            "IgA",
-            "CD4 cell",
-            "NK cell",
-            "Mast cell"
+            "Rinne test",
+            "Snellen chart",
+            "Tonometry",
+            "Upper GI series"
           ],
           "correctIndex": 0,
-          "explanation": "IgA is one of the immunoglobulin classes."
+          "explanation": "The Rinne tuning-fork test compares sound perceived through air and bone conduction."
         }
       ]
     },
     {
       "number": 8,
-      "title": "Immune reactions and HIV fundamentals",
+      "title": "Hearing assessment & ENT conditions",
       "sourcePages": [
-        129,
-        130,
-        132,
-        134
+        50,
+        51,
+        52,
+        54
       ],
-      "summary": "Differentiate broad immune vocabulary, recognizing where older textbook clinical guidance must not be used.",
+      "summary": "Learn hearing assessment & ent conditions through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in immune reactions and hiv fundamentals.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Hypersensitivity",
-          "body": "An exaggerated immune response is described as hypersensitivity; a local skin reaction does not by itself prove systemic anaphylaxis.",
-          "example": "Avoid interpreting a single symptom as a complete diagnosis."
+          "title": "Hearing assessment",
+          "body": "The textbook describes tuning-fork tests and audiometry. They test different aspects of hearing and must be interpreted alongside history and examination.",
+          "example": "Rinne compares air and bone conduction."
         },
         {
-          "title": "HIV and host cells",
-          "body": "HIV is a retrovirus that targets the immune system, notably CD4-positive helper T cells.",
-          "example": "A CD4 cell is an immune cell, not an antibody class."
+          "title": "Rinne test",
+          "body": "A vibrating tuning fork is used to compare air conduction and bone conduction at one ear. In a typical normal hearing pattern, air conduction lasts longer than bone conduction.",
+          "example": "Weber assesses sound lateralisation."
         },
         {
-          "title": "Historical context",
-          "body": "The uploaded source is from 2020. Its testing sequences, treatment advice, and staging tables must not be used as up-to-date patient guidance.",
-          "example": "Use this level for terminology and examination concepts only."
+          "title": "Weber test",
+          "body": "A vibrating tuning fork is positioned at the midline of the skull. The examiner asks whether sound is perceived equally or more loudly on one side; lateralisation provides an important clue.",
+          "example": "Audiometry plots hearing thresholds; it is not the same as otoscopy."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L08-Q01",
-          "prompt": "A disproportionate immune response may be described as…",
+          "id": "SD-R2-L08-Q01",
+          "prompt": "Which bedside hearing test examines sound lateralisation?",
           "options": [
-            "Hypersensitivity",
-            "Bone remodeling",
-            "Primary closure",
-            "Osteogenesis"
+            "Weber test",
+            "Capsule endoscopy",
+            "Ishihara plates",
+            "Slit-lamp examination"
           ],
           "correctIndex": 0,
-          "explanation": "Hypersensitivity refers to an exaggerated immune response."
+          "explanation": "Weber assessment uses a midline tuning fork to assess sound lateralisation."
         },
         {
-          "id": "SD-L08-Q02",
-          "prompt": "HIV particularly affects which immune-cell population?",
+          "id": "SD-R2-L08-Q02",
+          "prompt": "Which anatomical portion of the ear houses the cochlea?",
           "options": [
-            "CD4 helper T cells",
-            "Red blood cells only",
-            "Osteoblasts",
-            "Platelets exclusively"
+            "External ear",
+            "Middle ear",
+            "Inner ear",
+            "External auditory canal"
+          ],
+          "correctIndex": 2,
+          "explanation": "The cochlea is within the inner ear."
+        },
+        {
+          "id": "SD-R2-L08-Q03",
+          "prompt": "What does epistaxis mean?",
+          "options": [
+            "Nosebleed",
+            "Inflammation of the appendix",
+            "Clouding of the lens",
+            "Painful swallowing"
           ],
           "correctIndex": 0,
-          "explanation": "HIV's primary immune target includes CD4-positive T lymphocytes."
+          "explanation": "Epistaxis is the clinical term for bleeding from the nose."
         },
         {
-          "id": "SD-L08-Q03",
-          "prompt": "HIV is classified as a…",
+          "id": "SD-R2-L08-Q04",
+          "prompt": "Which examination directly investigates ear canal and tympanic membrane appearance?",
           "options": [
-            "Retrovirus",
-            "Fungus",
-            "Protozoan",
-            "Bacterium"
+            "Otoscopy",
+            "Tonometry",
+            "Colonoscopy",
+            "Snellen chart"
           ],
           "correctIndex": 0,
-          "explanation": "HIV is an RNA retrovirus."
+          "explanation": "Otoscopy allows examination of the external canal and eardrum."
         },
         {
-          "id": "SD-L08-Q04",
-          "prompt": "A localized itchy area after an injection alone…",
+          "id": "SD-R2-L08-Q05",
+          "prompt": "Which paired test names both relate to hearing assessment?",
           "options": [
-            "Proves systemic anaphylaxis",
-            "Does not establish systemic anaphylaxis",
-            "Is a bone disease",
-            "Shows there was no immune activity"
+            "Rinne and Weber",
+            "Snellen and tonometry",
+            "Barium and capsule endoscopy",
+            "Amylase and lipase"
           ],
-          "correctIndex": 1,
-          "explanation": "A local symptom alone is insufficient for a systemic diagnosis."
-        },
-        {
-          "id": "SD-L08-Q05",
-          "prompt": "How should historical clinical recommendations from the 2020 source be used?",
-          "options": [
-            "As the sole current treatment protocol",
-            "For historical exam context, checked against current guidance",
-            "As a replacement for patient assessment",
-            "To ignore newer guidelines"
-          ],
-          "correctIndex": 1,
-          "explanation": "Historical study content needs current clinical verification before patient-care decisions."
+          "correctIndex": 0,
+          "explanation": "Rinne and Weber are bedside tuning-fork hearing tests."
         }
       ]
     },
     {
       "number": 9,
-      "title": "Bones, joints and movement",
+      "title": "Eye anatomy & visual assessment",
       "sourcePages": [
-        135,
-        136,
-        137,
-        138,
-        139,
-        140
+        61,
+        62,
+        63,
+        65
       ],
-      "summary": "Organize the skeleton, bone cell functions, joint categories, and movements.",
+      "summary": "Learn eye anatomy & visual assessment through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in bones, joints and movement.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Axial and appendicular",
-          "body": "The axial skeleton includes the skull, vertebral column, and thoracic cage; limbs and girdles form the appendicular skeleton.",
-          "example": "Classify the femur as appendicular rather than axial."
+          "title": "Three coats of the eyeball",
+          "body": "The textbook illustrates a fibrous outer layer (including sclera and cornea), vascular middle layer (including choroid) and sensory inner layer (retina).",
+          "example": "Cornea and lens refract light."
         },
         {
-          "title": "Bone cell jobs",
-          "body": "Osteoblasts form bone; osteoclasts break down bone; osteocytes are mature bone cells.",
-          "example": "Remember blast = build and clast = break down."
+          "title": "Lens and pupil",
+          "body": "The lens helps focus light. The iris controls pupil diameter. The cornea provides much of the eye's refraction, while the retina contains photoreceptors that convert light into neural signals.",
+          "example": "Retina houses photoreceptors; optic nerve carries visual signals."
         },
         {
-          "title": "Movement language",
-          "body": "Flexion decreases a joint angle; extension increases it. Abduction is away from the midline; adduction is toward it.",
-          "example": "Moving the arm sideways away from the trunk illustrates abduction."
+          "title": "Important landmarks",
+          "body": "The macula is an area of detailed central vision; the optic disc is where the optic nerve exits the eye and normally has no photoreceptors. The optic nerve transmits visual information to the brain.",
+          "example": "The optic disc is the normal physiological blind spot."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L09-Q01",
-          "prompt": "The femur belongs to which skeletal division?",
+          "id": "SD-R2-L09-Q01",
+          "prompt": "Which ocular structure contains photoreceptor cells?",
           "options": [
-            "Appendicular",
-            "Axial",
-            "Cranial",
-            "Thoracic only"
-          ],
-          "correctIndex": 0,
-          "explanation": "Limb bones belong to the appendicular skeleton."
-        },
-        {
-          "id": "SD-L09-Q02",
-          "prompt": "Which cell is most closely associated with forming new bone?",
-          "options": [
-            "Osteoblast",
-            "Osteoclast",
-            "Plasma cell",
-            "Natural killer cell"
-          ],
-          "correctIndex": 0,
-          "explanation": "Osteoblasts form bone."
-        },
-        {
-          "id": "SD-L09-Q03",
-          "prompt": "Which term describes movement away from the body's midline?",
-          "options": [
-            "Adduction",
-            "Abduction",
-            "Flexion",
-            "Inversion"
+            "Sclera",
+            "Retina",
+            "Iris",
+            "Cornea"
           ],
           "correctIndex": 1,
-          "explanation": "Abduction is movement away from the midline."
+          "explanation": "The retina contains rods and cones involved in visual phototransduction."
         },
         {
-          "id": "SD-L09-Q04",
-          "prompt": "Flexion usually…",
+          "id": "SD-R2-L09-Q02",
+          "prompt": "What is the main role of the lens?",
           "options": [
-            "Decreases a joint angle",
-            "Increases a joint angle",
-            "Moves all bones toward midline",
-            "Means bone breakdown"
+            "To conduct sound",
+            "To focus light toward the retina",
+            "To store bile",
+            "To control nasal airflow"
           ],
-          "correctIndex": 0,
-          "explanation": "Flexion reduces the angle between adjoining body segments."
+          "correctIndex": 1,
+          "explanation": "The crystalline lens helps focus incoming light onto the retina."
         },
         {
-          "id": "SD-L09-Q05",
-          "prompt": "Which is a synovial joint example category?",
+          "id": "SD-R2-L09-Q03",
+          "prompt": "Which chart is commonly used to assess visual acuity?",
           "options": [
-            "Hinge joint",
-            "Fibrinous fluid",
-            "Serous tissue",
-            "Immunoglobulin"
+            "Snellen chart",
+            "Rinne chart",
+            "Glasgow chart",
+            "Weber chart"
           ],
           "correctIndex": 0,
-          "explanation": "Hinge joints are a subtype of synovial joint."
+          "explanation": "The textbook describes the Snellen chart for measuring visual acuity."
+        },
+        {
+          "id": "SD-R2-L09-Q04",
+          "prompt": "What does tonometry measure?",
+          "options": [
+            "Intraocular pressure",
+            "Hearing threshold",
+            "Serum bilirubin",
+            "Gastric acidity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tonometry measures intraocular pressure, an important part of glaucoma assessment."
+        },
+        {
+          "id": "SD-R2-L09-Q05",
+          "prompt": "Which condition is caused by opacity of the crystalline lens?",
+          "options": [
+            "Cataract",
+            "Rhinitis",
+            "Appendicitis",
+            "Tonsillitis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cataract is opacity/clouding of the crystalline lens."
         }
       ]
     },
     {
       "number": 10,
-      "title": "Fractures and orthopaedic review",
+      "title": "Visual disorders & nursing priorities",
       "sourcePages": [
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148,
-        149,
-        150
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
       ],
-      "summary": "Consolidate musculoskeletal vocabulary and review the concepts learned throughout the pathway.",
+      "summary": "Learn visual disorders & nursing priorities through three structured lessons and five source-linked exam-style questions. All questions are newly adapted study practice, not original numbered textbook MCQs.",
       "objectives": [
-        "Explain the essential concepts in fractures and orthopaedic review.",
-        "Apply the distinctions in a short knowledge check."
+        "Explain the core concepts and anatomical relationships.",
+        "Apply distinctions in five four-option practice questions."
       ],
       "concepts": [
         {
-          "title": "Fracture language",
-          "body": "A complete fracture crosses the bone fully; an incomplete one does not. A pathologic fracture involves weakened diseased bone.",
-          "example": "Describe the injury rather than assuming all fractures have the same mechanism."
+          "title": "Assessment tests",
+          "body": "The textbook describes visual acuity using a Snellen chart, colour vision testing and tonometry. Visual acuity estimates resolving ability, while tonometry measures intraocular pressure.",
+          "example": "Snellen chart → visual acuity; tonometry → intraocular pressure."
         },
         {
-          "title": "Traction and alignment",
-          "body": "Traction applies controlled pulling force to help maintain alignment in selected orthopaedic care contexts.",
-          "example": "Application is a clinical procedure, not an at-home instruction."
+          "title": "Refractive errors",
+          "body": "Myopia (nearsightedness) causes difficulty seeing distant objects; hyperopia commonly affects near focusing. Astigmatism involves unequal curvature of optical surfaces, causing blurred/distorted images.",
+          "example": "Myopia → trouble focusing on distant objects."
         },
         {
-          "title": "Bring the concepts together",
-          "body": "Revisit bone structure, movements, healing language, and immune/inflammatory terminology before the final assessment.",
-          "example": "Identify the specific term in each question before choosing an answer."
+          "title": "Cataract and retinal conditions",
+          "body": "Cataract is opacity of the crystalline lens. Retinal detachment is separation of neural retina from supporting tissue and may threaten vision. Sudden visual loss warrants urgent evaluation.",
+          "example": "Cataract involves lens opacity; glaucoma is an optic neuropathy."
         }
       ],
       "quiz": [
         {
-          "id": "SD-L10-Q01",
-          "prompt": "A fracture passing through the full thickness of a bone is…",
+          "id": "SD-R2-L10-Q01",
+          "prompt": "Myopia is most directly associated with difficulty seeing what?",
           "options": [
-            "Complete",
-            "Incomplete",
-            "Always pathologic",
-            "Always open"
+            "Distant objects clearly",
+            "Any colours at all",
+            "Only peripheral light",
+            "Only at night"
           ],
           "correctIndex": 0,
-          "explanation": "Complete and incomplete refer to extent across the bone."
+          "explanation": "Myopia is nearsightedness, often producing blurred distance vision."
         },
         {
-          "id": "SD-L10-Q02",
-          "prompt": "A fracture associated with underlying diseased bone is termed…",
+          "id": "SD-R2-L10-Q02",
+          "prompt": "Which nerve conveys signals from the retina toward the brain?",
           "options": [
-            "Pathologic",
-            "Primary intention",
-            "Serous",
-            "Macerated"
+            "Optic nerve",
+            "Choroid",
+            "Pupil",
+            "Tear duct"
           ],
           "correctIndex": 0,
-          "explanation": "Pathologic fracture refers to fracture in abnormal or weakened bone."
+          "explanation": "The optic nerve carries visual signals toward the brain."
         },
         {
-          "id": "SD-L10-Q03",
-          "prompt": "Traction is based on which principle?",
+          "id": "SD-R2-L10-Q03",
+          "prompt": "Which eye structure adjusts the amount of incoming light by controlling pupil size?",
           "options": [
-            "Controlled pulling force",
-            "Antibody secretion",
-            "Only heat treatment",
-            "No mechanical force"
+            "Iris",
+            "Cornea",
+            "Retina",
+            "Sclera"
           ],
           "correctIndex": 0,
-          "explanation": "Traction uses force to maintain or restore alignment."
+          "explanation": "The iris changes the pupil diameter to regulate light entry."
         },
         {
-          "id": "SD-L10-Q04",
-          "prompt": "Which cell type participates in bone resorption?",
+          "id": "SD-R2-L10-Q04",
+          "prompt": "A patient reporting sudden loss of vision needs which action?",
           "options": [
-            "Osteoclast",
-            "Osteoblast",
-            "Plasma cell",
-            "Mast cell"
-          ],
-          "correctIndex": 0,
-          "explanation": "Osteoclasts resorb bone."
-        },
-        {
-          "id": "SD-L10-Q05",
-          "prompt": "Which term describes moving a limb back toward the body's midline?",
-          "options": [
-            "Abduction",
-            "Adduction",
-            "Dehiscence",
-            "Flexion only"
+            "Routine discharge without assessment",
+            "Urgent clinical evaluation",
+            "A hearing screening only",
+            "A stool sample only"
           ],
           "correctIndex": 1,
-          "explanation": "Adduction is movement toward the body midline."
+          "explanation": "Acute visual loss can signal an urgent eye condition and should be assessed promptly."
+        },
+        {
+          "id": "SD-R2-L10-Q05",
+          "prompt": "Which method specifically evaluates the eye’s internal pressure?",
+          "options": [
+            "Tonometry",
+            "Weber test",
+            "Upper GI endoscopy",
+            "Stool microscopy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tonometry is an ophthalmic investigation used to assess intraocular pressure."
         }
       ]
     }
