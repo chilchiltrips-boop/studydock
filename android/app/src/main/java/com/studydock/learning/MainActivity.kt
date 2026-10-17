@@ -286,11 +286,12 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                             Screen.Home -> HomeScreen(part, progress,
                                 onNavigate = { practiceAsImage = it == Screen.Images; selectedLevel = null; screen = it },
                                 onImport = onImport, path = learningPath)
-                            Screen.Notes -> if (part == null) GuidedLearningScreen(learningPath,
-                                learningStatus, learningProgress, onRefreshLessons) else NotesScreen(part)
-                            Screen.Practice, Screen.Images -> if (part == null) GuidedLearningScreen(
+                            Screen.Notes -> FreshStudyNotesScreen(part, learningPath, learningStatus, onRefreshLessons)
+                            Screen.Practice -> FreshPracticeScreen(part, progress, learningPath,
+                                learningStatus, learningProgress, onRefreshLessons, selectedLevel)
+                            Screen.Images -> if (part == null) GuidedLearningScreen(
                                 learningPath, learningStatus, learningProgress, onRefreshLessons)
-                                else QuizScreen(part, progress, practiceAsImage, selectedLevel)
+                                else QuizScreen(part, progress, true, selectedLevel)
                             Screen.Levels -> GuidedLearningScreen(learningPath, learningStatus,
                                 learningProgress, onRefreshLessons)
                             Screen.Progress -> ProgressScreen(part, progress, learningPath, learningProgress)
@@ -299,6 +300,99 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+
+/** Fresh public revision notes are the default. Original imported Part 1 notes stay available. */
+@Composable
+private fun FreshStudyNotesScreen(part: StudyPart?, path: GuidedPath?,
+    message: String, onRefresh: () -> Unit) {
+    var showOriginal by remember { mutableStateOf(false) }
+    var query by remember { mutableStateOf("") }
+    Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text("Study notes", fontWeight = FontWeight.ExtraBold, fontSize = 27.sp, color = Navy)
+        Text("Fresh structured revision from selected Part 2 source pages, not the original question bank.",
+            color = Muted, fontSize = 12.sp)
+        if (part != null) {
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FilterChip(selected = !showOriginal, onClick = { showOriginal = false },
+                    label = { Text("Fresh notes") })
+                FilterChip(selected = showOriginal, onClick = { showOriginal = true },
+                    label = { Text("Original textbook") })
+            }
+        }
+        if (showOriginal && part != null) {
+            Box(Modifier.weight(1f)) { NotesScreen(part) }
+        } else if (path == null) {
+            Text(message.ifBlank { "Fresh notes require an internet connection." },
+                color = Muted, fontSize = 14.sp)
+            Button(onClick = onRefresh) { Text("Refresh fresh notes") }
+            if (part != null) TextButton(onClick = { showOriginal = true }) {
+                Text("Open saved original textbook notes")
+            }
+        } else {
+            val matches = remember(path.revision, query) {
+                path.levels.flatMap { level ->
+                    level.concepts.map { concept -> Pair(level, concept) }
+                }.filter { (level, concept) ->
+                    query.isBlank() || level.title.contains(query, true) ||
+                    concept.title.contains(query, true) || concept.body.contains(query, true)
+                }
+            }
+            Text("${matches.size} topics · 10 learning levels · New adapted study notes",
+                color = Green, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+            OutlinedTextField(value = query, onValueChange = { query = it },
+                label = { Text("Search fresh notes") }, singleLine = true,
+                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
+                modifier = Modifier.fillMaxWidth())
+            LazyColumn(modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(10.dp),
+                contentPadding = PaddingValues(bottom = 22.dp)) {
+                items(matches) { pair ->
+                    val level = pair.first
+                    val concept = pair.second
+                    ContentCard {
+                        Text("LEVEL ${level.number} · PDF page ${level.sourcePages.joinToString(", ")}",
+                            color = Sky, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(7.dp))
+                        Text(concept.title, color = Navy, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(8.dp))
+                        Text(concept.body, fontSize = 15.sp, lineHeight = 24.sp, color = Navy)
+                        Spacer(Modifier.height(10.dp))
+                        HorizontalDivider()
+                        Spacer(Modifier.height(10.dp))
+                        Text("Remember: ${concept.example}", fontSize = 13.sp, color = Muted)
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Fresh practice first; previously imported original textbook questions are not deleted. */
+@Composable
+private fun FreshPracticeScreen(part: StudyPart?, progress: StudyProgress, path: GuidedPath?,
+    message: String, tracker: GuidedLearningProgress, onRefresh: () -> Unit,
+    selectedLevel: Int?) {
+    var original by remember { mutableStateOf(false) }
+    Column(Modifier.fillMaxSize()) {
+        if (part != null) {
+            Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 7.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FilterChip(selected = !original, onClick = { original = false },
+                    label = { Text("Fresh questions") })
+                FilterChip(selected = original, onClick = { original = true },
+                    label = { Text("Original textbook") })
+            }
+        }
+        Box(Modifier.weight(1f)) {
+            if (original && part != null || path == null && part != null) {
+                QuizScreen(part!!, progress, false, selectedLevel)
+            } else {
+                GuidedLearningScreen(path, message, tracker, onRefresh)
             }
         }
     }
