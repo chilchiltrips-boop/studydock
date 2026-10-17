@@ -20,3 +20,6 @@ must be verified before a stable production release.
 
 ## Current debug build (v0.3.1-native, versionCode 4)
 GitHub Actions builds on `main` and verifies APK signing and package identity before publishing the `StudyDock-Native-Android-debug-APK` artifact. This is a **debug-signed** APK, not the production release. Hosted Actions runners may create different debug signing certificates, so an in-place update from a previously installed debug APK is not guaranteed. Use the manual production signing workflow with the existing release keystore for a stable update signing identity.
+
+## StudyDock online guided learning v0.5.0
+StudyDock downloads 10 original lessons and 50 authored concept-check questions from the GitHub content/learning/v1.json file. The native Android UI teaches three concepts per level before its five-question quiz. Score 80% or higher to unlock the next level. Progress stays local, and the supplementary original textbook database is not required. Android 7.0+ is configured; real-device verification is still required.

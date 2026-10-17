@@ -40,7 +40,7 @@ jobs:
           VERSION_NAME: ${{ inputs.version_name }}
         run: |
           set -euo pipefail
-          if ! [[ "$VERSION_CODE" =~ ^[1-9][0-9]*$ ]] || (( VERSION_CODE <= 3 )); then
+          if ! [[ "$VERSION_CODE" =~ ^[1-9][0-9]*$ ]] || (( VERSION_CODE <= 5 )); then
             echo "::error::version_code must be an integer greater than 3 and higher than all prior installs"
             exit 1
           fi
@@ -81,6 +81,7 @@ jobs:
         run: |
           node --test tests/model.test.mjs
           python3 tests/test_native_project_contract.py
+          python3 tests/test_guided_learning.py
 
       - name: Decode production keystore into temporary runner storage
         shell: bash

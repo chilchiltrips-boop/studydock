@@ -69,6 +69,10 @@ class MainActivity : ComponentActivity() {
     private val library by lazy { StudyLibrary(this) }
     private val progress by lazy { StudyProgress(this) }
     private val github by lazy { RemoteStudySource(this, library) }
+    private val learningSource by lazy { GuidedLearningSource() }
+    private val learningProgress by lazy { GuidedLearningProgress(this) }
+    private var onlinePath by mutableStateOf<GuidedPath?>(null)
+    private var learningMessage by mutableStateOf("Loading learning modules from GitHub…")
     private var part by mutableStateOf<StudyPart?>(null)
     private var importMessage by mutableStateOf("")
     private var importing by mutableStateOf(false)
@@ -93,11 +97,32 @@ class MainActivity : ComponentActivity() {
                 if (splash) NativeSplash(onSkip = { splash = false }) else NativeApp(
                     part = part, progress = progress, importing = importing,
                     importMessage = remoteMessage, onImport = { syncRemote() },
-                    onImportZip = { zipPicker.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) }
+                    onImportZip = { zipPicker.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) },
+                    learningPath = onlinePath, learningStatus = learningMessage, learningProgress = learningProgress,
+                    onRefreshLessons = { syncLessons() }
                 )
             }
         }
+        syncLessons()
         syncRemote()
+    }
+
+    private fun syncLessons() {
+        learningMessage = "Loading learning modules from GitHub…"
+        Thread {
+            try {
+                val result = learningSource.fetch()
+                runOnUiThread {
+                    onlinePath = result
+                    learningMessage = "10 StudyDock learning levels loaded."
+                }
+            } catch (error: Exception) {
+                runOnUiThread {
+                    learningMessage = "GitHub lessons unavailable: " +
+                        (error.message ?: "Network error").take(160)
+                }
+            }
+        }.start()
     }
 
     private fun importLocalZip(uri: Uri) {
@@ -190,7 +215,9 @@ private fun NativeSplash(onSkip: () -> Unit) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String, onImport: () -> Unit, onImportZip: () -> Unit) {
+private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String,
+    onImport: () -> Unit, onImportZip: () -> Unit, learningPath: GuidedPath?, learningStatus: String,
+    learningProgress: GuidedLearningProgress, onRefreshLessons: () -> Unit) {
     var screen by remember { mutableStateOf(Screen.Home) }
     var practiceAsImage by remember { mutableStateOf(false) }
     var selectedLevel by remember { mutableStateOf<Int?>(null) }
@@ -223,7 +250,7 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
             bottomBar = {
                 if (!wide) {
                     NavigationBar(containerColor = Color.White, tonalElevation = 8.dp) {
-                        listOf(Screen.Home, Screen.Notes, Screen.Levels, Screen.Practice, Screen.Progress).forEach { tab ->
+                        listOf(Screen.Home, Screen.Levels, Screen.Notes, Screen.Practice, Screen.Progress).forEach { tab ->
                             NavigationBarItem(
                                 selected = screen == tab, onClick = {
                                     practiceAsImage = tab == Screen.Images
@@ -258,16 +285,17 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                         when (screen) {
                             Screen.Home -> HomeScreen(part, progress,
                                 onNavigate = { practiceAsImage = it == Screen.Images; selectedLevel = null; screen = it },
-                                onImport = onImport)
-                            Screen.Notes -> NotesScreen(part)
-                            Screen.Practice, Screen.Images -> QuizScreen(part, progress, practiceAsImage, selectedLevel)
-                            Screen.Levels -> LevelsScreen(part, progress) { level ->
-                                selectedLevel = level
-                                practiceAsImage = false
-                                screen = Screen.Practice
-                            }
-                            Screen.Progress -> ProgressScreen(part, progress)
-                            Screen.Library -> LibraryScreen(part, importing, importMessage, onImport, onImportZip)
+                                onImport = onImport, path = learningPath)
+                            Screen.Notes -> if (part == null) GuidedLearningScreen(learningPath,
+                                learningStatus, learningProgress, onRefreshLessons) else NotesScreen(part)
+                            Screen.Practice, Screen.Images -> if (part == null) GuidedLearningScreen(
+                                learningPath, learningStatus, learningProgress, onRefreshLessons)
+                                else QuizScreen(part, progress, practiceAsImage, selectedLevel)
+                            Screen.Levels -> GuidedLearningScreen(learningPath, learningStatus,
+                                learningProgress, onRefreshLessons)
+                            Screen.Progress -> ProgressScreen(part, progress, learningPath, learningProgress)
+                            Screen.Library -> LibraryScreen(part, importing, importMessage,
+                                onImport, onImportZip, learningPath, learningStatus, onRefreshLessons)
                         }
                     }
                 }
@@ -294,7 +322,8 @@ private fun SectionHeader(title: String, action: String? = null, onAction: (() -
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (Screen) -> Unit, onImport: () -> Unit) {
+private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (Screen) -> Unit,
+    onImport: () -> Unit, path: GuidedPath?) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(17.dp)) {
         Surface(shape = RoundedCornerShape(26.dp), color = Navy) {
             Column(
@@ -304,13 +333,13 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 Text("YOUR LEARNING COMPANION", color = Color(0xFF80DCFF), fontWeight = FontWeight.Bold, fontSize = 11.sp)
                 Text("Make every study session count.", color = Color.White,
                     fontWeight = FontWeight.ExtraBold, fontSize = 27.sp, lineHeight = 33.sp)
-                Text("Verified textbook content synced from GitHub. Practice across 10 levels.",
+                Text("Learn nursing concepts in 10 short levels, then master a quiz after each lesson.",
                     color = Color(0xFFDBE9FC), fontSize = 14.sp, lineHeight = 21.sp)
                 Spacer(Modifier.height(7.dp))
-                Button(onClick = { if (part == null) onImport() else onNavigate(Screen.Notes) },
+                Button(onClick = { onNavigate(Screen.Levels) },
                     colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Navy),
                     contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
-                    Text(if (part == null) "Sync from GitHub" else "Continue studying", fontWeight = FontWeight.Bold)
+                    Text("Start learning", fontWeight = FontWeight.Bold)
                     Spacer(Modifier.width(8.dp)); Icon(Icons.Default.ArrowForward, null, Modifier.size(18.dp))
                 }
             }
@@ -322,15 +351,22 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 MetricCard("Images", "${part.images.size}", Modifier.weight(1f))
             }
         }
+        if (path != null) {
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                MetricCard("Levels", "10", Modifier.weight(1f))
+                MetricCard("Concepts", "30", Modifier.weight(1f))
+                MetricCard("Quiz checks", "50", Modifier.weight(1f))
+            }
+        }
         SectionHeader("Your learning space")
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             val tileWidth = (maxWidth - 12.dp) / 2
             androidx.compose.foundation.layout.FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp), maxItemsInEachRow = 2) {
-                HomeAction("Study notes", "Review every topic", Icons.Default.MenuBook, Color(0xFFE8F1FF), Sky, tileWidth) { onNavigate(Screen.Notes) }
+                HomeAction("Learn topics", "Short explanations and examples", Icons.Default.MenuBook, Color(0xFFE8F1FF), Sky, tileWidth) { onNavigate(Screen.Notes) }
                 HomeAction("Levels 1–10", "Master each stage", Icons.Default.EmojiEvents, Color(0xFFEDF5FF), Sky, tileWidth) { onNavigate(Screen.Levels) }
-                HomeAction("Practice MCQs", "Answer with feedback", Icons.Default.Quiz, Color(0xFFF0EAFF), Color(0xFF7255BD), tileWidth) { onNavigate(Screen.Practice) }
-                HomeAction("Image questions", "Learn from diagrams", Icons.Default.Image, Color(0xFFE6FAF6), Green, tileWidth) { onNavigate(Screen.Images) }
+                HomeAction("Level quizzes", "Five checks with feedback", Icons.Default.Quiz, Color(0xFFF0EAFF), Color(0xFF7255BD), tileWidth) { onNavigate(Screen.Practice) }
+                HomeAction("Learning levels", "Unlock levels 1–10", Icons.Default.EmojiEvents, Color(0xFFE6FAF6), Green, tileWidth) { onNavigate(Screen.Levels) }
                 HomeAction("My progress", "Track your growth", Icons.Default.ShowChart, Color(0xFFFFF2E5), Color(0xFFB97D27), tileWidth) { onNavigate(Screen.Progress) }
             }
         }
@@ -339,8 +375,8 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 Icon(Icons.Default.LibraryBooks, contentDescription = null, tint = Sky)
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
-                    Text("Your textbook library", fontWeight = FontWeight.Bold)
-                    Text(if (part != null) "Installed verified textbook parts" else "GitHub content not published yet", fontSize = 12.sp, color = Muted)
+                    Text("StudyDock learning content", fontWeight = FontWeight.Bold)
+                    Text(if (part != null) "Additional reference material installed" else "StudyDock lessons load from GitHub", fontSize = 12.sp, color = Muted)
                 }
                 TextButton(onClick = { onNavigate(Screen.Library) }) { Text("Open") }
             }
@@ -660,10 +696,21 @@ private fun LevelsScreen(part: StudyPart?, progress: StudyProgress, onStart: (In
 }
 
 @Composable
-private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
+private fun ProgressScreen(part: StudyPart?, progress: StudyProgress,
+    path: GuidedPath?, learningProgress: GuidedLearningProgress) {
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text("My progress", fontWeight = FontWeight.ExtraBold, fontSize = 27.sp)
-        Text("Your practice history stays privately on this device.", color = Muted, fontSize = 13.sp)
+        Text("Your learning progress stays privately on this device.", color = Muted, fontSize = 13.sp)
+        if (path != null) {
+            val mastered = path.levels.count { learningProgress.best(path.revision, it.number) >= 80 }
+            ContentCard {
+                Text("Guided learning levels", fontWeight = FontWeight.Bold)
+                Text(mastered.toString() + " of 10 levels mastered", color = Sky,
+                    fontSize = 24.sp, fontWeight = FontWeight.ExtraBold)
+                LinearProgressIndicator(progress = { mastered / 10f },
+                    modifier = Modifier.fillMaxWidth().height(8.dp))
+            }
+        }
         ContentCard {
             Text("Lifetime accuracy", fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(9.dp))
@@ -686,7 +733,9 @@ private fun ProgressScreen(part: StudyPart?, progress: StudyProgress) {
 }
 
 @Composable
-private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: String, onImport: () -> Unit, onImportZip: () -> Unit) {
+private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: String,
+    onImport: () -> Unit, onImportZip: () -> Unit, learningPath: GuidedPath?,
+    learningStatus: String, onRefreshLessons: () -> Unit) {
     var showUnresolved by remember { mutableStateOf(false) }
     if (showUnresolved && part != null) {
         val originals = remember(part) {
@@ -719,8 +768,17 @@ private fun LibraryScreen(part: StudyPart?, importing: Boolean, importMessage: S
             })
     }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(15.dp)) {
-        Text("Textbook library", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
-        Text("Offline local ZIP imports · Optional GitHub sync for authorized content.", color = Muted, fontSize = 13.sp)
+        Text("Content & updates", fontSize = 27.sp, fontWeight = FontWeight.ExtraBold)
+        Text("StudyDock lessons load directly from GitHub. No textbook PDF is required.", color = Muted, fontSize = 13.sp)
+        ContentCard {
+            Text("StudyDock Learning Path", fontWeight = FontWeight.Bold)
+            Text(if (learningPath == null) learningStatus else "10 levels · 30 concepts · 50 level quiz checks",
+                color = Muted, fontSize = 13.sp)
+            Spacer(Modifier.height(8.dp))
+            Button(onClick = onRefreshLessons, modifier = Modifier.fillMaxWidth()) {
+                Icon(Icons.Default.Refresh, null); Spacer(Modifier.width(8.dp)); Text("Refresh lessons")
+            }
+        }
         ContentCard {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.AutoStories, null, tint = Sky, modifier = Modifier.size(30.dp))

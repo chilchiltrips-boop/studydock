@@ -7,5 +7,15 @@
   "levels": {
     "count": 10,
     "unlockRule": "Master 80% of previous level to unlock next"
+  },
+  "learning": {
+    "source": "Original StudyDock educational lessons",
+    "url": "https://raw.githubusercontent.com/chilchiltrips-boop/studydock/main/content/learning/v1.json",
+    "schemaVersion": 1,
+    "levels": 10,
+    "concepts": 30,
+    "questions": 50,
+    "passingPercent": 80,
+    "rights": "StudyDock-authored learning content; no source scans or copied original MCQs."
   }
 }

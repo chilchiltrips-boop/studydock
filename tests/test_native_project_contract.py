@@ -24,4 +24,8 @@ assert 'studydock/releases/download/' in remote and 'SHA-256' in remote
 assert 'LEVEL_COUNT = 10' in levels
 assert len(json.loads(catalog)['parts']) == 0
 assert 'Levels 1–10' in activity and 'syncRemote()' in activity
+guided = (ROOT / 'android/app/src/main/java/com/studydock/learning/GuidedLearning.kt').read_text()
+assert 'GuidedLearningScreen' in activity and 'GuidedLearningSource' in activity
+assert 'original-concept-learning' in guided
+assert 'studydock_guided_levels' in guided
 print('Native static structure checks passed')

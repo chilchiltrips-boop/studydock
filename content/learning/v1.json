@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "publisher": "ZEBJUS LLP",
+  "app": "StudyDock",
+  "kind": "original-concept-learning",
+  "language": "en",
+  "sourceScope": "StudyDock learning summaries derived from Part 1 medical surgical nursing concepts; source edition 2020.",
+  "rightsNotice": "Original StudyDock-authored summaries and practice questions; no scanned textbook pages, copied diagrams or verbatim source MCQs.",
+  "clinicalNotice": "For examination revision only. Historical source content must not be used as current patient-care guidance.",
+  "passingPercent": 80,
+  "levels": [
+    {
+      "number": 1,
+      "title": "Recognize inflammation",
+      "sourcePages": [
+        122
+      ],
+      "summary": "Begin with the body's local response to tissue injury and separate local signs from whole-body responses.",
+      "objectives": [
+        "Explain the essential concepts in recognize inflammation.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Why inflammation occurs",
+          "body": "Inflammation is a protective local tissue response to injury or an offending agent; it also prepares damaged tissue for repair.",
+          "example": "A reddened area around a minor injury is a local response, not proof of infection."
+        },
+        {
+          "title": "Five classic signs",
+          "body": "Remember redness, warmth, swelling, pain, and reduced function. Look for the combination rather than one sign in isolation.",
+          "example": "A swollen joint that hurts on movement displays more than one sign."
+        },
+        {
+          "title": "Local versus systemic",
+          "body": "Local findings occur at the affected site. Fever is an example of a systemic, whole-body response.",
+          "example": "An elevated temperature is not itself one of the five local signs."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L01-Q01",
+          "prompt": "Which finding belongs to the classic local signs of inflammation?",
+          "options": [
+            "Fever",
+            "Redness",
+            "Nausea",
+            "Fatigue"
+          ],
+          "correctIndex": 1,
+          "explanation": "Redness is one of the five classic local signs."
+        },
+        {
+          "id": "SD-L01-Q02",
+          "prompt": "Which finding is a systemic response rather than a local cardinal sign?",
+          "options": [
+            "Swelling",
+            "Warmth",
+            "Fever",
+            "Pain"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fever affects the whole body and is considered systemic."
+        },
+        {
+          "id": "SD-L01-Q03",
+          "prompt": "A key purpose of inflammation is to…",
+          "options": [
+            "Stop all blood flow permanently",
+            "Prepare injured tissue for repair",
+            "Prevent every future infection",
+            "Replace all damaged tissue instantly"
+          ],
+          "correctIndex": 1,
+          "explanation": "The response helps address a harmful agent and initiates repair."
+        },
+        {
+          "id": "SD-L01-Q04",
+          "prompt": "Which pairing includes two classic local signs?",
+          "options": [
+            "Warmth and pain",
+            "Fever and fatigue",
+            "Nausea and dizziness",
+            "Headache and thirst"
+          ],
+          "correctIndex": 0,
+          "explanation": "Warmth and pain are local cardinal signs."
+        },
+        {
+          "id": "SD-L01-Q05",
+          "prompt": "Loss of function during inflammation refers to…",
+          "options": [
+            "An inability to form antibodies",
+            "Reduced normal activity of the affected area",
+            "Always permanent disability",
+            "A normal body temperature"
+          ],
+          "correctIndex": 1,
+          "explanation": "The inflamed region may not function as usual due to tissue changes and discomfort."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Inflammatory mediators and phases",
+      "sourcePages": [
+        122
+      ],
+      "summary": "Connect the mediators at an injury site with the sequence of inflammation, repair, and remodeling.",
+      "objectives": [
+        "Explain the essential concepts in inflammatory mediators and phases.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Histamine",
+          "body": "Mast cells can release histamine; it is associated with vessel widening and increased permeability.",
+          "example": "More permeable vessels allow fluid to move into local tissues."
+        },
+        {
+          "title": "Early response",
+          "body": "A brief vascular change is followed by vasodilation, greater capillary permeability, and movement of defensive cells.",
+          "example": "Early redness and swelling fit these vascular effects."
+        },
+        {
+          "title": "Repair then remodeling",
+          "body": "New collagen is laid down during repair; over time it is reorganized and tissue strength improves.",
+          "example": "Healing continues after the surface of a wound appears closed."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L02-Q01",
+          "prompt": "Which cell type is a source of histamine at an injury site?",
+          "options": [
+            "Mast cell",
+            "Red blood cell",
+            "Platelet only",
+            "Osteocyte"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mast cells are described as releasing histamine locally."
+        },
+        {
+          "id": "SD-L02-Q02",
+          "prompt": "Histamine is linked most directly with…",
+          "options": [
+            "Vessel widening and permeability",
+            "Immediate bone resorption",
+            "Permanent scar removal",
+            "Closure of every blood vessel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Histamine supports vasodilation and increased vascular permeability."
+        },
+        {
+          "id": "SD-L02-Q03",
+          "prompt": "Which event commonly follows the early brief vascular response?",
+          "options": [
+            "Vasodilation",
+            "Complete immunity to infection",
+            "Bone formation",
+            "Irreversible tissue closure"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vasodilation and permeability changes characterize the early response."
+        },
+        {
+          "id": "SD-L02-Q04",
+          "prompt": "Collagen deposition is especially associated with…",
+          "options": [
+            "Repair phase",
+            "Loss of all function",
+            "Only a fever",
+            "No tissue activity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Repair involves laying down new collagen."
+        },
+        {
+          "id": "SD-L02-Q05",
+          "prompt": "What best describes tissue remodeling?",
+          "options": [
+            "No further tissue change",
+            "Collagen reorganization over time",
+            "Immediate elimination of all scarring",
+            "A new episode of bleeding by definition"
+          ],
+          "correctIndex": 1,
+          "explanation": "Remodeling changes collagen organization and increasing tissue strength."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Recognize wound exudates",
+      "sourcePages": [
+        122
+      ],
+      "summary": "Learn to distinguish common inflammatory fluid descriptions without diagnosing a wound from appearance alone.",
+      "objectives": [
+        "Explain the essential concepts in recognize wound exudates.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Serous and fibrinous",
+          "body": "Serous exudate is typically watery. Fibrinous exudate contains fibrin.",
+          "example": "A description of clear, watery fluid suggests serous exudate."
+        },
+        {
+          "title": "Purulent and hemorrhagic",
+          "body": "Purulent material is pus-like; hemorrhagic exudate has a bloody appearance.",
+          "example": "A red or blood-stained sample is described as hemorrhagic."
+        },
+        {
+          "title": "Use descriptions carefully",
+          "body": "Fluid appearance is an exam classification clue, not a complete clinical diagnosis.",
+          "example": "The same appearance can occur in different contexts; assess the person, not just the color."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L03-Q01",
+          "prompt": "Which exudate is described as watery?",
+          "options": [
+            "Purulent",
+            "Serous",
+            "Hemorrhagic",
+            "Fibrinous"
+          ],
+          "correctIndex": 1,
+          "explanation": "Serous is the watery category."
+        },
+        {
+          "id": "SD-L03-Q02",
+          "prompt": "A fibrin-containing exudate is called…",
+          "options": [
+            "Fibrinous",
+            "Serous",
+            "Hemorrhagic",
+            "Purulent"
+          ],
+          "correctIndex": 0,
+          "explanation": "The term names the presence of fibrin."
+        },
+        {
+          "id": "SD-L03-Q03",
+          "prompt": "Which term means pus-like material?",
+          "options": [
+            "Fibrinous",
+            "Hemorrhagic",
+            "Purulent",
+            "Serous"
+          ],
+          "correctIndex": 2,
+          "explanation": "Purulent refers to pus-like exudate."
+        },
+        {
+          "id": "SD-L03-Q04",
+          "prompt": "A bloody appearance corresponds to which category?",
+          "options": [
+            "Serous",
+            "Hemorrhagic",
+            "Fibrinous",
+            "Watery"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hemorrhagic exudate is blood-containing."
+        },
+        {
+          "id": "SD-L03-Q05",
+          "prompt": "What is the safest use of an exudate label?",
+          "options": [
+            "A complete diagnosis",
+            "A descriptive observation for further assessment",
+            "A substitute for examining the wound",
+            "A guarantee of a single cause"
+          ],
+          "correctIndex": 1,
+          "explanation": "Appearance is one piece of assessment, not a stand-alone diagnosis."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "How wounds close",
+      "sourcePages": [
+        122,
+        123
+      ],
+      "summary": "Compare primary, secondary, and delayed closure intentions and identify when wound edges are approximated.",
+      "objectives": [
+        "Explain the essential concepts in how wounds close.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Primary intention",
+          "body": "Wound edges are brought together, with relatively little tissue loss.",
+          "example": "A neatly closed surgical incision illustrates the general pattern."
+        },
+        {
+          "title": "Secondary intention",
+          "body": "With substantial tissue loss or separated edges, granulation tissue and epithelial growth fill the defect.",
+          "example": "A wound left open to heal gradually illustrates secondary intention."
+        },
+        {
+          "title": "Tertiary intention",
+          "body": "Closure is deliberately delayed rather than performed immediately.",
+          "example": "Delayed closure describes timing, not a separate kind of collagen."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L04-Q01",
+          "prompt": "Which healing intention typically involves closely approximated wound edges?",
+          "options": [
+            "Secondary",
+            "Primary",
+            "Tertiary only",
+            "No intention"
+          ],
+          "correctIndex": 1,
+          "explanation": "Primary intention refers to approximation of wound edges."
+        },
+        {
+          "id": "SD-L04-Q02",
+          "prompt": "A wound healing through granulation after tissue loss is most consistent with…",
+          "options": [
+            "Secondary intention",
+            "Primary intention",
+            "No repair",
+            "Immediate remodeling only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Secondary intention often involves a gap filled by granulation and epithelialization."
+        },
+        {
+          "id": "SD-L04-Q03",
+          "prompt": "The term tertiary intention refers to…",
+          "options": [
+            "Delayed closure",
+            "Closure without any edges",
+            "An immunoglobulin response",
+            "Bone remodeling"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tertiary intention means delayed primary closure."
+        },
+        {
+          "id": "SD-L04-Q04",
+          "prompt": "Which process is prominent in secondary intention?",
+          "options": [
+            "Granulation tissue formation",
+            "Absence of all new cells",
+            "Immediate scar elimination",
+            "Only clot breakdown"
+          ],
+          "correctIndex": 0,
+          "explanation": "Granulation is central when an open defect fills over time."
+        },
+        {
+          "id": "SD-L04-Q05",
+          "prompt": "An incision whose edges are held together exemplifies…",
+          "options": [
+            "Primary intention",
+            "Secondary intention by definition",
+            "Purulent exudate",
+            "Evisceration"
+          ],
+          "correctIndex": 0,
+          "explanation": "Well-approximated edges describe primary healing."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Wound terminology",
+      "sourcePages": [
+        122,
+        123,
+        124
+      ],
+      "summary": "Build the vocabulary used to describe wound integrity and tissue condition.",
+      "objectives": [
+        "Explain the essential concepts in wound terminology.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Dehiscence versus evisceration",
+          "body": "Dehiscence means wound edges separate. Evisceration refers to internal organs protruding through a disrupted wound.",
+          "example": "Remember: separation is not automatically organ protrusion."
+        },
+        {
+          "title": "Maceration and slough",
+          "body": "Maceration is tissue softening from excess moisture. Slough is devitalized material in a wound.",
+          "example": "Moisture effects and dead tissue are different observations."
+        },
+        {
+          "title": "Gangrene comparison",
+          "body": "The source contrasts comparatively dry ischemic tissue changes with moist, infected presentations; avoid using its historical summary as treatment instructions.",
+          "example": "Describe the tissue findings accurately and seek current clinical protocols for care."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L05-Q01",
+          "prompt": "Separation of wound edges is termed…",
+          "options": [
+            "Evisceration",
+            "Maceration",
+            "Dehiscence",
+            "Granulation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dehiscence describes wound-edge separation."
+        },
+        {
+          "id": "SD-L05-Q02",
+          "prompt": "Protrusion of internal organs through a disrupted wound is termed…",
+          "options": [
+            "Evisceration",
+            "Slough",
+            "Serous exudate",
+            "Maturation"
+          ],
+          "correctIndex": 0,
+          "explanation": "Evisceration is more specific than dehiscence."
+        },
+        {
+          "id": "SD-L05-Q03",
+          "prompt": "Tissue softening related to excessive moisture is…",
+          "options": [
+            "Maceration",
+            "Primary intention",
+            "Exudation",
+            "Ossification"
+          ],
+          "correctIndex": 0,
+          "explanation": "Maceration refers to moisture-associated softening."
+        },
+        {
+          "id": "SD-L05-Q04",
+          "prompt": "Devitalized wound material is often described as…",
+          "options": [
+            "Healthy granulation",
+            "Slough",
+            "Normal collagen only",
+            "New epithelium"
+          ],
+          "correctIndex": 1,
+          "explanation": "Slough names devitalized tissue."
+        },
+        {
+          "id": "SD-L05-Q05",
+          "prompt": "Which pairing is accurate?",
+          "options": [
+            "Dehiscence — wound-edge separation",
+            "Maceration — bone growth",
+            "Slough — healthy skin only",
+            "Evisceration — watery drainage"
+          ],
+          "correctIndex": 0,
+          "explanation": "The other pairings confuse distinct wound-care terms."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "First-line immune defenses",
+      "sourcePages": [
+        128
+      ],
+      "summary": "Understand barriers, innate responses, and the specificity of adaptive immunity.",
+      "objectives": [
+        "Explain the essential concepts in first-line immune defenses.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Barriers first",
+          "body": "Intact skin and mucosal surfaces help reduce entry of harmful organisms.",
+          "example": "Skin is a physical barrier before a targeted immune response develops."
+        },
+        {
+          "title": "Innate response",
+          "body": "Phagocytic cells and natural killer cells belong to broadly acting early defenses.",
+          "example": "The response is not built around one unique antigen."
+        },
+        {
+          "title": "Adaptive response",
+          "body": "B and T lymphocytes support antigen-specific immune responses through different routes.",
+          "example": "Antibody production and cell-mediated activity are adaptive mechanisms."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L06-Q01",
+          "prompt": "Which is a physical first-line defense?",
+          "options": [
+            "Intact skin",
+            "Plasma antibody only",
+            "Bone marrow cavity",
+            "Joint capsule"
+          ],
+          "correctIndex": 0,
+          "explanation": "Skin is a physical barrier."
+        },
+        {
+          "id": "SD-L06-Q02",
+          "prompt": "Which cell type belongs to innate defense?",
+          "options": [
+            "Natural killer cell",
+            "Only plasma cell",
+            "Only memory B cell",
+            "Only antigen-specific helper T cell"
+          ],
+          "correctIndex": 0,
+          "explanation": "NK cells are part of innate immunity."
+        },
+        {
+          "id": "SD-L06-Q03",
+          "prompt": "Adaptive immunity is distinguished by…",
+          "options": [
+            "Antigen-specific responses",
+            "Absence of lymphocytes",
+            "Being only a physical barrier",
+            "No recognition of antigens"
+          ],
+          "correctIndex": 0,
+          "explanation": "Adaptive responses recognize particular antigens."
+        },
+        {
+          "id": "SD-L06-Q04",
+          "prompt": "Which pairing is accurate?",
+          "options": [
+            "Mucosa — barrier defense",
+            "Skin — circulating antibody",
+            "NK cell — red blood cell",
+            "T cell — exudate category"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mucosal surfaces participate in barrier defense."
+        },
+        {
+          "id": "SD-L06-Q05",
+          "prompt": "Phagocytic cells are associated with…",
+          "options": [
+            "Innate immune activity",
+            "Only bone remodeling",
+            "Only wound closure intention",
+            "Nothing related to defense"
+          ],
+          "correctIndex": 0,
+          "explanation": "Phagocytes are an innate component."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "B cells, T cells and antibodies",
+      "sourcePages": [
+        128,
+        132
+      ],
+      "summary": "Learn the main lymphocyte distinctions and identify antibody-producing plasma cells.",
+      "objectives": [
+        "Explain the essential concepts in b cells, t cells and antibodies.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "B cell pathway",
+          "body": "B lymphocytes can differentiate into plasma cells that secrete antibodies.",
+          "example": "Think B cell → plasma cell → antibody."
+        },
+        {
+          "title": "T cell pathway",
+          "body": "T lymphocytes take roles in cell-mediated adaptive immune responses.",
+          "example": "T cells are not generally the antibody-secreting plasma cells."
+        },
+        {
+          "title": "Immunoglobulin categories",
+          "body": "IgG, IgM, IgA, IgD, and IgE are antibody classes discussed in the source. IgG is highlighted in the secondary response.",
+          "example": "Class names are not interchangeable with cell types."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L07-Q01",
+          "prompt": "Plasma cells most directly arise from which lymphocyte lineage?",
+          "options": [
+            "B cells",
+            "Red blood cells",
+            "Platelets",
+            "Osteoclasts"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plasma cells develop from activated B cells."
+        },
+        {
+          "id": "SD-L07-Q02",
+          "prompt": "Which cell is specialized to secrete antibodies?",
+          "options": [
+            "Plasma cell",
+            "Osteocyte",
+            "Erythrocyte",
+            "Chondrocyte"
+          ],
+          "correctIndex": 0,
+          "explanation": "Antibody secretion is a plasma-cell function."
+        },
+        {
+          "id": "SD-L07-Q03",
+          "prompt": "Which immunoglobulin is emphasized in a secondary immune response?",
+          "options": [
+            "IgG",
+            "IgD",
+            "IgE",
+            "IgM only"
+          ],
+          "correctIndex": 0,
+          "explanation": "The source highlights IgG in secondary immune responses."
+        },
+        {
+          "id": "SD-L07-Q04",
+          "prompt": "Cell-mediated adaptive immunity is primarily associated with…",
+          "options": [
+            "T lymphocytes",
+            "Only blood plasma",
+            "Osteoblasts",
+            "Epithelial mucus alone"
+          ],
+          "correctIndex": 0,
+          "explanation": "T lymphocytes play central roles in cell-mediated immunity."
+        },
+        {
+          "id": "SD-L07-Q05",
+          "prompt": "Which of the following is an immunoglobulin class?",
+          "options": [
+            "IgA",
+            "CD4 cell",
+            "NK cell",
+            "Mast cell"
+          ],
+          "correctIndex": 0,
+          "explanation": "IgA is one of the immunoglobulin classes."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Immune reactions and HIV fundamentals",
+      "sourcePages": [
+        129,
+        130,
+        132,
+        134
+      ],
+      "summary": "Differentiate broad immune vocabulary, recognizing where older textbook clinical guidance must not be used.",
+      "objectives": [
+        "Explain the essential concepts in immune reactions and hiv fundamentals.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Hypersensitivity",
+          "body": "An exaggerated immune response is described as hypersensitivity; a local skin reaction does not by itself prove systemic anaphylaxis.",
+          "example": "Avoid interpreting a single symptom as a complete diagnosis."
+        },
+        {
+          "title": "HIV and host cells",
+          "body": "HIV is a retrovirus that targets the immune system, notably CD4-positive helper T cells.",
+          "example": "A CD4 cell is an immune cell, not an antibody class."
+        },
+        {
+          "title": "Historical context",
+          "body": "The uploaded source is from 2020. Its testing sequences, treatment advice, and staging tables must not be used as up-to-date patient guidance.",
+          "example": "Use this level for terminology and examination concepts only."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L08-Q01",
+          "prompt": "A disproportionate immune response may be described as…",
+          "options": [
+            "Hypersensitivity",
+            "Bone remodeling",
+            "Primary closure",
+            "Osteogenesis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hypersensitivity refers to an exaggerated immune response."
+        },
+        {
+          "id": "SD-L08-Q02",
+          "prompt": "HIV particularly affects which immune-cell population?",
+          "options": [
+            "CD4 helper T cells",
+            "Red blood cells only",
+            "Osteoblasts",
+            "Platelets exclusively"
+          ],
+          "correctIndex": 0,
+          "explanation": "HIV's primary immune target includes CD4-positive T lymphocytes."
+        },
+        {
+          "id": "SD-L08-Q03",
+          "prompt": "HIV is classified as a…",
+          "options": [
+            "Retrovirus",
+            "Fungus",
+            "Protozoan",
+            "Bacterium"
+          ],
+          "correctIndex": 0,
+          "explanation": "HIV is an RNA retrovirus."
+        },
+        {
+          "id": "SD-L08-Q04",
+          "prompt": "A localized itchy area after an injection alone…",
+          "options": [
+            "Proves systemic anaphylaxis",
+            "Does not establish systemic anaphylaxis",
+            "Is a bone disease",
+            "Shows there was no immune activity"
+          ],
+          "correctIndex": 1,
+          "explanation": "A local symptom alone is insufficient for a systemic diagnosis."
+        },
+        {
+          "id": "SD-L08-Q05",
+          "prompt": "How should historical clinical recommendations from the 2020 source be used?",
+          "options": [
+            "As the sole current treatment protocol",
+            "For historical exam context, checked against current guidance",
+            "As a replacement for patient assessment",
+            "To ignore newer guidelines"
+          ],
+          "correctIndex": 1,
+          "explanation": "Historical study content needs current clinical verification before patient-care decisions."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Bones, joints and movement",
+      "sourcePages": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "summary": "Organize the skeleton, bone cell functions, joint categories, and movements.",
+      "objectives": [
+        "Explain the essential concepts in bones, joints and movement.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Axial and appendicular",
+          "body": "The axial skeleton includes the skull, vertebral column, and thoracic cage; limbs and girdles form the appendicular skeleton.",
+          "example": "Classify the femur as appendicular rather than axial."
+        },
+        {
+          "title": "Bone cell jobs",
+          "body": "Osteoblasts form bone; osteoclasts break down bone; osteocytes are mature bone cells.",
+          "example": "Remember blast = build and clast = break down."
+        },
+        {
+          "title": "Movement language",
+          "body": "Flexion decreases a joint angle; extension increases it. Abduction is away from the midline; adduction is toward it.",
+          "example": "Moving the arm sideways away from the trunk illustrates abduction."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L09-Q01",
+          "prompt": "The femur belongs to which skeletal division?",
+          "options": [
+            "Appendicular",
+            "Axial",
+            "Cranial",
+            "Thoracic only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Limb bones belong to the appendicular skeleton."
+        },
+        {
+          "id": "SD-L09-Q02",
+          "prompt": "Which cell is most closely associated with forming new bone?",
+          "options": [
+            "Osteoblast",
+            "Osteoclast",
+            "Plasma cell",
+            "Natural killer cell"
+          ],
+          "correctIndex": 0,
+          "explanation": "Osteoblasts form bone."
+        },
+        {
+          "id": "SD-L09-Q03",
+          "prompt": "Which term describes movement away from the body's midline?",
+          "options": [
+            "Adduction",
+            "Abduction",
+            "Flexion",
+            "Inversion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Abduction is movement away from the midline."
+        },
+        {
+          "id": "SD-L09-Q04",
+          "prompt": "Flexion usually…",
+          "options": [
+            "Decreases a joint angle",
+            "Increases a joint angle",
+            "Moves all bones toward midline",
+            "Means bone breakdown"
+          ],
+          "correctIndex": 0,
+          "explanation": "Flexion reduces the angle between adjoining body segments."
+        },
+        {
+          "id": "SD-L09-Q05",
+          "prompt": "Which is a synovial joint example category?",
+          "options": [
+            "Hinge joint",
+            "Fibrinous fluid",
+            "Serous tissue",
+            "Immunoglobulin"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hinge joints are a subtype of synovial joint."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Fractures and orthopaedic review",
+      "sourcePages": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "summary": "Consolidate musculoskeletal vocabulary and review the concepts learned throughout the pathway.",
+      "objectives": [
+        "Explain the essential concepts in fractures and orthopaedic review.",
+        "Apply the distinctions in a short knowledge check."
+      ],
+      "concepts": [
+        {
+          "title": "Fracture language",
+          "body": "A complete fracture crosses the bone fully; an incomplete one does not. A pathologic fracture involves weakened diseased bone.",
+          "example": "Describe the injury rather than assuming all fractures have the same mechanism."
+        },
+        {
+          "title": "Traction and alignment",
+          "body": "Traction applies controlled pulling force to help maintain alignment in selected orthopaedic care contexts.",
+          "example": "Application is a clinical procedure, not an at-home instruction."
+        },
+        {
+          "title": "Bring the concepts together",
+          "body": "Revisit bone structure, movements, healing language, and immune/inflammatory terminology before the final assessment.",
+          "example": "Identify the specific term in each question before choosing an answer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "SD-L10-Q01",
+          "prompt": "A fracture passing through the full thickness of a bone is…",
+          "options": [
+            "Complete",
+            "Incomplete",
+            "Always pathologic",
+            "Always open"
+          ],
+          "correctIndex": 0,
+          "explanation": "Complete and incomplete refer to extent across the bone."
+        },
+        {
+          "id": "SD-L10-Q02",
+          "prompt": "A fracture associated with underlying diseased bone is termed…",
+          "options": [
+            "Pathologic",
+            "Primary intention",
+            "Serous",
+            "Macerated"
+          ],
+          "correctIndex": 0,
+          "explanation": "Pathologic fracture refers to fracture in abnormal or weakened bone."
+        },
+        {
+          "id": "SD-L10-Q03",
+          "prompt": "Traction is based on which principle?",
+          "options": [
+            "Controlled pulling force",
+            "Antibody secretion",
+            "Only heat treatment",
+            "No mechanical force"
+          ],
+          "correctIndex": 0,
+          "explanation": "Traction uses force to maintain or restore alignment."
+        },
+        {
+          "id": "SD-L10-Q04",
+          "prompt": "Which cell type participates in bone resorption?",
+          "options": [
+            "Osteoclast",
+            "Osteoblast",
+            "Plasma cell",
+            "Mast cell"
+          ],
+          "correctIndex": 0,
+          "explanation": "Osteoclasts resorb bone."
+        },
+        {
+          "id": "SD-L10-Q05",
+          "prompt": "Which term describes moving a limb back toward the body's midline?",
+          "options": [
+            "Abduction",
+            "Adduction",
+            "Dehiscence",
+            "Flexion only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adduction is movement toward the body midline."
+        }
+      ]
+    }
+  ]
+}

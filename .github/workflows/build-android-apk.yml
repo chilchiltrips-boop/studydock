@@ -32,6 +32,8 @@ jobs:
         run: node --test tests/model.test.mjs
       - name: Verify native Android source contract
         run: python3 tests/test_native_project_contract.py
+      - name: Check online learning modules
+        run: python3 tests/test_guided_learning.py
       - name: Build native APK
         run: gradle -p android --no-daemon :app:assembleDebug
       - name: Verify APK signature and package identity
