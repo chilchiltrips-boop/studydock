@@ -23,3 +23,7 @@ GitHub Actions builds on `main` and verifies APK signing and package identity be
 
 ## StudyDock online guided learning v0.5.0
 StudyDock downloads 10 original lessons and 50 authored concept-check questions from the GitHub content/learning/v1.json file. The native Android UI teaches three concepts per level before its five-question quiz. Score 80% or higher to unlock the next level. Progress stays local, and the supplementary original textbook database is not required. Android 7.0+ is configured; real-device verification is still required.
+
+
+## NCLEX local archive
+Open the Home-screen **NCLEX archive** tile and select the private ZIP. The on-device viewer supports RN/PN, INC subject, working drafts and source-only filters, full-text search, available figures and provisional draft rationales. It deliberately does not use the older 8-part verified-quiz importer. All 2,894 NCLEX entries remain **unscored**, since a final question-by-question clinical approval is not documented. The original 10 guided levels and their progress are untouched. For a reproducible pack, follow content/nclex/README.md.
