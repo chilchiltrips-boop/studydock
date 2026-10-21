@@ -107,3 +107,9 @@ The native Android app now syncs a public GitHub catalog at content/catalog.json
 ## Fresh revision lessons (October 2026)
 
 The native Android app stays Kotlin + Jetpack Compose. Its GitHub-delivered guided lessons in `content/learning/v1.json` are being revised to revision 2: 10 levels, 30 fresh learning concepts and 50 newly adapted MCQs based on selected pages of the uploaded Part 2 scan. These are not original numbered textbook questions, not complete Part 2 extraction and not current clinical protocols. Previously imported Part 1 questions/images/progress are not overwritten. The separate web prototype under `app/` has 48 adapted MCQs, 13 structured notes and four newly authored StudyDock schematic figures.
+
+
+## Private NCLEX / INC topic-wise local archive (October 2026)
+The **native Android** app has a separate NCLEX archive browser reachable from the Home screen. It can import a locally generated ZIP with 2,894 RN/PN/image-based extracted entries, INC subject/unit/topic headings, references, original images, and available working rewrites. This import is independent of the existing 8-part textbook library and 10-level guided lessons.
+
+**Important:** No Saunders or Delmar copyrighted question text/figures are published here. See [content/nclex/README.md](content/nclex/README.md) and [scripts/build_nclex_local_pack.py](scripts/build_nclex_local_pack.py) to create a **private on-device import ZIP** from the user's own source extracts. Source-era keys are hidden from the current-guidance view; rewritten answers are explicitly marked provisional. All imported NCLEX items are excluded from scored quizzes until individually clinically verified. The public [status metadata](content/nclex/status.json) reports counts only, not clinical certification.
