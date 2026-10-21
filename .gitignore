@@ -7,3 +7,10 @@ key.properties
 **/local.properties
 **/.gradle/
 **/build/
+
+# Keep private textbook-derived question banks and device import packs off public GitHub
+StudyDock_NCLEX_*_PRIVATE*.zip
+NCLEX_2894_*.zip
+NCLEX_2894_*.csv
+NCLEX_2894_*.json
+NCLEX_351_*.zip
