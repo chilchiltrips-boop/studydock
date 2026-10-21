@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "nclex-public-status-only",
+  "sourceEntries": 2894,
+  "originalRN": 1248,
+  "originalPN": 1546,
+  "newAdaptedImages": 100,
+  "latestWorkingMasterRewrittenTextFields": 451,
+  "historicalOnlyEntries": 2443,
+  "clinicalFinalQAPassConfirmed": 0,
+  "topicMappingsFlaggedForHumanReview": 623,
+  "licensedContentPublished": false,
+  "notes": "Metadata only. No copyrighted question text or source image assets are hosted here."
+}
