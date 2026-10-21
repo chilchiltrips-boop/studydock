@@ -62,6 +62,7 @@ private enum class Screen(val label: String, val icon: ImageVector) {
     Images("Images", Icons.Filled.Image),
     Progress("Progress", Icons.Filled.Insights),
     Library("Library", Icons.Filled.LibraryBooks),
+    Nclex("NCLEX", Icons.Filled.AutoStories),
     Levels("Levels", Icons.Filled.EmojiEvents)
 }
 
@@ -71,6 +72,10 @@ class MainActivity : ComponentActivity() {
     private val github by lazy { RemoteStudySource(this, library) }
     private val learningSource by lazy { GuidedLearningSource() }
     private val learningProgress by lazy { GuidedLearningProgress(this) }
+    private val nclexLibrary by lazy { NclexLibrary(this) }
+    private var nclexArchive by mutableStateOf<NclexArchive?>(null)
+    private var nclexStatus by mutableStateOf("Import a private NCLEX ZIP to browse the working archive.")
+    private var nclexImporting by mutableStateOf(false)
     private var onlinePath by mutableStateOf<GuidedPath?>(null)
     private var learningMessage by mutableStateOf("Loading learning modules from GitHub…")
     private var part by mutableStateOf<StudyPart?>(null)
@@ -94,17 +99,55 @@ class MainActivity : ComponentActivity() {
                 val zipPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
                     if (uri != null) importLocalZip(uri)
                 }
+                val nclexPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+                    if (uri != null) importNclexZip(uri)
+                }
                 if (splash) NativeSplash(onSkip = { splash = false }) else NativeApp(
                     part = part, progress = progress, importing = importing,
                     importMessage = remoteMessage, onImport = { syncRemote() },
                     onImportZip = { zipPicker.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) },
                     learningPath = onlinePath, learningStatus = learningMessage, learningProgress = learningProgress,
-                    onRefreshLessons = { syncLessons() }
+                    onRefreshLessons = { syncLessons() },
+                    nclexArchive = nclexArchive, nclexStatus = nclexStatus,
+                    nclexImporting = nclexImporting,
+                    onImportNclex = { nclexPicker.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream")) }
                 )
             }
         }
         syncLessons()
         syncRemote()
+        Thread {
+            try {
+                val local = nclexLibrary.read()
+                runOnUiThread {
+                    nclexArchive = local
+                    if (local != null) nclexStatus = "Private NCLEX archive loaded. Clinical QA is incomplete."
+                }
+            } catch (e: Exception) {
+                runOnUiThread { nclexStatus = "NCLEX archive unavailable: " + (e.message ?: "invalid data").take(150) }
+            }
+        }.start()
+    }
+
+    private fun importNclexZip(uri: Uri) {
+        if (nclexImporting) return
+        nclexImporting = true
+        nclexStatus = "Validating 2,894 NCLEX records and asset checksums…"
+        Thread {
+            try {
+                val loaded = nclexLibrary.importZip(uri)
+                runOnUiThread {
+                    nclexArchive = loaded
+                    nclexStatus = "Imported "+loaded.questions.size+" working/archive records. None are final clinically cleared."
+                    nclexImporting = false
+                }
+            } catch (e: Exception) {
+                runOnUiThread {
+                    nclexStatus = "NCLEX import failed; previous archive retained: " + (e.message ?: "unknown error").take(170)
+                    nclexImporting = false
+                }
+            }
+        }.start()
     }
 
     private fun syncLessons() {
@@ -217,7 +260,9 @@ private fun NativeSplash(onSkip: () -> Unit) {
 @Composable
 private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Boolean, importMessage: String,
     onImport: () -> Unit, onImportZip: () -> Unit, learningPath: GuidedPath?, learningStatus: String,
-    learningProgress: GuidedLearningProgress, onRefreshLessons: () -> Unit) {
+    learningProgress: GuidedLearningProgress, onRefreshLessons: () -> Unit,
+    nclexArchive: NclexArchive?, nclexStatus: String, nclexImporting: Boolean,
+    onImportNclex: () -> Unit) {
     var screen by remember { mutableStateOf(Screen.Home) }
     var practiceAsImage by remember { mutableStateOf(false) }
     var selectedLevel by remember { mutableStateOf<Int?>(null) }
@@ -295,6 +340,7 @@ private fun NativeApp(part: StudyPart?, progress: StudyProgress, importing: Bool
                             Screen.Levels -> GuidedLearningScreen(learningPath, learningStatus,
                                 learningProgress, onRefreshLessons)
                             Screen.Progress -> ProgressScreen(part, progress, learningPath, learningProgress)
+                            Screen.Nclex -> NclexScreen(nclexArchive, nclexStatus, nclexImporting, onImportNclex)
                             Screen.Library -> LibraryScreen(part, importing, importMessage,
                                 onImport, onImportZip, learningPath, learningStatus, onRefreshLessons)
                         }
@@ -462,6 +508,7 @@ private fun HomeScreen(part: StudyPart?, progress: StudyProgress, onNavigate: (S
                 HomeAction("Level quizzes", "Five checks with feedback", Icons.Default.Quiz, Color(0xFFF0EAFF), Color(0xFF7255BD), tileWidth) { onNavigate(Screen.Practice) }
                 HomeAction("Learning levels", "Unlock levels 1–10", Icons.Default.EmojiEvents, Color(0xFFE6FAF6), Green, tileWidth) { onNavigate(Screen.Levels) }
                 HomeAction("My progress", "Track your growth", Icons.Default.ShowChart, Color(0xFFFFF2E5), Color(0xFFB97D27), tileWidth) { onNavigate(Screen.Progress) }
+                HomeAction("NCLEX archive", "Topic-wise working questions", Icons.Default.AutoStories, Color(0xFFE9F5F7), Sky, tileWidth) { onNavigate(Screen.Nclex) }
             }
         }
         ContentCard {
