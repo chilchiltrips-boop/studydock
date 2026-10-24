@@ -1,0 +1,92 @@
+[
+  {
+    "group_id": "DUP-SALICYLATE-INITIAL-001",
+    "ids": [
+      "PN2-CH13-Q027",
+      "PN2-CH19-Q021"
+    ],
+    "type": "EXACT_HISTORICAL_AND_CURRENT_REDUNDANCY",
+    "primary_id": "PN2-CH13-Q027",
+    "redundant_study_ids": [
+      "PN2-CH19-Q021"
+    ],
+    "reason": "Both source stems are identical and ask the initial priority for a somnolent toddler after aspirin ingestion. Current answers both prioritize airway/ventilation and emergency help. The prior serial-monitoring rewrite unnecessarily changed the objective and was replaced; that draft is archived.",
+    "answer_conflict": false,
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
+      "PN2-CH19-Q021": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-SCI-AD-INITIAL-001",
+    "ids": [
+      "PN2-CH06-Q007",
+      "PN2-PT05-Q026"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_INITIAL_ACTION",
+    "primary_id": "PN2-CH06-Q007",
+    "redundant_study_ids": [
+      "PN2-PT05-Q026"
+    ],
+    "reason": "Both describe a high spinal injury, headache/blurred vision and BP 210/140 while supine. Both test the immediate upright-positioning response to autonomic dysreflexia. Numeric option positions differ but the clinical key agrees.",
+    "answer_conflict": false,
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q007": "699c6ac802b1ac0086800206617bccaa5e7a6a2f39320af3835125136e7e50ce",
+      "PN2-PT05-Q026": "df7b28e223332b041f73b7b8432e6425e5a880790114695584c467a369d0de1b"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-APICAL-RADIAL-METHOD-001",
+    "ids": [
+      "PN2-CH02-Q008",
+      "PN2-PT05-Q044"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_PROCEDURE",
+    "primary_id": "PN2-CH02-Q008",
+    "redundant_study_ids": [
+      "PN2-PT05-Q044"
+    ],
+    "reason": "Both specify two assessors comparing simultaneous apical and radial counts over the same full minute. Reordered keys are not a clinical answer conflict. Retain source traceability and use one primary study item.",
+    "answer_conflict": false,
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
+      "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CONTRAST-FOOD-ALLERGY-001",
+    "ids": [
+      "PN2-CH03-Q009",
+      "PN2-CH10-Q002"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reason": "Shared isolated-shellfish-allergy misconception, with cardiac-catheterization history/risk assessment versus CT preparation interpretation. Retain both as linked clinical-context variants; this does not add a new core learning objective. Both current keys agree that food allergy alone is not an iodine-specific contrast allergy.",
+    "answer_conflict": false,
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
+      "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "encrypted-review-continuation",
+  "checkpointDate": "2026-10-24",
+  "repository": "chilchiltrips-boop/studydock",
+  "branch": "draft/nclex-2894-review-checkpoint-2026-10-23",
+  "baseCheckpointManifest": "draft-manifest.json",
+  "encryptedParts": [
+    {
+      "file": "nclex-continuation-2026-10-24.enc.part001",
+      "bytes": 4776995,
+      "sha256": "6da7736fa8446f6640fa36bfab3edb2bc4037860c20dd044dfec15756a6e7680"
+    }
+  ],
+  "encryptedBytes": 4776995,
+  "encryptedSHA256": "6da7736fa8446f6640fa36bfab3edb2bc4037860c20dd044dfec15756a6e7680",
+  "plainArchiveSHA256": "b09be98655c5fe8bea1d944e1befc4c0096fdbee660ae4b9defa71f5d4b67115",
+  "recoveryKey": "Same private keyBase64 as the original base checkpoint; key is not stored in Git.",
+  "recovery": "Recover base ZIP and this continuation ZIP outside the repository. In a private workspace, overlay continuation files onto the base project. No figures/source PDF text caches were removed; they are retained in the base archive.",
+  "containedFiles": 87,
+  "copyrightedGuidelineFulltextIncluded": false,
+  "finalRelease": false
+}

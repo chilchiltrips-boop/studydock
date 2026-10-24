@@ -62,24 +62,23 @@ def verify():
     }
     for field, total in totals.items():
         require(progress[field] == total, f"Progress count mismatch: {field}")
-    require(totals["aiClinicalContentPass"] == 119 and totals["reviewedINCFiveLevelMappings"] == 125, "Unexpected checkpoint counts")
-    require(progress["previousMappingFlagsPending"] == totals["previousQuestionableMappings"] - totals["previousMappingFlagsResolvedByAI"] == 614, "Flag count mismatch")
+    require(progress["previousMappingFlagsPending"] == totals["previousQuestionableMappings"] - totals["previousMappingFlagsResolvedByAI"], "Flag count mismatch")
     require(all(progress[field] == 0 for field in ["independentHumanClinicianSignoffs", "all12FinalQAPass", "eligibleForScoredQuiz", "newImageQuestionVisualQAComplete"]), "Unsupported clearance claim")
     require(progress["finalProjectComplete"] is False and manifest["finalRelease"] is False, "Final release flag set")
     mappings = load("reviewed-inc-mappings.json")
     mapped_ids = {row["id"] for row in rows if row["incMappingStatus"] == MAPPED}
-    require(len(mappings) == len(mapped_ids) == 125 and {row["id"] for row in mappings} == mapped_ids, "INC mapping ID mismatch")
+    require(len(mappings) == len(mapped_ids) == progress["reviewedINCFiveLevelMappings"] and {row["id"] for row in mappings} == mapped_ids, "INC mapping ID mismatch")
     for item in mappings:
         require(all(item.get(field) for field in ["subject", "unit", "main_topic", "subtopic", "specific_learning_objective"]), "Incomplete INC hierarchy")
         require(item["official_unit_verified"] and item["reviewer_type"] == "AI" and not item["human_expert_signoff"], "Invalid mapping evidence flags")
         require(item["curriculum_evidence"]["pdf_pages"] and item["curriculum_evidence"]["evidence"]["url"].startswith("https://indiannursingcouncil.org/"), "Missing official INC locator")
     references = load("clinical-reference-registry.json")
     reference_ids = {item["id"] for item in references}
-    require(len(reference_ids) == len(references) == 64, "Reference registry ID mismatch")
+    require(len(reference_ids) == len(references), "Reference registry ID mismatch")
     for item in references:
         require(all(item.get(field) for field in ["id", "title", "url", "accessed", "support_location"]), "Missing reference provenance")
     history = load("correction-history.json")
-    require(len(history) == len({item["id"] for item in history}) == progress["explicitCurationDecisions"] == 146, "Curation history mismatch")
+    require(len(history) == len({item["id"] for item in history}) == progress["explicitCurationDecisions"], "Curation history mismatch")
     for item in history:
         require(item["id"] in indexed and item["clinical_status"] == indexed[item["id"]]["clinicalStatus"], "Curation status mismatch")
         require(item["reviewer_type"] == "AI" and not item["human_signoff"], "Invalid review attribution")
@@ -89,7 +88,12 @@ def verify():
     groups = load("exact-duplicate-groups.json")
     require(len(groups) == 1 and set(groups[0]["ids"]) == {"PN2-CH13-Q027", "PN2-CH19-Q021"}, "Known duplicate pair missing")
     for item in groups:
-        require(all(indexed[qid]["duplicateGroup"] == item["group_id"] for qid in item["ids"]), "Duplicate group link mismatch")
+        require(len({indexed[qid]["duplicateGroup"] for qid in item["ids"]}) == 1 and all(indexed[qid]["duplicateGroup"] for qid in item["ids"]), "Duplicate group link mismatch")
+    decisions = load("duplicate-pair-decisions.json")
+    require(len(decisions) == progress["aiPairAdjudications"], "Pair-adjudication count mismatch")
+    for item in decisions:
+        require(item["reviewer_type"] == "AI" and not item["human_expert_signoff"], "Invalid pair attribution")
+        require(all(indexed[qid]["duplicateGroup"] == item["group_id"] for qid in item["ids"]), "Pair group mismatch")
     forbidden = {"keyBase64", "original_question", "original_key", "question", "stem", "options", "correct_answer", "rationale", "candidate_stem", "candidate_options"}
     def check_public(value):
         if isinstance(value, dict):
@@ -114,10 +118,23 @@ def verify():
     require(len(data) == manifest["encryptedBytes"], "Encrypted size mismatch")
     require(hashlib.sha256(data).hexdigest() == manifest["encryptedSHA256"], "Encrypted checksum mismatch")
     require(data[:35] == b"STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1\x00", "Encryption header mismatch")
-    return {"structuralIntegrityPass": True, "entries": len(rows), "aiClinicalContentPass": 119,
-            "reviewedINCMappings": 125, "explicitCurationDecisions": 146, "references": len(references),
+    continuation = load("continuation-manifest.json")
+    require(continuation["kind"] == "encrypted-review-continuation" and not continuation["finalRelease"], "Invalid continuation type")
+    parts = continuation["encryptedParts"]
+    require(len(parts) >= 1 and len(parts) == len({p["file"] for p in parts}), "Invalid continuation parts")
+    pieces = []
+    for part in parts:
+        require(Path(part["file"]).name == part["file"], "Invalid continuation filename")
+        data = (HERE / part["file"]).read_bytes()
+        require(len(data) == part["bytes"] and hashlib.sha256(data).hexdigest() == part["sha256"], "Continuation part mismatch")
+        pieces.append(data)
+    data = b"".join(pieces)
+    require(len(data) == continuation["encryptedBytes"] and hashlib.sha256(data).hexdigest() == continuation["encryptedSHA256"], "Continuation checksum mismatch")
+    require(data[:35] == b"STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1\x00", "Continuation header mismatch")
+    return {"structuralIntegrityPass": True, "entries": len(rows), "aiClinicalContentPass": progress["aiClinicalContentPass"],
+            "reviewedINCMappings": len(mappings), "explicitCurationDecisions": len(history), "references": len(references),
             "humanSignoffs": 0, "all12FinalQAPass": 0, "quizEligible": 0,
-            "encryptedSHA256": manifest["encryptedSHA256"], "clinicalCertification": False}
+            "encryptedSHA256": manifest["encryptedSHA256"], "continuationSHA256":continuation["encryptedSHA256"], "clinicalCertification": False}
 
 
 if __name__ == "__main__":

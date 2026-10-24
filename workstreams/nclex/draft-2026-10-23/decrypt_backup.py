@@ -47,14 +47,15 @@ def recover(archive, key_file, output, manifest_file):
     else:
         data = archive.read_bytes()
     digest = hashlib.sha256(data).hexdigest()
-    if digest != manifest["encryptedSHA256"] or digest != key_record["encrypted_sha256"]:
+    continuation = manifest.get("kind") == "encrypted-review-continuation"
+    if digest != manifest["encryptedSHA256"] or (not continuation and digest != key_record["encrypted_sha256"]):
         raise ValueError("Encrypted checkpoint checksum mismatch")
     if len(data) != manifest["encryptedBytes"] or not data.startswith(HEADER):
         raise ValueError("Encrypted checkpoint header or length mismatch")
     nonce = data[len(HEADER):len(HEADER) + 12]
     plaintext = AESGCM(key).decrypt(nonce, data[len(HEADER) + 12:], HEADER)
     plain_digest = hashlib.sha256(plaintext).hexdigest()
-    if plain_digest != manifest["plainArchiveSHA256"] or plain_digest != key_record["decrypted_zip_sha256"]:
+    if plain_digest != manifest["plainArchiveSHA256"] or (not continuation and plain_digest != key_record["decrypted_zip_sha256"]):
         raise ValueError("Recovered checkpoint checksum mismatch")
     with zipfile.ZipFile(io.BytesIO(plaintext)) as recovered:
         bad = recovered.testzip()
