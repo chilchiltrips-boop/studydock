@@ -20,5 +20,6 @@
   "records_identical": 2894,
   "clinical_reviews": 219,
   "quiz_eligible": 0,
-  "final_release": false
+  "final_release": false,
+  "pair_decisions_preserved_on_recompile": true
 }
