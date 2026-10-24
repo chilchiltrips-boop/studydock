@@ -8,16 +8,16 @@
   "encryptedParts": [
     {
       "file": "nclex-continuation-2026-10-24.enc.part001",
-      "bytes": 4777453,
-      "sha256": "4a9e44a513493f73cfef795d46093316e87c18da52d1c281523e4d2381389807"
+      "bytes": 5469019,
+      "sha256": "195e005ccc55696a8b0e40d6d023fc8251dd96c135191f5ead989a2155e66f6f"
     }
   ],
-  "encryptedBytes": 4777453,
-  "encryptedSHA256": "4a9e44a513493f73cfef795d46093316e87c18da52d1c281523e4d2381389807",
-  "plainArchiveSHA256": "dc48a1b4955db0149722f52dc6d3f36494a64140cd2e28bcd817feb94c766f54",
+  "encryptedBytes": 5469019,
+  "encryptedSHA256": "195e005ccc55696a8b0e40d6d023fc8251dd96c135191f5ead989a2155e66f6f",
+  "plainArchiveSHA256": "937bfd41aaf9269a6f5ad117299750b8027e5b35a32677236a71336b7aa15c8d",
   "recoveryKey": "Same private keyBase64 as the original base checkpoint; key is not stored in Git.",
   "recovery": "Recover base ZIP and this continuation ZIP outside the repository. In a private workspace, overlay continuation files onto the base project. No figures/source PDF text caches were removed; they are retained in the base archive.",
-  "containedFiles": 87,
+  "containedFiles": 138,
   "copyrightedGuidelineFulltextIncluded": false,
   "finalRelease": false
 }

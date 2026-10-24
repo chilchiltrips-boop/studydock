@@ -2370,7 +2370,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C07-Q177",
@@ -2443,7 +2444,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C08-Q038",
@@ -2480,7 +2482,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C08-Q168",
@@ -2516,7 +2519,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C09-Q024",
@@ -2698,7 +2702,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C09-Q116",
@@ -3024,7 +3029,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C11-Q233",
@@ -3097,7 +3103,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C06-Q069",
@@ -3133,7 +3140,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C06-Q317",
@@ -3170,7 +3178,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C06-Q362",
@@ -3206,7 +3215,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C07-Q095",
@@ -3243,7 +3253,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C09-Q048",
@@ -3280,7 +3291,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "S9-C09-Q057",
@@ -3316,7 +3328,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "PN2-CH02-Q027",
@@ -3425,7 +3438,8 @@
     "reviewed_on": "2026-10-21",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
-    "gnm_mapping": null
+    "gnm_mapping": null,
+    "batch_compatibility_recheck": "B100-20261024-01: existing objective compatible with individual clinical rewrite; retained."
   },
   {
     "id": "PN2-PT02-Q037",
@@ -8015,5 +8029,3864 @@
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null
+  },
+  {
+    "id": "PN2-PT07-Q031",
+    "tracker_index": 94,
+    "subject": "Child Health Nursing I",
+    "unit": "I - Introduction: Modern concepts of child-care",
+    "main_topic": "Preventive pediatric safety",
+    "subtopic": "Child passenger restraints",
+    "specific_learning_objective": "Select rear-facing transport within manufacturer limits in the back seat.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction: Modern concepts of child-care",
+      "pdf_pages": [
+        336,
+        337
+      ],
+      "content_note": "Includes preventive pediatrics, immunization, communication, hospitalization and pediatric pre/postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT07-Q051",
+    "tracker_index": 101,
+    "subject": "Adult Health Nursing I",
+    "unit": "V - Nursing Management of patients with disorders of digestive system",
+    "main_topic": "Peptic ulcer complications",
+    "subtopic": "Suspected perforation",
+    "specific_learning_objective": "Prioritize ABC assessment, urgent help and withholding oral intake for possible perforation.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_V",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing Management of patients with disorders of digestive system",
+      "pdf_pages": [
+        305,
+        306
+      ],
+      "content_note": "Includes gastrointestinal bleeding, infections, inflammation, perforation, peptic ulcer, gastric decompression, gavage, stoma care and relevant drugs.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q020",
+    "tracker_index": 157,
+    "subject": "Nursing Foundations I",
+    "unit": "IV - Communication and Nurse Patient Relationship",
+    "main_topic": "Family communication",
+    "subtopic": "Privacy and authorized support",
+    "specific_learning_objective": "Establish parental wishes before involving an unsolicited family supporter.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "IV",
+      "unit_title": "Communication and Nurse Patient Relationship",
+      "pdf_pages": [
+        261
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q031",
+    "tracker_index": 160,
+    "subject": "Nursing Foundations II",
+    "unit": "XI - Care of Terminally ill, death and dying",
+    "main_topic": "Advance-care planning",
+    "subtopic": "Reviewing an existing directive",
+    "specific_learning_objective": "Review a capable adult's current choices and arrange local-law-compliant updates.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_XI",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "XI",
+      "unit_title": "Care of Terminally ill, death and dying",
+      "pdf_pages": [
+        283
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q059",
+    "tracker_index": 165,
+    "subject": "Nursing Management and Leadership",
+    "unit": "IV - Organizing",
+    "main_topic": "Nursing care delivery systems",
+    "subtopic": "Case management",
+    "specific_learning_objective": "Explain coordinated assessment, planning, advocacy and transitions around patient needs.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NM_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Management and Leadership",
+      "unit_number": "IV",
+      "unit_title": "Organizing",
+      "pdf_pages": [
+        376
+      ],
+      "content_note": "Includes delegation, coordination, organizational development and nursing care delivery systems.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q089",
+    "tracker_index": 172,
+    "subject": "Nursing Management and Leadership",
+    "unit": "IV - Organizing",
+    "main_topic": "Nursing care delivery systems",
+    "subtopic": "Primary nursing",
+    "specific_learning_objective": "Distinguish continuing RN accountability from task-based or around-the-clock personal care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NM_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Management and Leadership",
+      "unit_number": "IV",
+      "unit_title": "Organizing",
+      "pdf_pages": [
+        376
+      ],
+      "content_note": "Includes delegation, coordination, organizational development and nursing care delivery systems.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q093",
+    "tracker_index": 173,
+    "subject": "Nursing Management and Leadership",
+    "unit": "IV - Organizing",
+    "main_topic": "Organizational development",
+    "subtopic": "Assessment before change",
+    "specific_learning_objective": "Assess a documentation problem before selecting a system change.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NM_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Management and Leadership",
+      "unit_number": "IV",
+      "unit_title": "Organizing",
+      "pdf_pages": [
+        376
+      ],
+      "content_note": "Includes delegation, coordination, organizational development and nursing care delivery systems.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q106",
+    "tracker_index": 174,
+    "subject": "Adult Health Nursing I",
+    "unit": "I - Introduction",
+    "main_topic": "Preoperative consent",
+    "subtopic": "Accessible documentation",
+    "specific_learning_objective": "Distinguish physical inability to sign from decision-making capacity.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction",
+      "pdf_pages": [
+        303,
+        304
+      ],
+      "content_note": "Includes care of the surgical patient, preoperative and postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q111",
+    "tracker_index": 175,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Assistive devices",
+    "subtopic": "Crutch fitting",
+    "specific_learning_objective": "Recognize slight elbow flexion, axillary clearance and hand-supported weight bearing.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q156",
+    "tracker_index": 180,
+    "subject": "Adult Health Nursing II",
+    "unit": "III - Nursing management of patient with Kidney and Urinary problems",
+    "main_topic": "Acute glomerulonephritis",
+    "subtopic": "Delegated intake support",
+    "specific_learning_objective": "Communicate a prescribed measured fluid allowance and reporting requirements.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_III",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Nursing management of patient with Kidney and Urinary problems",
+      "pdf_pages": [
+        321
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q183",
+    "tracker_index": 183,
+    "subject": "Nursing Management and Leadership",
+    "unit": "V - Staffing (Human resource management)",
+    "main_topic": "Staff development",
+    "subtopic": "Competence validation",
+    "specific_learning_objective": "Validate procedure competence and supervision before independent assigned care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NM_V",
+    "curriculum_evidence": {
+      "subject": "Nursing Management and Leadership",
+      "unit_number": "V",
+      "unit_title": "Staffing (Human resource management)",
+      "pdf_pages": [
+        376,
+        377
+      ],
+      "content_note": "Includes training, credentialing, assignment and nursing care responsibilities.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q074",
+    "tracker_index": 188,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Crutch ambulation",
+    "subtopic": "Stable starting stance",
+    "specific_learning_objective": "Use a fitted stable stance with weight through hands rather than a universal fixed distance.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q098",
+    "tracker_index": 189,
+    "subject": "Child Health Nursing II",
+    "unit": "II - Management of orthopedic, eye, ear, skin and communicable disorders",
+    "main_topic": "Ear medication administration",
+    "subtopic": "Clean instillation technique",
+    "specific_learning_objective": "Position the treated ear uppermost and prevent dropper-tip contamination.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_II",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "II",
+      "unit_title": "Management of orthopedic, eye, ear, skin and communicable disorders",
+      "pdf_pages": [
+        369,
+        370
+      ],
+      "content_note": "Descriptive display label drawn from unit II learning outcomes and content.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C09-Q074",
+    "tracker_index": 199,
+    "subject": "Adult Health Nursing II",
+    "unit": "I - Nursing management of patient with disorders of Ear, Nose and Throat",
+    "main_topic": "Hearing impairment",
+    "subtopic": "Adaptation to a hearing aid",
+    "specific_learning_objective": "Evaluate communication participation without assuming hearing aids restore normal hearing.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Nursing management of patient with disorders of Ear, Nose and Throat",
+      "pdf_pages": [
+        320
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C11-Q162",
+    "tracker_index": 219,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Rehabilitation",
+    "subtopic": "Individualized range of motion",
+    "specific_learning_objective": "Select active, assisted or passive movement according to ability and the rehabilitation plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C11-Q188",
+    "tracker_index": 221,
+    "subject": "Nursing Foundations I",
+    "unit": "XIV - First Aid",
+    "main_topic": "Fracture first aid",
+    "subtopic": "Support after ABC assessment",
+    "specific_learning_objective": "Support a suspected fracture as found and assess distal neurovascular status.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XIV",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XIV",
+      "unit_title": "First Aid",
+      "pdf_pages": [
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C11-Q190",
+    "tracker_index": 222,
+    "subject": "Adult Health Nursing I",
+    "unit": "X - Nursing management of patients with musculoskeletal problems",
+    "main_topic": "Traction care",
+    "subtopic": "Assisted repositioning equipment",
+    "specific_learning_objective": "Select an approved trapeze for a patient cleared to assist without disrupting traction.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "X",
+      "unit_title": "Nursing management of patients with musculoskeletal problems",
+      "pdf_pages": [
+        307,
+        308
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C06-Q063",
+    "tracker_index": 227,
+    "subject": "Adult Health Nursing I",
+    "unit": "V - Nursing Management of patients with disorders of digestive system",
+    "main_topic": "Enteral tube care",
+    "subtopic": "Post-pyloric location verification",
+    "specific_learning_objective": "Confirm intended post-pyloric tube location with appropriate imaging before use.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_V",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing Management of patients with disorders of digestive system",
+      "pdf_pages": [
+        305,
+        306
+      ],
+      "content_note": "Includes gastrointestinal bleeding, infections, inflammation, perforation, peptic ulcer, gastric decompression, gavage, stoma care and relevant drugs.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C06-Q167",
+    "tracker_index": 230,
+    "subject": "Mental Health Nursing II",
+    "unit": "III - Nursing Management of Behavioural & Emotional Disorders occurring during Childhood and Adolescence",
+    "main_topic": "Eating disorders",
+    "subtopic": "Unsafe excessive exercise",
+    "specific_learning_objective": "Assess physical stability and implement a specialist-directed safe activity plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH2_III",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Nursing Management of Behavioural & Emotional Disorders occurring during Childhood and Adolescence",
+      "pdf_pages": [
+        372,
+        373
+      ],
+      "content_note": "Includes eating disorders and autism; lower-level project topic terminology is contemporary.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q063",
+    "tracker_index": 235,
+    "subject": "Mental Health Nursing II",
+    "unit": "V - Psychiatric Emergencies and Crisis Intervention",
+    "main_topic": "Acute agitation",
+    "subtopic": "De-escalation and protection",
+    "specific_learning_objective": "Protect patients and staff while calling assistance and using calm least restrictive care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH2_V",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing II",
+      "unit_number": "V",
+      "unit_title": "Psychiatric Emergencies and Crisis Intervention",
+      "pdf_pages": [
+        373
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q171",
+    "tracker_index": 237,
+    "subject": "Mental Health Nursing I",
+    "unit": "VII - Nursing management of patient with mood disorders",
+    "main_topic": "Depression",
+    "subtopic": "Supported therapeutic activity",
+    "specific_learning_objective": "Offer tolerable achievable activities collaboratively while assessing safety and response.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VII",
+      "unit_title": "Nursing management of patient with mood disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q189",
+    "tracker_index": 238,
+    "subject": "Adult Health Nursing II",
+    "unit": "I - Nursing management of patient with disorders of Ear, Nose and Throat",
+    "main_topic": "Vestibular disorders",
+    "subtopic": "Home fall hazards",
+    "specific_learning_objective": "Select environmental trip-hazard reduction for a person with vertigo.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Nursing management of patient with disorders of Ear, Nose and Throat",
+      "pdf_pages": [
+        320
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q013",
+    "tracker_index": 239,
+    "subject": "Adult Health Nursing II",
+    "unit": "III - Nursing management of patient with Kidney and Urinary problems",
+    "main_topic": "Nephrostomy care",
+    "subtopic": "Individualized hydration advice",
+    "specific_learning_objective": "Respect prescribed fluid limits and escalate drainage or infection concerns.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_III",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Nursing management of patient with Kidney and Urinary problems",
+      "pdf_pages": [
+        321
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q016",
+    "tracker_index": 240,
+    "subject": "Mental Health Nursing I",
+    "unit": "V - Treatment modalities and therapies used in mental disorders",
+    "main_topic": "Cognitive therapy",
+    "subtopic": "Thoughts feelings and behavior",
+    "specific_learning_objective": "Explain how therapy examines unhelpful thoughts and develops more helpful responses.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_V",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Treatment modalities and therapies used in mental disorders",
+      "pdf_pages": [
+        343
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q083",
+    "tracker_index": 241,
+    "subject": "Mental Health Nursing I",
+    "unit": "VIII - Nursing management of patient with neurotic, stress related and somatisation disorders",
+    "main_topic": "Anxiety care",
+    "subtopic": "Caffeine and sleep assessment",
+    "specific_learning_objective": "Assess stimulant intake and sleep with the adolescent without assigning an unsupported cause.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VIII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VIII",
+      "unit_title": "Nursing management of patient with neurotic, stress related and somatisation disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": "Official unit includes OCD and phobias; historical umbrella wording retained only as curriculum heading.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q191",
+    "tracker_index": 243,
+    "subject": "Nursing Foundations II",
+    "unit": "V - Elimination needs",
+    "main_topic": "Bowel ostomy care",
+    "subtopic": "Odor outside the closed pouch",
+    "specific_learning_objective": "Assess appliance seal, leakage and filter issues before recommending unproven dietary remedies.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_V",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "V",
+      "unit_title": "Elimination needs",
+      "pdf_pages": [
+        278,
+        279
+      ],
+      "content_note": "Includes urinary elimination and care of patients with bowel ostomies.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q192",
+    "tracker_index": 244,
+    "subject": "Nursing Foundations II",
+    "unit": "V - Elimination needs",
+    "main_topic": "Bowel ostomy care",
+    "subtopic": "Skin-barrier fitting",
+    "specific_learning_objective": "Fit the opening closely without constriction using product and specialist instructions.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_V",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "V",
+      "unit_title": "Elimination needs",
+      "pdf_pages": [
+        278,
+        279
+      ],
+      "content_note": "Includes urinary elimination and care of patients with bowel ostomies.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q196",
+    "tracker_index": 245,
+    "subject": "Mental Health Nursing II",
+    "unit": "IV - Nursing Management of Organic Brain Disorders",
+    "main_topic": "Dementia care",
+    "subtopic": "Supported independence",
+    "specific_learning_objective": "Plan the greatest safe person-specific participation in daily care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH2_IV",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing II",
+      "unit_number": "IV",
+      "unit_title": "Nursing Management of Organic Brain Disorders",
+      "pdf_pages": [
+        373
+      ],
+      "content_note": "Official umbrella heading includes delirium and dementia; not a proposed current diagnostic label.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C09-Q001",
+    "tracker_index": 246,
+    "subject": "Adult Health Nursing II",
+    "unit": "VI - Nursing management of patient with neurological disorders",
+    "main_topic": "Neurological assessment",
+    "subtopic": "Visual-processing anatomy",
+    "specific_learning_objective": "Identify the occipital primary visual cortex without localizing every hallucination to one lobe.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_VI",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "VI",
+      "unit_title": "Nursing management of patient with neurological disorders",
+      "pdf_pages": [
+        322,
+        323
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C09-Q053",
+    "tracker_index": 248,
+    "subject": "Mental Health Nursing I",
+    "unit": "VII - Nursing management of patient with mood disorders",
+    "main_topic": "Acute mania",
+    "subtopic": "Nutrition and hydration",
+    "specific_learning_objective": "Offer manageable frequent nutrient-dense foods and monitor intake during distractibility.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VII",
+      "unit_title": "Nursing management of patient with mood disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C09-Q056",
+    "tracker_index": 249,
+    "subject": "Mental Health Nursing I",
+    "unit": "III - Mental Health Assessment",
+    "main_topic": "Mental status examination",
+    "subtopic": "Grandiose delusional content",
+    "specific_learning_objective": "Distinguish a fixed false exceptional-power belief from hallucination and illusion in context.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_III",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "III",
+      "unit_title": "Mental Health Assessment",
+      "pdf_pages": [
+        343
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH02-Q006",
+    "tracker_index": 251,
+    "subject": "Nursing Foundations II",
+    "unit": "IV - Hygiene",
+    "main_topic": "Assisted hygiene",
+    "subtopic": "Loose powder exposure",
+    "specific_learning_objective": "Recognize avoidable talc inhalation exposure during personal care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "IV",
+      "unit_title": "Hygiene",
+      "pdf_pages": [
+        278
+      ],
+      "content_note": "Includes pressure injury assessment, stages, care and prevention; Gazette uses the historical term pressure ulcer.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH02-Q017",
+    "tracker_index": 252,
+    "subject": "Nursing Management and Leadership",
+    "unit": "VI - Directing and Leading",
+    "main_topic": "Delegation",
+    "subtopic": "Patient-specific vital-sign reporting",
+    "specific_learning_objective": "Provide clear measurement and escalation parameters with licensed nurse follow-up.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NM_VI",
+    "curriculum_evidence": {
+      "subject": "Nursing Management and Leadership",
+      "unit_number": "VI",
+      "unit_title": "Directing and Leading",
+      "pdf_pages": [
+        377
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH05-Q003",
+    "tracker_index": 254,
+    "subject": "Adult Health Nursing I",
+    "unit": "IV - Nursing Management of patients with respiratory problems",
+    "main_topic": "Cystic fibrosis airway clearance",
+    "subtopic": "Meal-related treatment scheduling",
+    "specific_learning_objective": "Coordinate prescribed CPT before meals or sufficiently afterward under the respiratory plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_IV",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "IV",
+      "unit_title": "Nursing Management of patients with respiratory problems",
+      "pdf_pages": [
+        305
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH05-Q023",
+    "tracker_index": 255,
+    "subject": "Adult Health Nursing I",
+    "unit": "IV - Nursing Management of patients with respiratory problems",
+    "main_topic": "COPD",
+    "subtopic": "Paced daily activity",
+    "specific_learning_objective": "Tailor rest, activity and therapy timing to the individual symptom pattern.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_IV",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "IV",
+      "unit_title": "Nursing Management of patients with respiratory problems",
+      "pdf_pages": [
+        305
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH06-Q001",
+    "tracker_index": 256,
+    "subject": "Adult Health Nursing II",
+    "unit": "VI - Nursing management of patient with neurological disorders",
+    "main_topic": "Traumatic brain injury",
+    "subtopic": "Positioning after stabilization",
+    "specific_learning_objective": "Use prescribed modest head elevation and neutral alignment while monitoring perfusion and spinal safety.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_VI",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "VI",
+      "unit_title": "Nursing management of patient with neurological disorders",
+      "pdf_pages": [
+        322,
+        323
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH06-Q019",
+    "tracker_index": 257,
+    "subject": "Adult Health Nursing II",
+    "unit": "I - Nursing management of patient with disorders of Ear, Nose and Throat",
+    "main_topic": "Postoperative stapes care",
+    "subtopic": "First assisted mobilization",
+    "specific_learning_objective": "Assess balance and dizziness and provide the required walking assistance.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Nursing management of patient with disorders of Ear, Nose and Throat",
+      "pdf_pages": [
+        320
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH07-Q009",
+    "tracker_index": 258,
+    "subject": "Adult Health Nursing I",
+    "unit": "I - Introduction",
+    "main_topic": "Postoperative recovery",
+    "subtopic": "Safe resumption of oral fluids",
+    "specific_learning_objective": "Check the intake plan and airway safety before offering fluids.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction",
+      "pdf_pages": [
+        303,
+        304
+      ],
+      "content_note": "Includes care of the surgical patient, preoperative and postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH09-Q028",
+    "tracker_index": 259,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Preparation for assisted walking",
+    "subtopic": "Hand-grip strengthening",
+    "specific_learning_objective": "Identify a prescribed ball squeeze as a direct hand-grip exercise.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH11-Q008",
+    "tracker_index": 260,
+    "subject": "Adult Health Nursing II",
+    "unit": "V - Nursing management of patient with burns, reconstructive and cosmetic surgery",
+    "main_topic": "Major-burn resuscitation",
+    "subtopic": "Urine-output monitoring",
+    "specific_learning_objective": "Interpret hourly urine output as one renal-perfusion response trend after ABC assessment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_V",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "V",
+      "unit_title": "Nursing management of patient with burns, reconstructive and cosmetic surgery",
+      "pdf_pages": [
+        322
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH12-Q085",
+    "tracker_index": 262,
+    "subject": "Midwifery/Obstetric and Gynecology Nursing II",
+    "unit": "I - Recognition and Management of problems during Pregnancy",
+    "main_topic": "Placental abruption",
+    "subtopic": "Hemorrhagic complications",
+    "specific_learning_objective": "Recognize concealed or visible hemorrhage, shock and coagulopathy as urgent risks.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "OB2_I",
+    "curriculum_evidence": {
+      "subject": "Midwifery/Obstetric and Gynecology Nursing II",
+      "unit_number": "I",
+      "unit_title": "Recognition and Management of problems during Pregnancy",
+      "pdf_pages": [
+        408,
+        409
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q008",
+    "tracker_index": 265,
+    "subject": "Child Health Nursing II",
+    "unit": "III - Management of behavior and social problems in children",
+    "main_topic": "Toddler behavior",
+    "subtopic": "Safe consistent limits",
+    "specific_learning_objective": "Respond calmly to a tantrum while protecting safety and assessing real needs.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_III",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Management of behavior and social problems in children",
+      "pdf_pages": [
+        370,
+        371
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q010",
+    "tracker_index": 266,
+    "subject": "Child Health Nursing I",
+    "unit": "I - Introduction: Modern concepts of child-care",
+    "main_topic": "Hospitalization in childhood",
+    "subtopic": "Separation-related distress",
+    "specific_learning_objective": "Provide age-appropriate comfort and predictable caregiver contact without pathologizing distress.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction: Modern concepts of child-care",
+      "pdf_pages": [
+        336,
+        337
+      ],
+      "content_note": "Includes preventive pediatrics, immunization, communication, hospitalization and pediatric pre/postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q013",
+    "tracker_index": 267,
+    "subject": "Child Health Nursing I",
+    "unit": "I - Introduction: Modern concepts of child-care",
+    "main_topic": "Pediatric preoperative assessment",
+    "subtopic": "Dental risk for anesthesia",
+    "specific_learning_objective": "Report loose teeth and dental concerns before airway instrumentation.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction: Modern concepts of child-care",
+      "pdf_pages": [
+        336,
+        337
+      ],
+      "content_note": "Includes preventive pediatrics, immunization, communication, hospitalization and pediatric pre/postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q019",
+    "tracker_index": 268,
+    "subject": "Child Health Nursing I",
+    "unit": "I - Introduction: Modern concepts of child-care",
+    "main_topic": "Therapeutic play",
+    "subtopic": "Interests during traction",
+    "specific_learning_objective": "Offer an achievable interest-based project within prescribed movement and safety restrictions.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction: Modern concepts of child-care",
+      "pdf_pages": [
+        336,
+        337
+      ],
+      "content_note": "Includes preventive pediatrics, immunization, communication, hospitalization and pediatric pre/postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q044",
+    "tracker_index": 269,
+    "subject": "Child Health Nursing II",
+    "unit": "I - Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+    "main_topic": "Congenital heart disease",
+    "subtopic": "Family concerns and autonomy",
+    "specific_learning_objective": "Explore parent understanding before agreeing a safe activity and autonomy plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+      "pdf_pages": [
+        369
+      ],
+      "content_note": "Descriptive display label drawn from unit I learning outcome/content; hematological conditions including hemophilia are explicitly listed in this unit.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q055",
+    "tracker_index": 270,
+    "subject": "Child Health Nursing I",
+    "unit": "V - Nursing management in common childhood diseases",
+    "main_topic": "Childhood asthma",
+    "subtopic": "Play and prescribed treatment",
+    "specific_learning_objective": "Distinguish an optional tolerated blowing game from evidence-based asthma management.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_V",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing management in common childhood diseases",
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "content_note": "Includes childhood respiratory disorders, congenital respiratory malformations and asthma.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q109",
+    "tracker_index": 271,
+    "subject": "Child Health Nursing II",
+    "unit": "I - Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+    "main_topic": "Esophageal atresia",
+    "subtopic": "Preoperative and postoperative nutrition",
+    "specific_learning_objective": "Follow specialist NPO and staged feeding plans rather than guarantee a universal feeding date.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+      "pdf_pages": [
+        369
+      ],
+      "content_note": "Descriptive display label drawn from unit I learning outcome/content; hematological conditions including hemophilia are explicitly listed in this unit.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q120",
+    "tracker_index": 272,
+    "subject": "Child Health Nursing II",
+    "unit": "III - Management of behavior and social problems in children",
+    "main_topic": "Enuresis",
+    "subtopic": "Supportive home management",
+    "specific_learning_objective": "Use adequate daytime fluids, regular toileting and behavior-based support with constipation assessment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_III",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Management of behavior and social problems in children",
+      "pdf_pages": [
+        370,
+        371
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH15-Q031",
+    "tracker_index": 276,
+    "subject": "Mental Health Nursing I",
+    "unit": "VIII - Nursing management of patient with neurotic, stress related and somatisation disorders",
+    "main_topic": "Specific phobia",
+    "subtopic": "Access and planned exposure",
+    "specific_learning_objective": "Provide a safe immediate alternative while coordinating collaborative graded exposure when indicated.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VIII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VIII",
+      "unit_title": "Nursing management of patient with neurotic, stress related and somatisation disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": "Official unit includes OCD and phobias; historical umbrella wording retained only as curriculum heading.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q009",
+    "tracker_index": 282,
+    "subject": "Midwifery/Obstetric and Gynecology Nursing I",
+    "unit": "IV - Physiology, management and care during labour",
+    "main_topic": "Progression of labor",
+    "subtopic": "New urge to bear down",
+    "specific_learning_objective": "Obtain skilled assessment and support possible imminent birth promptly.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "OB1_IV",
+    "curriculum_evidence": {
+      "subject": "Midwifery/Obstetric and Gynecology Nursing I",
+      "unit_number": "IV",
+      "unit_title": "Physiology, management and care during labour",
+      "pdf_pages": [
+        386,
+        387,
+        388
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q010",
+    "tracker_index": 283,
+    "subject": "Midwifery/Obstetric and Gynecology Nursing II",
+    "unit": "III - Recognition and Management of postnatal problems",
+    "main_topic": "Postpartum complications",
+    "subtopic": "Severe hypertension with headache",
+    "specific_learning_objective": "Activate urgent assessment and treatment pathways without delaying for repeated confirmed readings.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "OB2_III",
+    "curriculum_evidence": {
+      "subject": "Midwifery/Obstetric and Gynecology Nursing II",
+      "unit_number": "III",
+      "unit_title": "Recognition and Management of postnatal problems",
+      "pdf_pages": [
+        409,
+        410
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q012",
+    "tracker_index": 284,
+    "subject": "Adult Health Nursing II",
+    "unit": "X - Nursing care of the elderly",
+    "main_topic": "Aging physiology",
+    "subtopic": "Temperature regulation",
+    "specific_learning_objective": "Distinguish possible age-related heat-conservation changes from symptoms needing clinical assessment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "X",
+      "unit_title": "Nursing care of the elderly",
+      "pdf_pages": [
+        324
+      ],
+      "content_note": "Includes assessment, ageing, home/institutional care, health services, aids and prostheses.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q014",
+    "tracker_index": 285,
+    "subject": "Adult Health Nursing I",
+    "unit": "V - Nursing Management of patients with disorders of digestive system",
+    "main_topic": "Gastrointestinal hemorrhage",
+    "subtopic": "Current circulatory instability",
+    "specific_learning_objective": "Prioritize hypotension and tachycardia after hematemesis over explicitly stable presentations.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_V",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing Management of patients with disorders of digestive system",
+      "pdf_pages": [
+        305,
+        306
+      ],
+      "content_note": "Includes gastrointestinal bleeding, infections, inflammation, perforation, peptic ulcer, gastric decompression, gavage, stoma care and relevant drugs.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q019",
+    "tracker_index": 286,
+    "subject": "Nursing Foundations II",
+    "unit": "VIII - Fluid, Electrolyte, and Acid-Base Balances",
+    "main_topic": "Blood transfusion",
+    "subtopic": "Authorized scope and competence",
+    "specific_learning_objective": "Check local LPN/VN scope, transfusion policy and competence before administering blood.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_VIII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "VIII",
+      "unit_title": "Fluid, Electrolyte, and Acid-Base Balances",
+      "pdf_pages": [
+        280,
+        281
+      ],
+      "content_note": "Includes administering blood and blood components.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT03-Q072",
+    "tracker_index": 290,
+    "subject": "Adult Health Nursing II",
+    "unit": "VI - Nursing management of patient with neurological disorders",
+    "main_topic": "Cervical spinal surgery",
+    "subtopic": "Focused postoperative motor assessment",
+    "specific_learning_objective": "Compare upper-limb motor function with baseline alongside full postoperative assessment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_VI",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "VI",
+      "unit_title": "Nursing management of patient with neurological disorders",
+      "pdf_pages": [
+        322,
+        323
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT03-Q074",
+    "tracker_index": 291,
+    "subject": "Adult Health Nursing II",
+    "unit": "VI - Nursing management of patient with neurological disorders",
+    "main_topic": "Lumbar spinal surgery",
+    "subtopic": "Lower-limb motor assessment",
+    "specific_learning_objective": "Compare foot strength and escalate new neurologic or bowel/bladder deficits.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_VI",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "VI",
+      "unit_title": "Nursing management of patient with neurological disorders",
+      "pdf_pages": [
+        322,
+        323
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q025",
+    "tracker_index": 292,
+    "subject": "Nursing Foundations I",
+    "unit": "X - Promoting Safety in Health Care Environment",
+    "main_topic": "Restrictive equipment safety",
+    "subtopic": "Distress while sliding in a chair",
+    "specific_learning_objective": "Protect and reposition a resident and assess safer least restrictive seating.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_X",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "X",
+      "unit_title": "Promoting Safety in Health Care Environment",
+      "pdf_pages": [
+        264
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q044",
+    "tracker_index": 293,
+    "subject": "Adult Health Nursing II",
+    "unit": "X - Nursing care of the elderly",
+    "main_topic": "Acute illness in older adults",
+    "subtopic": "Respiratory deterioration",
+    "specific_learning_objective": "Prioritize new hypoxemia and breathlessness over stable chronic findings.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "X",
+      "unit_title": "Nursing care of the elderly",
+      "pdf_pages": [
+        324
+      ],
+      "content_note": "Includes assessment, ageing, home/institutional care, health services, aids and prostheses.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q056",
+    "tracker_index": 294,
+    "subject": "Nursing Foundations II",
+    "unit": "I - Health Assessment",
+    "main_topic": "Abdominal assessment",
+    "subtopic": "Technique sequence",
+    "specific_learning_objective": "Begin a routine stable-patient abdominal examination with inspection.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_I",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "I",
+      "unit_title": "Health Assessment",
+      "pdf_pages": [
+        276
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q068",
+    "tracker_index": 295,
+    "subject": "Adult Health Nursing II",
+    "unit": "X - Nursing care of the elderly",
+    "main_topic": "Psychosocial aging theory",
+    "subtopic": "Erikson ego integrity",
+    "specific_learning_objective": "Identify later-adulthood ego integrity versus despair as a named theoretical model.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "X",
+      "unit_title": "Nursing care of the elderly",
+      "pdf_pages": [
+        324
+      ],
+      "content_note": "Includes assessment, ageing, home/institutional care, health services, aids and prostheses.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q072",
+    "tracker_index": 296,
+    "subject": "Mental Health Nursing I",
+    "unit": "IV - Therapeutic Communication and Nurse-Patient Relationship",
+    "main_topic": "Therapeutic relationship",
+    "subtopic": "Planned termination",
+    "specific_learning_objective": "Recognize explicit distress about care transfer without diagnosing from a bereavement memory.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_IV",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "IV",
+      "unit_title": "Therapeutic Communication and Nurse-Patient Relationship",
+      "pdf_pages": [
+        343
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT04-Q076",
+    "tracker_index": 297,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Crutch ambulation",
+    "subtopic": "Three-point non-weight-bearing gait",
+    "specific_learning_objective": "Apply the full prescribed gait while keeping the affected right foot unloaded.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT05-Q027",
+    "tracker_index": 299,
+    "subject": "Mental Health Nursing II",
+    "unit": "IV - Nursing Management of Organic Brain Disorders",
+    "main_topic": "Delirium care",
+    "subtopic": "Familiar caregivers",
+    "specific_learning_objective": "Plan feasible continuity with competent staff and an individualized orientation approach.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH2_IV",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing II",
+      "unit_number": "IV",
+      "unit_title": "Nursing Management of Organic Brain Disorders",
+      "pdf_pages": [
+        373
+      ],
+      "content_note": "Official umbrella heading includes delirium and dementia; not a proposed current diagnostic label.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT05-Q045",
+    "tracker_index": 303,
+    "subject": "Nursing Foundations I",
+    "unit": "VI - Vital signs",
+    "main_topic": "Respiratory assessment",
+    "subtopic": "Stertor description",
+    "specific_learning_objective": "Recognize low-pitched snoring upper-airway noise and distinguish breathing-pattern terms.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_VI",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "VI",
+      "unit_title": "Vital signs",
+      "pdf_pages": [
+        262
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT05-Q048",
+    "tracker_index": 304,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Effects of immobility",
+    "subtopic": "Active muscle contraction",
+    "specific_learning_objective": "Select safe prescribed active exercise to help limit disuse rather than guarantee prevention.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT05-Q052",
+    "tracker_index": 305,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Assisted ambulation",
+    "subtopic": "Presyncope safety",
+    "specific_learning_objective": "Stop walking, support safe positioning and summon help while assessing sudden faintness.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT05-Q086",
+    "tracker_index": 306,
+    "subject": "Applied Microbiology and Infection Control including Safety",
+    "unit": "Section B, II - Isolation Precautions and use of Personal Protective Equipment (PPE)",
+    "main_topic": "Standard precautions",
+    "subtopic": "Handling contaminated linen",
+    "specific_learning_objective": "Use exposure-based PPE, minimize agitation and perform hand hygiene.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "IC_B_II",
+    "curriculum_evidence": {
+      "subject": "Applied Microbiology and Infection Control including Safety",
+      "unit_number": "Section B, II",
+      "unit_title": "Isolation Precautions and use of Personal Protective Equipment (PPE)",
+      "pdf_pages": [
+        294
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q059",
+    "tracker_index": 309,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Crutch ambulation",
+    "subtopic": "Four-point gait",
+    "specific_learning_objective": "Sequence one crutch, opposite foot, other crutch and opposite foot when bilateral loading is permitted.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q063",
+    "tracker_index": 310,
+    "subject": "Adult Health Nursing II",
+    "unit": "X - Nursing care of the elderly",
+    "main_topic": "Older-adult safeguarding",
+    "subtopic": "Witnessed physical abuse",
+    "specific_learning_objective": "Protect and assess the resident immediately and initiate applicable reporting procedures.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "X",
+      "unit_title": "Nursing care of the elderly",
+      "pdf_pages": [
+        324
+      ],
+      "content_note": "Includes assessment, ageing, home/institutional care, health services, aids and prostheses.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q080",
+    "tracker_index": 312,
+    "subject": "Adult Health Nursing II",
+    "unit": "X - Nursing care of the elderly",
+    "main_topic": "Home safety and dementia",
+    "subtopic": "Unsafe improvised restraint",
+    "specific_learning_objective": "Address immediate belt-restraint danger before planning safer supported mobility.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_X",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "X",
+      "unit_title": "Nursing care of the elderly",
+      "pdf_pages": [
+        324
+      ],
+      "content_note": "Includes assessment, ageing, home/institutional care, health services, aids and prostheses.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q085",
+    "tracker_index": 313,
+    "subject": "Nursing Foundations II",
+    "unit": "XV - Concepts of Cultural Diversity and Spirituality",
+    "main_topic": "Spiritual care",
+    "subtopic": "Patient-led meaning and concerns",
+    "specific_learning_objective": "Explore the dying person's beliefs and needs without imposing the nurse's beliefs.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_XV",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "XV",
+      "unit_title": "Concepts of Cultural Diversity and Spirituality",
+      "pdf_pages": [
+        284
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q094",
+    "tracker_index": 314,
+    "subject": "Mental Health Nursing I",
+    "unit": "VIII - Nursing management of patient with neurotic, stress related and somatisation disorders",
+    "main_topic": "Obsessive-compulsive disorder",
+    "subtopic": "Rituals interfering with nutrition",
+    "specific_learning_objective": "Coordinate CBT with ERP and nutrition support without punishment or routine ritual accommodation.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VIII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VIII",
+      "unit_title": "Nursing management of patient with neurotic, stress related and somatisation disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": "Official unit includes OCD and phobias; historical umbrella wording retained only as curriculum heading.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT07-Q035",
+    "tracker_index": 318,
+    "subject": "Nursing Foundations II",
+    "unit": "XI - Care of Terminally ill, death and dying",
+    "main_topic": "Advance-care planning",
+    "subtopic": "Purpose of advance directives",
+    "specific_learning_objective": "Explain future health-care preferences and surrogate designation subject to local law.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_XI",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "XI",
+      "unit_title": "Care of Terminally ill, death and dying",
+      "pdf_pages": [
+        283
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q022",
+    "tracker_index": 323,
+    "subject": "Nursing Foundations II",
+    "unit": "I - Health Assessment",
+    "main_topic": "Preventive health assessment",
+    "subtopic": "Asymptomatic disease and screening",
+    "specific_learning_objective": "Explain risk-based preventive assessment without a universal annual-physical mandate.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_I",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "I",
+      "unit_title": "Health Assessment",
+      "pdf_pages": [
+        276
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q032",
+    "tracker_index": 324,
+    "subject": "Nursing Foundations I",
+    "unit": "XII - Mobility and Immobility",
+    "main_topic": "Walker safety",
+    "subtopic": "Rising from a chair",
+    "specific_learning_objective": "Recognize pulling on an unsecured walker as unsafe and teach stable chair push-off.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_XII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "XII",
+      "unit_title": "Mobility and Immobility",
+      "pdf_pages": [
+        264,
+        265
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q036",
+    "tracker_index": 325,
+    "subject": "Nursing Foundations I",
+    "unit": "X - Promoting Safety in Health Care Environment",
+    "main_topic": "Fall prevention",
+    "subtopic": "Individualized safe mobility",
+    "specific_learning_objective": "Choose assessment-based assistance and environmental safeguards instead of routine restraint.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_X",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "X",
+      "unit_title": "Promoting Safety in Health Care Environment",
+      "pdf_pages": [
+        264
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q051",
+    "tracker_index": 326,
+    "subject": "Adult Health Nursing I",
+    "unit": "I - Introduction",
+    "main_topic": "Informed consent",
+    "subtopic": "Unclear procedure before sedation",
+    "specific_learning_objective": "Pause sedation and arrange assessment and procedural explanation before proceeding.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction",
+      "pdf_pages": [
+        303,
+        304
+      ],
+      "content_note": "Includes care of the surgical patient, preoperative and postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q061",
+    "tracker_index": 328,
+    "subject": "Nursing Foundations II",
+    "unit": "II - The Nursing Process",
+    "main_topic": "Nursing care planning",
+    "subtopic": "Bathing assistance need",
+    "specific_learning_objective": "Identify the directly observed functional need without inferring unassessed diagnoses.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF2_II",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations II",
+      "unit_number": "II",
+      "unit_title": "The Nursing Process",
+      "pdf_pages": [
+        276,
+        277
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q003",
+    "tracker_index": 341,
+    "subject": "Child Health Nursing II",
+    "unit": "II - Management of orthopedic, eye, ear, skin and communicable disorders",
+    "main_topic": "Infant eczema care",
+    "subtopic": "Toy safety and cleanability",
+    "specific_learning_objective": "Select an intact washable age-rated toy without choking or irritating features.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_II",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "II",
+      "unit_title": "Management of orthopedic, eye, ear, skin and communicable disorders",
+      "pdf_pages": [
+        369,
+        370
+      ],
+      "content_note": "Descriptive display label drawn from unit II learning outcomes and content.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q004",
+    "tracker_index": 342,
+    "subject": "Child Health Nursing I",
+    "unit": "II - The Healthy Child",
+    "main_topic": "Infant development",
+    "subtopic": "Reciprocal social play",
+    "specific_learning_objective": "Select responsive peekaboo for the stated face-to-face interaction objective.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_II",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "II",
+      "unit_title": "The Healthy Child",
+      "pdf_pages": [
+        337,
+        338
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q009",
+    "tracker_index": 343,
+    "subject": "Child Health Nursing I",
+    "unit": "I - Introduction: Modern concepts of child-care",
+    "main_topic": "Hospital adjustment",
+    "subtopic": "Familiar comfort and contact",
+    "specific_learning_objective": "Use allowed familiar items and predictable contact when a caregiver cannot remain overnight.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction: Modern concepts of child-care",
+      "pdf_pages": [
+        336,
+        337
+      ],
+      "content_note": "Includes preventive pediatrics, immunization, communication, hospitalization and pediatric pre/postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q018",
+    "tracker_index": 344,
+    "subject": "Mental Health Nursing I",
+    "unit": "II - Principles and Concepts of Mental Health Nursing",
+    "main_topic": "Defensive coping concepts",
+    "subtopic": "Idealization in a teaching case",
+    "specific_learning_objective": "Recognize defined exaggerated positive attribution without diagnosing a defense from a single compliment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_II",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "II",
+      "unit_title": "Principles and Concepts of Mental Health Nursing",
+      "pdf_pages": [
+        342,
+        343
+      ],
+      "content_note": "Includes personality development, defense mechanisms and conceptual models.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q035",
+    "tracker_index": 345,
+    "subject": "Child Health Nursing II",
+    "unit": "I - Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+    "main_topic": "Possible infant heart failure",
+    "subtopic": "Feeding fatigue and sweating",
+    "specific_learning_objective": "Arrange prompt assessment of prolonged tiring feeds despite reassuring appearance at rest.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+      "pdf_pages": [
+        369
+      ],
+      "content_note": "Descriptive display label drawn from unit I learning outcome/content; hematological conditions including hemophilia are explicitly listed in this unit.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q043",
+    "tracker_index": 346,
+    "subject": "Child Health Nursing II",
+    "unit": "I - Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+    "main_topic": "Congenital heart disease",
+    "subtopic": "Development and safe activity",
+    "specific_learning_objective": "Assess clinical limits and family concerns before agreeing an individualized activity plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH2_I",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
+      "pdf_pages": [
+        369
+      ],
+      "content_note": "Descriptive display label drawn from unit I learning outcome/content; hematological conditions including hemophilia are explicitly listed in this unit.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q060",
+    "tracker_index": 347,
+    "subject": "Child Health Nursing I",
+    "unit": "V - Nursing management in common childhood diseases",
+    "main_topic": "Childhood asthma",
+    "subtopic": "Exacerbation findings",
+    "specific_learning_objective": "Recognize expiratory wheeze while identifying silent chest and cyanosis as severe warning findings.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_V",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing management in common childhood diseases",
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "content_note": "Includes childhood respiratory disorders, congenital respiratory malformations and asthma.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q112",
+    "tracker_index": 176,
+    "subject": "Nursing Foundations I",
+    "unit": "X - Promoting Safety in Health Care Environment",
+    "main_topic": "Restraint safety",
+    "subtopic": "Neurovascular and positional monitoring",
+    "specific_learning_objective": "Recognize a finding requiring immediate correction during an authorized temporary restraint.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_X",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "X",
+      "unit_title": "Promoting Safety in Health Care Environment",
+      "pdf_pages": [
+        264
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q144",
+    "tracker_index": 179,
+    "subject": "Applied Microbiology and Infection Control including Safety",
+    "unit": "Section B, II - Isolation Precautions and use of Personal Protective Equipment (PPE)",
+    "main_topic": "Standard precautions",
+    "subtopic": "Routine chlamydial-urethritis care",
+    "specific_learning_objective": "Use task-appropriate Standard Precautions for the stated infection.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "IC_B_II",
+    "curriculum_evidence": {
+      "subject": "Applied Microbiology and Infection Control including Safety",
+      "unit_number": "Section B, II",
+      "unit_title": "Isolation Precautions and use of Personal Protective Equipment (PPE)",
+      "pdf_pages": [
+        294
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q160",
+    "tracker_index": 181,
+    "subject": "Nursing Foundations I",
+    "unit": "VIII - Introduction to Infection Control in Clinical setting",
+    "main_topic": "Occupational infection prevention",
+    "subtopic": "Food and drink in exposure areas",
+    "specific_learning_objective": "Identify unsafe drinking in a work area with reasonably likely blood exposure.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_VIII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "VIII",
+      "unit_title": "Introduction to Infection Control in Clinical setting",
+      "pdf_pages": [
+        263
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C07-Q200",
+    "tracker_index": 186,
+    "subject": "Nursing Foundations I",
+    "unit": "VIII - Introduction to Infection Control in Clinical setting",
+    "main_topic": "Hand hygiene",
+    "subtopic": "Visibly soiled hands",
+    "specific_learning_objective": "Choose soap and water when hands are visibly soiled after care.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_VIII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "VIII",
+      "unit_title": "Introduction to Infection Control in Clinical setting",
+      "pdf_pages": [
+        263
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C08-Q129",
+    "tracker_index": 190,
+    "subject": "Adult Health Nursing I",
+    "unit": "VI - Nursing Management of patients with cardiovascular problems",
+    "main_topic": "Raynaud phenomenon",
+    "subtopic": "Trigger management",
+    "specific_learning_objective": "Teach individualized protection from cold and stress-related vasospasm.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_VI",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "VI",
+      "unit_title": "Nursing Management of patients with cardiovascular problems",
+      "pdf_pages": [
+        306
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C11-Q038",
+    "tracker_index": 212,
+    "subject": "Nursing Foundations I",
+    "unit": "IV - Communication and Nurse Patient Relationship",
+    "main_topic": "Language assistance",
+    "subtopic": "Non-emergency care communication",
+    "specific_learning_objective": "Arrange qualified interpretation before proceeding with an unexplained dressing procedure.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_IV",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "IV",
+      "unit_title": "Communication and Nurse Patient Relationship",
+      "pdf_pages": [
+        261
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C11-Q060",
+    "tracker_index": 216,
+    "subject": "Child Health Nursing I",
+    "unit": "V - Nursing management in common childhood diseases",
+    "main_topic": "Cystic fibrosis",
+    "subtopic": "Contemporary nutrition assessment",
+    "specific_learning_objective": "Individualize nutrition rather than assume universal high-calorie high-fat intake.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_V",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "V",
+      "unit_title": "Nursing management in common childhood diseases",
+      "pdf_pages": [
+        338,
+        339
+      ],
+      "content_note": "Includes childhood respiratory disorders, congenital respiratory malformations and asthma.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C06-Q164",
+    "tracker_index": 229,
+    "subject": "Mental Health Nursing II",
+    "unit": "III - Nursing Management of Behavioural & Emotional Disorders occurring during Childhood and Adolescence",
+    "main_topic": "Eating disorders",
+    "subtopic": "Bulimia assessment",
+    "specific_learning_objective": "Recognize binge eating with compensatory behavior as requiring further assessment.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH2_III",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Nursing Management of Behavioural & Emotional Disorders occurring during Childhood and Adolescence",
+      "pdf_pages": [
+        372,
+        373
+      ],
+      "content_note": "Includes eating disorders and autism; lower-level project topic terminology is contemporary.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "S9-C06-Q304",
+    "tracker_index": 231,
+    "subject": "Mental Health Nursing I",
+    "unit": "VII - Nursing management of patient with mood disorders",
+    "main_topic": "Lithium therapy",
+    "subtopic": "Possible toxicity",
+    "specific_learning_objective": "Withhold the next dose and arrange urgent assessment for elevated concentration with toxicity symptoms.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "MH1_VII",
+    "curriculum_evidence": {
+      "subject": "Mental Health Nursing I",
+      "unit_number": "VII",
+      "unit_title": "Nursing management of patient with mood disorders",
+      "pdf_pages": [
+        344
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q007",
+    "tracker_index": 264,
+    "subject": "Child Health Nursing I",
+    "unit": "II - The Healthy Child",
+    "main_topic": "Toddler development",
+    "subtopic": "Feeding milestones",
+    "specific_learning_objective": "Recognize commonly expected eighteen-month feeding skills without rigid diagnostic cutoffs.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_II",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "II",
+      "unit_title": "The Healthy Child",
+      "pdf_pages": [
+        337,
+        338
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q002",
+    "tracker_index": 279,
+    "subject": "Adult Health Nursing I",
+    "unit": "I - Introduction",
+    "main_topic": "Informed consent",
+    "subtopic": "Qualified interpretation",
+    "specific_learning_objective": "Arrange competent language support for a patient considering surgery.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH1_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing I",
+      "unit_number": "I",
+      "unit_title": "Introduction",
+      "pdf_pages": [
+        303,
+        304
+      ],
+      "content_note": "Includes care of the surgical patient, preoperative and postoperative care.",
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT01-Q031",
+    "tracker_index": 287,
+    "subject": "Child Health Nursing I",
+    "unit": "II - The Healthy Child",
+    "main_topic": "Infant development",
+    "subtopic": "Nine-month gross-motor milestone",
+    "specific_learning_objective": "Identify independent sitting as a CDC milestone while recognizing developmental variability.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "CH1_II",
+    "curriculum_evidence": {
+      "subject": "Child Health Nursing I",
+      "unit_number": "II",
+      "unit_title": "The Healthy Child",
+      "pdf_pages": [
+        337,
+        338
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT06-Q019",
+    "tracker_index": 307,
+    "subject": "Nursing Foundations I",
+    "unit": "VI - Vital signs",
+    "main_topic": "Blood-pressure measurement",
+    "subtopic": "Cuff selection",
+    "specific_learning_objective": "Measure arm circumference and choose a validated fitting cuff.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_VI",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "VI",
+      "unit_title": "Vital signs",
+      "pdf_pages": [
+        262
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-PT08-Q021",
+    "tracker_index": 322,
+    "subject": "Nursing Foundations I",
+    "unit": "VIII - Introduction to Infection Control in Clinical setting",
+    "main_topic": "Aseptic practice",
+    "subtopic": "Sterile-field protection",
+    "specific_learning_objective": "Recognize a technique that maintains the sterile field.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "NF1_VIII",
+    "curriculum_evidence": {
+      "subject": "Nursing Foundations I",
+      "unit_number": "VIII",
+      "unit_title": "Introduction to Infection Control in Clinical setting",
+      "pdf_pages": [
+        263
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH06-Q020",
+    "tracker_index": 335,
+    "subject": "Adult Health Nursing II",
+    "unit": "I - Nursing management of patient with disorders of Ear, Nose and Throat",
+    "main_topic": "Meniere disease",
+    "subtopic": "Etiology counseling",
+    "specific_learning_objective": "Explain the uncertain cause without claiming one proven universal mechanism.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_I",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "I",
+      "unit_title": "Nursing management of patient with disorders of Ear, Nose and Throat",
+      "pdf_pages": [
+        320
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH08-Q028",
+    "tracker_index": 339,
+    "subject": "Adult Health Nursing II",
+    "unit": "III - Nursing management of patient with Kidney and Urinary problems",
+    "main_topic": "Poststreptococcal glomerulonephritis",
+    "subtopic": "Relevant preceding infection",
+    "specific_learning_objective": "Obtain recent streptococcal throat or skin infection history.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "AH2_III",
+    "curriculum_evidence": {
+      "subject": "Adult Health Nursing II",
+      "unit_number": "III",
+      "unit_title": "Nursing management of patient with Kidney and Urinary problems",
+      "pdf_pages": [
+        321
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
+  },
+  {
+    "id": "PN2-CH13-Q074",
+    "tracker_index": 348,
+    "subject": "Applied Microbiology and Infection Control including Safety",
+    "unit": "Section B, II - Isolation Precautions and use of Personal Protective Equipment (PPE)",
+    "main_topic": "Transmission precautions",
+    "subtopic": "Suspected meningococcal infection",
+    "specific_learning_objective": "Apply droplet and standard precautions under the current indication and duration plan.",
+    "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
+    "official_unit_verified": true,
+    "unit_registry_code": "IC_B_II",
+    "curriculum_evidence": {
+      "subject": "Applied Microbiology and Infection Control including Safety",
+      "unit_number": "Section B, II",
+      "unit_title": "Isolation Precautions and use of Personal Protective Equipment (PPE)",
+      "pdf_pages": [
+        294
+      ],
+      "content_note": null,
+      "evidence": {
+        "issuer": "Indian Nursing Council",
+        "title": "Revised Regulations and Curriculum for B.Sc. (Nursing) Program, Regulations 2020",
+        "gazette_date": "2021-07-05",
+        "url": "https://indiannursingcouncil.org/uploads/pdf/162581803399632881260e803b133fde.pdf",
+        "local_sha256": "340d889365f552cf1db357c22052b060ebed39d20a22e12e4fb1b7684d046452",
+        "accessed": "2026-10-21",
+        "taxonomy_basis": "B.Sc. Nursing",
+        "gnm_mapping_status": "PRIMARY_GNM_UNIT_CONTENT_NOT_OBTAINED_NO_MAPPING_INFERRED"
+      }
+    },
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
+    "gnm_mapping": null,
+    "mapping_batch_id": "B100-20261024-01"
   }
 ]

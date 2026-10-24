@@ -1398,6 +1398,21 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-PT07-Q031",
+    "tracker_index": 94,
+    "prior_hash": "efbce2286c8af8f4f7e2b025f98c040461ff78867188eddd8583d3e4f966cd57",
+    "curated_hash": "3a8c0649804e2d05796380c1c228175bc3763bb345b2c1b7deaa06968d9fccdd",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CAR25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT07-Q037",
     "tracker_index": 96,
     "prior_hash": "547b692df864ee5d8a672bbbff4bf52c9ca618ccb88f03c0cbbfe25db8dc7812",
@@ -1467,6 +1482,22 @@
     "sources": [
       "UCLH_PITUITARY",
       "ARUP_CSF24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT07-Q051",
+    "tracker_index": 101,
+    "prior_hash": "ec6a932e5b07b6f2fae28df62f8079d4a6f994e88e0329b9284415fb3db875e7",
+    "curated_hash": "0b3ac3084b43f65c2709037b97a6e74334fa560535b7c8bad637b369981b2913",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_WSES20",
+      "RCUK_ABCDE24"
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-24",
@@ -2249,6 +2280,36 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C07-Q020",
+    "tracker_index": 157,
+    "prior_hash": "d5a145d8bf700ec2f1ae942eb968013f133d0df31fafb56e583e29793f79ddc5",
+    "curated_hash": "20e6d43f908e466a35fd3a1ade0ccead6b0bb6158b53046f5d84cce799d074be",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "HHS_PRIVACY25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q031",
+    "tracker_index": 160,
+    "prior_hash": "dd1656945a6dd734804d737fab3de504685af55be94219160f4a1f74ec46d862",
+    "curated_hash": "c76fb48969a3bcc725a910e5fcad7341ba863e9d044fdeb38601b95e4b23ad22",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ADVANCE"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C07-Q050",
     "tracker_index": 161,
     "prior_hash": "782b1e6db6c8048c0163e39f665b78107e8a95ebddedf06191e4ab61dafd42e5",
@@ -2272,6 +2333,21 @@
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "NMC_RECORD_CODE"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q059",
+    "tracker_index": 165,
+    "prior_hash": "d8aba6a9d9d420cf971536ad4627fa2526dc07a55b5e243bc02d5d6c0abf0f1f",
+    "curated_hash": "04d0f8916985d64b85a1dd9c81a4b3b06a24d43b58da92ca125b1518a31c3424",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CMSA"
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-24",
@@ -2352,6 +2428,67 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C07-Q089",
+    "tracker_index": 172,
+    "prior_hash": "84c4a38065ec6a4b6d20f3ccf215244b5787f69c7d96347dcda2a122e60da1b2",
+    "curated_hash": "4c163775f2cbe186f2113eeded555c91a3c0330d3425244d78cf76968f9d9c5e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_PRIMARY25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q093",
+    "tracker_index": 173,
+    "prior_hash": "d9842ed15b4647d0b7b1480f49449b2d7db36aca35909f318ab3a65fa5868134",
+    "curated_hash": "5222af788e055833768695a84c26cffdb8a5fc298c74f2f638b0901889eb7e9a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CHANGE19"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q106",
+    "tracker_index": 174,
+    "prior_hash": "c7a9cf4c1ea07448bdea6c5e37ae716a2f0bee29b70feaea6d9339a145c8d103",
+    "curated_hash": "3b246c5e8e20bd2b3bd73348c73c01dd97660b8080256491e593636d62e37b25",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CONSENT25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q111",
+    "tracker_index": 175,
+    "prior_hash": "dc06e2d54b05318c6e5e3d450fe0c94c321486c1e599e1210c8a824a0c36e577",
+    "curated_hash": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AIDS_SKILL",
+      "B100_AAOS_AIDS"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C07-Q112",
     "tracker_index": 176,
     "prior_hash": "b5e524c000d600ab54c485182cf329f75e7f011cbfed9e6d56be4fa84724ac31",
@@ -2385,12 +2522,15 @@
     "id": "S9-C07-Q120",
     "tracker_index": 178,
     "prior_hash": "ff4798cb1a059cb5dda8281fd6252bc9a4956d19dd6b7d184782554ae5ef4e88",
-    "curated_hash": "5d7253ce36b733460bdb4470ce18d3f5219ffb4d7ada309725f481d0213c373a",
-    "change_kind": "SUBSTANTIVE_DEVICE_AND_REMAP_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "6c1a71f601c7b39b155660a4069e817896b93ed73312f899f161c37248dab694",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AAOS_AIDS",
+      "B100_AIDS_SKILL"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2407,6 +2547,22 @@
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-21",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q156",
+    "tracker_index": 180,
+    "prior_hash": "e2b2870ba76b7f7f387778841f5c7ff0de3ce8733a45cfe8203fa499f2520240",
+    "curated_hash": "bc4f4b4ba10e91371b440cc9ca1ad5d0462db6bd06d63cbe5dbc812b05d2fe82",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "CDC_PSGN25",
+      "NCSBN_DELEG19"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2441,15 +2597,33 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C07-Q183",
+    "tracker_index": 183,
+    "prior_hash": "cc5ce775d70cad833507c7f52c14408ccdef5a4653ae7065a5ea5b066cbde92f",
+    "curated_hash": "77aa87d1a758fdcc522e8c1e1bbf40202a76da5354c267cec44050e2aff5e658",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NCSBN_DELEG19"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C07-Q193",
     "tracker_index": 184,
     "prior_hash": "277c049cc6e49b2866f44a08b0647bf19c4e4b7c5d115758e6ca3c20af02e21c",
-    "curated_hash": "58f57d52173f89445cd500832e9df024e5feb836b1a5c6375c1871f764df1176",
-    "change_kind": "SEMANTIC_DISTRACTOR_AND_TRANSFER_SAFETY_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_MOBILITY",
+      "OSHA_HANDLING"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2472,12 +2646,44 @@
     "id": "S9-C08-Q038",
     "tracker_index": 187,
     "prior_hash": "360f594660b1bc5bf7992a0d42e8488311c116304e08238bc2dcb624da5f65dc",
-    "curated_hash": "233f42f5c262111920d34b5f0e1459f7675049e9f98e254d8b40862ad1e9bb73",
-    "change_kind": "SUBSTANTIVE_POSTOPERATIVE_TIMELINE_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "8a5e4fb74d76d4ee0326aadc01708e6b45ae67fb13ed5455ab5b963167f29795",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CARDIAC_HOME"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q074",
+    "tracker_index": 188,
+    "prior_hash": "2a722ce14c6b120be04b50cb96efee34a609756ad40fad6141531733fb18fbf1",
+    "curated_hash": "f1a631409fc139b706ffa5acc6bc3e750ba21a0a34a41d920f903044fa7d6210",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AAOS_AIDS"
+    ],
+    "objective_relationship": "PRESERVED_CRUTCH_STANCE_TEACHING_WITH_UNIVERSAL_FIXED_DISTANCE_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q098",
+    "tracker_index": 189,
+    "prior_hash": "da78d6983c6d92e791380fe8aab9d39345b3c2efe7d56662958240035efa6b22",
+    "curated_hash": "0fab410895834f585fddbc26faeace608f9740f3d618cd768101d8fea8599399",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_EARDROPS"
+    ],
+    "objective_relationship": "DOCUMENTED_REPLACEMENT_SAME_SAFE_EARDROP_ADMINISTRATION_OUTCOME_WITH_SOURCE_DEPENDENT_PINNA_DIRECTION_REMOVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2500,12 +2706,14 @@
     "id": "S9-C08-Q168",
     "tracker_index": 191,
     "prior_hash": "1907f3e91b4034f29b4f08bc0e933cee6b4180e8261357c6251ba17c791f5833",
-    "curated_hash": "0f2ccab1ac18fda81982ee75878a3d3cb6b49378aa0176f7a3a252185881bd56",
-    "change_kind": "SUBSTANTIVE_POST_GN_RECOVERY_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "8c9d84a59cd924c3c35658d0e3dd2f3a4041723f5e1ab7da28351c1190bfc2a0",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "CDC_PSGN25"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2598,15 +2806,33 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C09-Q074",
+    "tracker_index": 199,
+    "prior_hash": "c3d15638efff225181fbac6c69c8c8397e8901de2a1042f826c2be9e9a336b29",
+    "curated_hash": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NIDCD_HEARING"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C09-Q081",
     "tracker_index": 200,
     "prior_hash": "c76c6d67c17df7b1ff1f661ad945780e2676f60d662fac696424d20dac7bc3fd",
-    "curated_hash": "7a3ae6bfd39038ad64a04999e1c7d5adfd430b94364c6385afb2263fcba74f3b",
-    "change_kind": "SUBSTANTIVE_DELIRIUM_AND_REMAP_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "d98ab7b31fe9bff1adbdd8089a7bca32a6fbac74bae9784a938c67432e9e74f4",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NICE_DELIRIUM23",
+      "B100_MOBILITY"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2854,15 +3080,62 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C11-Q162",
+    "tracker_index": 219,
+    "prior_hash": "4b572a61ce8cb3c996e03c6556aa76c3b91828541392d28fced5d50e0576d124",
+    "curated_hash": "fa6313d4c6e03b8b050a7976d33c83de069f1241d05ab10d9c5869b91ad0bfa7",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ROM"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C11-Q188",
+    "tracker_index": 221,
+    "prior_hash": "b68df5014760f46c016bf28debc042d7d6e9a9dc0532215aa8f6bf1cf04785b7",
+    "curated_hash": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "AHA_FA24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C11-Q190",
+    "tracker_index": 222,
+    "prior_hash": "109b97d13aacb0d880f4ba3b4ed80c8c7c90a6bdc41d4325f57cb0761df4ae2f",
+    "curated_hash": "6442d0416badb2be618736fe719a400500e1fb53b107be3412ba3b2d00dd7e1d",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_LIMITED"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C11-Q215",
     "tracker_index": 224,
     "prior_hash": "ab65d5971e6b804a2df49591ef0206f4d3efe85fc33c0bef3a2896fd2e56040e",
-    "curated_hash": "5d3cbc328bb2bc78593f0d1025485b04338df0e929451b2fa0f1273558ba941b",
-    "change_kind": "SUBSTANTIVE_POSTOPERATIVE_TIMELINE_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "8f880970ca34b311938ca31d4e7358265a166590b59054797260ac61324100e1",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CARDIAC_HOME"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2885,12 +3158,30 @@
     "id": "S9-C06-Q007",
     "tracker_index": 226,
     "prior_hash": "add4a16824d5c976cccf29db05763456391f3ec1bd1ef3d162a53650a7aa9416",
-    "curated_hash": "71aaf8d2bc40e99db309e93c5dad0de4cd805cbe0daba776def1964d8ff7ed29",
-    "change_kind": "SUBSTANTIVE_AMBIGUITY_AND_POSITIONING_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NICE_BACK",
+      "B100_BACK_COMFORT"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C06-Q063",
+    "tracker_index": 227,
+    "prior_hash": "3406d19df4f14e85805f91d13c72dd508683c27abe092092b419a48e404eee68",
+    "curated_hash": "a79b297231d22520ba519ca7e3918ac018ab359c42ea5ddebca7d7fe24ebffe1",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NICE_NUTRITION17"
+    ],
+    "objective_relationship": "PRESERVED_POSTPYLORIC_TUBE_LOCATION_VERIFICATION",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2898,12 +3189,14 @@
     "id": "S9-C06-Q069",
     "tracker_index": 228,
     "prior_hash": "2c6e4c3c9fb01c503de314f7288e5ba97fee86f2a6214755f409b730ea70f51d",
-    "curated_hash": "5026f7bbd279ea9209e5ebaf04acddcf99c21cd39afaacd2fa44580af6c94df6",
-    "change_kind": "EDITORIAL_KEY_RATIONALE_ALIGNMENT",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "d19e64092a10362698c3e6a4160f23b1993701bbbc4aa74d3ef2d3c0a17ea372",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NIDCD_MENIERE"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2919,6 +3212,21 @@
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-21",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C06-Q167",
+    "tracker_index": 230,
+    "prior_hash": "11eaaae3472e40893e220caf31184777b83bc43102cba69d81e997e25d05785d",
+    "curated_hash": "7a1ef6686bb46fc8430f50713f1c7f68cf2e92af1452b5baf55ea819a3d682d7",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_EATING"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2941,12 +3249,14 @@
     "id": "S9-C06-Q317",
     "tracker_index": 232,
     "prior_hash": "5d45f77260932c5103e5dd546afeb726797e1e920f100b193c0153b6dd319864",
-    "curated_hash": "2e824375a64b6148b9a42ae7fb30e46477ca419d63da744c3ba7341e482dfb7d",
-    "change_kind": "EDITORIAL_KEY_RATIONALE_ALIGNMENT",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "319de0ce7efb59f5665e307d56aa7ff2dab096e44c30a80998621e2f9912e6de",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_NG_SKILL"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2954,12 +3264,15 @@
     "id": "S9-C06-Q362",
     "tracker_index": 233,
     "prior_hash": "bc9678f535c50e1e3ba8f286d452f9543a0fea3cf3603bb5034c8a1e1b34237d",
-    "curated_hash": "76a38153ce02d568cf39876a6ff775c6160444e7ca8e7fa8282c5061b1d60fbe",
-    "change_kind": "SUBSTANTIVE_ANATOMIC_AND_REMAP_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "66f2711161c92f85436352240589bfefa7b7a190f92d92fe30c3db084911bb49",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_NEPH",
+      "B100_NEPH_FLUID"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2977,15 +3290,32 @@
     "human_signoff": false
   },
   {
+    "id": "S9-C07-Q063",
+    "tracker_index": 235,
+    "prior_hash": "f24bb0883c4d963ab1c5b80874c04b70299270d9cecc28a471ad3a53a125c7bc",
+    "curated_hash": "3e4e03fb2951a1d3fe80e376a0176a8d427ca750b5730ba00f3bcf7af029e61e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_VIOLENCE"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "S9-C07-Q095",
     "tracker_index": 236,
     "prior_hash": "606c5d57b8fd76ad5e4023040e278b898c6018a9853280caef364889742d0341",
-    "curated_hash": "046b022385e5aaa5be45b88b841443a1315c6a0036e420362540ebc850d10d00",
-    "change_kind": "SUBSTANTIVE_STEREOTYPE_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "8f2b70ab95b2803436366b6dceccddf7def3760b1d7a16b027d5dab38c3a6e3a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AUTISM"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2993,12 +3323,45 @@
     "id": "S9-C07-Q171",
     "tracker_index": 237,
     "prior_hash": "4d8de3ed3347f96b3b24f27e42b89d6d7ce4da31f4b258bd0f2e8e23b3ecb092",
-    "curated_hash": "fbf242e5be7f50fad72e1f4c42b4cfe28312fba91f5af9cf145c0dbb64ee4c2a",
-    "change_kind": "EDITORIAL_KEY_RATIONALE_ALIGNMENT",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "2e3b7ca469660dfb96ee46ee25c57d2bca5a66f5bd8a7c31f83d4824213d46ad",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DEPRESSION"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C07-Q189",
+    "tracker_index": 238,
+    "prior_hash": "6ea872a18e13451b47527d8631de45df02b180e947ed04fd3f7cb30f33a18c77",
+    "curated_hash": "3142a8f530c90f948168c82e4890e90efb8fd7d71a705cb8df43402811c86358",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_FALLS25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q013",
+    "tracker_index": 239,
+    "prior_hash": "5157dab4a22655afc421082a85a645f0ddeca74de55b568aa8fa632f521329b4",
+    "curated_hash": "c9047f0a7287e9e95b0d4b53eed5abf1df6530e3b048f086147ca767b0fa0df5",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_NEPH_FLUID",
+      "B100_NEPH"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3006,12 +3369,89 @@
     "id": "S9-C08-Q016",
     "tracker_index": 240,
     "prior_hash": "5f7cbd2f8c5f42e62dd81351c8e0322f8461ed6139855ce79bd00dfebf55b1f6",
-    "curated_hash": "f8f8f20205eea3bb20876ee639d607e1f1c7912a3a78f61c70d2719df1938e00",
-    "change_kind": "CLINICAL_RATIONALE_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "746877dca215999ef0c230b17a7aee5e7e79e00648dbd7479d991d638e04270d",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DEPRESSION"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q083",
+    "tracker_index": 241,
+    "prior_hash": "22e7858ee0b1a0537432d8d07b1b47604a002e92c12a783cc99f1a135aeb3723",
+    "curated_hash": "5576d25e5171b170f5fa804215ed921f178f0814646e7c3db1b60d3c80f91609",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ANXIETY"
+    ],
+    "objective_relationship": "DOCUMENTED_REPLACEMENT_SAME_ANXIETY_HEALTH_MAINTENANCE_OUTCOME_WITH_STEREOTYPED_FOOD_CAUSE_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q191",
+    "tracker_index": 243,
+    "prior_hash": "e31a3147a9a580c3f567677143158c3308299a51a94a1ca07d7d566f970a08d4",
+    "curated_hash": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "MSK_OSTOMY_CARE"
+    ],
+    "objective_relationship": "REPLACEMENT_SAME_OSTOMY_ODOR_MANAGEMENT_OUTCOME_WITH_UNPROVEN_UNIVERSAL_FOOD_REMEDY_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q192",
+    "tracker_index": 244,
+    "prior_hash": "97996b82d48e4964f0f2f207d45486e7563db3d270da4fcbd9249c1d95888356",
+    "curated_hash": "92ba6d21b2290436634b6f321ce3427995a9f8d8a9baa577063c2c0220716fa3",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_STOMA_FIT"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C08-Q196",
+    "tracker_index": 245,
+    "prior_hash": "5916120846083220b99944c132501209ec687333332e4d8a7fdcd55b70b129bf",
+    "curated_hash": "5da7203390a0f838f194381c972e2801c0a72197366d8d9b3e9bfc086cda11ab",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DEMENTIA"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C09-Q001",
+    "tracker_index": 246,
+    "prior_hash": "b7b2cbc2831626d860da3e6eb4d2c3d5f786a2b58e267874f0b4b1383e615a6a",
+    "curated_hash": "27a223f24e8e3de59a9bf37d3fb5027902f3fb9afc4340641e945fa50699c62c",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_NEURO"
+    ],
+    "objective_relationship": "DOCUMENTED_TEXT_ONLY_REPLACEMENT_PRESERVES_VISUAL_PROCESSING_ANATOMY_WITH_UNSUPPORTED_HALLUCINATION_LOCALIZATION_REMOVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3019,12 +3459,45 @@
     "id": "S9-C09-Q048",
     "tracker_index": 247,
     "prior_hash": "f1c97c25570772a8fdbb463d9e74be11ea1ade475e7c187ace20931e7c0cff80",
-    "curated_hash": "715aec73030c75944bde05cd794e73e994de7ca8a59ef56cc8e7c0fd4bf81023",
-    "change_kind": "CLINICAL_RATIONALE_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "11a907322088586e359c338e34b45c8dd13df07910050be0c89d12963fba7bd5",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_NEURO"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C09-Q053",
+    "tracker_index": 248,
+    "prior_hash": "d239b9f1ac47eb67ea84e7c49fab9929367a65db397a60a5ea767a42ae1d4ccc",
+    "curated_hash": "3b83ef65f17c6a569f3ea00e1b3a947f9fac614216a279e0ef88d20bd7d80d83",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_MANIA",
+      "B100_PSYCH_NURSING"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "S9-C09-Q056",
+    "tracker_index": 249,
+    "prior_hash": "d348099d3b770bf72830be04c2b6fedf498dfefaff90a92b65c83fc91bdd2212",
+    "curated_hash": "81b796fef090e1eafc04a484b1e957b42df7b1074f4132f2bd7d0fdaf8c87e1e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_PSYCH_NURSING"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3032,12 +3505,44 @@
     "id": "S9-C09-Q057",
     "tracker_index": 250,
     "prior_hash": "f8c2f0cded06968e3c7dfe44c6bd298d0cc916d1449822014ad60d1a4d39b92d",
-    "curated_hash": "b659c7cc07123b3b74a7ae6fbba052773d881b90999906edf11d32d5fe364186",
-    "change_kind": "SUBSTANTIVE_MANIA_AND_REMAP_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
-    "sources": [],
+    "curated_hash": "e66ec2302f7a6869c26df2255b1a2eb80bbbb11ec39ac0f67acc52136e356540",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_MANIA"
+    ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH02-Q006",
+    "tracker_index": 251,
+    "prior_hash": "f5ba3b1d3e678a6c643ff8b0ca24f18a4729dc18e65e8d709640a324ec24a968",
+    "curated_hash": "22717b613f270fd27c74cbb48243198a24c5383e8f45ff399ff7ec6f8b00e684",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_HYGIENE"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH02-Q017",
+    "tracker_index": 252,
+    "prior_hash": "40ae66b01b87e62c39beacfe81d9a9e288e4ce1997d948091cc3750046b0e35d",
+    "curated_hash": "df9f2be4bda4855f3e394bdb728de0f493f3be3f8c9fc2109139852b5be84a71",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NCSBN_DELEG19"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3057,6 +3562,130 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-CH05-Q003",
+    "tracker_index": 254,
+    "prior_hash": "db51347843311bfc5255395797c6b33ea90ab5265bf89bc8da97178a9f0e67f9",
+    "curated_hash": "47a17b4c13e9ae4300149d8be0effe1f7dcc2a0e59b2519651f02913efac2048",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CFF_CPT"
+    ],
+    "objective_relationship": "PRESERVED_AIRWAY_CLEARANCE_SCHEDULING_WITH_UNSPECIFIED_MEAL_TIMES_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH05-Q023",
+    "tracker_index": 255,
+    "prior_hash": "bc98e5d0b03d825c2218f51427ac3653e5c86c3f5c28e0ae37abe03f4a6b785e",
+    "curated_hash": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "BTS_OXYGEN17",
+      "B100_COPD_ACTIVITY"
+    ],
+    "objective_relationship": "REPLACEMENT_SAME_COPD_ACTIVITY_TOLERANCE_OUTCOME_WITH_UNIVERSAL_MORNING_PREDICTION_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH06-Q001",
+    "tracker_index": 256,
+    "prior_hash": "64a2d0a1f7692a2d7fe634f0fafab95bd491c67f3755ebf52fdc55f0ee2336b0",
+    "curated_hash": "9e4ba48fc748a4bfcd25e347b41889ad3b6761e13b133c87af38bccfbd4a63c9",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_TBI"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH06-Q019",
+    "tracker_index": 257,
+    "prior_hash": "3fcc2347d291e2b0c43908e460ff184dadf2baa29790aa2fd5e5c1275bcfc0e4",
+    "curated_hash": "635232f74d105d33a7d2ab2be4ac2f11703eb9ca2fc162c635e69c3e3ca6c381",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_STAPES",
+      "B100_MOBILITY"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH07-Q009",
+    "tracker_index": 258,
+    "prior_hash": "8faa08e4212d872781e7c7e4eb6d97b2e6ae958f6d308010262d245c083644fb",
+    "curated_hash": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_POSTOP24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH09-Q028",
+    "tracker_index": 259,
+    "prior_hash": "453f032473fde6acc444a4218eb8b8f56dc879c308cf1672cd3fe7bee58750cf",
+    "curated_hash": "871dac072cb1b48b5d6d8ecda01e0b46425a61c681f324ffe7185e0a610192fc",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_HAND_GRIP",
+      "B100_AAOS_AIDS"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH11-Q008",
+    "tracker_index": 260,
+    "prior_hash": "843ab2d19440228b744dec522c5292a97f339428e9374032553bcd62346d18f0",
+    "curated_hash": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_BURN24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH12-Q085",
+    "tracker_index": 262,
+    "prior_hash": "10252d16211e8bed52ce4e57468bf84f80c00f2871fe6205aca1b49af7362223",
+    "curated_hash": "f77dd706ef5f82721dfc0bea148a5138f1c7ee0b89c5484c8c6f1ac9c73f1529",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "RCOG_APH11",
+      "RCUK_ABCDE24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-CH13-Q007",
     "tracker_index": 264,
     "prior_hash": "ca603d8bea6eb9052731c6d549a4b654ffb2af15db764c086f9e0bdf325547e9",
@@ -3068,6 +3697,127 @@
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-21",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q008",
+    "tracker_index": 265,
+    "prior_hash": "04b498d0dc19e6fd7363704d8cb0fd7566fe19900240a383aad86d3b8435dbe1",
+    "curated_hash": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_TANTRUM"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q010",
+    "tracker_index": 266,
+    "prior_hash": "668b00e0c36177de6ae3e4974b212e5535a52a62dc2fe3f567b6ccb8da942023",
+    "curated_hash": "4ad1e6c2ebbf8895f309c38228c933e4a1cef40885eef26efea3c1482e7a4023",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CHILD_HOSPITAL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q013",
+    "tracker_index": 267,
+    "prior_hash": "c4e5863fa7055650e3df04f328454df5683c7afae87fa083252fecd96e57fc86",
+    "curated_hash": "5e84d23003dc037f4410887f2012f75aaf4722a978ede804719e1bd9feddaa1a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DENTAL_ANAESTH"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q019",
+    "tracker_index": 268,
+    "prior_hash": "aa2fc3e25ec38916725185ba20177a116b2f247cd1126995953504299cc1a737",
+    "curated_hash": "c693d5046062888533fc13cb6789faf5ef30fa9dfaaeaf6056041fe598c2828d",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CHILD_PLAY"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q044",
+    "tracker_index": 269,
+    "prior_hash": "16fda7e574bc0ba8c63db2de126dd075c94386c8dde6b10d348543a9170c8abb",
+    "curated_hash": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "OS_COMM",
+      "B100_CARDIAC_HOME"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q055",
+    "tracker_index": 270,
+    "prior_hash": "9bd5aceb6ad9d16e053bd7b5b4a7777af7970d2df1eb15265e34583c62a2d775",
+    "curated_hash": "4ef13719d364ed52dd9354be8c6955a1ffe6d7cc218c44148a4b4670517be56e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "GINA_SUMMARY26"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q109",
+    "tracker_index": 271,
+    "prior_hash": "20c379a05f5b4187e0ffeba765d2065836cf656fd0828e99aaee6efa7bd5e2d5",
+    "curated_hash": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "SCHN_EATO25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q120",
+    "tracker_index": 272,
+    "prior_hash": "db91a1bab17e942251e1fa406b0a11d59a22829eebdacf688264c4c02aa7a6eb",
+    "curated_hash": "2a6912cd1ce65626bb3ea327d15f802eaa241c04c9f56f38450359dafb21e017",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ENURESIS"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3118,6 +3868,21 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-CH15-Q031",
+    "tracker_index": 276,
+    "prior_hash": "5ee2c8f3b0ff239e244d7d166cbe4d4013922f994455572bc498e5f4295a3300",
+    "curated_hash": "ab40d7895f30280b7c5f01e941c4cbdbabb3e25afe88ff762136678ded77a38c",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_PHOBIA"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT01-Q002",
     "tracker_index": 279,
     "prior_hash": "02bc871aa9c31c4c493146f3196d7e7a07d91ad610127e00516357a1cf802ee6",
@@ -3136,14 +3901,14 @@
     "id": "PN2-PT01-Q006",
     "tracker_index": 280,
     "prior_hash": "42a503ba2c1311267bf8fa64391dd89dab8b64ab8aa9893ad3a2e4039b0c65f7",
-    "curated_hash": "2e053468d96be39fb0ed2c4827e249e9928a916d7bd9cb594ecac6a60cb339dd",
-    "change_kind": "SUBSTANTIVE_MULTIPLE_KEY_AND_AUTONOMY_CORRECTION",
-    "clinical_status": "CLINICAL_REVIEW_PENDING",
+    "curated_hash": "67bbf81a8695d93835939c61baf288021067b72e8df442d60e7e96706165b29e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "CFR_RESTRAINT26"
+      "B100_ADVANCE"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3156,6 +3921,82 @@
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "HHS_PRIVACY25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT01-Q009",
+    "tracker_index": 282,
+    "prior_hash": "560fd602a4319064e0d663455fa750c4fdebd1f3e966914c4bcf5641704b0072",
+    "curated_hash": "8d3c01c55a6c19e8612f50d8546555c2aeea33fa2a09e81cfb27adb17c31cf65",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_LABOUR"
+    ],
+    "objective_relationship": "PRESERVED_RECOGNITION_AND_IMMEDIATE_RESPONSE_TO_SECOND_STAGE_SIGNS_WITH_BLANKET_PANTING_RULE_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT01-Q010",
+    "tracker_index": 283,
+    "prior_hash": "0d613eea3c64775d979d188edd9b3905393af476fb3ffebdfff27c2556721b03",
+    "curated_hash": "b9d0e0703b3733f5637789f6454a4ea9ff340f70673e3d732c8a991deacd0974",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ACOG_HDP",
+      "QCG_ECL26"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT01-Q012",
+    "tracker_index": 284,
+    "prior_hash": "c1e50de9f63c456e5016a7593736f63463ad6f94af53e46ae500fd7d0f4be1b0",
+    "curated_hash": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AGE_TEMP"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT01-Q014",
+    "tracker_index": 285,
+    "prior_hash": "577c6fd61a7ec8323d526ade8e411451053fc09dc425c54191de53a6dc12eb46",
+    "curated_hash": "f5d1120f33e93f35ff95c2b3fc5c870f3a83af212aa72a79ee33efbb5e6bbc70",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "RCUK_ABCDE24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT01-Q019",
+    "tracker_index": 286,
+    "prior_hash": "7bc60124193efc416963e7b25515b8bf9f1a3cf5d2f765df10a414206ef78b8a",
+    "curated_hash": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NCSBN_DELEG19"
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-24",
@@ -3194,6 +4035,128 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-PT03-Q072",
+    "tracker_index": 290,
+    "prior_hash": "7c21ef07e427a0e781465a630165337d9051d08b766723786388f2607d47fea7",
+    "curated_hash": "376af9fe1f1c0fb45e477c4f3d5ea0c7596c1973a9ecfa649c8617115a9736a3",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_SPINE_CERVICAL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT03-Q074",
+    "tracker_index": 291,
+    "prior_hash": "c1afe99e38a857eeb2ff10ca4696a33a644afe0d7443337e721552665d5b35b2",
+    "curated_hash": "5001aa201c6000ed64ca843565dbe42e6fd2e636111c7ba6bd7465567e568271",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_SPINE_LUMBAR"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q025",
+    "tracker_index": 292,
+    "prior_hash": "fb7e230abfd47bc6091d92d11633ce729d2328bb3c710a06c75430b4ded0f34a",
+    "curated_hash": "ae6a7ef91651607ab0adbcd4788e5b81766040efee0293af3cf7b6f1eb2fbd69",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CFR_NF26",
+      "B100_FALLS25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q044",
+    "tracker_index": 293,
+    "prior_hash": "425fe73a78563c6846c5ebc8ff9403998a22b55aa9ef83970147cf7e50ed68fa",
+    "curated_hash": "170c3050f2d97d1873b4a4fbccba121871795cf44916a7baa8795e6ed332357f",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "RCUK_ABCDE24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q056",
+    "tracker_index": 294,
+    "prior_hash": "141511d7ebf07d5fb59c6882b5c383a4099773b255861de47f6d169a71b905ab",
+    "curated_hash": "af2c846b4c902509819faa0c102db59baf415e5e1fb5eb54962c959ab02bf8b6",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ABDOMEN"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q068",
+    "tracker_index": 295,
+    "prior_hash": "13e9eadfd7e460b1f8af4edd1e4044b38e04911627c0aed384aa9a6ed23b1335",
+    "curated_hash": "7466e97886088bc357eaa0f677f24be3c7e6b17450adb6c5f70d20b3d091379a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ERIKSON"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q072",
+    "tracker_index": 296,
+    "prior_hash": "64f234e49acae110998a10162c85774aa9a488315effc349ae9720c629a74fcc",
+    "curated_hash": "cc79d5c02a9652e37c602593e44afd1e8bf7e249afca9044103291ead0436fb2",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "OS_COMM"
+    ],
+    "objective_relationship": "PRESERVED_ASSESSMENT_OF_SEPARATION_DISTRESS_WITH_UNSUPPORTED_DIAGNOSIS_FROM_BEREAVEMENT_REMOVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT04-Q076",
+    "tracker_index": 297,
+    "prior_hash": "dc95dd58c6d82c175b7b78485654f885038b3cc099344f36484a222f126f0f59",
+    "curated_hash": "c8e2953fde6df3a1a3deffcb99f1ae4dee16da6415dfda5007d35d1ec1d06323",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AAOS_AIDS",
+      "B100_CRUTCH_MANUAL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT05-Q007",
     "tracker_index": 298,
     "prior_hash": "e29e356cfddf02b610ef8a98a0d32569395252b2014ea0654d9058b6dbeb68ca",
@@ -3205,6 +4168,22 @@
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-21",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT05-Q027",
+    "tracker_index": 299,
+    "prior_hash": "052dba06bd81f2ed68546a53de3676a34e2faf9de874c27a2695db5d52525369",
+    "curated_hash": "5f7332aa0da48b7694483b856c1c8d3f4f15f4935bafa349d3e30a3a97e224ae",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "NICE_DELIRIUM23",
+      "NCSBN_DELEG19"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3255,6 +4234,68 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-PT05-Q045",
+    "tracker_index": 303,
+    "prior_hash": "265d86f8f9a32a7645bb2eeffd7e5fa5ddadafa245a398495974462c34531157",
+    "curated_hash": "c40f839d4fe4c0552005128382a507ec1774679a833eaf44e3206046f23d5fd2",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_STERTOR"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT05-Q048",
+    "tracker_index": 304,
+    "prior_hash": "0875bc71d7157822e87483e1312f6d3077683f613726bed3facc6860c1117d35",
+    "curated_hash": "013d8ca50991d2538aa6788d35314d924da3e8c92f248f41630c06ca5449014c",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ROM"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT05-Q052",
+    "tracker_index": 305,
+    "prior_hash": "d8922b39e3796100191ed9394e0a700dd4f35355726caadb76a339b075d08d9c",
+    "curated_hash": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "AHA_FA24",
+      "B100_MOBILITY"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT05-Q086",
+    "tracker_index": 306,
+    "prior_hash": "3852da8afbd95d28ee73af36363e35a5e127942bf6ef49e19cabe5887ef74f94",
+    "curated_hash": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "CDC_CORE24",
+      "CDC_ENV24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT06-Q019",
     "tracker_index": 307,
     "prior_hash": "9db29928ec1c260110c8d39deda2adc3e1b07e48c710c7b26ea9b941dff0d597",
@@ -3285,6 +4326,36 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-PT06-Q059",
+    "tracker_index": 309,
+    "prior_hash": "ca9671e86976edbe66ae224ba5f92003db97895329eaf6fb0d421278090e3fe4",
+    "curated_hash": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CRUTCH_MANUAL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT06-Q063",
+    "tracker_index": 310,
+    "prior_hash": "c3e0a1007ba990289a713a2de4c99f32b93db852f125a28e95bd5975ef3362b9",
+    "curated_hash": "97c13e9fad39a088aed4bc11e98f88ed3cb03bee168146c8182e9ef8f862220d",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CFR_NF26"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT06-Q070",
     "tracker_index": 311,
     "prior_hash": "ac281ce522cf6324a10d2a199ef4bea658cfd7f243a00771268d5326e8271ba0",
@@ -3296,6 +4367,53 @@
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-22",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT06-Q080",
+    "tracker_index": 312,
+    "prior_hash": "81239b8bc34183f918f421bb54f41273a323487eae94f4103d9b81775ede7f14",
+    "curated_hash": "52bfae2f1c6e69998482073985585f2543458b3278ad9ccf7c80cdfd06c71abb",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DEMENTIA",
+      "B100_FALLS25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT06-Q085",
+    "tracker_index": 313,
+    "prior_hash": "35ca0709fc5c5041fd60dce61ac5843e6e634c899f7f8b522bb726fe4c2e1b83",
+    "curated_hash": "3fcdd42020ce6ab662d9c5150ebfa793633ad1f7928184ecc396d78ad7a844a5",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "OS_COMM",
+      "HHS_CLAS"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT06-Q094",
+    "tracker_index": 314,
+    "prior_hash": "47a229800043f42f76696431cbe6b6b98281c5299db7bf950f70e343f8c2b05a",
+    "curated_hash": "69542fdf3a80f759a8c5bce2c94caec97057456a15abcd9bb00a3c69af5352aa",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_OCD"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3338,6 +4456,21 @@
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "VA_PEG24"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT07-Q035",
+    "tracker_index": 318,
+    "prior_hash": "8e6aec4c340193c91dc90199b72b23ed91a61265a6725735f1126a55d9ce700a",
+    "curated_hash": "65e53c9a254876b1a7a437004a3c103808b60a51d1ce975c12d6f02ce6401415",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ADVANCE"
     ],
     "objective_relationship": "PRESERVED",
     "date": "2026-10-24",
@@ -3405,6 +4538,67 @@
     "human_signoff": false
   },
   {
+    "id": "PN2-PT08-Q022",
+    "tracker_index": 323,
+    "prior_hash": "748fef7c4b5ccd4ec112b25fdf68d355c544065d26706bf5db69cfc1ecb03eb3",
+    "curated_hash": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "AHA_SEVERE_BP25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT08-Q032",
+    "tracker_index": 324,
+    "prior_hash": "012d2a3b616b89aa938311cbc5bf9662f0840fc0042df6ffa00b9df94fcc89b9",
+    "curated_hash": "c7e37b549b75da8f6ac2b6d6a612a65c3eec179eec14a6c603d0874d874f0353",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_AAOS_AIDS",
+      "B100_AIDS_SKILL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT08-Q036",
+    "tracker_index": 325,
+    "prior_hash": "24d0bbbd11f3ad870c7a07bc6f8b19b10ea4d70a7785545a504444aa1c263f81",
+    "curated_hash": "12773cf3d9af3ebfcebbf148c1f13bffc1e4e673ecb0d09ae34da47a4ade51db",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_FALLS25"
+    ],
+    "objective_relationship": "DOCUMENTED_REPLACEMENT_PRESERVES_FALL_PREVENTION_OUTCOME_WHILE_REPLACING_AMBIGUOUS_DELEGATION_ITEM",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT08-Q051",
+    "tracker_index": 326,
+    "prior_hash": "501a2f7ed749fed7fe76fde98fa503e931eb33285c1c4fe055f9da08992e91db",
+    "curated_hash": "36781064b18b6da9c66d84c262a1796ea5564b4de1f0c301cd562eddd3f5d038",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CONSENT25"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
     "id": "PN2-PT08-Q054",
     "tracker_index": 327,
     "prior_hash": "104cf6d59c7d872ab48705ea53cf728fee1982639f5f09d67e9d50c796c066ad",
@@ -3416,6 +4610,22 @@
       "NMC_RECORD_CODE"
     ],
     "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-PT08-Q061",
+    "tracker_index": 328,
+    "prior_hash": "b358a4d8a0ff75fc5e5f515dbaf316b275ace29050386e2124746e5c1c5dc8f8",
+    "curated_hash": "91a1d95247aaa38ca66bf7cab1ebf97598ebd302d4743bb90ce8b27e633d273a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_ROM",
+      "B100_HYGIENE"
+    ],
+    "objective_relationship": "PRESERVED_FUNCTIONAL_SELF_CARE_ASSESSMENT_USING_DESCRIPTIVE_NEED_RATHER_THAN_UNVERIFIED_DIAGNOSTIC_LABEL",
     "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
@@ -3567,6 +4777,114 @@
     ],
     "objective_relationship": "REPLACED_SAME_INFANT_DEVELOPMENT_LEARNING_OUTCOME",
     "date": "2026-10-21",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q003",
+    "tracker_index": 341,
+    "prior_hash": "52bc84c55409bad74c2f829f9461d08a28f734697ba5ff5d8923f365cd1ed7a5",
+    "curated_hash": "2b377d18de00e314ec2c441c5c9194cda7229913beb80b0f72a25b512a6c0b7a",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "CDC_ENV24",
+      "B100_TOY_SAFETY"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q004",
+    "tracker_index": 342,
+    "prior_hash": "00e2bace238155961dad11ebbf6b24ab1949a5c22637ce739d4426cab8b3a330",
+    "curated_hash": "259eaab0524ff17068df0c25e91452f2ddc58c2f31d88a0e454f3ed96b9df7b4",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "CDC_DEV9_26",
+      "WHO_NURTURING20"
+    ],
+    "objective_relationship": "PRESERVED_DEVELOPMENTALLY_APPROPRIATE_PLAY_WITH_SPECIFIED_RECIPROCAL_SOCIAL_OBJECTIVE",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q009",
+    "tracker_index": 343,
+    "prior_hash": "30d9cdfe6582be57a11a84dcdb91f0b2a7b9258ceeee23960e98f7fb4143db33",
+    "curated_hash": "a2f3750b484aa64f6ac1d16fb0bf16a3d714e58a1cfcdb41249811d288718f52",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CHILD_HOSPITAL"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q018",
+    "tracker_index": 344,
+    "prior_hash": "1e5e8a70489447edca52d3a69ddb9f66dea7e70b4839f8fccfd8670a43279f54",
+    "curated_hash": "a18e04121265eceb04a1c15ec81096083682c844334699a9fb6c68df31fd58c4",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_DMRS21"
+    ],
+    "objective_relationship": "DOCUMENTED_REPLACEMENT_PRESERVES_RECOGNITION_OF_DEFENSIVE_COPING_USING_DEFINED_IDEALIZATION_INSTEAD_OF_HERO_WORSHIP_DIAGNOSIS_FROM_ONE_QUOTE",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q035",
+    "tracker_index": 345,
+    "prior_hash": "08dd6b6fea5a82f8f2aa7a5fb2b7f66c210b0fc418e72b1833e1de1260707ac7",
+    "curated_hash": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_INFANT_HEART"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q043",
+    "tracker_index": 346,
+    "prior_hash": "cecbbff786a338556b74c9904e64e8bafc49cd7b9eabf3d2d4417d99b824e65f",
+    "curated_hash": "0f5a02a581a9c63dec5f81a1a841bb7f70c3e2ca34ee4ef9c31692204f526fb6",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "B100_CHD_ACTIVITY",
+      "OS_COMM"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
+    "reviewer_type": "AI",
+    "human_signoff": false
+  },
+  {
+    "id": "PN2-CH13-Q060",
+    "tracker_index": 347,
+    "prior_hash": "1e218fec3078278cc8959ec08999641a32323c767912a81de11c888c450b87d9",
+    "curated_hash": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014",
+    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "clinical_status": "CORRECTED_AND_REVIEWED",
+    "sources": [
+      "GINA_SUMMARY26"
+    ],
+    "objective_relationship": "PRESERVED",
+    "date": "2026-10-24",
     "reviewer_type": "AI",
     "human_signoff": false
   },

@@ -9,17 +9,13 @@
   "all12FinalQAPass": 0,
   "humanClinicianSignoffs": 0,
   "continuationAuthenticatedRoundTrip": "PASS",
-  "continuationManifestSHA256Checks": 87,
-  "continuationZIPMembersCRCChecked": 88,
+  "continuationManifestSHA256Checks": 138,
+  "continuationZIPMembersCRCChecked": 139,
   "wrongKeyRejected": true,
   "modifiedCiphertextRejected": true,
   "originalEncryptedBasePreserved": true,
   "recoveryKeyOverwritten": false,
   "finalRelease": false,
-  "base_plus_continuation_rebuilt": true,
-  "records_identical": 2894,
-  "clinical_reviews": 219,
-  "quiz_eligible": 0,
-  "final_release": false,
-  "pair_decisions_preserved_on_recompile": true
+  "basePlusContinuationRebuild": "PASS",
+  "recompiledRecordsIdentical": 2894
 }

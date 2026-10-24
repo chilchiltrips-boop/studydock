@@ -6,12 +6,12 @@ The project is incomplete. This branch stores recoverable work and review metada
 | --- | ---: |
 | Source entries accounted for | 2,894 |
 | Prior candidates individually screened | 351 |
-| Explicit curation records | 240 |
-| AI clinical-content reviews passed | 219 |
-| Clinical-content review pending | 2675 |
-| INC five-level AI mappings reviewed | 219 |
-| INC mappings pending | 2675 |
-| Similarity candidate pairs | 11333 |
+| Explicit curation records | 324 |
+| AI clinical-content reviews passed | 319 |
+| Clinical-content review pending | 2575 |
+| INC five-level AI mappings reviewed | 322 |
+| INC mappings pending | 2572 |
+| Similarity candidate pairs | 11601 |
 | AI pair adjudications | 4 |
 | Independent human clinician sign-offs | 0 |
 | All 12 final QA checks passed / scored-quiz eligible | 0 |
