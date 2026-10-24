@@ -1,0 +1,12 @@
+[
+  {
+    "group_id": "EXACT-0001",
+    "ids": [
+      "PN2-CH13-Q027",
+      "PN2-CH19-Q021"
+    ],
+    "source_options_identical": true,
+    "source_keys_identical": true,
+    "semantic_adjudication": "EXACT_STEM_CONFIRMED; current rewrite relationship requires review"
+  }
+]
