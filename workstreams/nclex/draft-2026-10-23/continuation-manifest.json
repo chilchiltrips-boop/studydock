@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "encrypted-review-continuation",
-  "checkpointDate": "2026-10-25",
+  "checkpointDate": "2026-10-26",
   "repository": "chilchiltrips-boop/studydock",
   "branch": "draft/nclex-2894-review-checkpoint-2026-10-23",
   "baseCheckpointManifest": "draft-manifest.json",
@@ -9,20 +9,20 @@
     {
       "file": "nclex-continuation-2026-10-24.enc.part001",
       "bytes": 9000000,
-      "sha256": "91d2016405d8a114e8ccfe792da5245a493b000adf3d85be6270029d2d9363d3"
+      "sha256": "44c39a56fe8d0c4b98d8663ffad84c52c6092e951b96ab260c13574a3305add5"
     },
     {
       "file": "nclex-continuation-2026-10-24.enc.part002",
-      "bytes": 780521,
-      "sha256": "f44feeaf86ca83e4a3645063f0b8c6e005c05f83d42ed0d0684b12154b7d9c90"
+      "bytes": 4105967,
+      "sha256": "7c256d9ac80c2a076a576556d802c9316df04c51ed0bb386e361519fcfd7b1f9"
     }
   ],
-  "encryptedBytes": 9780521,
-  "encryptedSHA256": "e7cb943362fc1b4f8fb7a9f279aed210ff4232f3055fd916422f99d5cc6a8c72",
-  "plainArchiveSHA256": "d3dbd454e82bd36927ffb5f981a371b3a140f777b993a0c4aa41cc9d9b86053b",
+  "encryptedBytes": 13105967,
+  "encryptedSHA256": "51b72e91b501187c5219d277ac6a3f4556422a0ba1a6203df01fc50f6d5a8ccc",
+  "plainArchiveSHA256": "b1e8e57e3b7ee28b6ae492b19213f9bba5957c12b06bb83cf3d52c47ddc79b72",
   "recoveryKey": "Same private keyBase64 as the original base checkpoint; key is not stored in Git.",
   "recovery": "Recover base ZIP and this continuation ZIP outside the repository. In a private workspace, overlay continuation files onto the base project. No figures/source PDF text caches were removed; they are retained in the base archive.",
-  "containedFiles": 197,
+  "containedFiles": 233,
   "copyrightedGuidelineFulltextIncluded": false,
   "finalRelease": false
 }

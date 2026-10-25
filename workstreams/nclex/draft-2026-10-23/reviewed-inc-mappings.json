@@ -2492,7 +2492,7 @@
     "unit": "I - Management of cardiovascular, gastrointestinal, genitourinary and nervous system disorders",
     "main_topic": "Acute glomerulonephritis",
     "subtopic": "Recovery and cause-specific teaching",
-    "specific_learning_objective": "Distinguish poststreptococcal disease from other causes and follow individualized recovery instructions.",
+    "specific_learning_objective": "Explain individualized poststreptococcal renal recovery instructions and the need for prescribed blood-pressure, urine and kidney-function follow-up.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "CH2_I",
@@ -2516,7 +2516,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null,
@@ -2565,7 +2565,7 @@
     "unit": "IV - Communication and Nurse Patient Relationship",
     "main_topic": "Therapeutic communication",
     "subtopic": "Reflection after a distressing event",
-    "specific_learning_objective": "Use an open response to explore the patient experience.",
+    "specific_learning_objective": "Use an open response to explore the patient's experience.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "NF1_IV",
@@ -2589,7 +2589,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null
@@ -2965,7 +2965,7 @@
     "unit": "XV - Concepts of Cultural Diversity and Spirituality",
     "main_topic": "Spiritual care",
     "subtopic": "Patient-requested religious observance",
-    "specific_learning_objective": "Facilitate the patient chosen spiritual support while considering consent and the clinical plan.",
+    "specific_learning_objective": "Facilitate the patient's chosen spiritual support while considering consent and the clinical plan.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "NF2_XV",
@@ -2989,7 +2989,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null
@@ -3338,7 +3338,7 @@
     "unit": "XI - Care of Terminally ill, death and dying",
     "main_topic": "End-of-life care",
     "subtopic": "Discussing prognosis concerns",
-    "specific_learning_objective": "Invite the patient questions and understanding to support an honest, individualized discussion.",
+    "specific_learning_objective": "Invite the patient's questions and understanding to support an honest, individualized discussion.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "NF2_XI",
@@ -3362,7 +3362,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null
@@ -3411,7 +3411,7 @@
     "unit": "XI - Care of Terminally ill, death and dying",
     "main_topic": "Advance-care planning",
     "subtopic": "Present decision-making capacity",
-    "specific_learning_objective": "Distinguish a capacitated adult current choices from future use of an advance directive in the stated legal setting.",
+    "specific_learning_objective": "Distinguish an adult's current capable choices from future use of an advance directive under applicable law.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "NF2_XI",
@@ -3435,7 +3435,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null,

@@ -99,14 +99,14 @@
       "PN2-PT07-Q037"
     ],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359",
       "PN2-PT06-Q072": "ad3b9c868802013caee412c310068bd207279d2b60f2d47828040b61f2a5d2af",
       "PN2-PT03-Q010": "f59be309129c05890b27f6eb766ea4d2d27944b149cbf3b7e8146871aa301e76",
       "PN2-PT05-Q081": "6878db66d84c62d9f19f903201ec14719d5cab1bb7b4873d8d103006cdab68e2",
-      "PN2-PT07-Q037": "e30b6d8921791570a0144dfbe5ac645b352cec306cbd41f0dde96159ff5d6a6c"
+      "PN2-PT07-Q037": "16f9b1dd3bffb86c23c7df386167ebe686014352cb29dfc3d831cde14554de27"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -248,18 +248,22 @@
     "ids": [
       "PN2-CH03-Q021",
       "PN2-CH03-Q030",
-      "S9-C11-Q163"
+      "S9-C11-Q163",
+      "PN2-CH19-Q029",
+      "PN2-PT02-Q005"
     ],
     "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
       "PN2-CH03-Q030": "c4c6621d954790303ebc2e3b1274f21e15258640bf4d22e2913456cfd16bb042",
-      "S9-C11-Q163": null
+      "S9-C11-Q163": null,
+      "PN2-CH19-Q029": null,
+      "PN2-PT02-Q005": null
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -572,20 +576,22 @@
       "S9-C09-Q074",
       "PN2-CH06-Q028",
       "PN2-PT06-Q070",
-      "PN2-PT08-Q033"
+      "PN2-PT08-Q033",
+      "PN2-CH14-Q010"
     ],
     "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-26",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-PT08-Q062": "33a6b115b3baba7f0d6a247c4f49ce0e9b297984a4aba29b03623972967dbcdc",
       "S9-C09-Q074": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4",
       "PN2-CH06-Q028": null,
       "PN2-PT06-Q070": "22af1e94f8da39a8ee7d764a72f494b8a9999b9691df0e051a28d6cdea9f27a7",
-      "PN2-PT08-Q033": null
+      "PN2-PT08-Q033": null,
+      "PN2-CH14-Q010": null
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -928,6 +934,358 @@
       "S9-C09-Q051": "d767423d16524dff6588d921ede19330a35b21b4245827e17681d4842089b70a",
       "S9-C09-Q073": null,
       "PN2-CH13-Q114": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-MG-INVESTIGATIONS-003",
+    "ids": [
+      "PN2-CH06-Q009",
+      "PN2-PT02-Q084"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q009": "b90102542658aa7041700e41cce162e008e18603df1d8a5a18d9c3215c186fd6",
+      "PN2-PT02-Q084": "ad0b3e11f863074dc99282e3a392be3ee87c45364b97911dd1fce7629c51652a"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-NG-ONGOING-VS-FIRST-003",
+    "ids": [
+      "S9-C11-Q169",
+      "PN2-PT07-Q037",
+      "PN2-PT03-Q010"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q169": "a0d79d4693ecfa4ffc2492403431b29a75454dd70eece776788ae4034f31e71a",
+      "PN2-PT07-Q037": "16f9b1dd3bffb86c23c7df386167ebe686014352cb29dfc3d831cde14554de27",
+      "PN2-PT03-Q010": "f59be309129c05890b27f6eb766ea4d2d27944b149cbf3b7e8146871aa301e76"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CATARACT-HOME-ACTIVITY-003",
+    "ids": [
+      "PN2-CH06-Q014",
+      "PN2-PT02-Q097"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q014": "13cc5340538bd94830eb224dc248ea7271936c002fa0bc2b38b9d8562b264e51",
+      "PN2-PT02-Q097": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-WALKER-TRANSFER-STEPS-003",
+    "ids": [
+      "PN2-PT08-Q032",
+      "S9-C07-Q120",
+      "PN2-PT04-Q076",
+      "PN2-PT03-Q059"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q032": "c7e37b549b75da8f6ac2b6d6a612a65c3eec179eec14a6c603d0874d874f0353",
+      "S9-C07-Q120": "6c1a71f601c7b39b155660a4069e817896b93ed73312f899f161c37248dab694",
+      "PN2-PT04-Q076": "c8e2953fde6df3a1a3deffcb99f1ae4dee16da6415dfda5007d35d1ec1d06323",
+      "PN2-PT03-Q059": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-RENAL-RECOVERY-003",
+    "ids": [
+      "S9-C08-Q168",
+      "S9-C07-Q156",
+      "PN2-CH08-Q028",
+      "S9-C11-Q107"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C08-Q168": "1143ecd2c55fc8ede9c012adeae36fa20136cbf0b228ba1a1578cb9f55264902",
+      "S9-C07-Q156": "4a4abd9e50d3c674b958ff200e10a24335b712a06cfcb810e294bb6440bd1a62",
+      "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82",
+      "S9-C11-Q107": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-STANDARD-PRECAUTIONS-003",
+    "ids": [
+      "PN2-PT07-Q070",
+      "PN2-CH04-Q015",
+      "PN2-CH02-Q009",
+      "PN2-PT07-Q095",
+      "S9-C07-Q144",
+      "PN2-PT05-Q086",
+      "IMG-058",
+      "IMG-059",
+      "IMG-060"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q070": "251a611f9e28d9eb234b699dbc5b7bd551bf68e6f61ea65448591dd6505e14b9",
+      "PN2-CH04-Q015": "946227397fece2a3f6515bc482f7fc4ea1f9bf423051ef1156c46cecce8e10e1",
+      "PN2-CH02-Q009": "f1167080a222ddaad96954854cf7f5025898d85640833eb6518090204b95ef90",
+      "PN2-PT07-Q095": "c1733f116db99bf43a472071c3ddc82c51eab96998cab8799a0cb0e47cf55682",
+      "S9-C07-Q144": "0bdd3c5a0eb6102ed2a78f0511da186b574fb93bc55d19bc060e8037c2097f5e",
+      "PN2-PT05-Q086": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
+      "IMG-058": "472a887a90d81595c5c4373fdbf682385feaf216e30bcba80ce1eed9a4adaa11",
+      "IMG-059": "5bb272302002e689fdc976ea670c5697b9656fcda0610d84de47e21b268155dd",
+      "IMG-060": "6c0743d762e5990d702dbc7020d883de6ca4449f815a74d8da9b86e04bf94138"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ASSIGNMENT-SUPERVISION-003",
+    "ids": [
+      "PN2-PT07-Q076",
+      "PN2-CH02-Q018",
+      "PN2-PT08-Q031",
+      "S9-C07-Q156",
+      "PN2-CH02-Q017",
+      "PN2-PT05-Q035"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q076": "95e74f5d7f0f277e290fcd7958c0a81f09d0c4cc443f44466fcf800e54ae8428",
+      "PN2-CH02-Q018": "3fb87dd9afb307aa42f5028f6ce8e427439e1a61c8d7499b8a3ede84896da411",
+      "PN2-PT08-Q031": "6206698c5b76a661ab51e334f525e953c69ee06954677835c1c62fe66bcd3c89",
+      "S9-C07-Q156": "4a4abd9e50d3c674b958ff200e10a24335b712a06cfcb810e294bb6440bd1a62",
+      "PN2-CH02-Q017": "df9f2be4bda4855f3e394bdb728de0f493f3be3f8c9fc2109139852b5be84a71",
+      "PN2-PT05-Q035": "de73bb75bd8b69f17b5dd0c935ae8db9ce7c4a6cbfe042a64586e74e9f50246e"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CARDIAC-CHILD-DISCHARGE-003",
+    "ids": [
+      "S9-C11-Q215",
+      "S9-C08-Q038"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q215": "8f880970ca34b311938ca31d4e7358265a166590b59054797260ac61324100e1",
+      "S9-C08-Q038": "8a5e4fb74d76d4ee0326aadc01708e6b45ae67fb13ed5455ab5b963167f29795"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-SUICIDE-DIRECT-ASSESSMENT-003",
+    "ids": [
+      "PN2-PT04-Q085",
+      "S9-C09-Q195",
+      "S9-C09-Q045",
+      "S9-C09-Q028"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT04-Q085": "2e26ec08949ea4e155440bf6068b2113bfff98518ccd5584996f20d7764f15c3",
+      "S9-C09-Q195": null,
+      "S9-C09-Q045": null,
+      "S9-C09-Q028": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CHILD-SEPARATION-SUPPORT-003",
+    "ids": [
+      "PN2-CH13-Q009",
+      "PN2-CH13-Q010"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q009": "a2f3750b484aa64f6ac1d16fb0bf16a3d714e58a1cfcdb41249811d288718f52",
+      "PN2-CH13-Q010": "4ad1e6c2ebbf8895f309c38228c933e4a1cef40885eef26efea3c1482e7a4023"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-OCD-MEALS-003",
+    "ids": [
+      "PN2-PT06-Q094",
+      "PN2-PT04-Q089"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT06-Q094": "69542fdf3a80f759a8c5bce2c94caec97057456a15abcd9bb00a3c69af5352aa",
+      "PN2-PT04-Q089": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PEDIATRIC-VAX-MILD-003",
+    "ids": [
+      "PN2-PT07-Q004",
+      "PN2-PT01-Q034"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q004": "3629c06c19dce81e11c67368f86829b590068bba6f9e8722aef64690ba14879c",
+      "PN2-PT01-Q034": "e52daa20a7715992b9c5a2886a94a7e6979caf3163feb187257d701afabcdfae"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-RAYNAUD-PATTERN-CARE-003",
+    "ids": [
+      "S9-C06-Q373",
+      "S9-C08-Q129",
+      "S9-C09-Q183"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C06-Q373": "bf70c88cfa620f8a2fce5c7a9a319d45276077bf637acea0e0ecbbf320e110dc",
+      "S9-C08-Q129": "288448fc29b87ee61ae20586aff9ca9ac9f5037efdba8f393e33e9c932969819",
+      "S9-C09-Q183": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PRESYNCOPE-PERFUSION-003",
+    "ids": [
+      "PN2-PT05-Q052",
+      "PN2-PT07-Q021",
+      "PN2-PT01-Q014",
+      "PN2-CH02-Q001"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT05-Q052": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34",
+      "PN2-PT07-Q021": "07eb359fa2e237ce63caaa073ff9e4d3e7447f15b3adc558d80577b869778074",
+      "PN2-PT01-Q014": "f5d1120f33e93f35ff95c2b3fc5c870f3a83af212aa72a79ee33efbb5e6bbc70",
+      "PN2-CH02-Q001": "22fb730153de4f05eb33703c04e33b5817fe8a429f9f9de6dbbd19439c9e649f"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-IDENTIFICATION-MEDICINE-003",
+    "ids": [
+      "PN2-PT08-Q100",
+      "PN2-PT01-Q008",
+      "PN2-PT05-Q030"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q100": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976",
+      "PN2-PT01-Q008": null,
+      "PN2-PT05-Q030": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CULTURAL-PATIENT-PREFERENCE-003",
+    "ids": [
+      "S9-C11-Q045",
+      "S9-C11-Q041",
+      "S9-C11-Q046",
+      "S9-C09-Q175"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-26",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q045": "bc0f551b8bdcc69a828b34c33a6e35239aed8fbddc0ae1086e9fb8e594c5be2c",
+      "S9-C11-Q041": "a9d60fbe6bfbc4056cb6936897dbc5665ce1f22a440ec3259218e45f2fd6e578",
+      "S9-C11-Q046": "7d5ba10420ba2fde38ce9603d2b9e9ec54e66a8904c28c01a27cf799894ba78d",
+      "S9-C09-Q175": "1501efa386fe1783b2adcb9e0defbd81e401e4e8824ae93bb2c8a03a1459fbf1"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false

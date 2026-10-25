@@ -257,7 +257,7 @@
       "after_status": "CORRECTED_AND_REVIEWED",
       "reviewed_on": "2026-10-24",
       "reviewer_type": "AI",
-      "candidate_content_hash": "bc4f4b4ba10e91371b440cc9ca1ad5d0462db6bd06d63cbe5dbc812b05d2fe82",
+      "candidate_content_hash": "4a4abd9e50d3c674b958ff200e10a24335b712a06cfcb810e294bb6440bd1a62",
       "reference_ids": [
         "CDC_PSGN25",
         "NCSBN_DELEG19"
@@ -403,9 +403,10 @@
       "after_status": "CORRECTED_AND_REVIEWED",
       "reviewed_on": "2026-10-24",
       "reviewer_type": "AI",
-      "candidate_content_hash": "8c9d84a59cd924c3c35658d0e3dd2f3a4041723f5e1ab7da28351c1190bfc2a0",
+      "candidate_content_hash": "1143ecd2c55fc8ede9c012adeae36fa20136cbf0b228ba1a1578cb9f55264902",
       "reference_ids": [
-        "CDC_PSGN25"
+        "ASPNA_IRGN26",
+        "RCH_PSGN25"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -476,7 +477,7 @@
       "after_status": "CORRECTED_AND_REVIEWED",
       "reviewed_on": "2026-10-24",
       "reviewer_type": "AI",
-      "candidate_content_hash": "fa6313d4c6e03b8b050a7976d33c83de069f1241d05ab10d9c5869b91ad0bfa7",
+      "candidate_content_hash": "2146005035b795af65ee2ccc482bcdf46a80e5953d133d63ac79a88ef41bc697",
       "reference_ids": [
         "B100_ROM"
       ],
@@ -502,7 +503,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190",
       "reference_ids": [
-        "AHA_FA24"
+        "AHA_FRACTURES24"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -1761,7 +1762,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "170c3050f2d97d1873b4a4fbccba121871795cf44916a7baa8795e6ed332357f",
       "reference_ids": [
-        "RCUK_ABCDE24"
+        "RCUK_ABCDE_BREATHING24"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -1882,7 +1883,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "5f7332aa0da48b7694483b856c1c8d3f4f15f4935bafa349d3e30a3a97e224ae",
       "reference_ids": [
-        "NICE_DELIRIUM23",
+        "NICE_DELIRIUM_FAMILIAR23",
         "NCSBN_DELEG19"
       ],
       "INC_mapping_reviewed": true,
@@ -1955,7 +1956,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34",
       "reference_ids": [
-        "AHA_FA24",
+        "AHA_PRESYNCOPE24",
         "B100_MOBILITY"
       ],
       "INC_mapping_reviewed": true,
@@ -2246,10 +2247,9 @@
       "after_status": "CORRECTED_AND_REVIEWED",
       "reviewed_on": "2026-10-24",
       "reviewer_type": "AI",
-      "candidate_content_hash": "91a1d95247aaa38ca66bf7cab1ebf97598ebd302d4743bb90ce8b27e633d273a",
+      "candidate_content_hash": "33cacf1d056d860aacd35afeab4ebf5c133b7d1e667d2371e359a73da868603b",
       "reference_ids": [
-        "B100_ROM",
-        "B100_HYGIENE"
+        "OS_HYGIENE_ASSIST"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -2298,7 +2298,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "259eaab0524ff17068df0c25e91452f2ddc58c2f31d88a0e454f3ed96b9df7b4",
       "reference_ids": [
-        "CDC_DEV9_26",
+        "CDC_DEV9_SOCIAL26",
         "WHO_NURTURING20"
       ],
       "INC_mapping_reviewed": true,

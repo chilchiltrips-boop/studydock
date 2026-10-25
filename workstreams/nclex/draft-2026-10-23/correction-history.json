@@ -127,14 +127,14 @@
     "id": "PN2-CH02-Q010",
     "tracker_index": 8,
     "prior_hash": "b6208f3e74edd4fc76d118b52015f42aaf10db3cb0000f6a6d69b2b4722f1f9e",
-    "curated_hash": "daa89e2498c8a53929c9a7ded7bc9c322b73963c52c9b91a0952239b21d63e21",
-    "change_kind": "JURISDICTION_AND_MAPPING_CORRECTION",
+    "curated_hash": "e86da9d2bac9415233c68d78cb982223400578565c94c27eaf423edd2f704428",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "CDC_ENV24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -671,13 +671,14 @@
     "tracker_index": 45,
     "prior_hash": "a9486cbbae8449ca488320eed3210b964a688237624bf7055dccfcf9886ea2e8",
     "curated_hash": "7c87c595fa5bcc365856a859ed580c2556c1bf9e569e4f9a11e4b20f46d81a69",
-    "change_kind": "OBSOLETE_PAP_CLASS_REPLACED_WITH_RISK_BASED_HSIL_EXPLANATION",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "ASCCP_RISK19"
+      "ASCCP_RISK19",
+      "NCI_HSIL"
     ],
     "objective_relationship": "REPLACED_SAME_ABNORMAL_CERVICAL_CYTOLOGY_PATIENT_EDUCATION_OUTCOME",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -685,14 +686,14 @@
     "id": "PN2-CH12-Q025",
     "tracker_index": 46,
     "prior_hash": "8bf5b1d5708fcbde88a707e04aca938e8af3243035dbc76af7ef3c37c3b5eeb8",
-    "curated_hash": "69187cebb76206fef95a7ae72d8a656e2c6045065e7accf973d531b6c472f67a",
-    "change_kind": "SENTINEL_NODE_POSTOPERATIVE_ARM_ADVICE_VERIFIED",
+    "curated_hash": "0543078b5d77929f1d58cbb98b7c621de83dcec9570f70f01fedf201d8ee1ba4",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "MSK_LYMPHEDEMA"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -901,15 +902,15 @@
     "id": "PN2-CH19-Q042",
     "tracker_index": 61,
     "prior_hash": "f49f552d5751a2fb14e19bbfd4f4803de0d4513b232ab5c6f2f07e4afe2c8deb",
-    "curated_hash": "b44b4d5a12764305b8fe2886e780d03021e222687435ca0513f912c691e63b31",
-    "change_kind": "PHOSPHATE_BINDER_PURPOSE_RESTORED_WITH_NONALUMINUM_AGENT",
+    "curated_hash": "134309812acb10a095c788f994ac70cb4da27121c2211d9390fabbbb4aa4c3c7",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "NIDDK_CKD_MBD21",
       "KDIGO_MBD17"
     ],
     "objective_relationship": "DOCUMENTED_REPLACEMENT_PRESERVES_ORIGINAL_PHOSPHATE_BINDING_PURPOSE",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -948,8 +949,8 @@
     "id": "PN2-CH19-Q050",
     "tracker_index": 64,
     "prior_hash": "550a0d8bae51560b82418e9cd4b4afb21919b69539cb686278a198bc85136df5",
-    "curated_hash": "8e98e6008af1722548adb707e1ef1695346eca74cc2bd0f6addeda7a419e684d",
-    "change_kind": "CONFIRMED_RUBELLA_EXPOSURE_TESTING_AND_PEP_REVIEW",
+    "curated_hash": "27a80710055eb55b2d9c737a9282edc55109f78a65552976a71c53ddbc1740dc",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "CDC_RUBELLA_SURV25",
@@ -957,7 +958,7 @@
       "CDC_MMR_VIS25"
     ],
     "objective_relationship": "DOCUMENTED_REPLACEMENT_SAME_PREGNANCY_RUBELLA_EXPOSURE_CARE_OUTCOME",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1040,14 +1041,14 @@
     "id": "PN2-PT02-Q060",
     "tracker_index": 70,
     "prior_hash": "f070239281d7cf1efa31306bdc62bae46157240bf0be4987ae04ab225a7caf9e",
-    "curated_hash": "9bbf6ecff7e97b9f57d81c82959d38b6b5fe812d172eb15d023a7cf8dd7d2027",
-    "change_kind": "HOSPITAL_TB_PRECAUTION_DURATION_VERIFIED",
+    "curated_hash": "00daeb361c098bcf3cb445859260e0c0752e2706c982985a1fd96d1e592c7d07",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "CDC_ISOL26"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1055,14 +1056,14 @@
     "id": "PN2-PT02-Q084",
     "tracker_index": 71,
     "prior_hash": "2fb4052434da665c68168ae77565510bb9536a82c7aeee471a69a1a85144aa3c",
-    "curated_hash": "658ab312219df0b375d7c3c41e97f93f9c761846320be5d951e7665ed1c8d5fa",
-    "change_kind": "EXISTING_REWRITE_EVIDENCE_REVIEW",
+    "curated_hash": "ad0b3e11f863074dc99282e3a392be3ee87c45364b97911dd1fce7629c51652a",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CLINICAL_REVIEW_PASS",
     "sources": [
       "MGFA_DIAG"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1147,14 +1148,14 @@
     "id": "PN2-PT04-Q085",
     "tracker_index": 77,
     "prior_hash": "8d352ca4bd4756a020c245438d8db56277e12df4969257081bd39b05c785d752",
-    "curated_hash": "0003c016407bcdbbbd4bcfa042438ad49ede5e150d77c53c6a35ceffa59f03c1",
-    "change_kind": "EXISTING_REWRITE_EVIDENCE_REVIEW",
+    "curated_hash": "2e26ec08949ea4e155440bf6068b2113bfff98518ccd5584996f20d7764f15c3",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CLINICAL_REVIEW_PASS",
     "sources": [
       "NIMH_SUICIDE"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1421,14 +1422,14 @@
     "id": "PN2-PT07-Q037",
     "tracker_index": 96,
     "prior_hash": "547b692df864ee5d8a672bbbff4bf52c9ca618ccb88f03c0cbbfe25db8dc7812",
-    "curated_hash": "e30b6d8921791570a0144dfbe5ac645b352cec306cbd41f0dde96159ff5d6a6c",
-    "change_kind": "JURISDICTION_AND_REFERENCE_REPAIR",
+    "curated_hash": "16f9b1dd3bffb86c23c7df386167ebe686014352cb29dfc3d831cde14554de27",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "AACN_NG16"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1618,14 +1619,14 @@
     "id": "PN2-PT07-Q070",
     "tracker_index": 109,
     "prior_hash": "ad8ffb962280abccf0b6d2d665fa59f860d7ffb2b70f0f1ac911fa0621c81b37",
-    "curated_hash": "26a93193055054452d938fe074e87a28185fd4e87e010025d50201f76d40ab56",
-    "change_kind": "EXISTING_REWRITE_EVIDENCE_REVIEW",
+    "curated_hash": "251a611f9e28d9eb234b699dbc5b7bd551bf68e6f61ea65448591dd6505e14b9",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CLINICAL_REVIEW_PASS",
     "sources": [
       "CDC_CORE24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -1712,14 +1713,14 @@
     "id": "PN2-PT07-Q095",
     "tracker_index": 115,
     "prior_hash": "accb48b3973a1677e0a68df8f753410ee9da880a92d23a33253682efda3c2d0a",
-    "curated_hash": "f75fcd8cc782338f6640a051843d9bb3809eb5335277baad4feba5c36df86e1c",
-    "change_kind": "CONTACT_PRECAUTIONS_PPE_SPECIFIC_GUIDANCE_VERIFIED",
+    "curated_hash": "c1733f116db99bf43a472071c3ddc82c51eab96998cab8799a0cb0e47cf55682",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "CDC_TRANSMISSION24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2033,14 +2034,14 @@
     "id": "PN2-PT08-Q094",
     "tracker_index": 138,
     "prior_hash": "16488d7e3ca6fc138896385e2e06ff5937db02d5e193ff55d64846c99af9da17",
-    "curated_hash": "67b453307e4defb1a8d34c00ac7fa23aefd261a392804588f3f1ab16a4817f19",
-    "change_kind": "BURN_DEBRIDEMENT_PURPOSE_RESTORED_WITH_CURRENT_CARE",
+    "curated_hash": "0645bc6753c5181c39bdb3d4372b2ffee692a958078e5beff5d57ca627018651",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "RCH_BURN_NURSING"
     ],
     "objective_relationship": "RESTORED_ORIGINAL_DEBRIDEMENT_PURPOSE_WITH_OUTDATED_ROUTINE_HYDROTHERAPY_REMOVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2049,13 +2050,13 @@
     "tracker_index": 140,
     "prior_hash": "18de730d98ce60fa20312bbd0d24e3f5875cc766fbbb6ec0d41b89c85da600f4",
     "curated_hash": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976",
-    "change_kind": "CURRENT_2026_TWO_IDENTIFIER_FAQ_AND_PEDIATRIC_POLICY_VERIFIED",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "TJC_IDENTIFIERS26"
+      "TJC_NPG_HOSP26"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2380,13 +2381,13 @@
     "tracker_index": 168,
     "prior_hash": "93a1410d03842978e5bc09be5c50907f997aec6599ed70629e856e065968c99f",
     "curated_hash": "af28e94204f11dccfd28b48c5e6b985c074a8596bf7f11a3f76009160e1a9e84",
-    "change_kind": "SUBSTANTIVE_REMAP_AND_SAFETY_CORRECTION",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "OS_LEADERSHIP"
+      "OS_MENTORING18"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2561,15 +2562,15 @@
     "id": "S9-C07-Q156",
     "tracker_index": 180,
     "prior_hash": "e2b2870ba76b7f7f387778841f5c7ff0de3ce8733a45cfe8203fa499f2520240",
-    "curated_hash": "bc4f4b4ba10e91371b440cc9ca1ad5d0462db6bd06d63cbe5dbc812b05d2fe82",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "curated_hash": "4a4abd9e50d3c674b958ff200e10a24335b712a06cfcb810e294bb6440bd1a62",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "CDC_PSGN25",
       "NCSBN_DELEG19"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2593,13 +2594,14 @@
     "tracker_index": 182,
     "prior_hash": "b53d4bfb455dab0807cdca0060aa5f784ab10109c85a8126a0f1b50489d297be",
     "curated_hash": "a3c42d89d2b4ee22931a8039326ab0dc857f8e15f96f89759777102952a5a1e8",
-    "change_kind": "SUBSTANTIVE_EMERGENCY_DELAY_CORRECTION",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "CFR_RESTRAINT26"
+      "CFR_RESTRAINT26",
+      "B100_VIOLENCE"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2638,14 +2640,14 @@
     "id": "S9-C07-Q200",
     "tracker_index": 186,
     "prior_hash": "f820e77b7a50f2d781bf9be936e848a23610365ee156d0fc020a3a2df4311859",
-    "curated_hash": "89d9a1940573b71fdaad04472a5f6b8b1d370d6542f2b8f15b65e0452414d6df",
-    "change_kind": "EXISTING_REWRITE_EVIDENCE_REVIEW",
+    "curated_hash": "92c6d72d2a85203d390b981f861bd87afccd37ee8df73be7b814c980a7bf107d",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CLINICAL_REVIEW_PASS",
     "sources": [
       "CDC_CORE24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -2713,14 +2715,15 @@
     "id": "S9-C08-Q168",
     "tracker_index": 191,
     "prior_hash": "1907f3e91b4034f29b4f08bc0e933cee6b4180e8261357c6251ba17c791f5833",
-    "curated_hash": "8c9d84a59cd924c3c35658d0e3dd2f3a4041723f5e1ab7da28351c1190bfc2a0",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "curated_hash": "1143ecd2c55fc8ede9c012adeae36fa20136cbf0b228ba1a1578cb9f55264902",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "CDC_PSGN25"
+      "ASPNA_IRGN26",
+      "RCH_PSGN25"
     ],
-    "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "objective_relationship": "DOCUMENTED_REPLACEMENT_SAME_PEDIATRIC_RENAL_HOME_RECOVERY_TEACHING_DOMAIN_WITH_GUIDELINE_SUPPORTED_FOLLOWUP_INSTEAD_OF_UNSUPPORTED_FIXED_SPORT_TIMING",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3091,14 +3094,14 @@
     "id": "S9-C11-Q162",
     "tracker_index": 219,
     "prior_hash": "4b572a61ce8cb3c996e03c6556aa76c3b91828541392d28fced5d50e0576d124",
-    "curated_hash": "fa6313d4c6e03b8b050a7976d33c83de069f1241d05ab10d9c5869b91ad0bfa7",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "curated_hash": "2146005035b795af65ee2ccc482bcdf46a80e5953d133d63ac79a88ef41bc697",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "B100_ROM"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -3107,13 +3110,13 @@
     "tracker_index": 221,
     "prior_hash": "b68df5014760f46c016bf28debc042d7d6e9a9dc0532215aa8f6bf1cf04785b7",
     "curated_hash": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "AHA_FA24"
+      "AHA_FRACTURES24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4093,13 +4096,13 @@
     "tracker_index": 293,
     "prior_hash": "425fe73a78563c6846c5ebc8ff9403998a22b55aa9ef83970147cf7e50ed68fa",
     "curated_hash": "170c3050f2d97d1873b4a4fbccba121871795cf44916a7baa8795e6ed332357f",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "RCUK_ABCDE24"
+      "RCUK_ABCDE_BREATHING24"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4184,14 +4187,14 @@
     "tracker_index": 299,
     "prior_hash": "052dba06bd81f2ed68546a53de3676a34e2faf9de874c27a2695db5d52525369",
     "curated_hash": "5f7332aa0da48b7694483b856c1c8d3f4f15f4935bafa349d3e30a3a97e224ae",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "NICE_DELIRIUM23",
+      "NICE_DELIRIUM_FAMILIAR23",
       "NCSBN_DELEG19"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4276,14 +4279,14 @@
     "tracker_index": 305,
     "prior_hash": "d8922b39e3796100191ed9394e0a700dd4f35355726caadb76a339b075d08d9c",
     "curated_hash": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "AHA_FA24",
+      "AHA_PRESYNCOPE24",
       "B100_MOBILITY"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4627,15 +4630,14 @@
     "id": "PN2-PT08-Q061",
     "tracker_index": 328,
     "prior_hash": "b358a4d8a0ff75fc5e5f515dbaf316b275ace29050386e2124746e5c1c5dc8f8",
-    "curated_hash": "91a1d95247aaa38ca66bf7cab1ebf97598ebd302d4743bb90ce8b27e633d273a",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "curated_hash": "33cacf1d056d860aacd35afeab4ebf5c133b7d1e667d2371e359a73da868603b",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "B100_ROM",
-      "B100_HYGIENE"
+      "OS_HYGIENE_ASSIST"
     ],
     "objective_relationship": "PRESERVED_FUNCTIONAL_SELF_CARE_ASSESSMENT_USING_DESCRIPTIVE_NEED_RATHER_THAN_UNVERIFIED_DIAGNOSTIC_LABEL",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4703,14 +4705,14 @@
     "id": "PN2-CH06-Q014",
     "tracker_index": 334,
     "prior_hash": "c33acba38de3b3a63275608e4ccb923f6ca7ea2b290042ceed31bad992c96127",
-    "curated_hash": "b8bb579c8301cec333e7a6f17d4c7c035318b3d0b8b10c064670dd0e212ef12d",
-    "change_kind": "SUBSTANTIVE_POSTOPERATIVE_RESTRICTION_CORRECTION",
+    "curated_hash": "13cc5340538bd94830eb224dc248ea7271936c002fa0bc2b38b9d8562b264e51",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
       "GSTT_CAT_AFTER"
     ],
     "objective_relationship": "PRESERVED",
-    "date": "2026-10-22",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
@@ -4810,14 +4812,14 @@
     "tracker_index": 342,
     "prior_hash": "00e2bace238155961dad11ebbf6b24ab1949a5c22637ce739d4426cab8b3a330",
     "curated_hash": "259eaab0524ff17068df0c25e91452f2ddc58c2f31d88a0e454f3ed96b9df7b4",
-    "change_kind": "B100_INDIVIDUAL_ANSWER_OPTION_AND_RATIONALE_REVIEW",
+    "change_kind": "FINALQA_BATCH3_ITEM_AMENDMENT",
     "clinical_status": "CORRECTED_AND_REVIEWED",
     "sources": [
-      "CDC_DEV9_26",
+      "CDC_DEV9_SOCIAL26",
       "WHO_NURTURING20"
     ],
     "objective_relationship": "PRESERVED_DEVELOPMENTALLY_APPROPRIATE_PLAY_WITH_SPECIFIED_RECIPROCAL_SOCIAL_OBJECTIVE",
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "reviewer_type": "AI",
     "human_signoff": false
   },
