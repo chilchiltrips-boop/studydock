@@ -280,12 +280,13 @@
     "issuer": "American Association of Critical-Care Nurses",
     "title": "Feeding Tube Placement / Initial and Ongoing Verification in Adults",
     "url": "https://www.aacn.org/newsroom/feeding-tube-placement",
-    "version": "2016 Practice Alert explanation",
+    "version": "Published 1 April 2016; evidence update 29 January 2020; publisher lists last review 16 September 2026",
     "publication_date": "2016-09-15",
-    "last_updated": null,
-    "accessed": "2026-10-21",
+    "last_updated": "2026-09-16",
+    "accessed": "2026-10-25",
     "support_location": "Initial radiograph of entire tube course; no air-bolus/water-bubble method; external marking",
-    "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date"
+    "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date",
+    "review_date_note": "2026-09-16 is the publisher review date, not a new publication or evidence-update date. Full alert access may require AACN registration; original journal publication and AACN public explanatory article support initial radiographic confirmation."
   },
   {
     "id": "AHA_BLS25",
@@ -731,8 +732,8 @@
     "version": "SPL version 7 effective 2026-04-09; clinical PI revised 8/2022",
     "publication_date": null,
     "last_updated": "2026-04-09",
-    "accessed": "2026-10-22",
-    "support_location": "2.1 acute gout-flare dose; 2.4 interactions; renal/hepatic precautions",
+    "accessed": "2026-10-25",
+    "support_location": "2.1 acute gout-flare dose; 2.4 interactions; renal/hepatic precautions; warnings/section 6: severe GI effects can be dose-limiting; toxicity may require interruption/discontinuation.",
     "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date"
   },
   {
@@ -1172,8 +1173,8 @@
     "version": "Current ostomy-care instructions",
     "publication_date": null,
     "last_updated": null,
-    "accessed": "2026-10-24",
-    "support_location": "Emptying your pouch: one-third to one-half full; overfilling causes difficulty emptying/leakage",
+    "accessed": "2026-10-25",
+    "support_location": "Emptying your pouch: one-third to one-half full; overfilling causes difficulty emptying/leakage; Odor control: odor outside attached pouch suggests leakage; filter and clinician-approved deodorizer advice.",
     "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date"
   },
   {
@@ -2465,5 +2466,17 @@
     "accessed": "2026-10-24",
     "support_location": "Idealization definition and Table 5: exaggerated positive attribution, dismissal of limitations; theoretical construct, not standalone psychiatric diagnosis",
     "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date"
+  },
+  {
+    "id": "CDC_DTAP26",
+    "issuer": "CDC",
+    "title": "Tetanus Vaccine Recommendations",
+    "url": "https://www.cdc.gov/tetanus/hcp/vaccine-recommendations/index.html",
+    "version": "Hosted recommendations dated 10 September 2026",
+    "publication_date": "2026-09-10",
+    "last_updated": null,
+    "accessed": "2026-10-25",
+    "support_location": "Infants and children: DTaP for children younger than 7; use alongside the wound-prophylaxis and catch-up guidance.",
+    "date_note": "Publication date displayed by publisher."
   }
 ]

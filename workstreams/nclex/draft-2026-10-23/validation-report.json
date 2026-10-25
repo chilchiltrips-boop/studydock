@@ -1,21 +1,19 @@
 {
-  "asOf": "2026-10-24",
+  "asOf": "2026-10-25",
   "sourceEntries": 2894,
   "publicLedgerRows": 2894,
   "publicMetadataMatchesPrivateCounts": true,
   "candidateAnswerMappingsValid": true,
   "currentAnswersWithheld": true,
   "quizEligible": 0,
-  "all12FinalQAPass": 0,
+  "all12FinalQAPass": 100,
   "humanClinicianSignoffs": 0,
   "continuationAuthenticatedRoundTrip": "PASS",
-  "continuationManifestSHA256Checks": 138,
-  "continuationZIPMembersCRCChecked": 139,
+  "continuationManifestSHA256Checks": 167,
+  "continuationZIPMembersCRCChecked": 168,
   "wrongKeyRejected": true,
   "modifiedCiphertextRejected": true,
   "originalEncryptedBasePreserved": true,
   "recoveryKeyOverwritten": false,
-  "finalRelease": false,
-  "basePlusContinuationRebuild": "PASS",
-  "recompiledRecordsIdentical": 2894
+  "finalRelease": false
 }

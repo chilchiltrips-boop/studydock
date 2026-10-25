@@ -2712,7 +2712,7 @@
     "unit": "XIV - Stress and Adaptation - Introductory concepts",
     "main_topic": "Coping mechanisms",
     "subtopic": "Denial in a teaching example",
-    "specific_learning_objective": "Identify avoidance of acknowledging a understood confirmed diagnosis without labeling it psychosis.",
+    "specific_learning_objective": "Identify avoidance of acknowledging an understood confirmed diagnosis without labeling it psychosis.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "NF2_XIV",
@@ -4428,8 +4428,8 @@
     "subject": "Adult Health Nursing I",
     "unit": "X - Nursing management of patients with musculoskeletal problems",
     "main_topic": "Gout",
-    "subtopic": "Acute flare medication safety",
-    "specific_learning_objective": "Identify the prescribed low-dose US colchicine regimen and reject dosing until toxicity.",
+    "subtopic": "Colchicine adverse-effect safety",
+    "specific_learning_objective": "Recognize severe gastrointestinal effects as requiring withholding further colchicine and prompt clinical assessment.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "AH1_X",
@@ -4454,7 +4454,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-25",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null

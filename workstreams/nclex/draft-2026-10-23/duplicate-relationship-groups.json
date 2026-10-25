@@ -1,0 +1,507 @@
+[
+  {
+    "group_id": "DUP-SALICYLATE-INITIAL-001",
+    "ids": [
+      "PN2-CH13-Q027",
+      "PN2-CH19-Q021"
+    ],
+    "type": "EXACT_HISTORICAL_AND_CURRENT_REDUNDANCY",
+    "primary_id": "PN2-CH13-Q027",
+    "redundant_study_ids": [
+      "PN2-CH19-Q021"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
+      "PN2-CH19-Q021": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-SCI-AD-INITIAL-001",
+    "ids": [
+      "PN2-CH06-Q007",
+      "PN2-PT05-Q026"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_INITIAL_ACTION",
+    "primary_id": "PN2-CH06-Q007",
+    "redundant_study_ids": [
+      "PN2-PT05-Q026"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q007": "699c6ac802b1ac0086800206617bccaa5e7a6a2f39320af3835125136e7e50ce",
+      "PN2-PT05-Q026": "df7b28e223332b041f73b7b8432e6425e5a880790114695584c467a369d0de1b"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-APICAL-RADIAL-METHOD-001",
+    "ids": [
+      "PN2-CH02-Q008",
+      "PN2-PT05-Q044"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_PROCEDURE",
+    "primary_id": "PN2-CH02-Q008",
+    "redundant_study_ids": [
+      "PN2-PT05-Q044"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
+      "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CONTRAST-FOOD-ALLERGY-001",
+    "ids": [
+      "PN2-CH03-Q009",
+      "PN2-CH10-Q002"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-24",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
+      "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-NG-FIRST-USE-001",
+    "ids": [
+      "PN2-PT08-Q037",
+      "PN2-PT06-Q072",
+      "PN2-PT03-Q010",
+      "PN2-PT05-Q081",
+      "PN2-PT07-Q037"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_FIRST_USE_CONFIRMATION",
+    "primary_id": "PN2-PT08-Q037",
+    "redundant_study_ids": [
+      "PN2-PT06-Q072",
+      "PN2-PT03-Q010",
+      "PN2-PT05-Q081",
+      "PN2-PT07-Q037"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359",
+      "PN2-PT06-Q072": "ad3b9c868802013caee412c310068bd207279d2b60f2d47828040b61f2a5d2af",
+      "PN2-PT03-Q010": "f59be309129c05890b27f6eb766ea4d2d27944b149cbf3b7e8146871aa301e76",
+      "PN2-PT05-Q081": "9c55607286cc03ffeff43fa53b7fcb5a53d53ee8f7a9da014d01cf295a66f5e0",
+      "PN2-PT07-Q037": "e30b6d8921791570a0144dfbe5ac645b352cec306cbd41f0dde96159ff5d6a6c"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-HYPOGLYCEMIA-ORAL-001",
+    "ids": [
+      "PN2-PT06-Q027",
+      "PN2-PT07-Q044"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_TREATMENT",
+    "primary_id": "PN2-PT06-Q027",
+    "redundant_study_ids": [
+      "PN2-PT07-Q044"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
+      "PN2-PT07-Q044": "8f1dac9f5f76cee0db3eac3c2bd15b115bb69d206b26c70a79cb02544fd820e5"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PRESSURE-STAGE1-ACTION-001",
+    "ids": [
+      "PN2-CH02-Q015",
+      "PN2-PT08-Q038"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q015": "b03f83024430eac6e136e292e3199fa600a9b3b6c2bab6ae5c0acb45b568ea86",
+      "PN2-PT08-Q038": "a960cb525701a0ebd14ec2851147dbc68b28ec309d4978df237f8a3b8f75563e"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TB-POSITIVE-EVALUATION-001",
+    "ids": [
+      "PN2-CH05-Q025",
+      "PN2-CH05-Q016"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5",
+      "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-RADIOTHERAPY-SKIN-001",
+    "ids": [
+      "PN2-PT01-Q082",
+      "S9-C06-Q189",
+      "PN2-PT04-Q093",
+      "PN2-CH17-Q009",
+      "S9-C11-Q092",
+      "PN2-CH17-Q019",
+      "PN2-PT05-Q020",
+      "S9-C11-Q064"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT01-Q082": "8ec0b8c3aa063290fd999419f4f26b6baa10c98662c9c869de7b47be1204d387",
+      "S9-C06-Q189": "25f238dc94b14092cc945a0e91053c8a258eb6ba02519e8ac985228627ac13fe",
+      "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1",
+      "PN2-CH17-Q009": "a2a8c68e4fa22beba5ba2e169716883e572999154c79730b2ccc3ba9e19e044c",
+      "S9-C11-Q092": "7510f0f94dd2f00912775e49f6467c15508934e6f2005791699986cb2c914fa7",
+      "PN2-CH17-Q019": "c833f75a05e95343f4fb2a17af6966317d2064714ba7bd82ba1fc49228e52a1b",
+      "PN2-PT05-Q020": null,
+      "S9-C11-Q064": "fba23fcf639cdbab2e70e3f66e66e0a6bd5f851b021c37d7f92e05f4cbc48424"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-GBS-BULBAR-001",
+    "ids": [
+      "PN2-CH06-Q012",
+      "PN2-PT05-Q024",
+      "PN2-PT02-Q089"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q012": "273127754e468a17968d3b1dc95de3957ffd5ecd0d0ff655d1fdba51c673fcfd",
+      "PN2-PT05-Q024": null,
+      "PN2-PT02-Q089": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-STROKE-TRANSFER-001",
+    "ids": [
+      "S9-C07-Q193",
+      "PN2-CH02-Q020",
+      "PN2-PT05-Q013"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
+      "PN2-CH02-Q020": null,
+      "PN2-PT05-Q013": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-DIGOXIN-TOXICITY-001",
+    "ids": [
+      "PN2-CH03-Q021",
+      "PN2-CH03-Q030",
+      "S9-C11-Q163"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
+      "PN2-CH03-Q030": "c4c6621d954790303ebc2e3b1274f21e15258640bf4d22e2913456cfd16bb042",
+      "S9-C11-Q163": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PSGN-HISTORY-001",
+    "ids": [
+      "PN2-CH08-Q028",
+      "PN2-PT05-Q066",
+      "S9-C06-Q177"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82",
+      "PN2-PT05-Q066": null,
+      "S9-C06-Q177": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-INH-NEUROPATHY-001",
+    "ids": [
+      "PN2-CH05-Q017",
+      "PN2-PT06-Q025"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH05-Q017": "016e1b0dceb5af81d6728a99483781ca95b84209c09f7ff9529266bd5cf74d3b",
+      "PN2-PT06-Q025": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TIMED-URINE-001",
+    "ids": [
+      "PN2-PT02-Q031",
+      "S9-C06-Q138"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT02-Q031": "185c27740775eef9a6b9453545d218e2110374b85d24cc263dfc4fc621bcbbac",
+      "S9-C06-Q138": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-BACK-COMFORT-POSITION-001",
+    "ids": [
+      "S9-C06-Q007",
+      "PN2-PT05-Q072"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C06-Q007": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0",
+      "PN2-PT05-Q072": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-RIFAMPIN-FLUID-001",
+    "ids": [
+      "PN2-CH05-Q026",
+      "PN2-PT02-Q058",
+      "S9-C06-Q353"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH05-Q026": "891fc1fe87ce31b338ecf214d7bf783c3335fa0ece9af2320caeb7a12d9fe5d8",
+      "PN2-PT02-Q058": null,
+      "S9-C06-Q353": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CF-NUTRITION-001",
+    "ids": [
+      "S9-C11-Q060",
+      "S9-C08-Q010"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q060": "4f8db784237ec6dd71e29792f294eff5167f5b60ad18c2cc59e964facf42db58",
+      "S9-C08-Q010": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-OSTOMY-ODOR-001",
+    "ids": [
+      "S9-C08-Q191",
+      "S9-C06-Q398"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51",
+      "S9-C06-Q398": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CATARACT-SYMPTOM-001",
+    "ids": [
+      "PN2-CH06-Q013",
+      "PN2-PT02-Q095"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e",
+      "PN2-PT02-Q095": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-BP-CUFF-001",
+    "ids": [
+      "PN2-CH02-Q007",
+      "PN2-PT05-Q046",
+      "PN2-PT06-Q019"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156",
+      "PN2-PT05-Q046": null,
+      "PN2-PT06-Q019": "243720ad983fcf46ba9012d594e214319e0abdee78bc3a3902ccea90070bb42a"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-COPD-OXYGEN-001",
+    "ids": [
+      "PN2-PT08-Q027",
+      "PN2-PT06-Q056",
+      "PN2-CH05-Q009",
+      "S9-C06-Q047"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q027": "258ee561b25480e675cb9aa4f537156f99352b36c89dda7911b3d5853842624c",
+      "PN2-PT06-Q056": null,
+      "PN2-CH05-Q009": "b77ab0c025362886bb09d414c626bef0677903d7611280659893b16bd7a286b3",
+      "S9-C06-Q047": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-EA-WARNING-001",
+    "ids": [
+      "PN2-CH13-Q108",
+      "S9-C06-Q218",
+      "PN2-CH13-Q109"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q108": "3eac325c2d21f67fe6feee57fad526d1a36fc03eadc2567e5233932cd43afbb0",
+      "S9-C06-Q218": null,
+      "PN2-CH13-Q109": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-DRUG-TOXICITY-001",
+    "ids": [
+      "PN2-CH09-Q017",
+      "S9-C06-Q304"
+    ],
+    "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402",
+      "S9-C06-Q304": "22d920222c7aa62804f2ae855a887cfdcbd4608044ead1ec870fca6974e0d2d1"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  }
+]

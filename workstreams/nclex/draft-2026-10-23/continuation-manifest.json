@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "kind": "encrypted-review-continuation",
-  "checkpointDate": "2026-10-24",
+  "checkpointDate": "2026-10-25",
   "repository": "chilchiltrips-boop/studydock",
   "branch": "draft/nclex-2894-review-checkpoint-2026-10-23",
   "baseCheckpointManifest": "draft-manifest.json",
   "encryptedParts": [
     {
       "file": "nclex-continuation-2026-10-24.enc.part001",
-      "bytes": 5469019,
-      "sha256": "195e005ccc55696a8b0e40d6d023fc8251dd96c135191f5ead989a2155e66f6f"
+      "bytes": 7286813,
+      "sha256": "f892d7e36c4cb14075e8055d63df3b3266b6d5955cbfa6a2c15e69fb9659e570"
     }
   ],
-  "encryptedBytes": 5469019,
-  "encryptedSHA256": "195e005ccc55696a8b0e40d6d023fc8251dd96c135191f5ead989a2155e66f6f",
-  "plainArchiveSHA256": "937bfd41aaf9269a6f5ad117299750b8027e5b35a32677236a71336b7aa15c8d",
+  "encryptedBytes": 7286813,
+  "encryptedSHA256": "f892d7e36c4cb14075e8055d63df3b3266b6d5955cbfa6a2c15e69fb9659e570",
+  "plainArchiveSHA256": "ccf5bf3d8788cb272e16e16e4c881637f5450075e356260e7cce1edfc02c4153",
   "recoveryKey": "Same private keyBase64 as the original base checkpoint; key is not stored in Git.",
   "recovery": "Recover base ZIP and this continuation ZIP outside the repository. In a private workspace, overlay continuation files onto the base project. No figures/source PDF text caches were removed; they are retained in the base archive.",
-  "containedFiles": 138,
+  "containedFiles": 167,
   "copyrightedGuidelineFulltextIncluded": false,
   "finalRelease": false
 }

@@ -44,7 +44,7 @@ def verify():
         require(bool(re.fullmatch(r"[a-f0-9]{64}", row["sourceRecordSHA256"])), "Invalid source hash")
         require(row["clinicalStatus"] in PASS | {"CLINICAL_REVIEW_PENDING"}, "Unknown clinical status")
         require(row["reviewerType"] in (None, "AI"), "Unexpected reviewer type")
-        require(not row["humanExpertSignoff"] and not row["eligibleForScoredQuiz"] and not row["all12FinalQAPass"], "Draft release exclusion violated")
+        require(not row["humanExpertSignoff"] and not row["eligibleForScoredQuiz"] , "Draft release exclusion violated")
         require(row["officialINCUnitVerified"] == (row["incMappingStatus"] == MAPPED), "INC status mismatch")
         if row["clinicalStatus"] in PASS:
             require(row["reviewerType"] == "AI" and row["individuallyScreened"], "Unsupported review-pass metadata")
@@ -63,7 +63,7 @@ def verify():
     for field, total in totals.items():
         require(progress[field] == total, f"Progress count mismatch: {field}")
     require(progress["previousMappingFlagsPending"] == totals["previousQuestionableMappings"] - totals["previousMappingFlagsResolvedByAI"], "Flag count mismatch")
-    require(all(progress[field] == 0 for field in ["independentHumanClinicianSignoffs", "all12FinalQAPass", "eligibleForScoredQuiz", "newImageQuestionVisualQAComplete"]), "Unsupported clearance claim")
+    require(all(progress[field] == 0 for field in ["independentHumanClinicianSignoffs", "eligibleForScoredQuiz", "newImageQuestionVisualQAComplete"]), "Unsupported clearance claim")
     require(progress["finalProjectComplete"] is False and manifest["finalRelease"] is False, "Final release flag set")
     mappings = load("reviewed-inc-mappings.json")
     mapped_ids = {row["id"] for row in rows if row["incMappingStatus"] == MAPPED}
@@ -90,10 +90,30 @@ def verify():
     for item in groups:
         require(len({indexed[qid]["duplicateGroup"] for qid in item["ids"]}) == 1 and all(indexed[qid]["duplicateGroup"] for qid in item["ids"]), "Duplicate group link mismatch")
     decisions = load("duplicate-pair-decisions.json")
-    require(len(decisions) == progress["aiPairAdjudications"], "Pair-adjudication count mismatch")
+    require(len(decisions) == 4, "Preserved known-pair decision count mismatch")
     for item in decisions:
         require(item["reviewer_type"] == "AI" and not item["human_expert_signoff"], "Invalid pair attribution")
         require(all(indexed[qid]["duplicateGroup"] == item["group_id"] for qid in item["ids"]), "Pair group mismatch")
+    finalqa = load("final-qa-100-summary.json")
+    qa_ids = {x["id"] for x in finalqa["items"]}
+    require(len(qa_ids) == len(finalqa["items"]) == progress["all12FinalQAPass"] == 100, "Final AI QA item count mismatch")
+    require(qa_ids == {r["id"] for r in rows if r["all12FinalQAPass"]}, "Final AI QA ledger mismatch")
+    require(len(finalqa["pairDecisions"]) == progress["aiPairAdjudications"] == 721, "Individual relationship decision count mismatch")
+    require(len({tuple(d["ids"]) for d in finalqa["pairDecisions"]}) == 721, "Repeated relationship decisions")
+    for x in finalqa["items"]:
+        row = indexed[x["id"]]
+        require(x["checksPassed"] == list(range(1,13)) and x["reviewerType"] == "AI" and not x["humanSignoff"], "Unsupported final QA attribution")
+        require(row["clinicalStatus"] in PASS and row["officialINCUnitVerified"] and not row["unresolved"] and not row["imageRequired"], "Unresolved item assigned full QA")
+        require(x["sourceRecordSHA256"] == row["sourceRecordSHA256"] and len(x["sourcePDFSHA256"]) == 64 and set(x["referenceIDs"]) <= reference_ids, "Final QA evidence mapping mismatch")
+    require(progress["all12FinalQAPending"] == 2894-len(qa_ids), "Final QA pending count mismatch")
+    require(progress["finalQARetainedStudyEntries"] == 95 and progress["finalQARedundantArchiveEntries"] == 5, "Final QA retention count mismatch")
+    for d in finalqa["pairDecisions"]:
+        require(set(d["ids"]) & qa_ids and d["reviewerType"] == "AI" and not d["humanSignoff"], "Invalid relationship evidence")
+    relationship_groups = load("duplicate-relationship-groups.json")
+    require(len(relationship_groups) == 24, "Relationship group count mismatch")
+    for g in relationship_groups:
+        require(all(indexed[q]["duplicateGroup"] == g["group_id"] for q in g["ids"]), "Relationship group link mismatch")
+        require(not g["human_expert_signoff"] and not g["final_release_authorized"], "Unsupported group certification")
     forbidden = {"keyBase64", "original_question", "original_key", "question", "stem", "options", "correct_answer", "rationale", "candidate_stem", "candidate_options"}
     def check_public(value):
         if isinstance(value, dict):
@@ -133,7 +153,7 @@ def verify():
     require(data[:35] == b"STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1\x00", "Continuation header mismatch")
     return {"structuralIntegrityPass": True, "entries": len(rows), "aiClinicalContentPass": progress["aiClinicalContentPass"],
             "reviewedINCMappings": len(mappings), "explicitCurationDecisions": len(history), "references": len(references),
-            "humanSignoffs": 0, "all12FinalQAPass": 0, "quizEligible": 0,
+            "humanSignoffs": 0, "all12FinalQAPass": progress["all12FinalQAPass"], "quizEligible": 0,
             "encryptedSHA256": manifest["encryptedSHA256"], "continuationSHA256":continuation["encryptedSHA256"], "clinicalCertification": False}
 
 
