@@ -623,7 +623,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "d19e64092a10362698c3e6a4160f23b1993701bbbc4aa74d3ef2d3c0a17ea372",
       "reference_ids": [
-        "NIDCD_MENIERE"
+        "NIDCD_MENIERE_RECHECK24"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -1447,7 +1447,7 @@
       "reviewer_type": "AI",
       "candidate_content_hash": "4ef13719d364ed52dd9354be8c6955a1ffe6d7cc218c44148a4b4670517be56e",
       "reference_ids": [
-        "GINA_SUMMARY26"
+        "GINA_ASTHMA_ED26"
       ],
       "INC_mapping_reviewed": true,
       "clinical_checks_reviewed": [
@@ -2125,7 +2125,7 @@
       "after_status": "CORRECTED_AND_REVIEWED",
       "reviewed_on": "2026-10-24",
       "reviewer_type": "AI",
-      "candidate_content_hash": "65e53c9a254876b1a7a437004a3c103808b60a51d1ce975c12d6f02ce6401415",
+      "candidate_content_hash": "82d5df740014fd065f84c7582347b83f4fcced462a787edb80100bf21725183a",
       "reference_ids": [
         "B100_ADVANCE"
       ],

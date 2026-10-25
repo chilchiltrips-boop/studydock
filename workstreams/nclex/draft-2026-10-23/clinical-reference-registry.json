@@ -2478,5 +2478,89 @@
     "accessed": "2026-10-25",
     "support_location": "Infants and children: DTaP for children younger than 7; use alongside the wound-prophylaxis and catch-up guidance.",
     "date_note": "Publication date displayed by publisher."
+  },
+  {
+    "id": "CMS_RECORD26",
+    "issuer": "Centers for Medicare & Medicaid Services",
+    "title": "Medicare Program Integrity Manual, Chapter 3",
+    "url": "https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/pim83c03.pdf",
+    "version": "Chapter revision 13821 issued 9 June 2026; section 3.3.2.5 revision 12633 effective 10 June 2024",
+    "publication_date": "2026-06-09",
+    "last_updated": null,
+    "accessed": "2026-10-25",
+    "support_location": "Section 3.3.2.5, PDF page 46: identifiable author/date and clearly permanently identified amendments, corrections and delayed entries. Apply local approved paper/EHR record policy.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "CDC_IMM_RECHECK26",
+    "issuer": "CDC",
+    "title": "Child and Adolescent Immunization Schedule by Age",
+    "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-age.html",
+    "version": "Publisher-hosted 2025 schedule, July 2 addendum, directly rechecked 25 October 2026",
+    "publication_date": "2025-07-02",
+    "last_updated": null,
+    "accessed": "2026-10-25",
+    "support_location": "Birth to 15 months table: DTaP third dose at 6 months; MMR/varicella first doses and indicated Hib/PCV boosters at 12-15 months. This is US schedule evidence, not Indian NIS.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "CDC_PCV_CHILD26",
+    "issuer": "CDC",
+    "title": "Recommended Vaccines for Children: Pneumococcal",
+    "url": "https://www.cdc.gov/pneumococcal/vaccines/children.html",
+    "version": "CDC page dated 25 February 2026",
+    "publication_date": "2026-02-25",
+    "last_updated": null,
+    "accessed": "2026-10-25",
+    "support_location": "All young children: PCV15 or PCV20 at 2, 4, 6 and 12-15 months.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "HRSA_NBS24",
+    "issuer": "US Health Resources and Services Administration",
+    "title": "Newborn Screening Process",
+    "url": "https://newbornscreening.hrsa.gov/newborn-screening-process",
+    "version": "Publisher last reviewed December 2024",
+    "publication_date": null,
+    "last_updated": "2024-12",
+    "accessed": "2026-10-25",
+    "support_location": "When/where NBS happens and Blood Spot Screening: usually 24-48 hours, state-specific panel/repeats and result follow-up; screening is broader than PKU alone.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "NIDCD_MENIERE_RECHECK24",
+    "issuer": "NIH / NIDCD",
+    "title": "Meniere's Disease",
+    "url": "https://www.nidcd.nih.gov/health/menieres-disease",
+    "version": "NIH publication June 2024; publisher updated 15 August 2024",
+    "publication_date": "2024-06",
+    "last_updated": "2024-08-15",
+    "accessed": "2026-10-25",
+    "support_location": "What is Meniere disease? and What causes symptoms? Vertigo/tinnitus/hearing changes and uncertain etiology with inner-ear fluid imbalance.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "NIAAA_AUD_RECOVERY25",
+    "issuer": "NIH / NIAAA",
+    "title": "Alcohol Use Disorder: From Risk to Diagnosis to Recovery",
+    "url": "https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery",
+    "version": "Publisher revised 8 May 2025",
+    "publication_date": null,
+    "last_updated": "2025-05-08",
+    "accessed": "2026-10-25",
+    "support_location": "What does recovery look like? Individualized dynamic recovery, treatment/support, stress/urge management; no fixed date makes recurrence impossible.",
+    "date_note": "n.d. when publisher does not state a date; access date is not publication date."
+  },
+  {
+    "id": "GINA_ASTHMA_ED26",
+    "issuer": "Global Initiative for Asthma",
+    "title": "Summary Guide for Asthma Management and Prevention",
+    "url": "https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf",
+    "version": "July 2026 summary based on 5 May 2026 strategy report",
+    "publication_date": "2026-07",
+    "last_updated": null,
+    "accessed": "2026-10-25",
+    "support_location": "PDF pages 20-21: education about long-term inhaled treatment, correct inhaler use and written asthma action plans; game/play is not a replacement. Existing retrieved PDF re-read for these exact sections.",
+    "date_note": "n.d. where publisher does not show a date; not inferred from URL or crawl date"
   }
 ]

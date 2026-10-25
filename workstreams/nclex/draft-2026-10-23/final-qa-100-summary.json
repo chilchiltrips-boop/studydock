@@ -9,10 +9,11 @@
     "clinical_content_pending": 2575,
     "all_12_final_AI_QA_pass": 100,
     "all_12_final_AI_QA_pending": 2794,
+    "batch_all_12_final_AI_QA_pass": 100,
     "retained_study_entries_after_this_batch_QA": 95,
     "redundant_archive_entries_in_this_QA_batch": 5,
     "all_source_entries_preserved": true,
-    "retrieved_pair_adjudications": 721,
+    "retrieved_pair_adjudications": 722,
     "human_signoffs": 0,
     "quiz_eligible": 0,
     "current_answers_published": 0,
@@ -27,12 +28,12 @@
     "original_PDF_all_options_and_historical_keys_traced": 100,
     "full_stem_text_matches": 99,
     "manual_source_table_trace_exceptions_verified": 1,
-    "retrieved_relationships_with_individual_AI_decisions": 721,
+    "retrieved_relationships_with_individual_AI_decisions": 722,
     "retained_study_entries_in_batch": 95,
     "redundant_source_entries_in_batch": 5,
     "clinical_content_reviews_total_unchanged": 319,
     "clinical_review_pending": 2575,
-    "all_12_QA_pending": 2794,
+    "all_12_QA_pending": 2694,
     "changed_candidate_invalidates_QA": "PASS",
     "new_relationship_invalidates_QA": "PASS",
     "quiz_eligible": 0,
@@ -2773,22 +2774,6 @@
   "pairDecisions": [
     {
       "ids": [
-        "PN2-CH13-Q027",
-        "PN2-CH19-Q021"
-      ],
-      "decision": "REDUNDANT_SAME_OUTCOME",
-      "groupIDs": [
-        "DUP-SALICYLATE-INITIAL-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
-        "PN2-CH19-Q021": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT05-Q081",
         "PN2-PT06-Q072"
       ],
@@ -2797,7 +2782,7 @@
         "DUP-NG-FIRST-USE-001"
       ],
       "candidateContentHashes": {
-        "PN2-PT05-Q081": "9c55607286cc03ffeff43fa53b7fcb5a53d53ee8f7a9da014d01cf295a66f5e0",
+        "PN2-PT05-Q081": "6878db66d84c62d9f19f903201ec14719d5cab1bb7b4873d8d103006cdab68e2",
         "PN2-PT06-Q072": "ad3b9c868802013caee412c310068bd207279d2b60f2d47828040b61f2a5d2af"
       },
       "reviewerType": "AI",
@@ -2813,7 +2798,7 @@
         "DUP-NG-FIRST-USE-001"
       ],
       "candidateContentHashes": {
-        "PN2-PT05-Q081": "9c55607286cc03ffeff43fa53b7fcb5a53d53ee8f7a9da014d01cf295a66f5e0",
+        "PN2-PT05-Q081": "6878db66d84c62d9f19f903201ec14719d5cab1bb7b4873d8d103006cdab68e2",
         "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359"
       },
       "reviewerType": "AI",
@@ -2863,6 +2848,22 @@
       "candidateContentHashes": {
         "PN2-PT07-Q037": "e30b6d8921791570a0144dfbe5ac645b352cec306cbd41f0dde96159ff5d6a6c",
         "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q027",
+        "PN2-CH19-Q021"
+      ],
+      "decision": "REDUNDANT_SAME_OUTCOME",
+      "groupIDs": [
+        "DUP-SALICYLATE-INITIAL-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
+        "PN2-CH19-Q021": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3217,22 +3218,6 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q082",
-        "PN2-PT04-Q093"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-RADIOTHERAPY-SKIN-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-PT01-Q082": "8ec0b8c3aa063290fd999419f4f26b6baa10c98662c9c869de7b47be1204d387",
-        "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT06-Q072",
         "S9-C11-Q169"
       ],
@@ -3263,16 +3248,32 @@
     },
     {
       "ids": [
-        "PN2-CH17-Q009",
-        "PN2-PT01-Q082"
+        "PN2-CH05-Q016",
+        "PN2-CH05-Q025"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-TB-POSITIVE-EVALUATION-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
+        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q082",
+        "PN2-PT04-Q093"
       ],
       "decision": "RELATED_RETAIN_VARIANTS",
       "groupIDs": [
         "SIM-RADIOTHERAPY-SKIN-001"
       ],
       "candidateContentHashes": {
-        "PN2-CH17-Q009": "a2a8c68e4fa22beba5ba2e169716883e572999154c79730b2ccc3ba9e19e044c",
-        "PN2-PT01-Q082": "8ec0b8c3aa063290fd999419f4f26b6baa10c98662c9c869de7b47be1204d387"
+        "PN2-PT01-Q082": "8ec0b8c3aa063290fd999419f4f26b6baa10c98662c9c869de7b47be1204d387",
+        "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3293,6 +3294,22 @@
     },
     {
       "ids": [
+        "PN2-CH17-Q009",
+        "PN2-PT01-Q082"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-RADIOTHERAPY-SKIN-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH17-Q009": "a2a8c68e4fa22beba5ba2e169716883e572999154c79730b2ccc3ba9e19e044c",
+        "PN2-PT01-Q082": "8ec0b8c3aa063290fd999419f4f26b6baa10c98662c9c869de7b47be1204d387"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "IMG-004",
         "S9-C06-Q327"
       ],
@@ -3301,22 +3318,6 @@
       "candidateContentHashes": {
         "IMG-004": "171a205c9ffd1e51a5542537ef0df99b68faea8458b595a0400fca5cbdd5b71e",
         "S9-C06-Q327": "9573eda59418fada18ba52d443d93c8d1697dc497480534408f0fc779ba1661d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH05-Q016",
-        "PN2-CH05-Q025"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-TB-POSITIVE-EVALUATION-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
-        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3353,22 +3354,6 @@
     },
     {
       "ids": [
-        "PN2-CH17-Q019",
-        "PN2-PT04-Q093"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-RADIOTHERAPY-SKIN-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH17-Q019": "c833f75a05e95343f4fb2a17af6966317d2064714ba7bd82ba1fc49228e52a1b",
-        "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT06-Q063",
         "PN2-PT07-Q022"
       ],
@@ -3391,6 +3376,36 @@
       "candidateContentHashes": {
         "S9-C07-Q002": "a2fa80bf9323ef01b10ffaf3e207dcf80f3d3b1c1adb955993c876a349c9b570",
         "S9-C07-Q101": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT07-Q029",
+        "PN2-PT07-Q030"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT07-Q029": "c9b0460c5c2e27b19a39f7ef81822cf6388c080b416b9bc3fca418dc4152d924",
+        "PN2-PT07-Q030": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH17-Q019",
+        "PN2-PT04-Q093"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-RADIOTHERAPY-SKIN-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH17-Q019": "c833f75a05e95343f4fb2a17af6966317d2064714ba7bd82ba1fc49228e52a1b",
+        "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3425,20 +3440,6 @@
     },
     {
       "ids": [
-        "PN2-PT07-Q029",
-        "PN2-PT07-Q030"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT07-Q029": "c9b0460c5c2e27b19a39f7ef81822cf6388c080b416b9bc3fca418dc4152d924",
-        "PN2-PT07-Q030": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH02-Q002",
         "PN2-CH08-Q019"
       ],
@@ -3447,20 +3448,6 @@
       "candidateContentHashes": {
         "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
         "PN2-CH08-Q019": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT07-Q022",
-        "PN2-PT08-Q018"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT07-Q022": "bd70af4205b47f1f8beef96a3e26f9fcbd2cc922a11cf8c63c2e0252e3f8dfde",
-        "PN2-PT08-Q018": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3495,28 +3482,16 @@
     },
     {
       "ids": [
-        "PN2-CH19-Q044",
-        "PN2-CH19-Q045"
+        "PN2-PT06-Q027",
+        "PN2-PT07-Q044"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH19-Q044": "295642ea44447d66c2de8d214697de8c5f7cafc5c624b0154705cf766c73c582",
-        "PN2-CH19-Q045": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT02-Q037",
-        "PN2-PT08-Q022"
+      "decision": "REDUNDANT_SAME_OUTCOME",
+      "groupIDs": [
+        "DUP-HYPOGLYCEMIA-ORAL-001"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT02-Q037": "92845594d17fc227c1ab78f1070dc2555d09992150e07f96b9ee7cb9162fbb13",
-        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54"
+        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
+        "PN2-PT07-Q044": "8f1dac9f5f76cee0db3eac3c2bd15b115bb69d206b26c70a79cb02544fd820e5"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3537,16 +3512,42 @@
     },
     {
       "ids": [
-        "PN2-PT06-Q027",
-        "PN2-PT07-Q044"
+        "PN2-PT02-Q037",
+        "PN2-PT08-Q022"
       ],
-      "decision": "REDUNDANT_SAME_OUTCOME",
-      "groupIDs": [
-        "DUP-HYPOGLYCEMIA-ORAL-001"
-      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
-        "PN2-PT07-Q044": "8f1dac9f5f76cee0db3eac3c2bd15b115bb69d206b26c70a79cb02544fd820e5"
+        "PN2-PT02-Q037": "92845594d17fc227c1ab78f1070dc2555d09992150e07f96b9ee7cb9162fbb13",
+        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH19-Q044",
+        "PN2-CH19-Q045"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH19-Q044": "295642ea44447d66c2de8d214697de8c5f7cafc5c624b0154705cf766c73c582",
+        "PN2-CH19-Q045": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT07-Q022",
+        "PN2-PT08-Q018"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT07-Q022": "bd70af4205b47f1f8beef96a3e26f9fcbd2cc922a11cf8c63c2e0252e3f8dfde",
+        "PN2-PT08-Q018": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3583,6 +3584,20 @@
     },
     {
       "ids": [
+        "PN2-CH02-Q002",
+        "PN2-PT03-Q039"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
+        "PN2-PT03-Q039": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH17-Q009",
         "PN2-CH17-Q019"
       ],
@@ -3593,20 +3608,6 @@
       "candidateContentHashes": {
         "PN2-CH17-Q009": "a2a8c68e4fa22beba5ba2e169716883e572999154c79730b2ccc3ba9e19e044c",
         "PN2-CH17-Q019": "c833f75a05e95343f4fb2a17af6966317d2064714ba7bd82ba1fc49228e52a1b"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q002",
-        "PN2-PT03-Q039"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
-        "PN2-PT03-Q039": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3741,20 +3742,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q053",
-        "PN2-CH13-Q060"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q053": null,
-        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "S9-C07-Q160",
         "S9-C11-Q046"
       ],
@@ -3763,6 +3750,20 @@
       "candidateContentHashes": {
         "S9-C07-Q160": "f80c0a85ad6ce29508234bc671296f798a0ac2cc9639795a830db85b2455c6c4",
         "S9-C11-Q046": "7d5ba10420ba2fde38ce9603d2b9e9ec54e66a8904c28c01a27cf799894ba78d"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q053",
+        "PN2-CH13-Q060"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q053": null,
+        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3843,14 +3844,14 @@
     },
     {
       "ids": [
-        "IMG-004",
-        "PN2-CH02-Q007"
+        "PN2-CH06-Q013",
+        "PN2-PT01-Q012"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-004": "171a205c9ffd1e51a5542537ef0df99b68faea8458b595a0400fca5cbdd5b71e",
-        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156"
+        "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e",
+        "PN2-PT01-Q012": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3879,6 +3880,20 @@
       "candidateContentHashes": {
         "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
         "PN2-PT01-Q001": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-004",
+        "PN2-CH02-Q007"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-004": "171a205c9ffd1e51a5542537ef0df99b68faea8458b595a0400fca5cbdd5b71e",
+        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3915,42 +3930,14 @@
     },
     {
       "ids": [
-        "PN2-CH06-Q013",
-        "PN2-PT01-Q012"
+        "PN2-CH02-Q002",
+        "PN2-CH08-Q026"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e",
-        "PN2-PT01-Q012": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "S9-C07-Q111",
-        "S9-C08-Q074"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C07-Q111": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
-        "S9-C08-Q074": "f1a631409fc139b706ffa5acc6bc3e750ba21a0a34a41d920f903044fa7d6210"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH07-Q017",
-        "PN2-PT06-Q094"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH07-Q017": "214727f7aa23208488343f92393bdb5cca5dbbf65238d769c706ad65e930c2fe",
-        "PN2-PT06-Q094": "69542fdf3a80f759a8c5bce2c94caec97057456a15abcd9bb00a3c69af5352aa"
+        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
+        "PN2-CH08-Q026": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -3999,14 +3986,14 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q002",
-        "PN2-CH08-Q026"
+        "S9-C07-Q111",
+        "S9-C08-Q074"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
-        "PN2-CH08-Q026": null
+        "S9-C07-Q111": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
+        "S9-C08-Q074": "f1a631409fc139b706ffa5acc6bc3e750ba21a0a34a41d920f903044fa7d6210"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4027,6 +4014,20 @@
     },
     {
       "ids": [
+        "PN2-CH07-Q017",
+        "PN2-PT06-Q094"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH07-Q017": "214727f7aa23208488343f92393bdb5cca5dbbf65238d769c706ad65e930c2fe",
+        "PN2-PT06-Q094": "69542fdf3a80f759a8c5bce2c94caec97057456a15abcd9bb00a3c69af5352aa"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH13-Q060",
         "PN2-CH13-Q074"
       ],
@@ -4035,6 +4036,20 @@
       "candidateContentHashes": {
         "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014",
         "PN2-CH13-Q074": "8f4885e59de76082ab641408ce3081d0e6cd3173d8f9735fb3b0ecfb3b0f7c65"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q019",
+        "S9-C07-Q002"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q019": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
+        "S9-C07-Q002": "a2fa80bf9323ef01b10ffaf3e207dcf80f3d3b1c1adb955993c876a349c9b570"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4069,20 +4084,6 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q019",
-        "S9-C07-Q002"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT01-Q019": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
-        "S9-C07-Q002": "a2fa80bf9323ef01b10ffaf3e207dcf80f3d3b1c1adb955993c876a349c9b570"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT04-Q093",
         "S9-C06-Q189"
       ],
@@ -4093,20 +4094,6 @@
       "candidateContentHashes": {
         "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1",
         "S9-C06-Q189": "25f238dc94b14092cc945a0e91053c8a258eb6ba02519e8ac985228627ac13fe"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT05-Q032",
-        "PN2-PT07-Q022"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT05-Q032": null,
-        "PN2-PT07-Q022": "bd70af4205b47f1f8beef96a3e26f9fcbd2cc922a11cf8c63c2e0252e3f8dfde"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4141,20 +4128,6 @@
     },
     {
       "ids": [
-        "PN2-PT08-Q030",
-        "PN2-PT08-Q062"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
-        "PN2-PT08-Q062": "33a6b115b3baba7f0d6a247c4f49ce0e9b297984a4aba29b03623972967dbcdc"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH02-Q020",
         "S9-C07-Q193"
       ],
@@ -4165,6 +4138,20 @@
       "candidateContentHashes": {
         "PN2-CH02-Q020": null,
         "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT08-Q030",
+        "PN2-PT08-Q062"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
+        "PN2-PT08-Q062": "33a6b115b3baba7f0d6a247c4f49ce0e9b297984a4aba29b03623972967dbcdc"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4249,6 +4236,20 @@
       "candidateContentHashes": {
         "PN2-PT04-Q051": null,
         "PN2-PT05-Q048": "013d8ca50991d2538aa6788d35314d924da3e8c92f248f41630c06ca5449014c"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT05-Q032",
+        "PN2-PT07-Q022"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT05-Q032": null,
+        "PN2-PT07-Q022": "bd70af4205b47f1f8beef96a3e26f9fcbd2cc922a11cf8c63c2e0252e3f8dfde"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4341,20 +4342,6 @@
     },
     {
       "ids": [
-        "IMG-001",
-        "S9-C06-Q327"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "IMG-001": "da32fd1163664776582c5a312ee0dd5db84284a982e74dd65c5e6eae77bcc2a6",
-        "S9-C06-Q327": "9573eda59418fada18ba52d443d93c8d1697dc497480534408f0fc779ba1661d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "S9-C07-Q002",
         "S9-C07-Q183"
       ],
@@ -4363,6 +4350,20 @@
       "candidateContentHashes": {
         "S9-C07-Q002": "a2fa80bf9323ef01b10ffaf3e207dcf80f3d3b1c1adb955993c876a349c9b570",
         "S9-C07-Q183": "77aa87d1a758fdcc522e8c1e1bbf40202a76da5354c267cec44050e2aff5e658"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-001",
+        "S9-C06-Q327"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-001": "da32fd1163664776582c5a312ee0dd5db84284a982e74dd65c5e6eae77bcc2a6",
+        "S9-C06-Q327": "9573eda59418fada18ba52d443d93c8d1697dc497480534408f0fc779ba1661d"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4398,13 +4399,27 @@
     {
       "ids": [
         "PN2-CH03-Q001",
-        "S9-C11-Q165"
+        "PN2-CH12-Q079"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
         "PN2-CH03-Q001": "3f8c2e9e4a2bf26a7a6fc84b1c730f6a8d8e3b3b8cd1cbe9a56672c9bdc63b2a",
-        "S9-C11-Q165": null
+        "PN2-CH12-Q079": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q015",
+        "PN2-CH06-Q019"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q015": "b03f83024430eac6e136e292e3199fa600a9b3b6c2bab6ae5c0acb45b568ea86",
+        "PN2-CH06-Q019": "635232f74d105d33a7d2ab2be4ac2f11703eb9ca2fc162c635e69c3e3ca6c381"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4441,34 +4456,6 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q015",
-        "PN2-CH06-Q019"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q015": "b03f83024430eac6e136e292e3199fa600a9b3b6c2bab6ae5c0acb45b568ea86",
-        "PN2-CH06-Q019": "635232f74d105d33a7d2ab2be4ac2f11703eb9ca2fc162c635e69c3e3ca6c381"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH03-Q001",
-        "PN2-CH12-Q079"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH03-Q001": "3f8c2e9e4a2bf26a7a6fc84b1c730f6a8d8e3b3b8cd1cbe9a56672c9bdc63b2a",
-        "PN2-CH12-Q079": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH08-Q001",
         "PN2-PT07-Q056"
       ],
@@ -4477,6 +4464,20 @@
       "candidateContentHashes": {
         "PN2-CH08-Q001": null,
         "PN2-PT07-Q056": "5ed571ee255d74a0d1f90c647a1a81fc396df99c023aad20784f523091d97f19"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH03-Q001",
+        "S9-C11-Q165"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH03-Q001": "3f8c2e9e4a2bf26a7a6fc84b1c730f6a8d8e3b3b8cd1cbe9a56672c9bdc63b2a",
+        "S9-C11-Q165": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4541,20 +4542,6 @@
     },
     {
       "ids": [
-        "S9-C07-Q111",
-        "S9-C09-Q074"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C07-Q111": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
-        "S9-C09-Q074": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT05-Q048",
         "PN2-PT05-Q049"
       ],
@@ -4569,14 +4556,14 @@
     },
     {
       "ids": [
-        "PN2-PT05-Q086",
-        "S9-C07-Q144"
+        "S9-C07-Q111",
+        "S9-C09-Q074"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT05-Q086": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
-        "S9-C07-Q144": "0bdd3c5a0eb6102ed2a78f0511da186b574fb93bc55d19bc060e8037c2097f5e"
+        "S9-C07-Q111": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
+        "S9-C09-Q074": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4597,20 +4584,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q005",
-        "PN2-CH13-Q044"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q005": null,
-        "PN2-CH13-Q044": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH13-Q108",
         "S9-C06-Q035"
       ],
@@ -4619,6 +4592,20 @@
       "candidateContentHashes": {
         "PN2-CH13-Q108": "3eac325c2d21f67fe6feee57fad526d1a36fc03eadc2567e5233932cd43afbb0",
         "S9-C06-Q035": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q005",
+        "PN2-CH13-Q044"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q005": null,
+        "PN2-CH13-Q044": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4685,6 +4672,20 @@
     },
     {
       "ids": [
+        "PN2-PT05-Q086",
+        "S9-C07-Q144"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT05-Q086": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
+        "S9-C07-Q144": "0bdd3c5a0eb6102ed2a78f0511da186b574fb93bc55d19bc060e8037c2097f5e"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH02-Q004",
         "PN2-PT07-Q001"
       ],
@@ -4699,6 +4700,20 @@
     },
     {
       "ids": [
+        "PN2-CH02-Q007",
+        "PN2-PT07-Q049"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156",
+        "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT03-Q009",
         "PN2-PT07-Q049"
       ],
@@ -4707,20 +4722,6 @@
       "candidateContentHashes": {
         "PN2-PT03-Q009": null,
         "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q002",
-        "PN2-CH11-Q008"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
-        "PN2-CH11-Q008": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4755,6 +4756,20 @@
     },
     {
       "ids": [
+        "PN2-CH13-Q065",
+        "PN2-CH19-Q020"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q065": null,
+        "PN2-CH19-Q020": "ef3b31c22a0d5afe2d390139e914269e6cb7380359b3ae70716845d9b3f1917d"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT07-Q029",
         "PN2-PT08-Q026"
       ],
@@ -4769,14 +4784,16 @@
     },
     {
       "ids": [
-        "PN2-CH19-Q044",
-        "PN2-PT01-Q053"
+        "PN2-CH02-Q002",
+        "PN2-CH11-Q008"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-BURN-PERFUSION-002"
+      ],
       "candidateContentHashes": {
-        "PN2-CH19-Q044": "295642ea44447d66c2de8d214697de8c5f7cafc5c624b0154705cf766c73c582",
-        "PN2-PT01-Q053": null
+        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
+        "PN2-CH11-Q008": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4799,28 +4816,14 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q065",
-        "PN2-CH19-Q020"
+        "S9-C07-Q193",
+        "S9-C11-Q162"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH13-Q065": null,
-        "PN2-CH19-Q020": "ef3b31c22a0d5afe2d390139e914269e6cb7380359b3ae70716845d9b3f1917d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT08-Q030",
-        "PN2-PT08-Q031"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
-        "PN2-PT08-Q031": "6206698c5b76a661ab51e334f525e953c69ee06954677835c1c62fe66bcd3c89"
+        "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
+        "S9-C11-Q162": "fa6313d4c6e03b8b050a7976d33c83de069f1241d05ab10d9c5869b91ad0bfa7"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4841,44 +4844,28 @@
     },
     {
       "ids": [
-        "PN2-PT03-Q072",
-        "S9-C09-Q048"
+        "PN2-PT08-Q030",
+        "PN2-PT08-Q031"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT03-Q072": "376af9fe1f1c0fb45e477c4f3d5ea0c7596c1973a9ecfa649c8617115a9736a3",
-        "S9-C09-Q048": "11a907322088586e359c338e34b45c8dd13df07910050be0c89d12963fba7bd5"
+        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
+        "PN2-PT08-Q031": "6206698c5b76a661ab51e334f525e953c69ee06954677835c1c62fe66bcd3c89"
       },
       "reviewerType": "AI",
       "humanSignoff": false
     },
     {
       "ids": [
-        "PN2-CH02-Q007",
-        "PN2-PT07-Q049"
+        "S9-C09-Q027",
+        "S9-C11-Q029"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156",
-        "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT05-Q072",
-        "S9-C06-Q007"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-BACK-COMFORT-POSITION-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-PT05-Q072": null,
-        "S9-C06-Q007": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0"
+        "S9-C09-Q027": "a6d9b8517cb23ee93c8f3533a37aedf3c1232654fc9cc7c4e10b0239ad203470",
+        "S9-C11-Q029": "5a52e10515ae01b97d37c7e61e3bd94e01f14b81344d57c0306e5a89f4004e4d"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4929,20 +4916,6 @@
     },
     {
       "ids": [
-        "PN2-PT07-Q066",
-        "S9-C08-Q191"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT07-Q066": "4cc1457f460deb48e893f17e7db9188a9444e108609ee48ceec9ef33d8246293",
-        "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT04-Q079",
         "PN2-PT05-Q048"
       ],
@@ -4971,14 +4944,14 @@
     },
     {
       "ids": [
-        "PN2-PT06-Q019",
-        "S9-C06-Q327"
+        "PN2-PT03-Q072",
+        "S9-C09-Q048"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT06-Q019": "243720ad983fcf46ba9012d594e214319e0abdee78bc3a3902ccea90070bb42a",
-        "S9-C06-Q327": "9573eda59418fada18ba52d443d93c8d1697dc497480534408f0fc779ba1661d"
+        "PN2-PT03-Q072": "376af9fe1f1c0fb45e477c4f3d5ea0c7596c1973a9ecfa649c8617115a9736a3",
+        "S9-C09-Q048": "11a907322088586e359c338e34b45c8dd13df07910050be0c89d12963fba7bd5"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -4999,6 +4972,34 @@
     },
     {
       "ids": [
+        "PN2-PT07-Q066",
+        "S9-C08-Q191"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT07-Q066": "4cc1457f460deb48e893f17e7db9188a9444e108609ee48ceec9ef33d8246293",
+        "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT06-Q019",
+        "S9-C06-Q327"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT06-Q019": "243720ad983fcf46ba9012d594e214319e0abdee78bc3a3902ccea90070bb42a",
+        "S9-C06-Q327": "9573eda59418fada18ba52d443d93c8d1697dc497480534408f0fc779ba1661d"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH05-Q016",
         "S9-C06-Q067"
       ],
@@ -5013,28 +5014,16 @@
     },
     {
       "ids": [
-        "S9-C07-Q193",
-        "S9-C11-Q162"
+        "PN2-PT05-Q072",
+        "S9-C06-Q007"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
-        "S9-C11-Q162": "fa6313d4c6e03b8b050a7976d33c83de069f1241d05ab10d9c5869b91ad0bfa7"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH13-Q035",
-        "S9-C09-Q173"
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-BACK-COMFORT-POSITION-001"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH13-Q035": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
-        "S9-C09-Q173": null
+        "PN2-PT05-Q072": null,
+        "S9-C06-Q007": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5055,6 +5044,20 @@
     },
     {
       "ids": [
+        "PN2-CH13-Q035",
+        "S9-C09-Q173"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q035": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
+        "S9-C09-Q173": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH12-Q042",
         "PN2-PT08-Q082"
       ],
@@ -5063,22 +5066,6 @@
       "candidateContentHashes": {
         "PN2-CH12-Q042": null,
         "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH09-Q017",
-        "S9-C06-Q304"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-DRUG-TOXICITY-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402",
-        "S9-C06-Q304": "22d920222c7aa62804f2ae855a887cfdcbd4608044ead1ec870fca6974e0d2d1"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5127,14 +5114,30 @@
     },
     {
       "ids": [
-        "S9-C09-Q027",
-        "S9-C11-Q029"
+        "IMG-004",
+        "PN2-PT07-Q049"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "S9-C09-Q027": "a6d9b8517cb23ee93c8f3533a37aedf3c1232654fc9cc7c4e10b0239ad203470",
-        "S9-C11-Q029": "5a52e10515ae01b97d37c7e61e3bd94e01f14b81344d57c0306e5a89f4004e4d"
+        "IMG-004": "171a205c9ffd1e51a5542537ef0df99b68faea8458b595a0400fca5cbdd5b71e",
+        "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH09-Q017",
+        "S9-C06-Q304"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-DRUG-TOXICITY-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402",
+        "S9-C06-Q304": "22d920222c7aa62804f2ae855a887cfdcbd4608044ead1ec870fca6974e0d2d1"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5183,6 +5186,20 @@
     },
     {
       "ids": [
+        "PN2-CH13-Q003",
+        "PN2-CH19-Q020"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q003": "2b377d18de00e314ec2c441c5c9194cda7229913beb80b0f72a25b512a6c0b7a",
+        "PN2-CH19-Q020": "ef3b31c22a0d5afe2d390139e914269e6cb7380359b3ae70716845d9b3f1917d"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT07-Q056",
         "PN2-PT08-Q028"
       ],
@@ -5191,20 +5208,6 @@
       "candidateContentHashes": {
         "PN2-PT07-Q056": "5ed571ee255d74a0d1f90c647a1a81fc396df99c023aad20784f523091d97f19",
         "PN2-PT08-Q028": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "IMG-004",
-        "PN2-PT07-Q049"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "IMG-004": "171a205c9ffd1e51a5542537ef0df99b68faea8458b595a0400fca5cbdd5b71e",
-        "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5267,20 +5270,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q003",
-        "PN2-CH19-Q020"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q003": "2b377d18de00e314ec2c441c5c9194cda7229913beb80b0f72a25b512a6c0b7a",
-        "PN2-CH19-Q020": "ef3b31c22a0d5afe2d390139e914269e6cb7380359b3ae70716845d9b3f1917d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH03-Q009",
         "PN2-CH03-Q011"
       ],
@@ -5289,6 +5278,20 @@
       "candidateContentHashes": {
         "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
         "PN2-CH03-Q011": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH12-Q045",
+        "S9-C11-Q095"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH12-Q045": "cc7e19ad28780a4f54785f8942e93d0d47298b38608f03e6b99be575ea39a1d4",
+        "S9-C11-Q095": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5337,48 +5340,6 @@
     },
     {
       "ids": [
-        "PN2-CH12-Q045",
-        "S9-C11-Q095"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH12-Q045": "cc7e19ad28780a4f54785f8942e93d0d47298b38608f03e6b99be575ea39a1d4",
-        "S9-C11-Q095": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH03-Q007",
-        "PN2-PT02-Q025"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH03-Q007": "375cc68f0dd56e12ba253cd71a979f27b2925aedc7a536ace587e48592e46ad6",
-        "PN2-PT02-Q025": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "IMG-078",
-        "PN2-PT06-Q059"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "IMG-078": "4957da5bddf205479794d634716e21ca6714f49a3155039b18af20b6828f5a61",
-        "PN2-PT06-Q059": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT07-Q052",
         "PN2-PT08-Q053"
       ],
@@ -5401,6 +5362,20 @@
       "candidateContentHashes": {
         "IMG-082": "64c596e702cd5e3e4f7a5e039d10a4b99811ce91f5d1cff7da328902aec756d0",
         "S9-C11-Q038": "a303223e054dba9f819f44cc9651b67523a7a6e39af61fcfc75c153548f2a851"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-078",
+        "PN2-PT06-Q059"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-078": "4957da5bddf205479794d634716e21ca6714f49a3155039b18af20b6828f5a61",
+        "PN2-PT06-Q059": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5449,20 +5424,6 @@
     },
     {
       "ids": [
-        "PN2-CH12-Q108",
-        "PN2-CH13-Q109"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH12-Q108": "c00046cd0269f1b3c59320e0b8fa64cad04878d4a660794c126b221755dcaa7c",
-        "PN2-CH13-Q109": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH12-Q052",
         "PN2-PT01-Q009"
       ],
@@ -5491,6 +5452,20 @@
     },
     {
       "ids": [
+        "PN2-CH02-Q004",
+        "PN2-CH19-Q047"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
+        "PN2-CH19-Q047": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH13-Q035",
         "PN2-CH13-Q107"
       ],
@@ -5505,14 +5480,14 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q004",
-        "PN2-CH19-Q047"
+        "PN2-CH12-Q108",
+        "PN2-CH13-Q109"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
-        "PN2-CH19-Q047": null
+        "PN2-CH12-Q108": "c00046cd0269f1b3c59320e0b8fa64cad04878d4a660794c126b221755dcaa7c",
+        "PN2-CH13-Q109": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5561,14 +5536,42 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q015",
-        "PN2-PT08-Q022"
+        "PN2-PT07-Q056",
+        "S9-C06-Q179"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT01-Q015": null,
-        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54"
+        "PN2-PT07-Q056": "5ed571ee255d74a0d1f90c647a1a81fc396df99c023aad20784f523091d97f19",
+        "S9-C06-Q179": "62a0e02408c6d9445392083961da2e9bbfdfa3e7bb28be9a914a5088581b6955"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH03-Q007",
+        "PN2-PT02-Q025"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH03-Q007": "375cc68f0dd56e12ba253cd71a979f27b2925aedc7a536ace587e48592e46ad6",
+        "PN2-PT02-Q025": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-046",
+        "PN2-CH06-Q030"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
+        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5591,14 +5594,14 @@
     },
     {
       "ids": [
-        "PN2-PT07-Q056",
-        "S9-C06-Q179"
+        "PN2-PT01-Q015",
+        "PN2-PT08-Q022"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT07-Q056": "5ed571ee255d74a0d1f90c647a1a81fc396df99c023aad20784f523091d97f19",
-        "S9-C06-Q179": "62a0e02408c6d9445392083961da2e9bbfdfa3e7bb28be9a914a5088581b6955"
+        "PN2-PT01-Q015": null,
+        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5619,14 +5622,14 @@
     },
     {
       "ids": [
-        "IMG-046",
-        "PN2-CH06-Q030"
+        "PN2-CH02-Q005",
+        "PN2-CH12-Q046"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
-        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b"
+        "PN2-CH02-Q005": "89423964ddbd015dbbc413e04e549f821fdc356831bcd4ff4c4f23baa4e9e45a",
+        "PN2-CH12-Q046": "98b8b68d22f44f3c0ce52efbfa42330c9f1814f34a8ed286217878e5966cd3f3"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5641,34 +5644,6 @@
       "candidateContentHashes": {
         "PN2-CH12-Q040": null,
         "PN2-PT02-Q031": "185c27740775eef9a6b9453545d218e2110374b85d24cc263dfc4fc621bcbbac"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH03-Q001",
-        "S9-C11-Q192"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH03-Q001": "3f8c2e9e4a2bf26a7a6fc84b1c730f6a8d8e3b3b8cd1cbe9a56672c9bdc63b2a",
-        "S9-C11-Q192": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT08-Q030",
-        "PN2-PT08-Q069"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
-        "PN2-PT08-Q069": "22fcfb50d5cf301af90dc5779904f34b19e072f999e6346d5721b049ddc1dc8f"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5703,6 +5678,20 @@
     },
     {
       "ids": [
+        "PN2-CH03-Q001",
+        "S9-C11-Q192"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH03-Q001": "3f8c2e9e4a2bf26a7a6fc84b1c730f6a8d8e3b3b8cd1cbe9a56672c9bdc63b2a",
+        "S9-C11-Q192": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH02-Q008",
         "PN2-PT08-Q050"
       ],
@@ -5711,48 +5700,6 @@
       "candidateContentHashes": {
         "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
         "PN2-PT08-Q050": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q005",
-        "PN2-CH12-Q046"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q005": "89423964ddbd015dbbc413e04e549f821fdc356831bcd4ff4c4f23baa4e9e45a",
-        "PN2-CH12-Q046": "98b8b68d22f44f3c0ce52efbfa42330c9f1814f34a8ed286217878e5966cd3f3"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q008",
-        "PN2-PT08-Q067"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
-        "PN2-PT08-Q067": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH05-Q026",
-        "PN2-CH05-Q027"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH05-Q026": "891fc1fe87ce31b338ecf214d7bf783c3335fa0ece9af2320caeb7a12d9fe5d8",
-        "PN2-CH05-Q027": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5773,28 +5720,14 @@
     },
     {
       "ids": [
-        "S9-C09-Q114",
-        "S9-C09-Q174"
+        "PN2-CH02-Q008",
+        "PN2-PT08-Q067"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "S9-C09-Q114": null,
-        "S9-C09-Q174": "104634e578d8484e86b803459736a019dfec8cd38281d1cd5e3e545e4110e392"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH05-Q017",
-        "S9-C11-Q216"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH05-Q017": "016e1b0dceb5af81d6728a99483781ca95b84209c09f7ff9529266bd5cf74d3b",
-        "S9-C11-Q216": null
+        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
+        "PN2-PT08-Q067": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5815,14 +5748,42 @@
     },
     {
       "ids": [
-        "PN2-CH03-Q009",
-        "PN2-PT08-Q028"
+        "PN2-CH05-Q026",
+        "PN2-CH05-Q027"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
-        "PN2-PT08-Q028": null
+        "PN2-CH05-Q026": "891fc1fe87ce31b338ecf214d7bf783c3335fa0ece9af2320caeb7a12d9fe5d8",
+        "PN2-CH05-Q027": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH05-Q017",
+        "S9-C11-Q216"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q017": "016e1b0dceb5af81d6728a99483781ca95b84209c09f7ff9529266bd5cf74d3b",
+        "S9-C11-Q216": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "S9-C09-Q114",
+        "S9-C09-Q174"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "S9-C09-Q114": null,
+        "S9-C09-Q174": "104634e578d8484e86b803459736a019dfec8cd38281d1cd5e3e545e4110e392"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5845,14 +5806,14 @@
     },
     {
       "ids": [
-        "PN2-CH05-Q020",
-        "PN2-CH06-Q013"
+        "PN2-CH03-Q009",
+        "PN2-PT08-Q028"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH05-Q020": null,
-        "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e"
+        "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
+        "PN2-PT08-Q028": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5888,20 +5849,6 @@
     {
       "ids": [
         "PN2-CH03-Q007",
-        "PN2-PT04-Q063"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH03-Q007": "375cc68f0dd56e12ba253cd71a979f27b2925aedc7a536ace587e48592e46ad6",
-        "PN2-PT04-Q063": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH03-Q007",
         "PN2-PT05-Q064"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
@@ -5923,6 +5870,20 @@
       "candidateContentHashes": {
         "PN2-PT06-Q035": null,
         "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT08-Q030",
+        "PN2-PT08-Q069"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
+        "PN2-PT08-Q069": "22fcfb50d5cf301af90dc5779904f34b19e072f999e6346d5721b049ddc1dc8f"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -5999,6 +5960,48 @@
     },
     {
       "ids": [
+        "PN2-CH05-Q020",
+        "PN2-CH06-Q013"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q020": null,
+        "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH03-Q007",
+        "PN2-PT04-Q063"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH03-Q007": "375cc68f0dd56e12ba253cd71a979f27b2925aedc7a536ace587e48592e46ad6",
+        "PN2-PT04-Q063": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH05-Q025",
+        "PN2-CH10-Q002"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5",
+        "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH13-Q109",
         "S9-C09-Q172"
       ],
@@ -6007,34 +6010,6 @@
       "candidateContentHashes": {
         "PN2-CH13-Q109": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1",
         "S9-C09-Q172": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH12-Q075",
-        "PN2-CH12-Q124"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
-        "PN2-CH12-Q124": "5ee8b0226434ce323f0ce3984ea993d6047ec1b63419db2311485755bf2ca093"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH07-Q009",
-        "PN2-CH07-Q027"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
-        "PN2-CH07-Q027": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6055,14 +6030,56 @@
     },
     {
       "ids": [
-        "PN2-CH06-Q030",
-        "S9-C06-Q308"
+        "PN2-CH06-Q009",
+        "S9-C11-Q122"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b",
-        "S9-C06-Q308": null
+        "PN2-CH06-Q009": "b90102542658aa7041700e41cce162e008e18603df1d8a5a18d9c3215c186fd6",
+        "S9-C11-Q122": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH07-Q009",
+        "PN2-CH07-Q027"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
+        "PN2-CH07-Q027": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q027",
+        "S9-C11-Q029"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q027": "31d28b721cdfe2608af4f20911ed85bf76b5498e98ddb9429f41f29053fae61b",
+        "S9-C11-Q029": "5a52e10515ae01b97d37c7e61e3bd94e01f14b81344d57c0306e5a89f4004e4d"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT08-Q019",
+        "PN2-PT08-Q041"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT08-Q019": "15be44c8b95b405bece573731bc3b1895195154c1e907e0f8ed94667740a512b",
+        "PN2-PT08-Q041": "7b4e9c3ef76bb054d09879628303538ef2d8cef304bb31e147a4157c8e1cf781"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6113,6 +6130,36 @@
     },
     {
       "ids": [
+        "PN2-CH02-Q007",
+        "PN2-PT06-Q019"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-BP-CUFF-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156",
+        "PN2-PT06-Q019": "243720ad983fcf46ba9012d594e214319e0abdee78bc3a3902ccea90070bb42a"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH06-Q030",
+        "S9-C06-Q308"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b",
+        "S9-C06-Q308": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "IMG-098",
         "PN2-CH13-Q027"
       ],
@@ -6135,50 +6182,6 @@
       "candidateContentHashes": {
         "IMG-098": "642f721c16380d2aa05ba6af403d166af402ebb77ee540e0364f6742eb57047e",
         "PN2-CH19-Q021": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT08-Q019",
-        "PN2-PT08-Q041"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q019": "15be44c8b95b405bece573731bc3b1895195154c1e907e0f8ed94667740a512b",
-        "PN2-PT08-Q041": "7b4e9c3ef76bb054d09879628303538ef2d8cef304bb31e147a4157c8e1cf781"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH05-Q025",
-        "PN2-CH10-Q002"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5",
-        "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q007",
-        "PN2-PT06-Q019"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-BP-CUFF-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH02-Q007": "04eb7fc0d593c11d473b28a841cfcafe2e1ee25dd70cfe011452beb0f1bce156",
-        "PN2-PT06-Q019": "243720ad983fcf46ba9012d594e214319e0abdee78bc3a3902ccea90070bb42a"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6213,48 +6216,6 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q011",
-        "S9-C06-Q209"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
-        "S9-C06-Q209": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q027",
-        "S9-C11-Q029"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q027": "31d28b721cdfe2608af4f20911ed85bf76b5498e98ddb9429f41f29053fae61b",
-        "S9-C11-Q029": "5a52e10515ae01b97d37c7e61e3bd94e01f14b81344d57c0306e5a89f4004e4d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH06-Q030",
-        "PN2-PT05-Q023"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b",
-        "PN2-PT05-Q023": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH13-Q071",
         "PN2-CH19-Q020"
       ],
@@ -6269,14 +6230,28 @@
     },
     {
       "ids": [
-        "PN2-CH06-Q009",
-        "S9-C11-Q122"
+        "PN2-CH02-Q011",
+        "S9-C06-Q209"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH06-Q009": "b90102542658aa7041700e41cce162e008e18603df1d8a5a18d9c3215c186fd6",
-        "S9-C11-Q122": null
+        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
+        "S9-C06-Q209": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH06-Q030",
+        "PN2-PT05-Q023"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b",
+        "PN2-PT05-Q023": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6311,20 +6286,6 @@
     },
     {
       "ids": [
-        "PN2-PT07-Q044",
-        "S9-C07-Q043"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT07-Q044": "8f1dac9f5f76cee0db3eac3c2bd15b115bb69d206b26c70a79cb02544fd820e5",
-        "S9-C07-Q043": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH19-Q044",
         "PN2-PT05-Q023"
       ],
@@ -6339,6 +6300,20 @@
     },
     {
       "ids": [
+        "PN2-CH19-Q049",
+        "PN2-PT08-Q100"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH19-Q049": "8766f9344e3271b7c4410679ea4f5f43cfd509c2ecce5fb2f89b3a7202767af9",
+        "PN2-PT08-Q100": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH09-Q019",
         "PN2-PT07-Q020"
       ],
@@ -6347,6 +6322,20 @@
       "candidateContentHashes": {
         "PN2-CH09-Q019": null,
         "PN2-PT07-Q020": "2841935af833e32f35e9bc8c768d487dadfcd1ccdcf3afea5a625e11a84f8940"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH07-Q009",
+        "PN2-PT01-Q007"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
+        "PN2-PT01-Q007": "0cf37675cfd2be4b4aae8900852ddc5c01db12e6c98b9f2f9d31e79be8ce29ef"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6381,48 +6370,6 @@
     },
     {
       "ids": [
-        "PN2-CH07-Q009",
-        "PN2-PT01-Q007"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
-        "PN2-PT01-Q007": "0cf37675cfd2be4b4aae8900852ddc5c01db12e6c98b9f2f9d31e79be8ce29ef"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "S9-C06-Q395",
-        "S9-C11-Q024"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636",
-        "S9-C11-Q024": "8f28cf83eaf526173bba89c3f252dfcbe6b464beaa6fe581b4775bf95df9f71f"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "S9-C11-Q060",
-        "S9-C11-Q175"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C11-Q060": "4f8db784237ec6dd71e29792f294eff5167f5b60ad18c2cc59e964facf42db58",
-        "S9-C11-Q175": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT08-Q022",
         "S9-C09-Q166"
       ],
@@ -6431,20 +6378,6 @@
       "candidateContentHashes": {
         "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
         "S9-C09-Q166": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT03-Q053",
-        "PN2-PT07-Q029"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT03-Q053": null,
-        "PN2-PT07-Q029": "c9b0460c5c2e27b19a39f7ef81822cf6388c080b416b9bc3fca418dc4152d924"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6465,6 +6398,78 @@
     },
     {
       "ids": [
+        "S9-C11-Q060",
+        "S9-C11-Q175"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "S9-C11-Q060": "4f8db784237ec6dd71e29792f294eff5167f5b60ad18c2cc59e964facf42db58",
+        "S9-C11-Q175": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT07-Q044",
+        "S9-C07-Q043"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT07-Q044": "8f1dac9f5f76cee0db3eac3c2bd15b115bb69d206b26c70a79cb02544fd820e5",
+        "S9-C07-Q043": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-017",
+        "PN2-PT05-Q044"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-017": "e4dc2ad0353f860674c879a3d059d39ae10d0a85dd2a0c07e90d0e33ec1cacda",
+        "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT03-Q053",
+        "PN2-PT07-Q029"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT03-Q053": null,
+        "PN2-PT07-Q029": "c9b0460c5c2e27b19a39f7ef81822cf6388c080b416b9bc3fca418dc4152d924"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH06-Q012",
+        "PN2-PT02-Q089"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-GBS-BULBAR-001"
+      ],
+      "candidateContentHashes": {
+        "PN2-CH06-Q012": "273127754e468a17968d3b1dc95de3957ffd5ecd0d0ff655d1fdba51c673fcfd",
+        "PN2-PT02-Q089": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH13-Q006",
         "PN2-CH13-Q044"
       ],
@@ -6473,20 +6478,6 @@
       "candidateContentHashes": {
         "PN2-CH13-Q006": null,
         "PN2-CH13-Q044": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH19-Q049",
-        "PN2-PT08-Q100"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH19-Q049": "8766f9344e3271b7c4410679ea4f5f43cfd509c2ecce5fb2f89b3a7202767af9",
-        "PN2-PT08-Q100": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6507,28 +6498,14 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q060",
-        "PN2-PT08-Q100"
+        "PN2-CH03-Q021",
+        "S9-C09-Q081"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014",
-        "PN2-PT08-Q100": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q015",
-        "PN2-PT05-Q007"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q015": "b03f83024430eac6e136e292e3199fa600a9b3b6c2bab6ae5c0acb45b568ea86",
-        "PN2-PT05-Q007": "27794de0d5e8848c8f6fcc86d89a481dd752c5850d2114d162f0a1e798075c68"
+        "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
+        "S9-C09-Q081": "d98ab7b31fe9bff1adbdd8089a7bca32a6fbac74bae9784a938c67432e9e74f4"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6563,22 +6540,6 @@
     },
     {
       "ids": [
-        "PN2-CH06-Q012",
-        "PN2-PT02-Q089"
-      ],
-      "decision": "RELATED_RETAIN_VARIANTS",
-      "groupIDs": [
-        "SIM-GBS-BULBAR-001"
-      ],
-      "candidateContentHashes": {
-        "PN2-CH06-Q012": "273127754e468a17968d3b1dc95de3957ffd5ecd0d0ff655d1fdba51c673fcfd",
-        "PN2-PT02-Q089": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "S9-C08-Q171",
         "S9-C11-Q060"
       ],
@@ -6607,56 +6568,42 @@
     },
     {
       "ids": [
-        "IMG-020",
-        "PN2-PT05-Q044"
+        "S9-C06-Q395",
+        "S9-C11-Q024"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-020": "d0b21b8b38bc4754503cd54893cf971589b1da4a95920b20200827a7038233b2",
-        "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296"
+        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636",
+        "S9-C11-Q024": "eb95cc2ece085870f6223939594fdfebe4b2e37d0f65581c7bf02ef58901babe"
       },
       "reviewerType": "AI",
       "humanSignoff": false
     },
     {
       "ids": [
-        "PN2-CH03-Q021",
-        "S9-C09-Q081"
+        "PN2-CH13-Q060",
+        "PN2-PT08-Q100"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
-        "S9-C09-Q081": "d98ab7b31fe9bff1adbdd8089a7bca32a6fbac74bae9784a938c67432e9e74f4"
+        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014",
+        "PN2-PT08-Q100": "b05b92f2a87fdc7b6a4c9788001407b7c47fe77b550091377f4595513e129976"
       },
       "reviewerType": "AI",
       "humanSignoff": false
     },
     {
       "ids": [
-        "IMG-082",
-        "PN2-CH02-Q011"
+        "PN2-CH02-Q015",
+        "PN2-PT05-Q007"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-082": "64c596e702cd5e3e4f7a5e039d10a4b99811ce91f5d1cff7da328902aec756d0",
-        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT08-Q022",
-        "S9-C08-Q027"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
-        "S9-C08-Q027": null
+        "PN2-CH02-Q015": "b03f83024430eac6e136e292e3199fa600a9b3b6c2bab6ae5c0acb45b568ea86",
+        "PN2-PT05-Q007": "27794de0d5e8848c8f6fcc86d89a481dd752c5850d2114d162f0a1e798075c68"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6677,14 +6624,14 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q073",
-        "S9-C11-Q092"
+        "IMG-082",
+        "PN2-CH02-Q011"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT01-Q073": null,
-        "S9-C11-Q092": "7510f0f94dd2f00912775e49f6467c15508934e6f2005791699986cb2c914fa7"
+        "IMG-082": "64c596e702cd5e3e4f7a5e039d10a4b99811ce91f5d1cff7da328902aec756d0",
+        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6699,6 +6646,20 @@
       "candidateContentHashes": {
         "PN2-CH03-Q004": "968491b693e47391714823c600457bc95f857f94cdd6ad1eb5b7a046dcedc859",
         "PN2-PT01-Q084": "08e9fa88ed7cec5817ee571212921be6481caf356196f48be6b21476772a7627"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH17-Q016",
+        "S9-C06-Q395"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH17-Q016": null,
+        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6733,6 +6694,34 @@
     },
     {
       "ids": [
+        "PN2-PT06-Q059",
+        "PN2-PT08-Q014"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT06-Q059": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049",
+        "PN2-PT08-Q014": "7b0ee25523b65f2af4f05eb8e8d91a81159295beab340357e37acf891e573d8c"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q073",
+        "S9-C11-Q092"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q073": null,
+        "S9-C11-Q092": "7510f0f94dd2f00912775e49f6467c15508934e6f2005791699986cb2c914fa7"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT02-Q011",
         "PN2-PT08-Q074"
       ],
@@ -6747,28 +6736,14 @@
     },
     {
       "ids": [
-        "PN2-PT05-Q086",
-        "PN2-PT07-Q070"
+        "IMG-046",
+        "PN2-PT01-Q012"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT05-Q086": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
-        "PN2-PT07-Q070": "26a93193055054452d938fe074e87a28185fd4e87e010025d50201f76d40ab56"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT06-Q027",
-        "S9-C07-Q043"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
-        "S9-C07-Q043": null
+        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
+        "PN2-PT01-Q012": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6789,14 +6764,14 @@
     },
     {
       "ids": [
-        "PN2-CH17-Q016",
-        "S9-C06-Q395"
+        "PN2-PT05-Q086",
+        "PN2-PT07-Q070"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH17-Q016": null,
-        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636"
+        "PN2-PT05-Q086": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
+        "PN2-PT07-Q070": "26a93193055054452d938fe074e87a28185fd4e87e010025d50201f76d40ab56"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6831,6 +6806,20 @@
     },
     {
       "ids": [
+        "PN2-PT08-Q022",
+        "S9-C08-Q027"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
+        "S9-C08-Q027": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT06-Q027",
         "PN2-PT07-Q046"
       ],
@@ -6845,42 +6834,14 @@
     },
     {
       "ids": [
-        "IMG-046",
-        "PN2-PT01-Q012"
+        "PN2-CH05-Q016",
+        "PN2-CH05-Q019"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
-        "PN2-PT01-Q012": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH05-Q019",
-        "PN2-CH11-Q007"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH05-Q019": "8c098dc2626f0285ad6f0afe1341bbeeca9a2ae7877bc0ce40cb8b58700f2a22",
-        "PN2-CH11-Q007": "e79dd3b0d92ae18e41287bafd13dd60d4e353b73362e56de8ea6f618ffef2a3b"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT06-Q059",
-        "PN2-PT08-Q014"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT06-Q059": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049",
-        "PN2-PT08-Q014": "7b0ee25523b65f2af4f05eb8e8d91a81159295beab340357e37acf891e573d8c"
+        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
+        "PN2-CH05-Q019": "8c098dc2626f0285ad6f0afe1341bbeeca9a2ae7877bc0ce40cb8b58700f2a22"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6915,42 +6876,14 @@
     },
     {
       "ids": [
-        "IMG-078",
-        "PN2-PT08-Q074"
+        "PN2-PT06-Q027",
+        "S9-C07-Q043"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-078": "4957da5bddf205479794d634716e21ca6714f49a3155039b18af20b6828f5a61",
-        "PN2-PT08-Q074": "95d0dbc17a3a9199d9ce6b7ea1da76a7bfcc9e3fadca0a5fc00881a9bdbbfa94"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH15-Q001",
-        "PN2-PT07-Q020"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH15-Q001": "1e40885650c22409ef15b494ed129142cc914068b2e5d33673dd8ea4027b5e68",
-        "PN2-PT07-Q020": "2841935af833e32f35e9bc8c768d487dadfcd1ccdcf3afea5a625e11a84f8940"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT03-Q022",
-        "PN2-PT07-Q020"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT03-Q022": null,
-        "PN2-PT07-Q020": "2841935af833e32f35e9bc8c768d487dadfcd1ccdcf3afea5a625e11a84f8940"
+        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
+        "S9-C07-Q043": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -6985,20 +6918,6 @@
     },
     {
       "ids": [
-        "PN2-PT06-Q027",
-        "PN2-PT08-Q052"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
-        "PN2-PT08-Q052": "db09615c39d7f42674d97244ab3e191dbf999084c6118790c74192fa6d44f7b3"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH12-Q095",
         "PN2-PT01-Q009"
       ],
@@ -7013,14 +6932,42 @@
     },
     {
       "ids": [
-        "PN2-CH05-Q016",
-        "PN2-CH05-Q019"
+        "S9-C08-Q191",
+        "S9-C09-Q053"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
-        "PN2-CH05-Q019": "8c098dc2626f0285ad6f0afe1341bbeeca9a2ae7877bc0ce40cb8b58700f2a22"
+        "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51",
+        "S9-C09-Q053": "3b83ef65f17c6a569f3ea00e1b3a947f9fac614216a279e0ef88d20bd7d80d83"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-078",
+        "PN2-PT08-Q074"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-078": "4957da5bddf205479794d634716e21ca6714f49a3155039b18af20b6828f5a61",
+        "PN2-PT08-Q074": "95d0dbc17a3a9199d9ce6b7ea1da76a7bfcc9e3fadca0a5fc00881a9bdbbfa94"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH15-Q001",
+        "PN2-PT07-Q020"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH15-Q001": "1e40885650c22409ef15b494ed129142cc914068b2e5d33673dd8ea4027b5e68",
+        "PN2-PT07-Q020": "2841935af833e32f35e9bc8c768d487dadfcd1ccdcf3afea5a625e11a84f8940"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7037,6 +6984,20 @@
       "candidateContentHashes": {
         "S9-C06-Q398": null,
         "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH05-Q019",
+        "PN2-CH11-Q007"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q019": "8c098dc2626f0285ad6f0afe1341bbeeca9a2ae7877bc0ce40cb8b58700f2a22",
+        "PN2-CH11-Q007": "e79dd3b0d92ae18e41287bafd13dd60d4e353b73362e56de8ea6f618ffef2a3b"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7071,20 +7032,6 @@
     },
     {
       "ids": [
-        "PN2-PT08-Q022",
-        "PN2-PT08-Q066"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
-        "PN2-PT08-Q066": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT02-Q055",
         "PN2-PT08-Q027"
       ],
@@ -7099,6 +7046,62 @@
     },
     {
       "ids": [
+        "PN2-PT03-Q022",
+        "PN2-PT07-Q020"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT03-Q022": null,
+        "PN2-PT07-Q020": "2841935af833e32f35e9bc8c768d487dadfcd1ccdcf3afea5a625e11a84f8940"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT06-Q027",
+        "PN2-PT08-Q052"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT06-Q027": "28c9bf85eec6eba72ca10c9bc69ac2616bf8f9fd00e49dcf2dff15bb8c872e91",
+        "PN2-PT08-Q052": "db09615c39d7f42674d97244ab3e191dbf999084c6118790c74192fa6d44f7b3"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT08-Q022",
+        "PN2-PT08-Q066"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT08-Q022": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
+        "PN2-PT08-Q066": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT07-Q052",
+        "S9-C06-Q001"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548",
+        "S9-C06-Q001": "6ddc545224a06a4addfac75e303cc881756af701215a7ccd8b60fdec844189fb"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH15-Q012",
         "PN2-CH15-Q031"
       ],
@@ -7107,6 +7110,20 @@
       "candidateContentHashes": {
         "PN2-CH15-Q012": null,
         "PN2-CH15-Q031": "ab40d7895f30280b7c5f01e941c4cbdbabb3e25afe88ff762136678ded77a38c"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT05-Q044",
+        "PN2-PT08-Q082"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296",
+        "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7155,20 +7172,6 @@
     },
     {
       "ids": [
-        "PN2-PT07-Q052",
-        "S9-C06-Q001"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548",
-        "S9-C06-Q001": "6ddc545224a06a4addfac75e303cc881756af701215a7ccd8b60fdec844189fb"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT07-Q034",
         "S9-C06-Q184"
       ],
@@ -7191,6 +7194,34 @@
       "candidateContentHashes": {
         "S9-C07-Q058": null,
         "S9-C07-Q183": "77aa87d1a758fdcc522e8c1e1bbf40202a76da5354c267cec44050e2aff5e658"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q138",
+        "S9-C11-Q060"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q138": "760a888906e217c34de9a41c80f2fae1c0191439a4e5983c9ef6d2eb51bcd8b9",
+        "S9-C11-Q060": "4f8db784237ec6dd71e29792f294eff5167f5b60ad18c2cc59e964facf42db58"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-017",
+        "PN2-CH02-Q008"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-017": "e4dc2ad0353f860674c879a3d059d39ae10d0a85dd2a0c07e90d0e33ec1cacda",
+        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7239,20 +7270,6 @@
     },
     {
       "ids": [
-        "IMG-020",
-        "PN2-CH02-Q008"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "IMG-020": "d0b21b8b38bc4754503cd54893cf971589b1da4a95920b20200827a7038233b2",
-        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH06-Q014",
         "PN2-CH06-Q030"
       ],
@@ -7267,14 +7284,14 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q014",
-        "PN2-PT08-Q038"
+        "PN2-CH07-Q009",
+        "PN2-PT01-Q079"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q014": "f05006e2204b8544443d9bc9a27a89fbe5f439437bc9295241b8eb38ff675d75",
-        "PN2-PT08-Q038": "a960cb525701a0ebd14ec2851147dbc68b28ec309d4978df237f8a3b8f75563e"
+        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
+        "PN2-PT01-Q079": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7289,20 +7306,6 @@
       "candidateContentHashes": {
         "PN2-CH07-Q015": null,
         "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH13-Q035",
-        "PN2-CH13-Q103"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q035": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
-        "PN2-CH13-Q103": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7337,14 +7340,14 @@
     },
     {
       "ids": [
-        "PN2-PT05-Q044",
-        "PN2-PT08-Q082"
+        "PN2-CH02-Q014",
+        "PN2-PT08-Q038"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296",
-        "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
+        "PN2-CH02-Q014": "f05006e2204b8544443d9bc9a27a89fbe5f439437bc9295241b8eb38ff675d75",
+        "PN2-PT08-Q038": "a960cb525701a0ebd14ec2851147dbc68b28ec309d4978df237f8a3b8f75563e"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7379,6 +7382,20 @@
     },
     {
       "ids": [
+        "PN2-CH13-Q008",
+        "PN2-CH19-Q049"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q008": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
+        "PN2-CH19-Q049": "8766f9344e3271b7c4410679ea4f5f43cfd509c2ecce5fb2f89b3a7202767af9"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH03-Q021",
         "PN2-PT08-Q084"
       ],
@@ -7387,6 +7404,20 @@
       "candidateContentHashes": {
         "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
         "PN2-PT08-Q084": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q035",
+        "PN2-PT06-Q004"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q035": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
+        "PN2-PT06-Q004": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7423,34 +7454,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q008",
-        "PN2-CH13-Q060"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q008": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
-        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH13-Q008",
-        "PN2-CH19-Q049"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q008": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
-        "PN2-CH19-Q049": "8766f9344e3271b7c4410679ea4f5f43cfd509c2ecce5fb2f89b3a7202767af9"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH12-Q106",
         "PN2-CH13-Q108"
       ],
@@ -7465,28 +7468,14 @@
     },
     {
       "ids": [
-        "PN2-CH07-Q009",
-        "PN2-PT01-Q079"
+        "PN2-CH13-Q008",
+        "PN2-CH13-Q060"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH07-Q009": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
-        "PN2-PT01-Q079": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT05-Q058",
-        "S9-C06-Q007"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT05-Q058": null,
-        "S9-C06-Q007": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0"
+        "PN2-CH13-Q008": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
+        "PN2-CH13-Q060": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7515,6 +7504,62 @@
       "candidateContentHashes": {
         "S9-C06-Q126": null,
         "S9-C11-Q060": "4f8db784237ec6dd71e29792f294eff5167f5b60ad18c2cc59e964facf42db58"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q003",
+        "PN2-CH11-Q008"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q003": "af95e7faa30436dcc406c362a7ba64709d70de9423a27a6e662c5a01609b3773",
+        "PN2-CH11-Q008": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q004",
+        "PN2-CH08-Q027"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
+        "PN2-CH08-Q027": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q008",
+        "PN2-PT08-Q082"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
+        "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT05-Q058",
+        "S9-C06-Q007"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT05-Q058": null,
+        "S9-C06-Q007": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7563,20 +7608,6 @@
     },
     {
       "ids": [
-        "PN2-CH12-Q075",
-        "S9-C09-Q110"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
-        "S9-C09-Q110": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH07-Q008",
         "S9-C09-Q116"
       ],
@@ -7591,14 +7622,14 @@
     },
     {
       "ids": [
-        "IMG-046",
-        "PN2-PT07-Q034"
+        "PN2-CH12-Q075",
+        "S9-C09-Q110"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
-        "PN2-PT07-Q034": "07213c339222e098c19229aa04b8b4111f5da8ec05f9513f69d6a46608d3a16a"
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
+        "S9-C09-Q110": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7619,6 +7650,20 @@
     },
     {
       "ids": [
+        "PN2-CH12-Q075",
+        "PN2-CH12-Q124"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
+        "PN2-CH12-Q124": "2a948b9d1aa96eb3acdbde984ff6852c033f0cb51747f233f7163f5552127a5a"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH03-Q005",
         "PN2-PT04-Q083"
       ],
@@ -7627,20 +7672,6 @@
       "candidateContentHashes": {
         "PN2-CH03-Q005": "9d92ba19e76d18c0f3e490c886aa3d986f3b0ffe2896d2d894b0b5a17ff3d6c6",
         "PN2-PT04-Q083": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q004",
-        "PN2-CH08-Q027"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
-        "PN2-CH08-Q027": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7675,14 +7706,14 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q008",
-        "PN2-PT08-Q082"
+        "IMG-046",
+        "PN2-PT07-Q034"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q008": "b4b7b5e49166174463fd28e3c44863abac23c34d733d98eada9f2153eec3af39",
-        "PN2-PT08-Q082": "8af800c39821a08ddd798c6adbbb8f5a147a3848da7ab1b9dd7e9a82ed8b1194"
+        "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
+        "PN2-PT07-Q034": "07213c339222e098c19229aa04b8b4111f5da8ec05f9513f69d6a46608d3a16a"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7731,6 +7762,20 @@
     },
     {
       "ids": [
+        "PN2-CH02-Q004",
+        "PN2-PT03-Q056"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
+        "PN2-PT03-Q056": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH15-Q031",
         "S9-C08-Q016"
       ],
@@ -7745,14 +7790,42 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q003",
-        "PN2-CH11-Q008"
+        "PN2-PT08-Q030",
+        "PN2-PT08-Q036"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q003": "af95e7faa30436dcc406c362a7ba64709d70de9423a27a6e662c5a01609b3773",
-        "PN2-CH11-Q008": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b"
+        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
+        "PN2-PT08-Q036": "12773cf3d9af3ebfcebbf148c1f13bffc1e4e673ecb0d09ae34da47a4ade51db"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q009",
+        "PN2-PT05-Q052"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q009": "8d3c01c55a6c19e8612f50d8546555c2aeea33fa2a09e81cfb27adb17c31cf65",
+        "PN2-PT05-Q052": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q078",
+        "S9-C06-Q080"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q078": null,
+        "S9-C06-Q080": "f0e6a421b5f4f9a8a7f55d3b5d4f25f279ec6a60fae25ceeb0ab0df8e6e33ca2"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7803,34 +7876,6 @@
     },
     {
       "ids": [
-        "PN2-CH05-Q016",
-        "S9-C07-Q194"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
-        "S9-C07-Q194": "14044d7ddc0acc7579881e16dcc091b12ce932003392f0c36f7006beab2cd9af"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT01-Q009",
-        "S9-C06-Q373"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT01-Q009": "8d3c01c55a6c19e8612f50d8546555c2aeea33fa2a09e81cfb27adb17c31cf65",
-        "S9-C06-Q373": "bf70c88cfa620f8a2fce5c7a9a319d45276077bf637acea0e0ecbbf320e110dc"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "S9-C09-Q032",
         "S9-C11-Q029"
       ],
@@ -7839,34 +7884,6 @@
       "candidateContentHashes": {
         "S9-C09-Q032": null,
         "S9-C11-Q029": "5a52e10515ae01b97d37c7e61e3bd94e01f14b81344d57c0306e5a89f4004e4d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q004",
-        "PN2-PT03-Q056"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
-        "PN2-PT03-Q056": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH08-Q028",
-        "PN2-PT03-Q031"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82",
-        "PN2-PT03-Q031": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -7943,56 +7960,28 @@
     },
     {
       "ids": [
-        "IMG-072",
-        "PN2-CH05-Q016"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "IMG-072": "c105ba0b78d842fcccc20f55b7ae6cfc774b3a00c62a971adba88b1e016d1cb2",
-        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT01-Q009",
-        "PN2-PT05-Q052"
+        "S9-C06-Q373"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
         "PN2-PT01-Q009": "8d3c01c55a6c19e8612f50d8546555c2aeea33fa2a09e81cfb27adb17c31cf65",
-        "PN2-PT05-Q052": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34"
+        "S9-C06-Q373": "bf70c88cfa620f8a2fce5c7a9a319d45276077bf637acea0e0ecbbf320e110dc"
       },
       "reviewerType": "AI",
       "humanSignoff": false
     },
     {
       "ids": [
-        "PN2-PT04-Q032",
-        "S9-C11-Q137"
+        "PN2-CH05-Q016",
+        "S9-C07-Q194"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT04-Q032": "48c584244c6422b0cb5382dffa5e22fbe84b31c13e3457f9ed4a65c12f75eef5",
-        "S9-C11-Q137": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT08-Q030",
-        "PN2-PT08-Q036"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT08-Q030": "707dd472d16351131816db60620300d8be8130fad43a8135728b1f5d013513fa",
-        "PN2-PT08-Q036": "12773cf3d9af3ebfcebbf148c1f13bffc1e4e673ecb0d09ae34da47a4ade51db"
+        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
+        "S9-C07-Q194": "14044d7ddc0acc7579881e16dcc091b12ce932003392f0c36f7006beab2cd9af"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8021,6 +8010,34 @@
       "candidateContentHashes": {
         "PN2-CH06-Q009": "b90102542658aa7041700e41cce162e008e18603df1d8a5a18d9c3215c186fd6",
         "S9-C07-Q047": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH08-Q028",
+        "PN2-PT03-Q031"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82",
+        "PN2-PT03-Q031": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "IMG-072",
+        "PN2-CH05-Q016"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "IMG-072": "c105ba0b78d842fcccc20f55b7ae6cfc774b3a00c62a971adba88b1e016d1cb2",
+        "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8069,28 +8086,14 @@
     },
     {
       "ids": [
-        "S9-C06-Q395",
-        "S9-C11-Q082"
+        "PN2-PT04-Q032",
+        "S9-C11-Q137"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636",
-        "S9-C11-Q082": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH04-Q003",
-        "PN2-CH08-Q028"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH04-Q003": "6b2a6e3afb4ba55f5bc990cc3594e37171803bf2e058025751fa3ff8950113e9",
-        "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82"
+        "PN2-PT04-Q032": "48c584244c6422b0cb5382dffa5e22fbe84b31c13e3457f9ed4a65c12f75eef5",
+        "S9-C11-Q137": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8111,14 +8114,30 @@
     },
     {
       "ids": [
-        "S9-C07-Q112",
-        "S9-C11-Q080"
+        "S9-C06-Q395",
+        "S9-C11-Q082"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "S9-C07-Q112": "184042bfcbb24689defb193cc10cce8ea683da96524d8bc7d657cc36d951f6df",
-        "S9-C11-Q080": "07556883f19a9f5885c1ef8750ac15be7c4c5b4b3aa4b8c25664bbbb2225e48f"
+        "S9-C06-Q395": "3c8fb0b13e27282a79927a3eb261d772b63a8a5af56b41a8e75d250af3cbe636",
+        "S9-C11-Q082": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "S9-C06-Q141",
+        "S9-C07-Q186"
+      ],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-MAGNESIUM-ANTIDOTE-002"
+      ],
+      "candidateContentHashes": {
+        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e",
+        "S9-C07-Q186": "6dc554fad633dc1308ce2671ae5e7a5a838702f466f04220f000a57125086469"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8139,6 +8158,34 @@
     },
     {
       "ids": [
+        "PN2-CH04-Q003",
+        "PN2-CH08-Q028"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH04-Q003": "6b2a6e3afb4ba55f5bc990cc3594e37171803bf2e058025751fa3ff8950113e9",
+        "PN2-CH08-Q028": "d2c30a076a1239661679661be58ba514ef7c079ac71bcc722b7bcd3696460e82"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "S9-C07-Q112",
+        "S9-C11-Q080"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "S9-C07-Q112": "184042bfcbb24689defb193cc10cce8ea683da96524d8bc7d657cc36d951f6df",
+        "S9-C11-Q080": "07556883f19a9f5885c1ef8750ac15be7c4c5b4b3aa4b8c25664bbbb2225e48f"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH05-Q016",
         "PN2-PT02-Q039"
       ],
@@ -8147,34 +8194,6 @@
       "candidateContentHashes": {
         "PN2-CH05-Q016": "fcec94e49731bbf614814027da13f186d3103603272ca5c37e4c1fe993c43354",
         "PN2-PT02-Q039": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "S9-C06-Q141",
-        "S9-C06-Q329"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e",
-        "S9-C06-Q329": "6056b7953deeeab48bfba7c3da2eff09aab9545e62916931adfd33704787ddea"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT01-Q078",
-        "S9-C06-Q080"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT01-Q078": null,
-        "S9-C06-Q080": "f0e6a421b5f4f9a8a7f55d3b5d4f25f279ec6a60fae25ceeb0ab0df8e6e33ca2"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8195,14 +8214,14 @@
     },
     {
       "ids": [
-        "S9-C09-Q016",
-        "S9-C11-Q030"
+        "PN2-CH11-Q006",
+        "PN2-CH15-Q029"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "S9-C09-Q016": "293e79bac9a13e57a45bc3d5ae2cba0dda5cfe771c08639dc977d70d6b59680f",
-        "S9-C11-Q030": "884d1bbc0a75c5bb781c9d047af3357b36e7a1fb126c22466f5d67d52e56914e"
+        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
+        "PN2-CH15-Q029": "247470fd4564bb49e7b7644674e1c0e49b456e8f47e2b96dead540a3770f62c3"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8217,20 +8236,6 @@
       "candidateContentHashes": {
         "PN2-CH03-Q008": null,
         "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "S9-C06-Q141",
-        "S9-C07-Q186"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e",
-        "S9-C07-Q186": "e386715527ac65cdd0d1964eb9a53026a1d4a6db67dd19e7f9e81b9ef0c59825"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8295,6 +8300,20 @@
     },
     {
       "ids": [
+        "S9-C06-Q141",
+        "S9-C06-Q329"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e",
+        "S9-C06-Q329": "6056b7953deeeab48bfba7c3da2eff09aab9545e62916931adfd33704787ddea"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-PT05-Q044",
         "S9-C06-Q179"
       ],
@@ -8303,6 +8322,20 @@
       "candidateContentHashes": {
         "PN2-PT05-Q044": "1dce5df97e0b72f2e60b26ace848e97ac0e453997fa0026d45a6a6cb7cf00296",
         "S9-C06-Q179": "62a0e02408c6d9445392083961da2e9bbfdfa3e7bb28be9a914a5088581b6955"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "S9-C09-Q016",
+        "S9-C11-Q030"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "S9-C09-Q016": "293e79bac9a13e57a45bc3d5ae2cba0dda5cfe771c08639dc977d70d6b59680f",
+        "S9-C11-Q030": "884d1bbc0a75c5bb781c9d047af3357b36e7a1fb126c22466f5d67d52e56914e"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8337,6 +8370,20 @@
     },
     {
       "ids": [
+        "PN2-PT01-Q019",
+        "PN2-PT07-Q052"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q019": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
+        "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH02-Q028",
         "PN2-PT07-Q052"
       ],
@@ -8345,20 +8392,6 @@
       "candidateContentHashes": {
         "PN2-CH02-Q028": null,
         "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT06-Q057",
-        "S9-C11-Q188"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2",
-        "S9-C11-Q188": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8407,20 +8440,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q043",
-        "PN2-PT01-Q046"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q043": "0f5a02a581a9c63dec5f81a1a841bb7f70c3e2ca34ee4ef9c31692204f526fb6",
-        "PN2-PT01-Q046": "f1565ec4f22d972c6f0b2f86ab4bafa9ce7c095b92aced1ccf55cad7d9a6922c"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH06-Q013",
         "PN2-PT02-Q095"
       ],
@@ -8437,14 +8456,14 @@
     },
     {
       "ids": [
-        "PN2-CH05-Q025",
-        "PN2-CH11-Q006"
+        "PN2-PT06-Q057",
+        "S9-C11-Q188"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5",
-        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca"
+        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2",
+        "S9-C11-Q188": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8565,6 +8584,34 @@
     },
     {
       "ids": [
+        "PN2-CH13-Q027",
+        "PN2-CH15-Q041"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
+        "PN2-CH15-Q041": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q043",
+        "PN2-PT01-Q046"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q043": "0f5a02a581a9c63dec5f81a1a841bb7f70c3e2ca34ee4ef9c31692204f526fb6",
+        "PN2-PT01-Q046": "f1565ec4f22d972c6f0b2f86ab4bafa9ce7c095b92aced1ccf55cad7d9a6922c"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH11-Q016",
         "S9-C09-Q116"
       ],
@@ -8579,14 +8626,14 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q027",
-        "PN2-CH15-Q041"
+        "PN2-CH02-Q002",
+        "PN2-CH02-Q003"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
-        "PN2-CH15-Q041": null
+        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
+        "PN2-CH02-Q003": "af95e7faa30436dcc406c362a7ba64709d70de9423a27a6e662c5a01609b3773"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8665,14 +8712,14 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q002",
-        "PN2-CH02-Q003"
+        "PN2-CH13-Q027",
+        "PN2-PT01-Q034"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097",
-        "PN2-CH02-Q003": "af95e7faa30436dcc406c362a7ba64709d70de9423a27a6e662c5a01609b3773"
+        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
+        "PN2-PT01-Q034": "e52daa20a7715992b9c5a2886a94a7e6979caf3163feb187257d701afabcdfae"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8695,14 +8742,14 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q014",
-        "PN2-PT06-Q057"
+        "PN2-CH02-Q013",
+        "PN2-CH05-Q023"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT01-Q014": "f5d1120f33e93f35ff95c2b3fc5c870f3a83af212aa72a79ee33efbb5e6bbc70",
-        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2"
+        "PN2-CH02-Q013": "effc3a9da86b5b97f744cb05a2a6bf4548f4bbee632c0a0854af521bff0e1a56",
+        "PN2-CH05-Q023": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8723,20 +8770,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q027",
-        "PN2-PT01-Q034"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q027": "d6d859bbbb72c2aa3bd97da427e93e1b073d4fff51e3fd623236ef8383bd593f",
-        "PN2-PT01-Q034": "e52daa20a7715992b9c5a2886a94a7e6979caf3163feb187257d701afabcdfae"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH17-Q009",
         "PN2-PT04-Q093"
       ],
@@ -8747,6 +8780,20 @@
       "candidateContentHashes": {
         "PN2-CH17-Q009": "a2a8c68e4fa22beba5ba2e169716883e572999154c79730b2ccc3ba9e19e044c",
         "PN2-PT04-Q093": "d4e972fb8572c0a6352f93393c96f1e92c410827c9349bae00ce2540892729d1"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH05-Q025",
+        "PN2-CH11-Q006"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q025": "f3db0898c0d4743c4790de1307270dfb7535880753a1d5b40b87ec4b21e996f5",
+        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8775,6 +8822,20 @@
       "candidateContentHashes": {
         "PN2-CH03-Q004": "968491b693e47391714823c600457bc95f857f94cdd6ad1eb5b7a046dcedc859",
         "PN2-CH18-Q011": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT01-Q014",
+        "PN2-PT06-Q057"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT01-Q014": "f5d1120f33e93f35ff95c2b3fc5c870f3a83af212aa72a79ee33efbb5e6bbc70",
+        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8851,56 +8912,16 @@
     },
     {
       "ids": [
-        "PN2-CH11-Q006",
-        "S9-C09-Q044"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
-        "S9-C09-Q044": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q013",
-        "PN2-CH05-Q023"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q013": "effc3a9da86b5b97f744cb05a2a6bf4548f4bbee632c0a0854af521bff0e1a56",
-        "PN2-CH05-Q023": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT01-Q002",
         "S9-C11-Q038"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-QUALIFIED-LANGUAGE-002"
+      ],
       "candidateContentHashes": {
         "PN2-PT01-Q002": "1b5676440b34b3c39c291f604ee6c62fe2f4bc5488034660534a6577f83146fc",
         "S9-C11-Q038": "a303223e054dba9f819f44cc9651b67523a7a6e39af61fcfc75c153548f2a851"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-PT02-Q031",
-        "S9-C06-Q250"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT02-Q031": "185c27740775eef9a6b9453545d218e2110374b85d24cc263dfc4fc621bcbbac",
-        "S9-C06-Q250": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -8953,6 +8974,20 @@
     },
     {
       "ids": [
+        "PN2-PT02-Q031",
+        "S9-C06-Q250"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT02-Q031": "185c27740775eef9a6b9453545d218e2110374b85d24cc263dfc4fc621bcbbac",
+        "S9-C06-Q250": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH15-Q031",
         "S9-C07-Q177"
       ],
@@ -8981,6 +9016,20 @@
     },
     {
       "ids": [
+        "PN2-CH05-Q023",
+        "S9-C07-Q171"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH05-Q023": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7",
+        "S9-C07-Q171": "2e3b7ca469660dfb96ee46ee25c57d2bca5a66f5bd8a7c31f83d4824213d46ad"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH06-Q009",
         "PN2-PT02-Q083"
       ],
@@ -8995,14 +9044,14 @@
     },
     {
       "ids": [
-        "PN2-CH05-Q023",
-        "S9-C07-Q027"
+        "PN2-CH02-Q011",
+        "PN2-PT08-Q021"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH05-Q023": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7",
-        "S9-C07-Q027": "59d8a6d9e491ca244c1999dc52748356cb8102823e7e50bb857995c185132614"
+        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
+        "PN2-PT08-Q021": "e1c978475bcfcba32627163f3aaee1f281398f2b8147da18bd6d9087cf633922"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -9199,7 +9248,7 @@
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH13-Q028": "c2cba3103a01e8592d2298637df34b1911a259cb9c232273ed6578200a3622cd",
+        "PN2-CH13-Q028": "883b1dec4234d707523c036b8a6cf0d509d2b1f4378ab4399899b1c9aa15d321",
         "PN2-CH19-Q049": "8766f9344e3271b7c4410679ea4f5f43cfd509c2ecce5fb2f89b3a7202767af9"
       },
       "reviewerType": "AI",
@@ -9336,8 +9385,10 @@
         "PN2-PT06-Q002",
         "S9-C06-Q141"
       ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
+      "decision": "RELATED_RETAIN_VARIANTS",
+      "groupIDs": [
+        "SIM-MAGNESIUM-ANTIDOTE-002"
+      ],
       "candidateContentHashes": {
         "PN2-PT06-Q002": null,
         "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e"
@@ -9725,20 +9776,6 @@
     },
     {
       "ids": [
-        "PN2-PT05-Q026",
-        "S9-C06-Q333"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT05-Q026": "df7b28e223332b041f73b7b8432e6425e5a880790114695584c467a369d0de1b",
-        "S9-C06-Q333": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT08-Q019",
         "S9-C06-Q110"
       ],
@@ -9747,6 +9784,20 @@
       "candidateContentHashes": {
         "PN2-PT08-Q019": "15be44c8b95b405bece573731bc3b1895195154c1e907e0f8ed94667740a512b",
         "S9-C06-Q110": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT05-Q026",
+        "S9-C06-Q333"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT05-Q026": "df7b28e223332b041f73b7b8432e6425e5a880790114695584c467a369d0de1b",
+        "S9-C06-Q333": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -9809,20 +9860,6 @@
     },
     {
       "ids": [
-        "PN2-CH02-Q011",
-        "PN2-PT07-Q096"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
-        "PN2-PT07-Q096": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "S9-C06-Q007",
         "S9-C06-Q282"
       ],
@@ -9845,6 +9882,20 @@
       "candidateContentHashes": {
         "PN2-CH12-Q045": "cc7e19ad28780a4f54785f8942e93d0d47298b38608f03e6b99be575ea39a1d4",
         "S9-C06-Q193": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH02-Q011",
+        "PN2-PT07-Q096"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
+        "PN2-PT07-Q096": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -10007,20 +10058,6 @@
     },
     {
       "ids": [
-        "PN2-PT06-Q057",
-        "S9-C07-Q168"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2",
-        "S9-C07-Q168": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH12-Q045",
         "PN2-CH12-Q095"
       ],
@@ -10029,6 +10066,20 @@
       "candidateContentHashes": {
         "PN2-CH12-Q045": "cc7e19ad28780a4f54785f8942e93d0d47298b38608f03e6b99be575ea39a1d4",
         "PN2-CH12-Q095": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT06-Q057",
+        "S9-C07-Q168"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT06-Q057": "00d3de3dc7e7eb799722e0cce8681522fdb761c37d1223b604702662e9af06c2",
+        "S9-C07-Q168": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -10087,20 +10138,6 @@
       "candidateContentHashes": {
         "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
         "S9-C11-Q163": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q011",
-        "PN2-PT08-Q021"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
-        "PN2-PT08-Q021": "eb1cdb1af178024c79b69a58d24f48e3c2d58325dfb4d9142f71aa9218d47ae5"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -10333,20 +10370,6 @@
     },
     {
       "ids": [
-        "PN2-PT04-Q085",
-        "PN2-PT07-Q016"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT04-Q085": "0003c016407bcdbbbd4bcfa042438ad49ede5e150d77c53c6a35ceffa59f03c1",
-        "PN2-PT07-Q016": "0dad0283acea9b7a59307e80903ba08bf0da717eb3950a3acb947124a6c43161"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH11-Q006",
         "PN2-CH11-Q007"
       ],
@@ -10355,6 +10378,20 @@
       "candidateContentHashes": {
         "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
         "PN2-CH11-Q007": "e79dd3b0d92ae18e41287bafd13dd60d4e353b73362e56de8ea6f618ffef2a3b"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-PT04-Q085",
+        "PN2-PT07-Q016"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-PT04-Q085": "0003c016407bcdbbbd4bcfa042438ad49ede5e150d77c53c6a35ceffa59f03c1",
+        "PN2-PT07-Q016": "0dad0283acea9b7a59307e80903ba08bf0da717eb3950a3acb947124a6c43161"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -10739,6 +10776,20 @@
     },
     {
       "ids": [
+        "PN2-CH12-Q075",
+        "S9-C06-Q141"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
+        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "PN2-CH06-Q030",
         "PN2-CH12-Q085"
       ],
@@ -10789,20 +10840,6 @@
       "candidateContentHashes": {
         "PN2-CH02-Q004": "63e61d00c11c4cbcd2ca37c20ba46f31213581626d3c96bcf0fb896fd23710ee",
         "PN2-PT01-Q061": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH12-Q075",
-        "S9-C06-Q141"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
-        "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -10873,6 +10910,20 @@
       "candidateContentHashes": {
         "PN2-CH06-Q009": "b90102542658aa7041700e41cce162e008e18603df1d8a5a18d9c3215c186fd6",
         "S9-C06-Q074": "376a27f40abec51f1cd9a7cd4f087f64c0e5c9c36c7f9aa77d5cc44ee5f0f9b1"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH12-Q075",
+        "PN2-PT08-Q041"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
+        "PN2-PT08-Q041": "7b4e9c3ef76bb054d09879628303538ef2d8cef304bb31e147a4157c8e1cf781"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -11067,7 +11118,7 @@
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-PT07-Q013": "6582af028be5fdc7b913f77120dfe20b70c27f0f733e015b4bf50f518be4887c",
+        "PN2-PT07-Q013": "27d0a97cebf0e13d35c472554d72b5294552569884072ac4963348056f11b5ef",
         "PN2-PT07-Q016": "0dad0283acea9b7a59307e80903ba08bf0da717eb3950a3acb947124a6c43161"
       },
       "reviewerType": "AI",
@@ -11229,6 +11280,20 @@
     },
     {
       "ids": [
+        "PN2-CH11-Q006",
+        "PN2-CH12-Q075"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6"
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
         "S9-C06-Q123",
         "S9-C07-Q193"
       ],
@@ -11293,20 +11358,6 @@
       "candidateContentHashes": {
         "PN2-PT04-Q032": "48c584244c6422b0cb5382dffa5e22fbe84b31c13e3457f9ed4a65c12f75eef5",
         "S9-C06-Q026": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH11-Q006",
-        "PN2-CH12-Q075"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
-        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -11721,20 +11772,6 @@
     },
     {
       "ids": [
-        "PN2-PT01-Q019",
-        "PN2-PT07-Q052"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-PT01-Q019": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
-        "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-PT07-Q049",
         "S9-C07-Q124"
       ],
@@ -11917,20 +11954,6 @@
     },
     {
       "ids": [
-        "PN2-CH13-Q044",
-        "PN2-PT03-Q062"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH13-Q044": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521",
-        "PN2-PT03-Q062": null
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH06-Q013",
         "S9-C08-Q012"
       ],
@@ -11939,6 +11962,20 @@
       "candidateContentHashes": {
         "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e",
         "S9-C08-Q012": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH13-Q044",
+        "PN2-PT03-Q062"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH13-Q044": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521",
+        "PN2-PT03-Q062": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -12373,20 +12410,6 @@
       "candidateContentHashes": {
         "PN2-CH02-Q014": "f05006e2204b8544443d9bc9a27a89fbe5f439437bc9295241b8eb38ff675d75",
         "PN2-PT01-Q034": "e52daa20a7715992b9c5a2886a94a7e6979caf3163feb187257d701afabcdfae"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
-        "PN2-CH02-Q011",
-        "PN2-CH12-Q107"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH02-Q011": "5d872fa1d38bb2ff10f3805f6ba33b9e2de93522b9f09207e41047c977292f4d",
-        "PN2-CH12-Q107": null
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -12855,20 +12878,6 @@
     },
     {
       "ids": [
-        "PN2-CH03-Q021",
-        "PN2-PT07-Q050"
-      ],
-      "decision": "DISTINCT_TESTED_OUTCOMES",
-      "groupIDs": [],
-      "candidateContentHashes": {
-        "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
-        "PN2-PT07-Q050": "8b1b28ea0aceb8687cb37a32dd3d7c4cbf36f2f39b48c7a81bb45053975ca203"
-      },
-      "reviewerType": "AI",
-      "humanSignoff": false
-    },
-    {
-      "ids": [
         "PN2-CH05-Q023",
         "PN2-PT06-Q031"
       ],
@@ -12883,14 +12892,14 @@
     },
     {
       "ids": [
-        "PN2-CH12-Q075",
-        "PN2-PT08-Q041"
+        "PN2-CH03-Q021",
+        "PN2-PT07-Q050"
       ],
       "decision": "DISTINCT_TESTED_OUTCOMES",
       "groupIDs": [],
       "candidateContentHashes": {
-        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
-        "PN2-PT08-Q041": "7b4e9c3ef76bb054d09879628303538ef2d8cef304bb31e147a4157c8e1cf781"
+        "PN2-CH03-Q021": "9695acca8d671c371635ca8d69f6deb68fc690942a7907a5eeed42f1c56a8b96",
+        "PN2-PT07-Q050": "8b1b28ea0aceb8687cb37a32dd3d7c4cbf36f2f39b48c7a81bb45053975ca203"
       },
       "reviewerType": "AI",
       "humanSignoff": false
@@ -12905,6 +12914,20 @@
       "candidateContentHashes": {
         "PN2-CH11-Q006": "d46dabed49a34461d2c9bcf72839be47e592102ea8405ea00146e6f4e63291ca",
         "S9-C07-Q099": null
+      },
+      "reviewerType": "AI",
+      "humanSignoff": false
+    },
+    {
+      "ids": [
+        "PN2-CH12-Q075",
+        "PN2-PT04-Q046"
+      ],
+      "decision": "DISTINCT_TESTED_OUTCOMES",
+      "groupIDs": [],
+      "candidateContentHashes": {
+        "PN2-CH12-Q075": "fc87f8eaabcb83b718480208a78cbb01a67ff89378201b4ea5a6c8d42a3e3ca6",
+        "PN2-PT04-Q046": null
       },
       "reviewerType": "AI",
       "humanSignoff": false

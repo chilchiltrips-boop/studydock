@@ -8,16 +8,21 @@
   "encryptedParts": [
     {
       "file": "nclex-continuation-2026-10-24.enc.part001",
-      "bytes": 7286813,
-      "sha256": "f892d7e36c4cb14075e8055d63df3b3266b6d5955cbfa6a2c15e69fb9659e570"
+      "bytes": 9000000,
+      "sha256": "91d2016405d8a114e8ccfe792da5245a493b000adf3d85be6270029d2d9363d3"
+    },
+    {
+      "file": "nclex-continuation-2026-10-24.enc.part002",
+      "bytes": 780521,
+      "sha256": "f44feeaf86ca83e4a3645063f0b8c6e005c05f83d42ed0d0684b12154b7d9c90"
     }
   ],
-  "encryptedBytes": 7286813,
-  "encryptedSHA256": "f892d7e36c4cb14075e8055d63df3b3266b6d5955cbfa6a2c15e69fb9659e570",
-  "plainArchiveSHA256": "ccf5bf3d8788cb272e16e16e4c881637f5450075e356260e7cce1edfc02c4153",
+  "encryptedBytes": 9780521,
+  "encryptedSHA256": "e7cb943362fc1b4f8fb7a9f279aed210ff4232f3055fd916422f99d5cc6a8c72",
+  "plainArchiveSHA256": "d3dbd454e82bd36927ffb5f981a371b3a140f777b993a0c4aa41cc9d9b86053b",
   "recoveryKey": "Same private keyBase64 as the original base checkpoint; key is not stored in Git.",
   "recovery": "Recover base ZIP and this continuation ZIP outside the repository. In a private workspace, overlay continuation files onto the base project. No figures/source PDF text caches were removed; they are retained in the base archive.",
-  "containedFiles": 167,
+  "containedFiles": 197,
   "copyrightedGuidelineFulltextIncluded": false,
   "finalRelease": false
 }

@@ -105,7 +105,7 @@
       "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359",
       "PN2-PT06-Q072": "ad3b9c868802013caee412c310068bd207279d2b60f2d47828040b61f2a5d2af",
       "PN2-PT03-Q010": "f59be309129c05890b27f6eb766ea4d2d27944b149cbf3b7e8146871aa301e76",
-      "PN2-PT05-Q081": "9c55607286cc03ffeff43fa53b7fcb5a53d53ee8f7a9da014d01cf295a66f5e0",
+      "PN2-PT05-Q081": "6878db66d84c62d9f19f903201ec14719d5cab1bb7b4873d8d103006cdab68e2",
       "PN2-PT07-Q037": "e30b6d8921791570a0144dfbe5ac645b352cec306cbd41f0dde96159ff5d6a6c"
     },
     "archive_all_source_entries": true,
@@ -500,6 +500,434 @@
     "candidate_content_hashes": {
       "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402",
       "S9-C06-Q304": "22d920222c7aa62804f2ae855a887cfdcbd4608044ead1ec870fca6974e0d2d1"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-PAPER-RECORD-CORRECTION-001",
+    "ids": [
+      "S9-C07-Q113",
+      "S9-C11-Q024"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_RECORD_CORRECTION",
+    "primary_id": "S9-C07-Q113",
+    "redundant_study_ids": [
+      "S9-C11-Q024"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q113": "66701aa9ae30a9201aed2278fdc46a39b492199549f3ef87170a113a710add9c",
+      "S9-C11-Q024": "eb95cc2ece085870f6223939594fdfebe4b2e37d0f65581c7bf02ef58901babe"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CONSENT-UNDERSTANDING-002",
+    "ids": [
+      "PN2-PT08-Q051",
+      "PN2-PT04-Q046",
+      "PN2-PT05-Q005"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q051": "36781064b18b6da9c66d84c262a1796ea5564b4de1f0c301cd562eddd3f5d038",
+      "PN2-PT04-Q046": null,
+      "PN2-PT05-Q005": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-QUALIFIED-LANGUAGE-002",
+    "ids": [
+      "PN2-PT01-Q002",
+      "S9-C11-Q038"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT01-Q002": "1b5676440b34b3c39c291f604ee6c62fe2f4bc5488034660534a6577f83146fc",
+      "S9-C11-Q038": "a303223e054dba9f819f44cc9651b67523a7a6e39af61fcfc75c153548f2a851"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-HEARING-COMMUNICATION-002",
+    "ids": [
+      "PN2-PT08-Q062",
+      "S9-C09-Q074",
+      "PN2-CH06-Q028",
+      "PN2-PT06-Q070",
+      "PN2-PT08-Q033"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q062": "33a6b115b3baba7f0d6a247c4f49ce0e9b297984a4aba29b03623972967dbcdc",
+      "S9-C09-Q074": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4",
+      "PN2-CH06-Q028": null,
+      "PN2-PT06-Q070": "22af1e94f8da39a8ee7d764a72f494b8a9999b9691df0e051a28d6cdea9f27a7",
+      "PN2-PT08-Q033": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TRACTION-BED-MOBILITY-002",
+    "ids": [
+      "S9-C11-Q190",
+      "S9-C08-Q005",
+      "PN2-CH09-Q008"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q190": "6442d0416badb2be618736fe719a400500e1fb53b107be3412ba3b2d00dd7e1d",
+      "S9-C08-Q005": null,
+      "PN2-CH09-Q008": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-UFH-REVERSAL-002",
+    "ids": [
+      "PN2-CH03-Q006",
+      "S9-C07-Q071",
+      "S9-C07-Q190",
+      "PN2-PT01-Q086"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH03-Q006": "334050e4940e4e6fe1c10ec4da79cad564eb0ef0201d77d999310892dcdafb1a",
+      "S9-C07-Q071": null,
+      "S9-C07-Q190": null,
+      "PN2-PT01-Q086": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-AIRWAY-SUCTION-002",
+    "ids": [
+      "PN2-CH05-Q004",
+      "PN2-CH05-Q013",
+      "PN2-PT02-Q048",
+      "PN2-PT06-Q055",
+      "S9-C07-Q137"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH05-Q004": "047dfe004a394bf881ea9931042ac503268223d9bfee08a71b455e1592324b0c",
+      "PN2-CH05-Q013": "2a3fe4ffc7084c31ddf65ce43d2e5322734a788ebb8277729042d38d94638b2a",
+      "PN2-PT02-Q048": null,
+      "PN2-PT06-Q055": null,
+      "S9-C07-Q137": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-WET-DRAIN-CHAMBERS-002",
+    "ids": [
+      "PN2-PT07-Q057",
+      "PN2-CH05-Q014",
+      "PN2-PT04-Q098",
+      "PN2-PT05-Q061",
+      "S9-C06-Q170"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q057": "695a1b6ac7087bd4f528178391a2f79e57d5fe9038cabfd73656a91f94d61d2f",
+      "PN2-CH05-Q014": null,
+      "PN2-PT04-Q098": null,
+      "PN2-PT05-Q061": null,
+      "S9-C06-Q170": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-INFANT-VAX-AGES-002",
+    "ids": [
+      "PN2-CH13-Q028",
+      "PN2-PT04-Q054"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q028": "883b1dec4234d707523c036b8a6cf0d509d2b1f4378ab4399899b1c9aa15d321",
+      "PN2-PT04-Q054": "272f1fa9840e760db5f5c9627580c4dd3b421ce7e3d10c184a2f1e3b259cea5f"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-BURN-PERFUSION-002",
+    "ids": [
+      "PN2-CH11-Q008",
+      "PN2-CH02-Q002"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH11-Q008": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b",
+      "PN2-CH02-Q002": "ba0d5dadcbccaee814661f350fa51577f4006d7b89da8f471e8451bdf5f95097"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-LPN-TRANSFUSION-SCOPE-002",
+    "ids": [
+      "PN2-PT01-Q019",
+      "PN2-PT02-Q020"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT01-Q019": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
+      "PN2-PT02-Q020": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ADVANCE-DIRECTIVE-PURPOSE-002",
+    "ids": [
+      "PN2-PT07-Q035",
+      "PN2-PT01-Q006",
+      "S9-C07-Q031"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q035": "82d5df740014fd065f84c7582347b83f4fcced462a787edb80100bf21725183a",
+      "PN2-PT01-Q006": "67bbf81a8695d93835939c61baf288021067b72e8df442d60e7e96706165b29e",
+      "S9-C07-Q031": "c76fb48969a3bcc725a910e5fcad7341ba863e9d044fdeb38601b95e4b23ad22"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PREOP-HAIR-REMOVAL-002",
+    "ids": [
+      "PN2-PT07-Q098",
+      "PN2-CH16-Q005"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q098": "d8d668e0c9e3ceea6fda483ed436b60d69be19ed3f7237e027b155215ea98c7f",
+      "PN2-CH16-Q005": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-MAGNESIUM-ANTIDOTE-002",
+    "ids": [
+      "S9-C07-Q186",
+      "PN2-PT06-Q002",
+      "S9-C06-Q141"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q186": "6dc554fad633dc1308ce2671ae5e7a5a838702f466f04220f000a57125086469",
+      "PN2-PT06-Q002": null,
+      "S9-C06-Q141": "b008d9d038a76c81be228b7ba9ef59398990a38336adde1f91c88f52e070f50e"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-EARDROP-ADMINISTRATION-002",
+    "ids": [
+      "S9-C08-Q098",
+      "PN2-PT03-Q002",
+      "S9-C06-Q394"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C08-Q098": "0fab410895834f585fddbc26faeace608f9740f3d618cd768101d8fea8599399",
+      "PN2-PT03-Q002": null,
+      "S9-C06-Q394": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-FLOOR-EVENT-DOCUMENTATION-002",
+    "ids": [
+      "S9-C07-Q053",
+      "S9-C11-Q025",
+      "S9-C07-Q037",
+      "IMG-045",
+      "IMG-046",
+      "IMG-047",
+      "IMG-048"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q053": "918201750094e976b82ec85a45e83b966218dad63be8641a17fd42475ea267f4",
+      "S9-C11-Q025": "286be168dcd0d3b9f9af9b9d00655c33d36013301d306a3a946414f2040fea6a",
+      "S9-C07-Q037": null,
+      "IMG-045": "54be7ddd561eeeab8a545f7858a1d8b483384dd0797651a5318f26356fcfd3e7",
+      "IMG-046": "b8139660240c17b0b3c6f205b9d45b198a34350fb35407f9f2a9a34dbea2462d",
+      "IMG-047": "63369e316a8a920c0cab34e818fc43e301e103ddd0aa792c91201a28bfbab00a",
+      "IMG-048": "9c1c174795b1e8c86bf7af287a0ce619b906e2b573c8e1c938c100ca62aec600"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CSF-LEAK-ASSESSMENT-002",
+    "ids": [
+      "PN2-PT07-Q050",
+      "PN2-CH10-Q004"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q050": "8b1b28ea0aceb8687cb37a32dd3d7c4cbf36f2f39b48c7a81bb45053975ca203",
+      "PN2-CH10-Q004": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-AUD-RECOVERY-002",
+    "ids": [
+      "PN2-PT07-Q079",
+      "PN2-PT01-Q023",
+      "S9-C11-Q161"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q079": "e47410226a88a2a0164587c3f5b547e3ad600650fef636a4c53a28ca94a50d3a",
+      "PN2-PT01-Q023": null,
+      "S9-C11-Q161": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CASE-MANAGEMENT-002",
+    "ids": [
+      "S9-C07-Q059",
+      "S9-C07-Q141"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q059": "04d0f8916985d64b85a1dd9c81a4b3b06a24d43b58da92ca125b1518a31c3424",
+      "S9-C07-Q141": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-REGRESSION-TEACHING-002",
+    "ids": [
+      "S9-C09-Q051",
+      "S9-C09-Q073",
+      "PN2-CH13-Q114"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-25",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C09-Q051": "d767423d16524dff6588d921ede19330a35b21b4245827e17681d4842089b70a",
+      "S9-C09-Q073": null,
+      "PN2-CH13-Q114": null
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false

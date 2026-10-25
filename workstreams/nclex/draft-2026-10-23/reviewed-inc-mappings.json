@@ -910,9 +910,9 @@
     "tracker_index": 50,
     "subject": "Child Health Nursing I",
     "unit": "III - Nursing care of neonate",
-    "main_topic": "Neonatal infection prevention",
-    "subtopic": "Perinatal hepatitis B exposure",
-    "specific_learning_objective": "Select timely vaccine and HBIG for an infant born to a parent with confirmed HBsAg positivity.",
+    "main_topic": "Newborn preventive care",
+    "subtopic": "Discharge immunoprophylaxis and blood spot screening",
+    "specific_learning_objective": "Verify exposure-specific hepatitis B prophylaxis and required newborn blood spot collection and follow-up before discharge.",
     "status": "AI_INC_FIVE_LEVEL_MAPPING_REVIEW_PASS",
     "official_unit_verified": true,
     "unit_registry_code": "CH1_III",
@@ -936,7 +936,7 @@
       }
     },
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-21",
+    "reviewed_on": "2026-10-25",
     "human_expert_signoff": false,
     "lower_level_labels": "Project topic/subtopic/objective labels mapped to official course-unit content; not all verbatim Gazette headings.",
     "gnm_mapping": null
