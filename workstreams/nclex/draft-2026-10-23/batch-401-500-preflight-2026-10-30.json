@@ -17,9 +17,13 @@
     "figure_choice": 1,
     "table_reconstruction_pending": 8,
     "source_figure_dependencies": 4,
-    "format_normalization_required": 5
+    "format_normalization_required": 5,
+    "sourceStemPrefixesMatched": 100,
+    "sourceOptionTextDisagreements": 0,
+    "visualSourceFiguresInspected": 3,
+    "figureReviewPending": 1
   },
-  "sourceEvidence": "NCLEX_2894_All_Questions_Full.json, 2,894 records; original Saunders PDF unavailable to this checkpoint",
+  "sourceEvidence": "Compared against owner-uploaded Saunders 9th-edition original PDF (1,473 pages) and full 2,894-entry extracted bank; normalized prefix and choice-text comparison by source page found 100/100 source stem prefixes and 0 mismatched options.",
   "citations": {
     "myasthenia_2025": "https://www.uems-neuroboard.org/web/images/docs/exam/2026/1-ABN-autoimmune-myasthenia-gravis-management-guidelines-2025update.pdf",
     "cord_prolapse": "https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/umbilical-cord-prolapse-green-top-guideline-no-50/",
@@ -30,7 +34,7 @@
     "Computed 450 mg * 5mL/160mg = 14.0625mL for S9-C06-Q019; clinical dose/rounding and order need validation.",
     "Pulse pressure 146-72=74 mmHg for S9-C06-Q048; original chart must be checked.",
     "Rule of nines: both legs 36% plus perineum 1% = 37%, S9-C06-Q081.",
-    "S9-C06-Q089 missing required figure; 5 mL historical key not promoted.",
+    "S9-C06-Q089 source vial concentration verified visually as 100mg/2mL; 250mg = 5mL. Clinical dosing safety is not yet reviewed.",
     "Three similar acid-base question pairs require actual duplicate adjudication, not automated merging."
   ],
   "items": [
@@ -42,14 +46,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 402,
@@ -59,14 +65,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 403,
@@ -76,14 +84,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 404,
@@ -93,7 +103,7 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
@@ -101,7 +111,9 @@
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Magnesium laboratory table appears flattened and unit/range require primary source verification."
+      "manualFlag": "Magnesium laboratory table appears flattened and unit/range require primary source verification.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 405,
@@ -111,14 +123,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 406,
@@ -128,14 +142,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 407,
@@ -145,14 +161,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 408,
@@ -162,14 +180,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 409,
@@ -179,7 +199,7 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
@@ -187,7 +207,9 @@
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Current Association of British Neurologists guidance does not recommend the historical edrophonium/Tensilon test; rewrite needed."
+      "manualFlag": "Current Association of British Neurologists guidance does not recommend the historical edrophonium/Tensilon test; rewrite needed.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 410,
@@ -197,14 +219,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 411,
@@ -214,14 +238,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 412,
@@ -231,14 +257,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 413,
@@ -248,7 +276,7 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
@@ -256,7 +284,9 @@
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Emergency cord prolapse management requires urgent escalation and relief of presenting-part pressure; check nuanced maternal positioning options."
+      "manualFlag": "Emergency cord prolapse management requires urgent escalation and relief of presenting-part pressure; check nuanced maternal positioning options.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 414,
@@ -266,14 +296,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 415,
@@ -283,14 +315,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 416,
@@ -300,14 +334,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 417,
@@ -317,14 +353,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": true,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 418,
@@ -334,14 +372,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 419,
@@ -351,14 +391,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 420,
@@ -368,14 +410,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 421,
@@ -385,14 +429,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 422,
@@ -402,14 +448,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 423,
@@ -419,14 +467,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 424,
@@ -436,14 +486,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 425,
@@ -453,14 +505,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 426,
@@ -470,14 +524,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 427,
@@ -487,14 +543,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 428,
@@ -504,14 +562,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 429,
@@ -521,14 +581,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 430,
@@ -538,14 +600,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 431,
@@ -555,14 +619,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 432,
@@ -572,14 +638,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 433,
@@ -589,14 +657,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 434,
@@ -606,14 +676,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 435,
@@ -623,14 +695,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 436,
@@ -640,14 +714,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 437,
@@ -657,14 +733,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 438,
@@ -674,14 +752,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 439,
@@ -691,14 +771,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 440,
@@ -708,14 +790,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 441,
@@ -725,14 +809,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 442,
@@ -742,14 +828,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 443,
@@ -759,14 +847,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 444,
@@ -776,14 +866,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 445,
@@ -793,14 +885,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 446,
@@ -810,14 +904,17 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
-      "figureVisualReviewNeeded": true,
+      "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": true,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true,
+      "originalFigureVisuallyChecked": true
     },
     {
       "batchOrdinal": 447,
@@ -827,14 +924,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 448,
@@ -844,14 +943,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": true,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 449,
@@ -861,14 +962,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 450,
@@ -878,14 +981,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 451,
@@ -895,14 +1000,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 452,
@@ -912,14 +1019,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 453,
@@ -929,14 +1038,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 454,
@@ -946,14 +1057,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 455,
@@ -963,14 +1076,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 456,
@@ -980,14 +1095,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 457,
@@ -997,14 +1114,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 458,
@@ -1014,14 +1133,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 459,
@@ -1031,14 +1152,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 460,
@@ -1048,14 +1171,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 461,
@@ -1065,14 +1190,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 462,
@@ -1082,14 +1209,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 463,
@@ -1099,14 +1228,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 464,
@@ -1116,14 +1247,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 465,
@@ -1133,14 +1266,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 466,
@@ -1150,14 +1285,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 467,
@@ -1167,14 +1304,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 468,
@@ -1184,14 +1323,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 469,
@@ -1201,14 +1342,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": true,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 470,
@@ -1218,14 +1361,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 471,
@@ -1235,14 +1380,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 472,
@@ -1252,14 +1399,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 473,
@@ -1269,14 +1418,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 474,
@@ -1286,14 +1437,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 475,
@@ -1303,14 +1456,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": true,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 476,
@@ -1320,14 +1475,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 477,
@@ -1337,14 +1494,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 478,
@@ -1354,14 +1513,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 479,
@@ -1371,14 +1532,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 480,
@@ -1388,14 +1551,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 481,
@@ -1405,14 +1570,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 482,
@@ -1422,14 +1589,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 483,
@@ -1439,15 +1608,18 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
-      "figureVisualReviewNeeded": true,
+      "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": true,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Amikacin vial concentration depends on missing source figure; do not validate calculated amount yet."
+      "manualFlag": "Original vial figure inspected: 100mg/2mL, source numeric key 5mL confirmed; current medication-specific safety and dosing review still pending.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true,
+      "originalFigureVisuallyChecked": true
     },
     {
       "batchOrdinal": 484,
@@ -1457,7 +1629,7 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
@@ -1465,7 +1637,9 @@
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Verify neonatal hepatitis B vaccine plus HBIG timing for maternal HBsAg positive status."
+      "manualFlag": "Verify neonatal hepatitis B vaccine plus HBIG timing for maternal HBsAg positive status.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 485,
@@ -1475,14 +1649,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 486,
@@ -1492,14 +1668,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 487,
@@ -1509,14 +1687,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 488,
@@ -1526,14 +1706,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 489,
@@ -1543,14 +1725,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 490,
@@ -1560,14 +1744,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 491,
@@ -1577,14 +1763,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 492,
@@ -1594,14 +1782,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 493,
@@ -1611,15 +1801,18 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
-      "figureVisualReviewNeeded": true,
+      "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": true,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Original enema positioning figure/options not recovered in flattened source; visual verification required."
+      "manualFlag": "Source figure option 3 left-lateral positioning verified; must restore source figure or rewrite text-based options with independent permissions and current-guidance QA.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true,
+      "originalFigureVisuallyChecked": true
     },
     {
       "batchOrdinal": 494,
@@ -1629,14 +1822,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 495,
@@ -1646,14 +1841,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 496,
@@ -1663,14 +1860,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 497,
@@ -1680,14 +1879,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 498,
@@ -1697,14 +1898,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 499,
@@ -1714,14 +1917,16 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
       "clinicalCurrentGuidanceQA": "PENDING",
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
-      "quizEligible": false
+      "quizEligible": false,
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     },
     {
       "batchOrdinal": 500,
@@ -1731,7 +1936,7 @@
       "automatedSourcePresence": true,
       "sourceQuestionAndRationalePresent": true,
       "historicalAnswerKeyStructurallyPresent": true,
-      "sourcePDFIndependentlyChecked": false,
+      "sourcePDFIndependentlyChecked": true,
       "tableReconstructionNeeded": false,
       "figureVisualReviewNeeded": false,
       "formatNormalizationNeeded": false,
@@ -1739,8 +1944,34 @@
       "duplicateClinicalAdjudication": "PENDING",
       "all12QAPass": false,
       "quizEligible": false,
-      "manualFlag": "Avoid claiming dairy/milk is universally contraindicated after tonsillectomy; revise dietary rationale."
+      "manualFlag": "Avoid claiming dairy/milk is universally contraindicated after tonsillectomy; revise dietary rationale.",
+      "sourcePDFStemPrefixMatched": true,
+      "sourcePDFOptionsTextMatchedIfPresent": true
     }
   ],
-  "warning": "Not 100 new 12-point QA passes. Existing 400 completed records and main branch unchanged. Do not publish study answers or scored quizzes from this preflight."
+  "warning": "Source trace complete for 100 stem prefixes/options; this does NOT certify 100 clinical reviews or any new 12-point QA passes. Previous 400 reviewed entries and main branch unchanged.",
+  "sourcePDFTextMatches": {
+    "questionStemPrefixes": 100,
+    "questionOptionMismatchItems": 0
+  },
+  "sourceFigureVisualInspections": [
+    {
+      "sourceId": "S9-C06-Q048",
+      "page": 197,
+      "observation": "BP 146/72 mmHg: pulse pressure 74 mmHg",
+      "historicalAnswerConfirmed": true
+    },
+    {
+      "sourceId": "S9-C06-Q089",
+      "page": 242,
+      "observation": "Amikacin 100mg per 2mL; 250mg corresponds to 5mL",
+      "historicalAnswerConfirmed": true
+    },
+    {
+      "sourceId": "S9-C06-Q099",
+      "page": 253,
+      "observation": "Original four-position illustration; option 3 is left lateral (Sims) enema position",
+      "historicalAnswerConfirmed": true
+    }
+  ]
 }
