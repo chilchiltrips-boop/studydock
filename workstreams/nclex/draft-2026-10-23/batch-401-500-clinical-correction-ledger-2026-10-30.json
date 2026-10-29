@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-30",
+  "batch": "401-500",
+  "branch": "draft/nclex-2894-review-checkpoint-2026-10-23",
+  "status": "INDIVIDUAL_CONTENT_REVIEW_DRAFT_NOT_FINAL_QA",
+  "sourcePDFQuestionComparisons": 100,
+  "sourcePDFVisualFiguresInspected": 4,
+  "sourceKeyMappingsChecked": 100,
+  "clinicalReviewNotesAuthored": 100,
+  "sourceQuestionsWithIndependentClinicalRewriteDrafts": 27,
+  "sourceQuestionsProvisionalRationaleUpdateDrafts": 73,
+  "all12QAPassAdded": 0,
+  "cumulativeFull12PointQAPass": 400,
+  "expectedRemainingFull12PointQAPending": 2494,
+  "quizEligible": 0,
+  "prior400RecordsUntouched": true,
+  "perItem": [
+    {
+      "ordinal": 401,
+      "id": "S9-C06-Q002",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 402,
+      "id": "S9-C06-Q003",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 403,
+      "id": "S9-C06-Q004",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 404,
+      "id": "S9-C06-Q005",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 405,
+      "id": "S9-C06-Q006",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 406,
+      "id": "S9-C06-Q008",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 407,
+      "id": "S9-C06-Q009",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 408,
+      "id": "S9-C06-Q010",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 409,
+      "id": "S9-C06-Q011",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40940171/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 410,
+      "id": "S9-C06-Q012",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 411,
+      "id": "S9-C06-Q013",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 412,
+      "id": "S9-C06-Q014",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 413,
+      "id": "S9-C06-Q015",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 414,
+      "id": "S9-C06-Q016",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 415,
+      "id": "S9-C06-Q017",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d46aea4f-8f3f-4ce0-93d6-94e147f5a31a&type=display"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 416,
+      "id": "S9-C06-Q018",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 417,
+      "id": "S9-C06-Q019",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 418,
+      "id": "S9-C06-Q020",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 419,
+      "id": "S9-C06-Q021",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 420,
+      "id": "S9-C06-Q022",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 421,
+      "id": "S9-C06-Q023",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 422,
+      "id": "S9-C06-Q024",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 423,
+      "id": "S9-C06-Q025",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 424,
+      "id": "S9-C06-Q026",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 425,
+      "id": "S9-C06-Q027",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 426,
+      "id": "S9-C06-Q028",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 427,
+      "id": "S9-C06-Q029",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.safercare.vic.gov.au/best-practice-improvement/clinical-guidance/neonatal/meconium-aspiration-syndrome"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 428,
+      "id": "S9-C06-Q030",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 429,
+      "id": "S9-C06-Q031",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 430,
+      "id": "S9-C06-Q032",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 431,
+      "id": "S9-C06-Q033",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 432,
+      "id": "S9-C06-Q034",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 433,
+      "id": "S9-C06-Q035",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 434,
+      "id": "S9-C06-Q036",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40957230/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 435,
+      "id": "S9-C06-Q037",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.guidelinecentral.com/guideline/4917129/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 436,
+      "id": "S9-C06-Q038",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 437,
+      "id": "S9-C06-Q039",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 438,
+      "id": "S9-C06-Q040",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 439,
+      "id": "S9-C06-Q041",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 440,
+      "id": "S9-C06-Q042",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 441,
+      "id": "S9-C06-Q043",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 442,
+      "id": "S9-C06-Q044",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 443,
+      "id": "S9-C06-Q045",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 444,
+      "id": "S9-C06-Q046",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 445,
+      "id": "S9-C06-Q047",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.escardio.org/static-file/Escardio/Subspecialty/ACCA/Publications/Toolkit/ACVC%20TOOLKIT%202025/Toolkit_2025-CHAPTER1.pdf"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 446,
+      "id": "S9-C06-Q048",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 447,
+      "id": "S9-C06-Q049",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK553074/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 448,
+      "id": "S9-C06-Q050",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 449,
+      "id": "S9-C06-Q051",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 450,
+      "id": "S9-C06-Q052",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 451,
+      "id": "S9-C06-Q053",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 452,
+      "id": "S9-C06-Q054",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 453,
+      "id": "S9-C06-Q055",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 454,
+      "id": "S9-C06-Q056",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 455,
+      "id": "S9-C06-Q057",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 456,
+      "id": "S9-C06-Q058",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 457,
+      "id": "S9-C06-Q059",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12519924/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 458,
+      "id": "S9-C06-Q060",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 459,
+      "id": "S9-C06-Q061",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Hip_spica_nursing_care/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 460,
+      "id": "S9-C06-Q062",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 461,
+      "id": "S9-C06-Q064",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 462,
+      "id": "S9-C06-Q065",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 463,
+      "id": "S9-C06-Q066",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 464,
+      "id": "S9-C06-Q067",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 465,
+      "id": "S9-C06-Q068",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 466,
+      "id": "S9-C06-Q070",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=851e7439-bb0a-4a09-9279-e3c33bff8965&type=display"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 467,
+      "id": "S9-C06-Q071",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S339/163925/16-Diabetes-Care-in-the-Hospital-Standards-of-Care"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 468,
+      "id": "S9-C06-Q072",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 469,
+      "id": "S9-C06-Q073",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 470,
+      "id": "S9-C06-Q075",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 471,
+      "id": "S9-C06-Q076",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 472,
+      "id": "S9-C06-Q077",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 473,
+      "id": "S9-C06-Q078",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 474,
+      "id": "S9-C06-Q079",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 475,
+      "id": "S9-C06-Q081",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 476,
+      "id": "S9-C06-Q082",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.nhs.uk/tests-and-treatments/gastrectomy/recovery/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 477,
+      "id": "S9-C06-Q083",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 478,
+      "id": "S9-C06-Q084",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 479,
+      "id": "S9-C06-Q085",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 480,
+      "id": "S9-C06-Q086",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 481,
+      "id": "S9-C06-Q087",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 482,
+      "id": "S9-C06-Q088",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 483,
+      "id": "S9-C06-Q089",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 484,
+      "id": "S9-C06-Q090",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.cdc.gov/hepatitis-b/hcp/perinatal-provider-overview/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 485,
+      "id": "S9-C06-Q091",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 486,
+      "id": "S9-C06-Q092",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 487,
+      "id": "S9-C06-Q093",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.nice.org.uk/guidance/cg179/chapter/Recommendations"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 488,
+      "id": "S9-C06-Q094",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 489,
+      "id": "S9-C06-Q095",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 490,
+      "id": "S9-C06-Q096",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 491,
+      "id": "S9-C06-Q097",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 492,
+      "id": "S9-C06-Q098",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 493,
+      "id": "S9-C06-Q099",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 494,
+      "id": "S9-C06-Q100",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 495,
+      "id": "S9-C06-Q101",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-neonates.htm"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 496,
+      "id": "S9-C06-Q102",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 497,
+      "id": "S9-C06-Q103",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 498,
+      "id": "S9-C06-Q104",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 499,
+      "id": "S9-C06-Q105",
+      "clinicalDraftStatus": "RETAIN_RATIONALE_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    },
+    {
+      "ordinal": 500,
+      "id": "S9-C06-Q106",
+      "clinicalDraftStatus": "REWRITTEN_DRAFT_NEEDS_ALL12_QA",
+      "currentSpecificGuidanceUrls": [
+        "https://www.rch.org.au/kidsinfo/fact_sheets/Day_surgery_T_and_A_discharge_care/"
+      ],
+      "originalSourceKeyStillHistorical": true,
+      "quizEligible": false
+    }
+  ],
+  "pendingChecks": [
+    "Verify revised stems and all distractors individually against current clinical guidance",
+    "Complete official five-level INC course/unit mapping",
+    "Adjudicate all cross-book semantic-duplicate candidate pairs for this batch",
+    "Pin each corrected candidate to claim-specific source evidence hashes",
+    "Pass full 12-point gate and test stale clearance invalidation",
+    "Merge into existing private encrypted continuation and re-run repository validation"
+  ],
+  "disclaimer": "Not a new 100-question 12-point QA pass. Individual correction notes and revised stems stored privately, never published in plaintext; 400 remains last validated cumulative 12-point QA total."
+}
