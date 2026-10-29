@@ -6,15 +6,15 @@
   "format": "base64(AES-256-GCM(header + nonce + cipherAndTag))",
   "header": "STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1\\0",
   "key": "Same existing private StudyDock NCLEX recovery key; never commit to GitHub.",
-  "encryptedBytes": 75030,
-  "encryptedSHA256": "07a5ff23a540cbee40556c5aee00049179d2e1e9e8d6cb88f5ba404d29107465",
-  "base64TextSHA256": "bcd4a91ec3c5d8ee48b9859e00ab9e6ec071792dfd8adec59ea773ec10c8b41a",
-  "plainZipSHA256": "7cc1abd8167fd1325c7fd383b40bd69b4bee2605917613af21cf6647b24e6fb5",
+  "encryptedBytes": 77096,
+  "encryptedSHA256": "2afe3d7143428d4f2d5716a0ffd060d7bc86a6c3904bfa2b80fcb4b65a3eb978",
+  "base64TextSHA256": "32d185ca9201fa41cd8a4a8453a0625a20ba1de52ef84a2faf3b3518e602f8b4",
+  "plainZipSHA256": "4b0e54b3c39798ea1e573bf7e18adbe4f53586a3ebeb2e0e09c39352bc85dfb0",
   "sourcePDFSHA256": "994a6fdb312227075747dd349f9bb15af2e936357931d15f06492b1a656fbd54",
   "zipEntries": 2,
   "questionCount": 100,
   "clinicalNotes": 100,
-  "rewriteCandidates": 27,
+  "rewriteCandidates": 37,
   "finalAll12QAPassesAdded": 0,
   "finalRelease": false,
   "howToRecover": "base64-decode the .enc.b64 file to .enc, then AES-256-GCM-decrypt with existing keyBase64 and the specified authenticated header to recover the ZIP. Do not use this as completed QA or publish the historical keys.",
@@ -22,5 +22,6 @@
   "incProjectTopicMappingsDrafted": 100,
   "legacyCourseCorrectionCount": 43,
   "explicitDuplicatePairDecisions": 8,
-  "proposedRedundantStudySourceIDs": 1
+  "proposedRedundantStudySourceIDs": 1,
+  "tableImageDependentCandidatesConverted": 10
 }
