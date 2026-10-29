@@ -1,0 +1,25 @@
+{
+  "batch_id": "FINALQA100-20261030-05",
+  "generated_on": "2026-10-29",
+  "selected_count": 100,
+  "completed_selected_count": 100,
+  "official_all_12_count": 500,
+  "pending_count": 2394,
+  "source_entry_count": 2894,
+  "selected_missing_ids": [],
+  "selected_not_complete_ids": [],
+  "selected_structural_issues": [],
+  "plan_status": "IN_PROGRESS_100_OF_100_COMPLETED",
+  "plan_remaining_count": 0,
+  "similarity_candidate_count": 12267,
+  "exact_duplicate_groups_created": [
+    "SIM-AMIKACIN-LABEL-DOSE-001",
+    "SIM-ENEMA-POSITION-FIGURE-001"
+  ],
+  "notes": [
+    "All completed statuses are AI review only; no human expert sign-off is claimed.",
+    "Official count means all 12 AI QA points complete in the working master, not final project completion.",
+    "Pending 2,394 entries remain outside the completed 500-item checkpoint.",
+    "Q089 and Q099 retain exact image-duplicate archive links."
+  ]
+}
