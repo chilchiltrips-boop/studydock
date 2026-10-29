@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "encrypted-clinical-review-draft",
+  "batch": "401-500",
+  "reviewedOn": "2026-10-30",
+  "format": "base64(AES-256-GCM(header + nonce + cipherAndTag))",
+  "header": "STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1\\0",
+  "key": "Same existing private StudyDock NCLEX recovery key; never commit to GitHub.",
+  "encryptedBytes": 68731,
+  "encryptedSHA256": "ae9d043256b3bcb87c157b8ac90c98de10b5a580114fe7aa5f781a306661187d",
+  "base64TextSHA256": "4ed9c1f9eee195fe4eaf4def16d1660f34c93447b7490806c6fa45d9b82ac33b",
+  "plainZipSHA256": "1c3fcf840dc8d6a4432333aa4ad544055635b74b43ace7576bcdaf0fd8becc05",
+  "sourcePDFSHA256": "994a6fdb312227075747dd349f9bb15af2e936357931d15f06492b1a656fbd54",
+  "zipEntries": 2,
+  "questionCount": 100,
+  "clinicalNotes": 100,
+  "rewriteCandidates": 27,
+  "finalAll12QAPassesAdded": 0,
+  "finalRelease": false,
+  "howToRecover": "Remove whitespace and base64-decode .enc.b64 to raw ciphertext. AES-256-GCM decrypt with existing private keyBase64, 12-byte nonce after specified NUL-terminated header, and header as AAD. Output ZIP contains the private 100-item clinical draft. Do not publish historical keys or treat these as final QA.",
+  "privacy": "Encrypted payload contains source question text and original keys; public manifest and clinical ledger do not."
+}
