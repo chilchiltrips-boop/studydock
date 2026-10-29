@@ -94,25 +94,25 @@ def verify():
     for item in decisions:
         require(item["reviewer_type"] == "AI" and not item["human_expert_signoff"], "Invalid pair attribution")
         require(all(indexed[qid]["duplicateGroup"] == item["group_id"] for qid in item["ids"]), "Pair group mismatch")
-    batches = [load(f"final-qa-{n}-summary.json") for n in [100,200,300]]
+    batches = [load(f"final-qa-{n}-summary.json") for n in [100,200,300,400]]
     pairs = {tuple(d["ids"]):d for batch in batches for d in batch["pairDecisions"]}
     finalqa = {"items":[x for batch in batches for x in batch["items"]],"pairDecisions":list(pairs.values())}
     qa_ids = {x["id"] for x in finalqa["items"]}
-    require(len(qa_ids) == len(finalqa["items"]) == progress["all12FinalQAPass"] == 300, "Final AI QA item count mismatch")
+    require(len(qa_ids) == len(finalqa["items"]) == progress["all12FinalQAPass"] == 400, "Final AI QA item count mismatch")
     require(qa_ids == {r["id"] for r in rows if r["all12FinalQAPass"]}, "Final AI QA ledger mismatch")
-    require(len(finalqa["pairDecisions"]) == progress["aiPairAdjudications"] == 2655, "Individual relationship decision count mismatch")
-    require(len({tuple(d["ids"]) for d in finalqa["pairDecisions"]}) == 2655, "Repeated relationship decisions")
+    require(len(finalqa["pairDecisions"]) == progress["aiPairAdjudications"] == 3552, "Individual relationship decision count mismatch")
+    require(len({tuple(d["ids"]) for d in finalqa["pairDecisions"]}) == 3552, "Repeated relationship decisions")
     for x in finalqa["items"]:
         row = indexed[x["id"]]
         require(x["checksPassed"] == list(range(1,13)) and x["reviewerType"] == "AI" and not x["humanSignoff"], "Unsupported final QA attribution")
-        require(row["clinicalStatus"] in PASS and row["officialINCUnitVerified"] and not row["unresolved"] and not row["imageRequired"], "Unresolved item assigned full QA")
+        require(row["clinicalStatus"] in PASS and row["officialINCUnitVerified"] and not row["unresolved"] and (not row["imageRequired"] or (x.get("sourceImageVisuallyVerified") and bool(re.fullmatch(r"[a-f0-9]{64}",x.get("sourceImageSHA256") or "")))), "Unresolved item assigned full QA")
         require(x["sourceRecordSHA256"] == row["sourceRecordSHA256"] and len(x["sourcePDFSHA256"]) == 64 and set(x["referenceIDs"]) <= reference_ids, "Final QA evidence mapping mismatch")
     require(progress["all12FinalQAPending"] == 2894-len(qa_ids), "Final QA pending count mismatch")
-    require(progress["finalQARetainedStudyEntries"] == 291 and progress["finalQARedundantArchiveEntries"] == 9, "Final QA retention count mismatch")
+    require(progress["finalQARetainedStudyEntries"] == 385 and progress["finalQARedundantArchiveEntries"] == 15, "Final QA retention count mismatch")
     for d in finalqa["pairDecisions"]:
         require(set(d["ids"]) & qa_ids and d["reviewerType"] == "AI" and not d["humanSignoff"], "Invalid relationship evidence")
     relationship_groups = load("duplicate-relationship-groups.json")
-    require(len(relationship_groups) == 60, "Relationship group count mismatch")
+    require(len(relationship_groups) == 105, "Relationship group count mismatch")
     for g in relationship_groups:
         require(all(g["group_id"] in indexed[q]["duplicateGroups"] for q in g["ids"]), "Relationship group link mismatch")
         require(not g["human_expert_signoff"] and not g["final_release_authorized"], "Unsupported group certification")

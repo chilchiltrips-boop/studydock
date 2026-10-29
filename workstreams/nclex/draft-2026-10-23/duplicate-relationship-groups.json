@@ -72,11 +72,11 @@
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-24",
+    "reviewed_on": "2026-10-29",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
-      "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
+      "PN2-CH10-Q002": "db89cc2d6ebfb9ec37d2d008c983f10e2d34ed4759edaa07a0235bd5399ebf2f"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -233,11 +233,11 @@
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-29",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
-      "PN2-CH02-Q020": null,
+      "PN2-CH02-Q020": "173ade5bca3a7be45e300664c8bd5e362fd10e81c82727f90557684c39e8cfae",
       "PN2-PT05-Q013": null
     },
     "archive_all_source_entries": true,
@@ -583,7 +583,7 @@
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-26",
+    "reviewed_on": "2026-10-29",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-PT08-Q062": "33a6b115b3baba7f0d6a247c4f49ce0e9b297984a4aba29b03623972967dbcdc",
@@ -591,7 +591,7 @@
       "PN2-CH06-Q028": null,
       "PN2-PT06-Q070": "22af1e94f8da39a8ee7d764a72f494b8a9999b9691df0e051a28d6cdea9f27a7",
       "PN2-PT08-Q033": null,
-      "PN2-CH14-Q010": null
+      "PN2-CH14-Q010": "2e9c45d1a8072361c7954567589c8cb2f2e52eae58470cd98da47eed917e71ec"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -778,11 +778,11 @@
     "primary_id": null,
     "redundant_study_ids": [],
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-25",
+    "reviewed_on": "2026-10-29",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-PT07-Q098": "d8d668e0c9e3ceea6fda483ed436b60d69be19ed3f7237e027b155215ea98c7f",
-      "PN2-CH16-Q005": null
+      "PN2-CH16-Q005": "b73e089b785a0ba3846c6f53e5dc2f26617b0a7e0661b57cc674a445c5970b6f"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false
@@ -1286,6 +1286,1119 @@
       "S9-C11-Q041": "a9d60fbe6bfbc4056cb6936897dbc5665ce1f22a440ec3259218e45f2fd6e578",
       "S9-C11-Q046": "7d5ba10420ba2fde38ce9603d2b9e9ec54e66a8904c28c01a27cf799894ba78d",
       "S9-C09-Q175": "1501efa386fe1783b2adcb9e0defbd81e401e4e8824ae93bb2c8a03a1459fbf1"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-ADVANCE-WITNESS-004",
+    "ids": [
+      "S9-C07-Q023",
+      "S9-C07-Q078"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "S9-C07-Q023",
+    "redundant_study_ids": [
+      "S9-C07-Q078"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q023": "b754fa2e828c78e56d01f3595191cfb8a874926b0c96b6dec754ec8968f15321",
+      "S9-C07-Q078": "9954343be19d23c922910838aa3fb702d051f3f7c04441e347b9ee4706be6992"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-POSTGASTRECTOMY-BLEED-004",
+    "ids": [
+      "PN2-PT07-Q049",
+      "PN2-PT07-Q036"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "PN2-PT07-Q049",
+    "redundant_study_ids": [
+      "PN2-PT07-Q036"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q049": "f6055e343b214d65441d3df347da7c280727266c8d5a074429c01fa0d3e4e791",
+      "PN2-PT07-Q036": "7f6992543baf21242ca44ab2f38ea8598888606b37dcd4c0b1a9c93912c2e05c"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-STRONG-SIDE-TRANSFER-004",
+    "ids": [
+      "S9-C07-Q193",
+      "PN2-CH02-Q020"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "S9-C07-Q193",
+    "redundant_study_ids": [
+      "PN2-CH02-Q020"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q193": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
+      "PN2-CH02-Q020": "173ade5bca3a7be45e300664c8bd5e362fd10e81c82727f90557684c39e8cfae"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-RAZOR-SHAVING-004",
+    "ids": [
+      "PN2-PT07-Q098",
+      "PN2-CH16-Q005"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "PN2-PT07-Q098",
+    "redundant_study_ids": [
+      "PN2-CH16-Q005"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q098": "d8d668e0c9e3ceea6fda483ed436b60d69be19ed3f7237e027b155215ea98c7f",
+      "PN2-CH16-Q005": "b73e089b785a0ba3846c6f53e5dc2f26617b0a7e0661b57cc674a445c5970b6f"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-OLDER-HYPOXEMIA-004",
+    "ids": [
+      "PN2-PT04-Q044",
+      "PN2-CH14-Q006"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "PN2-PT04-Q044",
+    "redundant_study_ids": [
+      "PN2-CH14-Q006"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT04-Q044": "170c3050f2d97d1873b4a4fbccba121871795cf44916a7baa8795e6ed332357f",
+      "PN2-CH14-Q006": "c4134b5b77620d25edd2db7921b6a5b003acca3dd60019e1d26d0bc6e09f4ba6"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "DUP-HEARING-POSITIVE-004",
+    "ids": [
+      "PN2-PT06-Q070",
+      "PN2-CH14-Q010"
+    ],
+    "type": "SEMANTIC_REDUNDANT_SAME_OUTCOME",
+    "primary_id": "PN2-PT06-Q070",
+    "redundant_study_ids": [
+      "PN2-CH14-Q010"
+    ],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT06-Q070": "22af1e94f8da39a8ee7d764a72f494b8a9999b9691df0e051a28d6cdea9f27a7",
+      "PN2-CH14-Q010": "2e9c45d1a8072361c7954567589c8cb2f2e52eae58470cd98da47eed917e71ec"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TRANSFUSION-RECOGNITION-004",
+    "ids": [
+      "S9-C06-Q001",
+      "PN2-PT07-Q052",
+      "PN2-PT02-Q019"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C06-Q001": "6ddc545224a06a4addfac75e303cc881756af701215a7ccd8b60fdec844189fb",
+      "PN2-PT07-Q052": "635dd46aa5d33aae4b93a179fe9d49c21873d7c5ad770237c2394e28aaf64548",
+      "PN2-PT02-Q019": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ENTERAL-SAFETY-STAGES-004",
+    "ids": [
+      "S9-C06-Q152",
+      "PN2-PT08-Q037",
+      "PN2-PT03-Q010",
+      "PN2-PT05-Q081",
+      "PN2-PT06-Q072",
+      "PN2-PT07-Q037",
+      "S9-C11-Q169",
+      "PN2-PT08-Q064",
+      "S9-C06-Q262",
+      "S9-C06-Q274",
+      "S9-C06-Q180"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C06-Q152": "7062b91af8eb513da3c9d5d07f93bf0831b6a9ede88d44dc0da307d54ed11742",
+      "PN2-PT08-Q037": "b598c1b5dd060dfaa64b979b026914ea98dd3c7a0607e440d585009a54f03359",
+      "PN2-PT03-Q010": "f59be309129c05890b27f6eb766ea4d2d27944b149cbf3b7e8146871aa301e76",
+      "PN2-PT05-Q081": "6878db66d84c62d9f19f903201ec14719d5cab1bb7b4873d8d103006cdab68e2",
+      "PN2-PT06-Q072": "ad3b9c868802013caee412c310068bd207279d2b60f2d47828040b61f2a5d2af",
+      "PN2-PT07-Q037": "16f9b1dd3bffb86c23c7df386167ebe686014352cb29dfc3d831cde14554de27",
+      "S9-C11-Q169": "a0d79d4693ecfa4ffc2492403431b29a75454dd70eece776788ae4034f31e71a",
+      "PN2-PT08-Q064": "891cd883109724f4fd460252890e1cd62d066be3d519041dd22edb6a6d186408",
+      "S9-C06-Q262": null,
+      "S9-C06-Q274": null,
+      "S9-C06-Q180": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-GASTRIC-ANATOMY-AFTERCARE-004",
+    "ids": [
+      "S9-C06-Q369",
+      "S9-C06-Q082",
+      "PN2-PT03-Q022",
+      "PN2-PT03-Q021"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C06-Q369": "ad9da0729b341a547bce12ccb0604bcb6184bf5ff534e7b188233cffe7d71095",
+      "S9-C06-Q082": null,
+      "PN2-PT03-Q022": null,
+      "PN2-PT03-Q021": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ADVANCE-DIRECTIVE-TASKS-004",
+    "ids": [
+      "S9-C07-Q023",
+      "S9-C07-Q078",
+      "PN2-PT07-Q035",
+      "PN2-PT01-Q006",
+      "S9-C07-Q056"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q023": "b754fa2e828c78e56d01f3595191cfb8a874926b0c96b6dec754ec8968f15321",
+      "S9-C07-Q078": "9954343be19d23c922910838aa3fb702d051f3f7c04441e347b9ee4706be6992",
+      "PN2-PT07-Q035": "82d5df740014fd065f84c7582347b83f4fcced462a787edb80100bf21725183a",
+      "PN2-PT01-Q006": "67bbf81a8695d93835939c61baf288021067b72e8df442d60e7e96706165b29e",
+      "S9-C07-Q056": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PROFESSIONAL-CIVIL-TORTS-004",
+    "ids": [
+      "S9-C07-Q027",
+      "S9-C07-Q052"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q027": "24bdd94a46a60127e90604ae6fe96522a211755b93c8b991ab22023dc081740e",
+      "S9-C07-Q052": "6d9eebe2487f3973e7261b92d528d6582e419a64ee50d8220993a205b6976fd5"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ORGAN-DONATION-TASKS-004",
+    "ids": [
+      "S9-C07-Q057",
+      "S9-C07-Q194",
+      "S9-C07-Q195",
+      "S9-C07-Q196",
+      "PN2-PT03-Q049",
+      "PN2-PT05-Q028"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q057": "4ada5081622e2860c8b307759e159b014f848475c0fad8e0fa85c91beff91210",
+      "S9-C07-Q194": "daa3bbb67e71b8d6a8cd7475242f9cef6363cf9737c9f40c3776bc6fc3bdfcdb",
+      "S9-C07-Q195": null,
+      "S9-C07-Q196": null,
+      "PN2-PT03-Q049": null,
+      "PN2-PT05-Q028": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ASSISTANT-AMBULATION-004",
+    "ids": [
+      "S9-C07-Q062",
+      "PN2-PT07-Q068",
+      "PN2-PT07-Q076",
+      "PN2-PT08-Q031",
+      "PN2-PT05-Q029"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q062": "e13eced3734216bcc77c075ba8111805a4c78e9e0626b66bff2f4871537b6820",
+      "PN2-PT07-Q068": "3d3ccf28fea4262d4ce165b77d4c7d0597fcd0fdf9322397c4ef7f304b85715e",
+      "PN2-PT07-Q076": "95e74f5d7f0f277e290fcd7958c0a81f09d0c4cc443f44466fcf800e54ae8428",
+      "PN2-PT08-Q031": "6206698c5b76a661ab51e334f525e953c69ee06954677835c1c62fe66bcd3c89",
+      "PN2-PT05-Q029": "3cfae565bdbfd77d1b7b3c722669fbcb34ad3f25e668b39d1fd07441f172d53d"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PATHWAY-EVALUATION-004",
+    "ids": [
+      "S9-C07-Q086",
+      "S9-C07-Q061",
+      "PN2-PT07-Q092"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C07-Q086": "2f2eda95250659c6995a2a80722ed8b3a16dc6266e9df6924a439c39b8b52925",
+      "S9-C07-Q061": null,
+      "PN2-PT07-Q092": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CATARACT-CARE-DOMAINS-004",
+    "ids": [
+      "S9-C08-Q093",
+      "PN2-CH06-Q014",
+      "PN2-CH06-Q030",
+      "PN2-CH06-Q013",
+      "PN2-PT02-Q097"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C08-Q093": "36dbad8cea22cbc5493d180275a76cb46315de15aa6f0a09b17e1325e7711ff9",
+      "PN2-CH06-Q014": "13cc5340538bd94830eb224dc248ea7271936c002fa0bc2b38b9d8562b264e51",
+      "PN2-CH06-Q030": "85c27ab86507fa61f81c9378565a3dc981061b0e3b9204099fe9082b4b81498b",
+      "PN2-CH06-Q013": "bc0b7589a3155cd5c8a1009f9f5833a1ccd3653d8975985a7e561b718587f60e",
+      "PN2-PT02-Q097": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-DEMENTIA-DAILY-ROOM-CUES-004",
+    "ids": [
+      "S9-C08-Q196",
+      "PN2-CH14-Q002",
+      "S9-C11-Q099",
+      "S9-C11-Q144",
+      "PN2-PT04-Q091"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C08-Q196": "5da7203390a0f838f194381c972e2801c0a72197366d8d9b3e9bfc086cda11ab",
+      "PN2-CH14-Q002": "e0903bf0251efa80abc23f59aba9d61e7c7d3bda7fd436b8e13ea350bc027548",
+      "S9-C11-Q099": null,
+      "S9-C11-Q144": null,
+      "PN2-PT04-Q091": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-VISUAL-CORTEX-FIGURE-004",
+    "ids": [
+      "S9-C09-Q001",
+      "IMG-073",
+      "IMG-074",
+      "IMG-075",
+      "IMG-076"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C09-Q001": "27a223f24e8e3de59a9bf37d3fb5027902f3fb9afc4340641e945fa50699c62c",
+      "IMG-073": "3c45f16da35c7decbd5f1b5c112796d684a6325d77b8b971c94baedb494ec4ef",
+      "IMG-074": "0e8fb25b0f234274398ce8119657ad897dfc638ad46f9d1924f62d9d24434073",
+      "IMG-075": "4eabc1036270d350c95401575ea582c88e101a46284fbb5f0e47d41d75152bca",
+      "IMG-076": "02027eb5bc56cf2dec535a9da26cab792ebbcc93319129c79a87b3045bcd38df"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CHILD-SAFEGUARDING-004",
+    "ids": [
+      "S9-C09-Q037",
+      "S9-C09-Q054",
+      "PN2-PT08-Q047",
+      "PN2-PT08-Q063",
+      "S9-C09-Q038",
+      "S9-C09-Q083",
+      "PN2-PT04-Q090"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C09-Q037": "762f0b947c2678708c8d8856d1bae4aca49a3945e83cd49513182696731a7ba9",
+      "S9-C09-Q054": "3d4438c85ca6fd8e8f0506ffd770f4b55c7763b8e4491b7626e56d15d2a01bf0",
+      "PN2-PT08-Q047": "b429f099560b647be51732470871f819df7139377353d95e4b9adfe1f5c6a720",
+      "PN2-PT08-Q063": "1bbba66f44970d47a6449f0a4439f1435d4f3a44660c71d392bce48eaf3594b9",
+      "S9-C09-Q038": null,
+      "S9-C09-Q083": null,
+      "PN2-PT04-Q090": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-HALO-ADJUSTMENT-SAFETY-004",
+    "ids": [
+      "S9-C09-Q140",
+      "IMG-033"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C09-Q140": "7c553fb2643c136bd17c311d66027158265883723da679ed0e1983ef6da6b29a",
+      "IMG-033": "52ee51185cb1329ea44d60803d81906c3f8b0c4914a85eae9b6b7bb5d02db2cf"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CHEST-PERCUSSION-FIGURE-004",
+    "ids": [
+      "S9-C11-Q233",
+      "IMG-081",
+      "IMG-082",
+      "IMG-083",
+      "IMG-084",
+      "S9-C08-Q197",
+      "S9-C08-Q007"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C11-Q233": "51d7514a97c0b416158516aec0bfd03cc4e000d41eb12140c0ad82417bb6509c",
+      "IMG-081": "9108812896e02e77752b9ab0cbd36968b03a05cfd9d205dca65b3ed5e5640ed9",
+      "IMG-082": "64c596e702cd5e3e4f7a5e039d10a4b99811ce91f5d1cff7da328902aec756d0",
+      "IMG-083": "1c3fbf45896c7e131409601d32fd963ad318077446d696c061a8b3b9dd6989d8",
+      "IMG-084": "0ceffa3ed828a91b97452c5e0b16cdd2c84e7f611357ed2c7dddcdc781d01919",
+      "S9-C08-Q197": null,
+      "S9-C08-Q007": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-POSTOP-VTE-STAGES-004",
+    "ids": [
+      "PN2-CH03-Q033",
+      "PN2-CH16-Q012",
+      "PN2-CH16-Q015",
+      "PN2-CH12-Q003",
+      "PN2-CH03-Q040",
+      "S9-C11-Q132",
+      "PN2-CH02-Q013"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH03-Q033": "3c1fce1531cf324a85d6f745af36b972b0815e4bd2c00d487f18fef4eba13923",
+      "PN2-CH16-Q012": "db0a27491160105014cd230c841ce8dbfc9386a33bda391298e35f7485ce1330",
+      "PN2-CH16-Q015": "484d750908df73265f8b207717fd9efa1b3c813ca3edf21c6a83a6617b0cc15f",
+      "PN2-CH12-Q003": null,
+      "PN2-CH03-Q040": null,
+      "S9-C11-Q132": null,
+      "PN2-CH02-Q013": "effc3a9da86b5b97f744cb05a2a6bf4548f4bbee632c0a0854af521bff0e1a56"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-STAPES-MOBILITY-004",
+    "ids": [
+      "PN2-CH06-Q019",
+      "PN2-CH06-Q029",
+      "S9-C07-Q189"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH06-Q019": "635232f74d105d33a7d2ab2be4ac2f11703eb9ca2fc162c635e69c3e3ca6c381",
+      "PN2-CH06-Q029": null,
+      "S9-C07-Q189": "3142a8f530c90f948168c82e4890e90efb8fd7d71a705cb8df43402811c86358"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-OSTOMY-IRRIGATION-004",
+    "ids": [
+      "PN2-CH07-Q018",
+      "PN2-PT03-Q028",
+      "S9-C06-Q256",
+      "S9-C08-Q191",
+      "PN2-PT07-Q066"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH07-Q018": "3ebbfad4d120442b71b1eabcf85ab52b069584bd4af10e348f201dfc7a6aca0c",
+      "PN2-PT03-Q028": null,
+      "S9-C06-Q256": null,
+      "S9-C08-Q191": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51",
+      "PN2-PT07-Q066": "4cc1457f460deb48e893f17e7db9188a9444e108609ee48ceec9ef33d8246293"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-BURN-DRESSING-PRODUCT-004",
+    "ids": [
+      "PN2-CH11-Q011",
+      "PN2-CH11-Q012",
+      "PN2-CH11-Q013",
+      "PN2-PT08-Q094",
+      "PN2-PT07-Q087"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH11-Q011": "37b1009691e502f2b89038c48b9b3e20883856733a02f62977d35b7fdcc9206d",
+      "PN2-CH11-Q012": null,
+      "PN2-CH11-Q013": null,
+      "PN2-PT08-Q094": "0645bc6753c5181c39bdb3d4372b2ffee692a958078e5beff5d57ca627018651",
+      "PN2-PT07-Q087": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TOY-AGE-CLEANABILITY-004",
+    "ids": [
+      "PN2-CH13-Q003",
+      "PN2-PT06-Q004",
+      "PN2-CH13-Q065",
+      "PN2-CH13-Q004"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q003": "2b377d18de00e314ec2c441c5c9194cda7229913beb80b0f72a25b512a6c0b7a",
+      "PN2-PT06-Q004": null,
+      "PN2-CH13-Q065": null,
+      "PN2-CH13-Q004": "259eaab0524ff17068df0c25e91452f2ddc58c2f31d88a0e454f3ed96b9df7b4"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TANTRUM-ASSESSMENT-CARE-004",
+    "ids": [
+      "PN2-CH13-Q008",
+      "PN2-CH13-Q021",
+      "S9-C11-Q228"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q008": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
+      "PN2-CH13-Q021": null,
+      "S9-C11-Q228": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-MENINGITIS-CARE-STAGES-004",
+    "ids": [
+      "PN2-CH13-Q074",
+      "PN2-PT02-Q094",
+      "PN2-PT02-Q093",
+      "PN2-CH13-Q075",
+      "PN2-PT07-Q048",
+      "S9-C06-Q084"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q074": "8f4885e59de76082ab641408ce3081d0e6cd3173d8f9735fb3b0ecfb3b0f7c65",
+      "PN2-PT02-Q094": null,
+      "PN2-PT02-Q093": "410306a37101620bbc5121094b9672bf631873e250521660159106f36eee6370",
+      "PN2-CH13-Q075": null,
+      "PN2-PT07-Q048": "d9ce612aea67c691ab09e9d27604e6de2bebf8f67d13daa7e633c2d9fecd96ff",
+      "S9-C06-Q084": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-TAYSACHS-SUPPORT-INHERITANCE-004",
+    "ids": [
+      "PN2-CH13-Q082",
+      "PN2-CH13-Q081"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH13-Q082": "a30bb703c458b539ce12d97091891e0eb338152b66f20be31caaf72f5f253abd",
+      "PN2-CH13-Q081": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-HEMOPHILIA-TEACHING-DOMAINS-004",
+    "ids": [
+      "PN2-PT02-Q037",
+      "PN2-CH04-Q009",
+      "S9-C08-Q050",
+      "PN2-PT02-Q038",
+      "PN2-CH04-Q025"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT02-Q037": "f3348812b62ea2b29cb2fd6ee8055df4d05b88a6dc74824ebb543f7497d9b7be",
+      "PN2-CH04-Q009": null,
+      "S9-C08-Q050": null,
+      "PN2-PT02-Q038": null,
+      "PN2-CH04-Q025": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-INSULIN-PRODUCT-TECHNIQUE-004",
+    "ids": [
+      "PN2-PT03-Q097",
+      "PN2-CH10-Q017",
+      "S9-C09-Q167",
+      "S9-C11-Q067",
+      "S9-C08-Q158"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT03-Q097": "9d49592990c98547077b917bfc6f48da2b138b380cc33618b5be9f83caa963c1",
+      "PN2-CH10-Q017": null,
+      "S9-C09-Q167": null,
+      "S9-C11-Q067": null,
+      "S9-C08-Q158": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ENDOFLIFE-EXPRESSION-004",
+    "ids": [
+      "S9-C09-Q016",
+      "PN2-PT06-Q085",
+      "PN2-CH02-Q027",
+      "S9-C09-Q125",
+      "S9-C09-Q208",
+      "PN2-CH02-Q026"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "S9-C09-Q016": "293e79bac9a13e57a45bc3d5ae2cba0dda5cfe771c08639dc977d70d6b59680f",
+      "PN2-PT06-Q085": "3fcdd42020ce6ab662d9c5150ebfa793633ad1f7928184ecc396d78ad7a844a5",
+      "PN2-CH02-Q027": "31d28b721cdfe2608af4f20911ed85bf76b5498e98ddb9429f41f29053fae61b",
+      "S9-C09-Q125": "f15a9b31844d6e1f4d3759e4f61ed63792a8fde217f2dc665cf79c3ff7f715f7",
+      "S9-C09-Q208": null,
+      "PN2-CH02-Q026": "5827154e89fe37c2a3cb09e1189cc9f276eed9a7ead5c0f45fe715728c6cb337"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-SLEEP-ASSESSMENT-004",
+    "ids": [
+      "PN2-PT07-Q060",
+      "PN2-PT06-Q074",
+      "PN2-PT04-Q078",
+      "PN2-PT05-Q074",
+      "PN2-PT08-Q049",
+      "PN2-CH14-Q004"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT07-Q060": "fef3110ca520e215c6615c5edfc4e3430527cb5131c77053a1be52b6ed7dec0d",
+      "PN2-PT06-Q074": null,
+      "PN2-PT04-Q078": null,
+      "PN2-PT05-Q074": null,
+      "PN2-PT08-Q049": null,
+      "PN2-CH14-Q004": "78bb9643d43eed1b850666add7196edd354d411b8787458943a5277b17d7c8fa"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ELDER-SAFEGUARDING-004",
+    "ids": [
+      "PN2-PT08-Q099",
+      "PN2-PT04-Q003",
+      "S9-C07-Q079",
+      "S9-C11-Q202"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-PT08-Q099": "f02b9cdd901a55073493aaca0aaaee6545fc9a176bfe0fb4838e7d242e065ad5",
+      "PN2-PT04-Q003": null,
+      "S9-C07-Q079": null,
+      "S9-C11-Q202": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-POSTOP-POSITION-AIRWAY-004",
+    "ids": [
+      "PN2-CH02-Q016",
+      "PN2-CH16-Q009",
+      "PN2-CH16-Q010",
+      "PN2-CH16-Q011",
+      "PN2-CH16-Q008",
+      "PN2-CH16-Q013",
+      "PN2-PT04-Q029",
+      "PN2-PT06-Q039",
+      "PN2-CH07-Q010",
+      "PN2-PT01-Q079"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q016": "e3b763504d1b68b9e1479bfabcc02286141ee70213dd7403aa4f34e10354f8bc",
+      "PN2-CH16-Q009": "ec827215a84a4cd53baeeb4f2033d184350bb073f39289f99a03f429b08058cf",
+      "PN2-CH16-Q010": "fdc0b53d788f5dd3e3471c377a3b4115c9b1f6e853ce801e3b05d79d71754af2",
+      "PN2-CH16-Q011": "aaaaaaf1090609592b8db61f6c657cbc050f450de7f3cd01f0b1a23df8c4cc8d",
+      "PN2-CH16-Q008": "b371ee96ed4748da746becd126dc342f5c9c3c33a533200c685d772d5d985b46",
+      "PN2-CH16-Q013": "bc59a9205cb66be2e8ab09fb8d13a65dc10fbda40bf696c29afb0f13ba296ff7",
+      "PN2-PT04-Q029": null,
+      "PN2-PT06-Q039": null,
+      "PN2-CH07-Q010": null,
+      "PN2-PT01-Q079": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-NEURO-POSITION-004",
+    "ids": [
+      "PN2-CH02-Q019",
+      "PN2-CH06-Q001",
+      "S9-C06-Q217",
+      "S9-C06-Q111"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q019": "6238f04a189cb0314bc131ff6969306d3078b8eb1d99755117d7124003ab3878",
+      "PN2-CH06-Q001": "9e4ba48fc748a4bfcd25e347b41889ad3b6761e13b133c87af38bccfbd4a63c9",
+      "S9-C06-Q217": null,
+      "S9-C06-Q111": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-THERMAL-DEVICE-SAFETY-004",
+    "ids": [
+      "PN2-CH02-Q029",
+      "PN2-PT06-Q054",
+      "PN2-PT05-Q008",
+      "PN2-PT01-Q056"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q029": "7679aa671107ebbb2e7f9b676277fedc026dbbc85e8b40dfa548c09e8f3dcec7",
+      "PN2-PT06-Q054": null,
+      "PN2-PT05-Q008": null,
+      "PN2-PT01-Q056": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-METABOLIC-ALKALOSIS-004",
+    "ids": [
+      "PN2-CH02-Q030",
+      "PN2-PT07-Q054",
+      "PN2-PT05-Q075",
+      "PN2-PT01-Q071",
+      "S9-C11-Q119"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH02-Q030": "a9dbcbf12d39ed88ad8d64f4426d5f49eb384db82353c5ab5e9580a9710304be",
+      "PN2-PT07-Q054": null,
+      "PN2-PT05-Q075": null,
+      "PN2-PT01-Q071": null,
+      "S9-C11-Q119": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ERIKSON-LATER-LIFE-004",
+    "ids": [
+      "PN2-CH14-Q001",
+      "PN2-PT04-Q068",
+      "PN2-PT05-Q040"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH14-Q001": "dafbe5a2aaf47529bb723cf5dd05e2e9be99fc2a3911fb21c2a12a73ee6576c4",
+      "PN2-PT04-Q068": "7466e97886088bc357eaa0f677f24be3c7e6b17450adb6c5f70d20b3d091379a",
+      "PN2-PT05-Q040": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-SENSORY-AGING-ASSESSMENT-004",
+    "ids": [
+      "PN2-CH14-Q003",
+      "PN2-CH14-Q004",
+      "PN2-CH14-Q005",
+      "PN2-CH14-Q008",
+      "PN2-CH14-Q009"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH14-Q003": "804038554b541cf28bb11788e22bd68e1cf631f5d952f670d38965e6ef4fa3c7",
+      "PN2-CH14-Q004": "78bb9643d43eed1b850666add7196edd354d411b8787458943a5277b17d7c8fa",
+      "PN2-CH14-Q005": "cf0a453e9595a0c221c09f82600f909fa1f370896973cf21ad42af2c845e6d3f",
+      "PN2-CH14-Q008": "06a47197b59570805d5a136479b9df95c7adbc3e1acb8518257ebc353f2c57fe",
+      "PN2-CH14-Q009": "280fe4f19d358b0bca03ec2c5cd7143d3b108ae4ebfb198a079b31abad1c0304"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-CONSENT-PROCEDURE-EXPLANATION-004",
+    "ids": [
+      "PN2-CH16-Q001",
+      "PN2-CH17-Q010",
+      "PN2-PT08-Q051",
+      "PN2-PT04-Q046",
+      "PN2-PT05-Q005",
+      "S9-C07-Q064"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH16-Q001": "e6b0af8699f2b0b068a7d9265e6073579a9ea89d8de7c89b0e6c93fa6bf6d25b",
+      "PN2-CH17-Q010": "4110fdcf0ba1ea2ffb507ecf00e88c7f55f41686dde97690774849afb0895846",
+      "PN2-PT08-Q051": "36781064b18b6da9c66d84c262a1796ea5564b4de1f0c301cd562eddd3f5d038",
+      "PN2-PT04-Q046": null,
+      "PN2-PT05-Q005": null,
+      "S9-C07-Q064": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-ATROPINE-EFFECT-RISK-004",
+    "ids": [
+      "PN2-CH16-Q007",
+      "S9-C06-Q377",
+      "PN2-PT05-Q004",
+      "PN2-CH19-Q028",
+      "PN2-CH19-Q022"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH16-Q007": "47fa7ca3f48408554839fb6b32a764867932edd0712aa4cb5903675f6840b879",
+      "S9-C06-Q377": null,
+      "PN2-PT05-Q004": null,
+      "PN2-CH19-Q028": null,
+      "PN2-CH19-Q022": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-SODIUM-MEAL-RATIONALE-004",
+    "ids": [
+      "PN2-CH18-Q001",
+      "PN2-CH18-Q002",
+      "PN2-CH18-Q003",
+      "PN2-CH18-Q008",
+      "PN2-CH18-Q009",
+      "PN2-PT08-Q019",
+      "PN2-CH03-Q026",
+      "PN2-CH03-Q018",
+      "PN2-PT04-Q047",
+      "PN2-PT01-Q095",
+      "S9-C11-Q057"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH18-Q001": "0c881162b5fbc2e039fac45f48ae75967b001c9d8cf2ca07eb6d3c2be05a0daa",
+      "PN2-CH18-Q002": "a4dbcc5b50d9293c164739d575c74524908e4d29ae7a8815ced47e11ef047938",
+      "PN2-CH18-Q003": "f2350af24406bca70dc14e781ef7994e0880d4612ad7e8ee69412c343a90805b",
+      "PN2-CH18-Q008": "c705053a6c5d3455b489c6fb46e6d1ee71efa108da14563355b99acdfaf36b6c",
+      "PN2-CH18-Q009": "682e4fde85ba3234cf9948474a4538226b409abfa4d2a526871d63477f85fb6f",
+      "PN2-PT08-Q019": "15be44c8b95b405bece573731bc3b1895195154c1e907e0f8ed94667740a512b",
+      "PN2-CH03-Q026": null,
+      "PN2-CH03-Q018": null,
+      "PN2-PT04-Q047": null,
+      "PN2-PT01-Q095": null,
+      "S9-C11-Q057": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-LOOP-DIURETIC-POTASSIUM-004",
+    "ids": [
+      "PN2-CH18-Q004",
+      "PN2-CH18-Q010",
+      "PN2-CH03-Q020",
+      "PN2-CH03-Q030",
+      "PN2-PT01-Q050",
+      "PN2-PT02-Q007",
+      "PN2-PT08-Q065",
+      "PN2-CH19-Q034"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH18-Q004": "97213aa4d764a47215916d6f19a5e2618af666bb21945e9c20ce528884d1fa96",
+      "PN2-CH18-Q010": "94329374de672ae586144902954a5ad866528d85e3c28b0233d4bb3b8f3e57a3",
+      "PN2-CH03-Q020": null,
+      "PN2-CH03-Q030": "c4c6621d954790303ebc2e3b1274f21e15258640bf4d22e2913456cfd16bb042",
+      "PN2-PT01-Q050": null,
+      "PN2-PT02-Q007": null,
+      "PN2-PT08-Q065": null,
+      "PN2-CH19-Q034": null
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-GOUT-PURINE-FOODS-MECHANISM-004",
+    "ids": [
+      "PN2-CH18-Q005",
+      "PN2-CH18-Q006",
+      "PN2-CH09-Q018",
+      "PN2-CH09-Q017"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH18-Q005": "09673dbc9eae0820bd715202182d6b7692ae4d1abb05564e4ab88d794fdcdd10",
+      "PN2-CH18-Q006": "bab92ac80934661bb4b2884bd7e3997e0fe3e76101e835a81e599bc244000563",
+      "PN2-CH09-Q018": null,
+      "PN2-CH09-Q017": "97190f2deaf23e6faf3076a096a421ad8016e148d4c833c99b3b4c0c7c9d3402"
+    },
+    "archive_all_source_entries": true,
+    "final_release_authorized": false
+  },
+  {
+    "group_id": "SIM-PREGNANCY-IRON-TEACHING-004",
+    "ids": [
+      "PN2-CH18-Q011",
+      "PN2-CH18-Q012",
+      "PN2-CH18-Q013",
+      "PN2-CH12-Q032",
+      "PN2-CH04-Q002"
+    ],
+    "type": "RELATED_OUTCOME_RETAIN_CONTEXT_VARIANTS",
+    "primary_id": null,
+    "redundant_study_ids": [],
+    "reviewer_type": "AI",
+    "reviewed_on": "2026-10-29",
+    "human_expert_signoff": false,
+    "candidate_content_hashes": {
+      "PN2-CH18-Q011": "0a577b1868a48146195955004d703d7c8ec15f771910cc0789a97e2319a8ba6b",
+      "PN2-CH18-Q012": "bbe6f9b0f9d83e36fd387783a9f0fdff2bfad13296aa0809f2be53dacaf730a8",
+      "PN2-CH18-Q013": "ff55f66364df00dfef80af3eafa64b9344cb0623b4ccbde2900b1274596766d6",
+      "PN2-CH12-Q032": null,
+      "PN2-CH04-Q002": null
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false

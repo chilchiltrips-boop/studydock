@@ -77,14 +77,14 @@
     "type": "RELATED_OBJECTIVE_RETAIN_USEFUL_CONTEXT_VARIANTS",
     "primary_id": null,
     "redundant_study_ids": [],
-    "reason": "Shared isolated-shellfish-allergy misconception, with cardiac-catheterization history/risk assessment versus CT preparation interpretation. Retain both as linked clinical-context variants; this does not add a new core learning objective. Both current keys agree that food allergy alone is not an iodine-specific contrast allergy.",
+    "reason": "Shared isolated-shellfish-allergy misconception, with cardiac-catheterization history/risk assessment versus CT preparation interpretation. Retain both as linked clinical-context variants; this does not add a new core learning objective. Both current keys agree that food allergy alone is not an iodine-specific contrast allergy. CT rationale-only workflow cleanup rechecked29October2026; clinical meaning and options unchanged.",
     "answer_conflict": false,
+    "reviewed_on": "2026-10-29",
     "reviewer_type": "AI",
-    "reviewed_on": "2026-10-24",
     "human_expert_signoff": false,
     "candidate_content_hashes": {
       "PN2-CH03-Q009": "8d1f3cd7137b84b996fc073de91dae08f087092303d19844f3dbab64e3173d6d",
-      "PN2-CH10-Q002": "cdefc888495714b57acba94815a8d67578f4bce6f4dd760a961c6c45d380d507"
+      "PN2-CH10-Q002": "db89cc2d6ebfb9ec37d2d008c983f10e2d34ed4759edaa07a0235bd5399ebf2f"
     },
     "archive_all_source_entries": true,
     "final_release_authorized": false

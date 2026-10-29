@@ -1,30 +1,31 @@
-# NCLEX 2,894 — draft checkpoint, 26 October 2026
+# NCLEX 2,894 — draft checkpoint, 29 October 2026
 
 The project is incomplete. This branch stores recoverable work and review metadata.
 
 | Measure | Actual count |
 | --- | ---: |
 | Source entries accounted for | 2,894 |
-| Prior candidates individually screened | 351 |
-| Explicit curation records | 324 |
-| AI clinical-content reviews passed | 319 |
-| Clinical-content review pending | 2575 |
-| INC five-level AI mappings reviewed | 322 |
-| INC mappings pending | 2572 |
-| Similarity candidate pairs | 11603 |
-| AI pair adjudications | 2655 |
+| Candidates individually screened | 400 |
+| Explicit curation records | 400 |
+| AI clinical-content reviews passed | 400 |
+| Clinical-content review pending | 2494 |
+| INC five-level AI mappings reviewed | 400 |
+| INC mappings pending | 2494 |
+| Similarity candidate pairs | 11899 |
+| AI pair adjudications | 3552 |
 | Independent human clinician sign-offs | 0 |
-| All 12 individual AI QA checks passed | 300 |
-| Retained study entries within that QA batch | 291 |
-| Redundant source entries archived within that QA batch | 9 |
+| All 12 individual AI QA checks passed | 400 |
+| Retained study entries within that QA batch | 385 |
+| Redundant source entries archived within that QA batch | 15 |
 | Scored-quiz eligible / released | 0 |
 | New image-question visual QA completed | 0 of 100 |
 
 AI clinical-content review does not certify final release readiness. Similarity retrieval
 does not establish duplicate equivalence. The final semantic unique count is unknown.
-The remaining 2,543 questions outside the prior batch have not been individually screened.
-The 300 full-QA entries were already included in the 319 clinical-content reviews;
-they are not counted as 300 additional clinical reviews. Future batches integrate
+All351 prior screened entries now have complete AI QA;49 additional entries are included.
+The remaining2,494 entries still need individual current-guidance review and all12 QA.
+Clinical and all12 counts overlap; do not add them. This batch adds81 clinical reviews,
+19 previously clinically reviewed entries and100 complete QA records. Future batches integrate
 clinical review, source trace, curriculum, references, duplicate adjudication and
 all 12 QA checks. No intermediate study or quiz release is authorized.
 
