@@ -1,0 +1,12 @@
+{
+  "batch_id": "FINALQA100-20261030-06",
+  "generated_on": "2026-10-29",
+  "selected_count": 100,
+  "completed_selected_count": 39,
+  "official_all_12_count": 539,
+  "pending_count": 2355,
+  "plan_remaining_count": 61,
+  "latest_similarity_candidate_count": 12419,
+  "human_signoffs": 0,
+  "note": "Interim AI-only checkpoint; no copyrighted question text; main branch unchanged."
+}
