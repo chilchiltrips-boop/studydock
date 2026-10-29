@@ -5,13 +5,14 @@
   "originalRN": 1248,
   "originalPN": 1546,
   "newAdaptedImages": 100,
-  "latestWorkingMasterRewrittenTextFields": 520,
-  "aiFinalQAPass": 520,
-  "clinicalReviewPending": 2374,
+  "latestWorkingMasterRewrittenTextFields": 539,
+  "aiFinalQAPass": 539,
+  "clinicalReviewPending": 2355,
   "clinicalFinalQAPassConfirmed": 0,
   "humanExpertSignoffs": 0,
   "topicMappingsFlaggedForHumanReview": 623,
   "licensedContentPublished": false,
   "notes": "Metadata only. No copyrighted question text or source image assets are hosted here. AI QA is not independent human clinical certification; clinically pending entries remain excluded from scored quizzes.",
-  "latestCheckpoint": "FINALQA100-20261030-06: 20 of selected 100 completed (Q107-Q126); 80 remain."
+  "latestCheckpoint": "FINALQA100-20261030-06: 39 of selected 100 completed (Q107-Q146, excluding prior-cleared Q141); 61 remain.",
+  "latestSimilarityCandidatePairs": 12419
 }
