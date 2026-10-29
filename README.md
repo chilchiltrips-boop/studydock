@@ -113,3 +113,6 @@ The native Android app stays Kotlin + Jetpack Compose. Its GitHub-delivered guid
 The **native Android** app has a separate NCLEX archive browser reachable from the Home screen. It can import a locally generated ZIP with 2,894 RN/PN/image-based extracted entries, INC subject/unit/topic headings, references, original images, and available working rewrites. This import is independent of the existing 8-part textbook library and 10-level guided lessons.
 
 **Important:** No Saunders or Delmar copyrighted question text/figures are published here. See [content/nclex/README.md](content/nclex/README.md) and [scripts/build_nclex_local_pack.py](scripts/build_nclex_local_pack.py) to create a **private on-device import ZIP** from the user's own source extracts. Source-era keys are hidden from the current-guidance view; rewritten answers are explicitly marked provisional. All imported NCLEX items are excluded from scored quizzes until individually clinically verified. The public [status metadata](content/nclex/status.json) reports counts only, not clinical certification.
+
+
+Interim Batch-6 checkpoint (29 October 2026): Q107-Q126 complete (20 of the selected 100); 80 selected items remain. See `workstreams/nclex/draft-2026-10-23/batch520-interim-2026-10-29.md`.
