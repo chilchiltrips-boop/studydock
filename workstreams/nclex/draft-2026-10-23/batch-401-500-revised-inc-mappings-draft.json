@@ -1,0 +1,908 @@
+{
+  "batch": "401-500",
+  "status": "AI_INC_DRAFT_NOT_OFFICIAL_UNIT_VERIFIED",
+  "individualMappings": 100,
+  "legacyCourseClassificationCorrected": 43,
+  "items": [
+    {
+      "sourceId": "S9-C06-Q002",
+      "batchIndex": 401,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Renal disorders",
+      "questionTopic": "Dialysis access: AV fistula safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q003",
+      "batchIndex": 402,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Respiratory and oxygenation therapies",
+      "questionTopic": "Hyperbaric oxygen: device fire and oxygen safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q004",
+      "batchIndex": 403,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Integumentary and burn care",
+      "questionTopic": "Analgesia before burn dressing procedures",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q005",
+      "batchIndex": 404,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Cardiac disorders",
+      "questionTopic": "Hypomagnesemia and cardiac arrhythmias in heart failure",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q006",
+      "batchIndex": 405,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Antepartum complications",
+      "questionTopic": "Placental abruption: signs and fetal compromise",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q008",
+      "batchIndex": 406,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Cholinergic medications",
+      "questionTopic": "Pyridostigmine adverse effects",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q009",
+      "batchIndex": 407,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Musculoskeletal trauma",
+      "questionTopic": "Cast care and compartment syndrome prevention",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q010",
+      "batchIndex": 408,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Mobility and assistive devices",
+      "questionTopic": "Safe crutch walking and nerve injury prevention",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q011",
+      "batchIndex": 409,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Neuromuscular disorders",
+      "questionTopic": "Myasthenia gravis respiratory deterioration",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q012",
+      "batchIndex": 410,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Antidepressants and drug-food interactions",
+      "questionTopic": "Monoamine oxidase inhibitor and tyramine counseling",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q013",
+      "batchIndex": 411,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Cardiac rhythm disturbances",
+      "questionTopic": "Isolated PVC assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q014",
+      "batchIndex": 412,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Antenatal assessment",
+      "questionTopic": "Fundal height and gestational age",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q015",
+      "batchIndex": 413,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Obstetric emergencies",
+      "questionTopic": "Prolapsed umbilical cord immediate management",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q016",
+      "batchIndex": 414,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Neonatal assessment",
+      "questionTopic": "Normal anterior fontanel findings",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q017",
+      "batchIndex": 415,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Antimicrobials and opportunistic infection",
+      "questionTopic": "Pentamidine IV safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q018",
+      "batchIndex": 416,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Perioperative thromboembolic risks",
+      "questionTopic": "Suspected DVT after pelvic surgery",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q019",
+      "batchIndex": 417,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Medication calculations",
+      "questionTopic": "Oral acetaminophen dose and rounding",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q020",
+      "batchIndex": 418,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Antiarrhythmics",
+      "questionTopic": "Sotalol adverse effects and QT risk",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q021",
+      "batchIndex": 419,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Intravenous therapy",
+      "questionTopic": "IV solution integrity and medication checks",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q022",
+      "batchIndex": 420,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Immunosuppressant medications",
+      "questionTopic": "Tacrolimus nephrotoxicity",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q023",
+      "batchIndex": 421,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Respiratory failure",
+      "questionTopic": "Early acute respiratory distress syndrome",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q024",
+      "batchIndex": 422,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Musculoskeletal traction",
+      "questionTopic": "Buck traction neurovascular monitoring",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q025",
+      "batchIndex": 423,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Infections in pregnancy",
+      "questionTopic": "Vulvovaginal candidiasis manifestations",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q026",
+      "batchIndex": 424,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Antenatal hematology",
+      "questionTopic": "Iron-deficiency anemia in pregnancy",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q027",
+      "batchIndex": 425,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Puerperal infection",
+      "questionTopic": "Postpartum endometritis assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q028",
+      "batchIndex": 426,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Newborn assessment",
+      "questionTopic": "Postterm newborn skin findings",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q029",
+      "batchIndex": 427,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Neonatal respiratory disorders",
+      "questionTopic": "Meconium aspiration versus other neonatal distress",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q030",
+      "batchIndex": 428,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Fractures and orthopedic surgery",
+      "questionTopic": "Neurovascular checks and compartment syndrome",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q031",
+      "batchIndex": 429,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Mechanical ventilation",
+      "questionTopic": "ABG sample clinical context and ventilator settings",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q032",
+      "batchIndex": 430,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Loop diuretics",
+      "questionTopic": "Torsemide-associated hypokalemia",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q033",
+      "batchIndex": 431,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Hematologic and lymphatic malignancy",
+      "questionTopic": "Hodgkin lymphoma B symptoms",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q034",
+      "batchIndex": 432,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Neonatal respiratory care",
+      "questionTopic": "Respiratory distress syndrome recovery indicators",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q035",
+      "batchIndex": 433,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Neonatal jaundice",
+      "questionTopic": "Cephalohematoma and bilirubin risk",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q036",
+      "batchIndex": 434,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Perioperative digestive care",
+      "questionTopic": "Safe advancement of postoperative oral diet",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q037",
+      "batchIndex": 435,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Intrapartum fetal surveillance",
+      "questionTopic": "Late decelerations and intrauterine resuscitation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q038",
+      "batchIndex": 436,
+      "courseHeading": "Nutrition and Dietetics",
+      "projectUnitHeading": "Nutrition assessment",
+      "questionTopic": "Monitoring progress in weight management",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q039",
+      "batchIndex": 437,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Musculoskeletal trauma",
+      "questionTopic": "Fracture assessment and distal circulation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q040",
+      "batchIndex": 438,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Fluid-electrolyte and acid-base balance",
+      "questionTopic": "Metabolic alkalosis with NG suction",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q041",
+      "batchIndex": 439,
+      "courseHeading": "Nutrition and Dietetics",
+      "projectUnitHeading": "Parenteral nutrition",
+      "questionTopic": "TPN-associated severe hyperglycemia",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q042",
+      "batchIndex": 440,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Preoperative supportive care",
+      "questionTopic": "Relaxation and physiological effects",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q043",
+      "batchIndex": 441,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Atrial arrhythmias",
+      "questionTopic": "Rapid atrial fibrillation and decreased perfusion",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q044",
+      "batchIndex": 442,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Cleft palate and congenital disorders",
+      "questionTopic": "Post-repair hearing complications",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q045",
+      "batchIndex": 443,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Acute respiratory emergencies",
+      "questionTopic": "Silent chest in life-threatening asthma",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q046",
+      "batchIndex": 444,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Musculoskeletal and cast management",
+      "questionTopic": "Infection under a cast",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q047",
+      "batchIndex": 445,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "COPD assessment",
+      "questionTopic": "Worsening dyspnea and controlled oxygen",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q048",
+      "batchIndex": 446,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Vital signs",
+      "questionTopic": "Pulse pressure calculation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q049",
+      "batchIndex": 447,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Renal transplantation",
+      "questionTopic": "Acute kidney graft dysfunction",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q050",
+      "batchIndex": 448,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Aminoglycoside antibiotics",
+      "questionTopic": "Tobramycin nephrotoxicity monitoring",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q051",
+      "batchIndex": 449,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Cardiac emergencies",
+      "questionTopic": "Ventricular tachycardia initial bedside assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q052",
+      "batchIndex": 450,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Perioperative complications",
+      "questionTopic": "Malignant hyperthermia susceptibility screening",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q053",
+      "batchIndex": 451,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Cancer treatment adverse effects",
+      "questionTopic": "Radiation-related oral mucositis care",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q054",
+      "batchIndex": 452,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Acute heart failure",
+      "questionTopic": "Hypotension and digoxin safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q055",
+      "batchIndex": 453,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Hypertension",
+      "questionTopic": "Reassessment of inadequate antihypertensive control",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q056",
+      "batchIndex": 454,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Chest pain assessment",
+      "questionTopic": "Do not mistake ACS for panic disorder",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q057",
+      "batchIndex": 455,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Neurologic pain disorders",
+      "questionTopic": "Trigeminal neuralgia nutrition and triggers",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q058",
+      "batchIndex": 456,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Spinal surgery",
+      "questionTopic": "Neurovascular assessment after scoliosis fusion",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q059",
+      "batchIndex": 457,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Vascular access management",
+      "questionTopic": "Central venous catheter confirmation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q060",
+      "batchIndex": 458,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Pediatric orthopedics",
+      "questionTopic": "Greenstick fracture recognition from figure",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q061",
+      "batchIndex": 459,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Pediatric orthopedic nursing",
+      "questionTopic": "Hip spica hygiene and pressure prevention",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q062",
+      "batchIndex": 460,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Neurologic trauma",
+      "questionTopic": "Brainstem injury and respiratory assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q064",
+      "batchIndex": 461,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Thyroid disorders",
+      "questionTopic": "Thyroid hormone deficiency and myxedema",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q065",
+      "batchIndex": 462,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Thyroid dysfunction",
+      "questionTopic": "Graves disease menstrual manifestations",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q066",
+      "batchIndex": 463,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Hypertensive disorders of pregnancy",
+      "questionTopic": "Gestational hypertension assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q067",
+      "batchIndex": 464,
+      "courseHeading": "Community Health Nursing I & II",
+      "projectUnitHeading": "Communicable disease prevention",
+      "questionTopic": "Tuberculin skin test interpretation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q068",
+      "batchIndex": 465,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Ear infections",
+      "questionTopic": "Mastoiditis red flags",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q070",
+      "batchIndex": 466,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Sedative antihistamines",
+      "questionTopic": "IM hydroxyzine and opioid safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q071",
+      "batchIndex": 467,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Diabetic emergencies",
+      "questionTopic": "DKA acid-base diagnosis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q072",
+      "batchIndex": 468,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Respiratory acid-base disorders",
+      "questionTopic": "Compensated respiratory alkalosis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q073",
+      "batchIndex": 469,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Fluid-electrolyte and acid-base balance",
+      "questionTopic": "Metabolic alkalosis with gastric losses",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q075",
+      "batchIndex": 470,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Poisoning and antidotes",
+      "questionTopic": "Acetaminophen overdose and N-acetylcysteine",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q076",
+      "batchIndex": 471,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Chronic respiratory rehabilitation",
+      "questionTopic": "COPD relaxation interventions",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q077",
+      "batchIndex": 472,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Central nervous system infections",
+      "questionTopic": "Encephalitis CSF pleocytosis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q078",
+      "batchIndex": 473,
+      "courseHeading": "Nutrition and Dietetics",
+      "projectUnitHeading": "Therapeutic diet in injury",
+      "questionTopic": "Protein and micronutrients in burn healing",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q079",
+      "batchIndex": 474,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Urinary elimination disorders",
+      "questionTopic": "Urge incontinence nonpharmacological care",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q081",
+      "batchIndex": 475,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Burn injury",
+      "questionTopic": "Rule of nines total body surface area",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q082",
+      "batchIndex": 476,
+      "courseHeading": "Nutrition and Dietetics",
+      "projectUnitHeading": "Postoperative therapeutic nutrition",
+      "questionTopic": "Postgastrectomy dumping syndrome diet",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q083",
+      "batchIndex": 477,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Mobilization after surgery",
+      "questionTopic": "Orthostatic hypotension assessment",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q084",
+      "batchIndex": 478,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Pediatric neurotrauma",
+      "questionTopic": "Decorticate-to-decerebrate posturing deterioration",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q085",
+      "batchIndex": 479,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Infant neurologic assessment",
+      "questionTopic": "Fontanel changes in hydrocephalus",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q086",
+      "batchIndex": 480,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Pediatric respiratory disorders",
+      "questionTopic": "Croup vital sign interpretation",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q087",
+      "batchIndex": 481,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Gynecological pain",
+      "questionTopic": "Mittelschmerz identification",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q088",
+      "batchIndex": 482,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Gynecological conditions",
+      "questionTopic": "Endometriosis definition",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q089",
+      "batchIndex": 483,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Dosage calculation",
+      "questionTopic": "Amikacin vial concentration and volume",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q090",
+      "batchIndex": 484,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Newborn preventive care",
+      "questionTopic": "HBV exposed newborn postexposure prophylaxis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q091",
+      "batchIndex": 485,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "End-of-life supportive nursing",
+      "questionTopic": "Goals of palliative care",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q092",
+      "batchIndex": 486,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Pregnancy dating",
+      "questionTopic": "Estimated due date using Naegele rule",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q093",
+      "batchIndex": 487,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Pressure injury prevention",
+      "questionTopic": "Skin care and offloading after fracture",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q094",
+      "batchIndex": 488,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Antenatal assessment",
+      "questionTopic": "Fundal-height positioning and vena cava safety",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q095",
+      "batchIndex": 489,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Pregnancy physiological changes",
+      "questionTopic": "Supine hypotension syndrome",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q096",
+      "batchIndex": 490,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Multifetal pregnancy",
+      "questionTopic": "Maternal anemia in twin pregnancy",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q097",
+      "batchIndex": 491,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Pregnancy with heart disease",
+      "questionTopic": "Circulatory load and heart failure risk",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q098",
+      "batchIndex": 492,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Hepatic procedures",
+      "questionTopic": "Post-liver-biopsy positioning and bleeding surveillance",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q099",
+      "batchIndex": 493,
+      "courseHeading": "Nursing Foundations I & II",
+      "projectUnitHeading": "Bowel elimination procedures",
+      "questionTopic": "Enema positioning",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q100",
+      "batchIndex": 494,
+      "courseHeading": "Pharmacology I & II",
+      "projectUnitHeading": "Immunosuppressant medications",
+      "questionTopic": "Cyclosporine potassium and renal adverse effects",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q101",
+      "batchIndex": 495,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Newborn prophylaxis",
+      "questionTopic": "Ophthalmia neonatorum erythromycin prophylaxis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q102",
+      "batchIndex": 496,
+      "courseHeading": "Midwifery / Obstetrics and Gynecology Nursing I & II",
+      "projectUnitHeading": "Puerperal infection",
+      "questionTopic": "Postpartum infection risk factors",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q103",
+      "batchIndex": 497,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Neonatal thermoregulation",
+      "questionTopic": "Preventing conductive heat loss",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q104",
+      "batchIndex": 498,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Infectious and cardiac disease",
+      "questionTopic": "Disseminated Lyme carditis",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": false
+    },
+    {
+      "sourceId": "S9-C06-Q105",
+      "batchIndex": 499,
+      "courseHeading": "Adult Health Nursing I & II",
+      "projectUnitHeading": "Autoimmune skin disorders",
+      "questionTopic": "Pemphigus and Nikolsky sign",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    },
+    {
+      "sourceId": "S9-C06-Q106",
+      "batchIndex": 500,
+      "courseHeading": "Child Health Nursing I & II",
+      "projectUnitHeading": "Tonsillectomy recovery",
+      "questionTopic": "Hydration and postoperative diet tolerance",
+      "officialINCUnitCrosswalkVerified": false,
+      "legacyCourseClassificationCorrected": true
+    }
+  ]
+}

@@ -1,0 +1,2439 @@
+{
+  "batch_id": "B100-20261024-01",
+  "prior_AI_clinical_content_pass": 219,
+  "new_AI_clinical_content_reviews": 100,
+  "cumulative_AI_clinical_content_pass": 319,
+  "clinical_content_pending": 2575,
+  "all_12_final_QA_pass": 0,
+  "human_signoffs": 0,
+  "items": [
+    {
+      "id": "PN2-PT07-Q031",
+      "tracker_index": 94,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3a8c0649804e2d05796380c1c228175bc3763bb345b2c1b7deaa06968d9fccdd",
+      "reference_ids": [
+        "B100_CAR25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT07-Q051",
+      "tracker_index": 101,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "0b3ac3084b43f65c2709037b97a6e74334fa560535b7c8bad637b369981b2913",
+      "reference_ids": [
+        "B100_WSES20",
+        "RCUK_ABCDE24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q020",
+      "tracker_index": 157,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "20e6d43f908e466a35fd3a1ade0ccead6b0bb6158b53046f5d84cce799d074be",
+      "reference_ids": [
+        "HHS_PRIVACY25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q031",
+      "tracker_index": 160,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c76fb48969a3bcc725a910e5fcad7341ba863e9d044fdeb38601b95e4b23ad22",
+      "reference_ids": [
+        "B100_ADVANCE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q059",
+      "tracker_index": 165,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "04d0f8916985d64b85a1dd9c81a4b3b06a24d43b58da92ca125b1518a31c3424",
+      "reference_ids": [
+        "B100_CMSA"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q089",
+      "tracker_index": 172,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "4c163775f2cbe186f2113eeded555c91a3c0330d3425244d78cf76968f9d9c5e",
+      "reference_ids": [
+        "B100_PRIMARY25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q093",
+      "tracker_index": 173,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5222af788e055833768695a84c26cffdb8a5fc298c74f2f638b0901889eb7e9a",
+      "reference_ids": [
+        "B100_CHANGE19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q106",
+      "tracker_index": 174,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3b246c5e8e20bd2b3bd73348c73c01dd97660b8080256491e593636d62e37b25",
+      "reference_ids": [
+        "B100_CONSENT25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q111",
+      "tracker_index": 175,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "dad0f377d435f4446751fe2b1fb7321a01a90971b62262a6bb5a5dea9c7f24c4",
+      "reference_ids": [
+        "B100_AIDS_SKILL",
+        "B100_AAOS_AIDS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q120",
+      "tracker_index": 178,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "6c1a71f601c7b39b155660a4069e817896b93ed73312f899f161c37248dab694",
+      "reference_ids": [
+        "B100_AAOS_AIDS",
+        "B100_AIDS_SKILL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q156",
+      "tracker_index": 180,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "4a4abd9e50d3c674b958ff200e10a24335b712a06cfcb810e294bb6440bd1a62",
+      "reference_ids": [
+        "CDC_PSGN25",
+        "NCSBN_DELEG19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q183",
+      "tracker_index": 183,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "77aa87d1a758fdcc522e8c1e1bbf40202a76da5354c267cec44050e2aff5e658",
+      "reference_ids": [
+        "NCSBN_DELEG19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q193",
+      "tracker_index": 184,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "ec8f8cbd778793f3bce8316e8b3c9c36775f85fd52fd40706389e9d66fc27ad2",
+      "reference_ids": [
+        "B100_MOBILITY",
+        "OSHA_HANDLING"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q038",
+      "tracker_index": 187,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "8a5e4fb74d76d4ee0326aadc01708e6b45ae67fb13ed5455ab5b963167f29795",
+      "reference_ids": [
+        "B100_CARDIAC_HOME"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q074",
+      "tracker_index": 188,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "f1a631409fc139b706ffa5acc6bc3e750ba21a0a34a41d920f903044fa7d6210",
+      "reference_ids": [
+        "B100_AAOS_AIDS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q098",
+      "tracker_index": 189,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "0fab410895834f585fddbc26faeace608f9740f3d618cd768101d8fea8599399",
+      "reference_ids": [
+        "B100_EARDROPS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q168",
+      "tracker_index": 191,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "1143ecd2c55fc8ede9c012adeae36fa20136cbf0b228ba1a1578cb9f55264902",
+      "reference_ids": [
+        "ASPNA_IRGN26",
+        "RCH_PSGN25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q074",
+      "tracker_index": 199,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "8812d6dcb6483c6f34e583420b48c461f224e41052f04016cc44d7e251dc1cb4",
+      "reference_ids": [
+        "NIDCD_HEARING"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q081",
+      "tracker_index": 200,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "d98ab7b31fe9bff1adbdd8089a7bca32a6fbac74bae9784a938c67432e9e74f4",
+      "reference_ids": [
+        "NICE_DELIRIUM23",
+        "B100_MOBILITY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C11-Q162",
+      "tracker_index": 219,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "2146005035b795af65ee2ccc482bcdf46a80e5953d133d63ac79a88ef41bc697",
+      "reference_ids": [
+        "B100_ROM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C11-Q188",
+      "tracker_index": 221,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "e84e799ce83b279bae5c5e58cdc3f631889577024c12b99114d128a4f24cf190",
+      "reference_ids": [
+        "AHA_FRACTURES24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C11-Q190",
+      "tracker_index": 222,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "6442d0416badb2be618736fe719a400500e1fb53b107be3412ba3b2d00dd7e1d",
+      "reference_ids": [
+        "B100_LIMITED"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C11-Q215",
+      "tracker_index": 224,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "8f880970ca34b311938ca31d4e7358265a166590b59054797260ac61324100e1",
+      "reference_ids": [
+        "B100_CARDIAC_HOME"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q007",
+      "tracker_index": 226,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "4bad13ab4ff9429a291d11c33c7ea95622c609befc280898aa1ae50612023ef0",
+      "reference_ids": [
+        "NICE_BACK",
+        "B100_BACK_COMFORT"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q063",
+      "tracker_index": 227,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "a79b297231d22520ba519ca7e3918ac018ab359c42ea5ddebca7d7fe24ebffe1",
+      "reference_ids": [
+        "NICE_NUTRITION17"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q069",
+      "tracker_index": 228,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "d19e64092a10362698c3e6a4160f23b1993701bbbc4aa74d3ef2d3c0a17ea372",
+      "reference_ids": [
+        "NIDCD_MENIERE_RECHECK24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q167",
+      "tracker_index": 230,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "7a1ef6686bb46fc8430f50713f1c7f68cf2e92af1452b5baf55ea819a3d682d7",
+      "reference_ids": [
+        "B100_EATING"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q317",
+      "tracker_index": 232,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "319de0ce7efb59f5665e307d56aa7ff2dab096e44c30a80998621e2f9912e6de",
+      "reference_ids": [
+        "B100_NG_SKILL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C06-Q362",
+      "tracker_index": 233,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "66f2711161c92f85436352240589bfefa7b7a190f92d92fe30c3db084911bb49",
+      "reference_ids": [
+        "B100_NEPH",
+        "B100_NEPH_FLUID"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q063",
+      "tracker_index": 235,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3e4e03fb2951a1d3fe80e376a0176a8d427ca750b5730ba00f3bcf7af029e61e",
+      "reference_ids": [
+        "B100_VIOLENCE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q095",
+      "tracker_index": 236,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "8f2b70ab95b2803436366b6dceccddf7def3760b1d7a16b027d5dab38c3a6e3a",
+      "reference_ids": [
+        "B100_AUTISM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q171",
+      "tracker_index": 237,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "2e3b7ca469660dfb96ee46ee25c57d2bca5a66f5bd8a7c31f83d4824213d46ad",
+      "reference_ids": [
+        "B100_DEPRESSION"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C07-Q189",
+      "tracker_index": 238,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3142a8f530c90f948168c82e4890e90efb8fd7d71a705cb8df43402811c86358",
+      "reference_ids": [
+        "B100_FALLS25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q013",
+      "tracker_index": 239,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c9047f0a7287e9e95b0d4b53eed5abf1df6530e3b048f086147ca767b0fa0df5",
+      "reference_ids": [
+        "B100_NEPH_FLUID",
+        "B100_NEPH"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q016",
+      "tracker_index": 240,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "746877dca215999ef0c230b17a7aee5e7e79e00648dbd7479d991d638e04270d",
+      "reference_ids": [
+        "B100_DEPRESSION"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q083",
+      "tracker_index": 241,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5576d25e5171b170f5fa804215ed921f178f0814646e7c3db1b60d3c80f91609",
+      "reference_ids": [
+        "B100_ANXIETY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q191",
+      "tracker_index": 243,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "01b5d38d85143c32c1b96f12ead0ee821674061bf34e9352907e736284d6ab51",
+      "reference_ids": [
+        "MSK_OSTOMY_CARE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q192",
+      "tracker_index": 244,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "92ba6d21b2290436634b6f321ce3427995a9f8d8a9baa577063c2c0220716fa3",
+      "reference_ids": [
+        "B100_STOMA_FIT"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C08-Q196",
+      "tracker_index": 245,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5da7203390a0f838f194381c972e2801c0a72197366d8d9b3e9bfc086cda11ab",
+      "reference_ids": [
+        "B100_DEMENTIA"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q001",
+      "tracker_index": 246,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "27a223f24e8e3de59a9bf37d3fb5027902f3fb9afc4340641e945fa50699c62c",
+      "reference_ids": [
+        "B100_NEURO"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q048",
+      "tracker_index": 247,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "11a907322088586e359c338e34b45c8dd13df07910050be0c89d12963fba7bd5",
+      "reference_ids": [
+        "B100_NEURO"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q053",
+      "tracker_index": 248,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3b83ef65f17c6a569f3ea00e1b3a947f9fac614216a279e0ef88d20bd7d80d83",
+      "reference_ids": [
+        "B100_MANIA",
+        "B100_PSYCH_NURSING"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q056",
+      "tracker_index": 249,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "81b796fef090e1eafc04a484b1e957b42df7b1074f4132f2bd7d0fdaf8c87e1e",
+      "reference_ids": [
+        "B100_PSYCH_NURSING"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "S9-C09-Q057",
+      "tracker_index": 250,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "e66ec2302f7a6869c26df2255b1a2eb80bbbb11ec39ac0f67acc52136e356540",
+      "reference_ids": [
+        "B100_MANIA"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH02-Q006",
+      "tracker_index": 251,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "22717b613f270fd27c74cbb48243198a24c5383e8f45ff399ff7ec6f8b00e684",
+      "reference_ids": [
+        "B100_HYGIENE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH02-Q017",
+      "tracker_index": 252,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "df9f2be4bda4855f3e394bdb728de0f493f3be3f8c9fc2109139852b5be84a71",
+      "reference_ids": [
+        "NCSBN_DELEG19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH05-Q003",
+      "tracker_index": 254,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "47a17b4c13e9ae4300149d8be0effe1f7dcc2a0e59b2519651f02913efac2048",
+      "reference_ids": [
+        "B100_CFF_CPT"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH05-Q023",
+      "tracker_index": 255,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3de68c9d4a4f9816487eb929d1f9cf34d4675edd8127fc3a8c1bc23c7ebdb9f7",
+      "reference_ids": [
+        "BTS_OXYGEN17",
+        "B100_COPD_ACTIVITY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH06-Q001",
+      "tracker_index": 256,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "9e4ba48fc748a4bfcd25e347b41889ad3b6761e13b133c87af38bccfbd4a63c9",
+      "reference_ids": [
+        "B100_TBI"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH06-Q019",
+      "tracker_index": 257,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "635232f74d105d33a7d2ab2be4ac2f11703eb9ca2fc162c635e69c3e3ca6c381",
+      "reference_ids": [
+        "B100_STAPES",
+        "B100_MOBILITY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH07-Q009",
+      "tracker_index": 258,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "9090aa613c994c66f37fd5fd2ec4cd47ac5c758787bb7ef53cccf1842a398617",
+      "reference_ids": [
+        "B100_POSTOP24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH09-Q028",
+      "tracker_index": 259,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "871dac072cb1b48b5d6d8ecda01e0b46425a61c681f324ffe7185e0a610192fc",
+      "reference_ids": [
+        "B100_HAND_GRIP",
+        "B100_AAOS_AIDS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH11-Q008",
+      "tracker_index": 260,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "45ab7e3850ae23759580fa50527fba4e3ef6127caf5bfb591bd0f6078a2dea5b",
+      "reference_ids": [
+        "B100_BURN24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH12-Q085",
+      "tracker_index": 262,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "f77dd706ef5f82721dfc0bea148a5138f1c7ee0b89c5484c8c6f1ac9c73f1529",
+      "reference_ids": [
+        "RCOG_APH11",
+        "RCUK_ABCDE24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q008",
+      "tracker_index": 265,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "6c78265a8714211f781c33f0e39ef427031845b50b0f804a20748a45d953a78f",
+      "reference_ids": [
+        "B100_TANTRUM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q010",
+      "tracker_index": 266,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "4ad1e6c2ebbf8895f309c38228c933e4a1cef40885eef26efea3c1482e7a4023",
+      "reference_ids": [
+        "B100_CHILD_HOSPITAL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q013",
+      "tracker_index": 267,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5e84d23003dc037f4410887f2012f75aaf4722a978ede804719e1bd9feddaa1a",
+      "reference_ids": [
+        "B100_DENTAL_ANAESTH"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q019",
+      "tracker_index": 268,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c693d5046062888533fc13cb6789faf5ef30fa9dfaaeaf6056041fe598c2828d",
+      "reference_ids": [
+        "B100_CHILD_PLAY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q044",
+      "tracker_index": 269,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "b8ff759e8aabec2a2a10f8100d428c7f07fad0b38a51c7fa4d193f21c5eff521",
+      "reference_ids": [
+        "OS_COMM",
+        "B100_CARDIAC_HOME"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q055",
+      "tracker_index": 270,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "4ef13719d364ed52dd9354be8c6955a1ffe6d7cc218c44148a4b4670517be56e",
+      "reference_ids": [
+        "GINA_ASTHMA_ED26"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q109",
+      "tracker_index": 271,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "53d5bebacc40d21721d36a154d0fe69e02d9764bb4bd0233319c0adb4d7946f1",
+      "reference_ids": [
+        "SCHN_EATO25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q120",
+      "tracker_index": 272,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "2a6912cd1ce65626bb3ea327d15f802eaa241c04c9f56f38450359dafb21e017",
+      "reference_ids": [
+        "B100_ENURESIS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH15-Q031",
+      "tracker_index": 276,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "ab40d7895f30280b7c5f01e941c4cbdbabb3e25afe88ff762136678ded77a38c",
+      "reference_ids": [
+        "B100_PHOBIA"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q006",
+      "tracker_index": 280,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "67bbf81a8695d93835939c61baf288021067b72e8df442d60e7e96706165b29e",
+      "reference_ids": [
+        "B100_ADVANCE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q009",
+      "tracker_index": 282,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "8d3c01c55a6c19e8612f50d8546555c2aeea33fa2a09e81cfb27adb17c31cf65",
+      "reference_ids": [
+        "B100_LABOUR"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q010",
+      "tracker_index": 283,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "b9d0e0703b3733f5637789f6454a4ea9ff340f70673e3d732c8a991deacd0974",
+      "reference_ids": [
+        "B100_ACOG_HDP",
+        "QCG_ECL26"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q012",
+      "tracker_index": 284,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "90ecb26be4d431d2c40bbb542f3f07fea2f6863fc2fe7906ffb7f36437b9bfa6",
+      "reference_ids": [
+        "B100_AGE_TEMP"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q014",
+      "tracker_index": 285,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "f5d1120f33e93f35ff95c2b3fc5c870f3a83af212aa72a79ee33efbb5e6bbc70",
+      "reference_ids": [
+        "RCUK_ABCDE24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT01-Q019",
+      "tracker_index": 286,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "9ef0aaa70b003e02668b93b68065b2bcdcff13a307f18e069a5f1a82342ec85e",
+      "reference_ids": [
+        "NCSBN_DELEG19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT03-Q072",
+      "tracker_index": 290,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "376af9fe1f1c0fb45e477c4f3d5ea0c7596c1973a9ecfa649c8617115a9736a3",
+      "reference_ids": [
+        "B100_SPINE_CERVICAL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT03-Q074",
+      "tracker_index": 291,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5001aa201c6000ed64ca843565dbe42e6fd2e636111c7ba6bd7465567e568271",
+      "reference_ids": [
+        "B100_SPINE_LUMBAR"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q025",
+      "tracker_index": 292,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "ae6a7ef91651607ab0adbcd4788e5b81766040efee0293af3cf7b6f1eb2fbd69",
+      "reference_ids": [
+        "B100_CFR_NF26",
+        "B100_FALLS25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q044",
+      "tracker_index": 293,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "170c3050f2d97d1873b4a4fbccba121871795cf44916a7baa8795e6ed332357f",
+      "reference_ids": [
+        "RCUK_ABCDE_BREATHING24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q056",
+      "tracker_index": 294,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "af2c846b4c902509819faa0c102db59baf415e5e1fb5eb54962c959ab02bf8b6",
+      "reference_ids": [
+        "B100_ABDOMEN"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q068",
+      "tracker_index": 295,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "7466e97886088bc357eaa0f677f24be3c7e6b17450adb6c5f70d20b3d091379a",
+      "reference_ids": [
+        "B100_ERIKSON"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q072",
+      "tracker_index": 296,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "cc79d5c02a9652e37c602593e44afd1e8bf7e249afca9044103291ead0436fb2",
+      "reference_ids": [
+        "OS_COMM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT04-Q076",
+      "tracker_index": 297,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c8e2953fde6df3a1a3deffcb99f1ae4dee16da6415dfda5007d35d1ec1d06323",
+      "reference_ids": [
+        "B100_AAOS_AIDS",
+        "B100_CRUTCH_MANUAL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT05-Q027",
+      "tracker_index": 299,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "5f7332aa0da48b7694483b856c1c8d3f4f15f4935bafa349d3e30a3a97e224ae",
+      "reference_ids": [
+        "NICE_DELIRIUM_FAMILIAR23",
+        "NCSBN_DELEG19"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT05-Q045",
+      "tracker_index": 303,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c40f839d4fe4c0552005128382a507ec1774679a833eaf44e3206046f23d5fd2",
+      "reference_ids": [
+        "B100_STERTOR"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT05-Q048",
+      "tracker_index": 304,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "013d8ca50991d2538aa6788d35314d924da3e8c92f248f41630c06ca5449014c",
+      "reference_ids": [
+        "B100_ROM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT05-Q052",
+      "tracker_index": 305,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "6292ec02297f9bccb101681644c837ff3f0a4acd571e5f3cb61ebe6461915d34",
+      "reference_ids": [
+        "AHA_PRESYNCOPE24",
+        "B100_MOBILITY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT05-Q086",
+      "tracker_index": 306,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "d37c8caa17bfd4625439df5c215a9cbdaad9ad10ffa74e63638ef6d495d5187d",
+      "reference_ids": [
+        "CDC_CORE24",
+        "CDC_ENV24"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT06-Q059",
+      "tracker_index": 309,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "356f83c5ce1b7de412fad1072020d87904037546427a2a0cf6c60f7b26ee6049",
+      "reference_ids": [
+        "B100_CRUTCH_MANUAL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT06-Q063",
+      "tracker_index": 310,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "97c13e9fad39a088aed4bc11e98f88ed3cb03bee168146c8182e9ef8f862220d",
+      "reference_ids": [
+        "B100_CFR_NF26"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT06-Q080",
+      "tracker_index": 312,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "52bfae2f1c6e69998482073985585f2543458b3278ad9ccf7c80cdfd06c71abb",
+      "reference_ids": [
+        "B100_DEMENTIA",
+        "B100_FALLS25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT06-Q085",
+      "tracker_index": 313,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "3fcdd42020ce6ab662d9c5150ebfa793633ad1f7928184ecc396d78ad7a844a5",
+      "reference_ids": [
+        "OS_COMM",
+        "HHS_CLAS"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT06-Q094",
+      "tracker_index": 314,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "69542fdf3a80f759a8c5bce2c94caec97057456a15abcd9bb00a3c69af5352aa",
+      "reference_ids": [
+        "B100_OCD"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT07-Q035",
+      "tracker_index": 318,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "82d5df740014fd065f84c7582347b83f4fcced462a787edb80100bf21725183a",
+      "reference_ids": [
+        "B100_ADVANCE"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT08-Q022",
+      "tracker_index": 323,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "af9b13144803e1a5f8ac2bcd9808b989004d3512ae2e8a668a772e1a987c1f54",
+      "reference_ids": [
+        "AHA_SEVERE_BP25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT08-Q032",
+      "tracker_index": 324,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "c7e37b549b75da8f6ac2b6d6a612a65c3eec179eec14a6c603d0874d874f0353",
+      "reference_ids": [
+        "B100_AAOS_AIDS",
+        "B100_AIDS_SKILL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT08-Q036",
+      "tracker_index": 325,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "12773cf3d9af3ebfcebbf148c1f13bffc1e4e673ecb0d09ae34da47a4ade51db",
+      "reference_ids": [
+        "B100_FALLS25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT08-Q051",
+      "tracker_index": 326,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "36781064b18b6da9c66d84c262a1796ea5564b4de1f0c301cd562eddd3f5d038",
+      "reference_ids": [
+        "B100_CONSENT25"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-PT08-Q061",
+      "tracker_index": 328,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "33cacf1d056d860aacd35afeab4ebf5c133b7d1e667d2371e359a73da868603b",
+      "reference_ids": [
+        "OS_HYGIENE_ASSIST"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q003",
+      "tracker_index": 341,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "2b377d18de00e314ec2c441c5c9194cda7229913beb80b0f72a25b512a6c0b7a",
+      "reference_ids": [
+        "CDC_ENV24",
+        "B100_TOY_SAFETY"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q004",
+      "tracker_index": 342,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "259eaab0524ff17068df0c25e91452f2ddc58c2f31d88a0e454f3ed96b9df7b4",
+      "reference_ids": [
+        "CDC_DEV9_SOCIAL26",
+        "WHO_NURTURING20"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q009",
+      "tracker_index": 343,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "a2f3750b484aa64f6ac1d16fb0bf16a3d714e58a1cfcdb41249811d288718f52",
+      "reference_ids": [
+        "B100_CHILD_HOSPITAL"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q018",
+      "tracker_index": 344,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "a18e04121265eceb04a1c15ec81096083682c844334699a9fb6c68df31fd58c4",
+      "reference_ids": [
+        "B100_DMRS21"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q035",
+      "tracker_index": 345,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "2f175211b76cf1b58b75a745fe0dad11ad190e1d237a63f82540c08b6f5b240c",
+      "reference_ids": [
+        "B100_INFANT_HEART"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q043",
+      "tracker_index": 346,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "0f5a02a581a9c63dec5f81a1a841bb7f70c3e2ca34ee4ef9c31692204f526fb6",
+      "reference_ids": [
+        "B100_CHD_ACTIVITY",
+        "OS_COMM"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    },
+    {
+      "id": "PN2-CH13-Q060",
+      "tracker_index": 347,
+      "before_status": "CLINICAL_REVIEW_PENDING",
+      "after_status": "CORRECTED_AND_REVIEWED",
+      "reviewed_on": "2026-10-24",
+      "reviewer_type": "AI",
+      "candidate_content_hash": "be2f7c8f1a51023f79511a886f56a73a59a48685532b30bf6bd0f7c27501d014",
+      "reference_ids": [
+        "GINA_SUMMARY26"
+      ],
+      "INC_mapping_reviewed": true,
+      "clinical_checks_reviewed": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "all_12_final_QA_complete": false,
+      "human_signoff": false,
+      "quiz_eligible": false
+    }
+  ]
+}

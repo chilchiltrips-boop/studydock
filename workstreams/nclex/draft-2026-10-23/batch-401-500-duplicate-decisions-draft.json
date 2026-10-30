@@ -1,0 +1,100 @@
+{
+  "batch": "401-500",
+  "status": "DRAFT_RELATION_AUDIT_PARTIAL",
+  "reviewedDate": "2026-10-30",
+  "newAdjudicatedPairs": 8,
+  "redudantStudyEntriesProposed": 1,
+  "pairs": [
+    {
+      "ids": [
+        "S9-C06-Q040",
+        "S9-C06-Q073"
+      ],
+      "decision": "SEMANTIC_REDUNDANCY",
+      "clinicalRationale": "Both assess NG suction associated metabolic alkalosis with elevated pH and HCO3; variations in laboratory values do not alter objective. Retain Q040 as primary study question and archive Q073 from duplicate study mode, preserving both historical source IDs.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q022",
+        "S9-C06-Q100"
+      ],
+      "decision": "RELATED_BUT_DISTINCT",
+      "clinicalRationale": "Tacrolimus oliguria is not the same drug-specific objective as cyclosporine-associated hyperkalemia; both are calcineurin inhibitor safety, but different measured manifestation and drugs.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q040",
+        "S9-C06-Q072"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Metabolic alkalosis caused by gastric suction differs from compensated respiratory alkalosis in asthma and their laboratory analysis.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q072",
+        "S9-C06-Q073"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Asthma associated respiratory alkalosis contrasts with NG suction metabolic alkalosis.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q040",
+        "S9-C06-Q157"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Q157 addresses respiratory failure intervention with acidemia/hypercapnia, not the metabolic alkalosis of gastric suction.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q072",
+        "S9-C06-Q157"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Q072 assesses respiratory alkalosis; Q157 assesses deteriorating gas exchange and respiratory support.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q073",
+        "S9-C06-Q157"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Q073 addresses NG loss alkalosis; Q157 analyzes failure and respiratory treatment.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    },
+    {
+      "ids": [
+        "S9-C06-Q100",
+        "S9-C06-Q366"
+      ],
+      "decision": "DISTINCT",
+      "clinicalRationale": "Cyclosporine-associated hyperkalemia is different from chemotherapy drug cisplatin adverse effects.",
+      "reviewerType": "AI",
+      "reviewedOn": "2026-10-30",
+      "sourcePreserved": true
+    }
+  ],
+  "fullBankAuditCompleted": false,
+  "newConfirmedExactDuplicatePairCount": 0,
+  "sourceEntryCountPreserved": 100
+}

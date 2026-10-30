@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "encrypted-full-working-checkpoint",
+  "repository": "chilchiltrips-boop/studydock",
+  "branch": "draft/nclex-2894-review-checkpoint-2026-10-23",
+  "checkpointDate": "2026-10-23",
+  "encryptedFile": "nclex-working-checkpoint.enc",
+  "encryptedBytes": 32234855,
+  "encryptedSHA256": "5325a6868be00e39d2fb93aa0b50236ef0f2ab299daee72edef4701d610074e2",
+  "plainArchiveSHA256": "adbf0b51fd00d01a263bda05764660d9ab8f0e5caba11ea430ad9360937550b0",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "headerASCII": "STUDYDOCK-NCLEX-DRAFT-AES256GCM-V1",
+    "headerTerminatorByte": 0,
+    "nonceBytes": 12,
+    "tagBytes": 16,
+    "authenticatedAdditionalData": "complete header including its terminating null byte"
+  },
+  "privateRecoveryKey": "Provided separately to the owner; never committed to Git.",
+  "privateArchiveContents": [
+    "all 2,894 original historical source records",
+    "working candidates and prior candidate versions",
+    "351 individual screening findings",
+    "146 explicit curation decisions and source-linked correction history",
+    "125 reviewed INC mappings and official curriculum evidence",
+    "all 28 extracted figure files used by the 100 image drafts",
+    "original-PDF text caches and source trace checks",
+    "remaining-work ledger for all 2,894 IDs",
+    "reproducible reconciliation, curation and checkpoint scripts"
+  ],
+  "originalTextbookPDFsIncluded": false,
+  "originalPDFRecovery": "Original PDF file identities/hashes are preserved inside the encrypted package; source PDFs remain separately held by the owner.",
+  "finalRelease": false,
+  "encryptedParts": [
+    {
+      "file": "nclex-working-checkpoint.enc.part001",
+      "bytes": 9000000,
+      "sha256": "79b2d6f7c2cb8e58ce60973b658d7252344130d0358a098ff95d2a79fa120d4c"
+    },
+    {
+      "file": "nclex-working-checkpoint.enc.part002",
+      "bytes": 9000000,
+      "sha256": "9fe7e802d976fbd1a67ddf007cd03e29ca85e83b30617490b851a3e542cb6953"
+    },
+    {
+      "file": "nclex-working-checkpoint.enc.part003",
+      "bytes": 9000000,
+      "sha256": "680925dc33cf88b5afc56235153f82d6c91cb0b6105424cd8bec3bcc7632664b"
+    },
+    {
+      "file": "nclex-working-checkpoint.enc.part004",
+      "bytes": 5234855,
+      "sha256": "aedec6ec5c8746cab6f3eaccc9c41fa4333107a5dd365c7a14a53141905f3691"
+    }
+  ],
+  "assembly": "Concatenate encryptedParts in their listed order; decrypt_backup.py does this automatically."
+}

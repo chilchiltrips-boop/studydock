@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-30",
+  "supersedes_claim": 548,
+  "retracted_additional_claims": 148,
+  "prior_baseline_flags_not_reaudited": 400,
+  "batch5_entries": 100,
+  "batch5_actual_pdf_key_matches": 100,
+  "batch5_actual_pdf_rationale_prefix_matches": 100,
+  "batch5_exact_pdf_stem_matches": 92,
+  "batch5_table_reading_order_exceptions": 8,
+  "candidate_amendments": 4,
+  "specific_content_blockers": 15,
+  "answer_claims_newly_corroborated": 7,
+  "all12_revalidated": 0,
+  "final_project_complete": false,
+  "main_changed": false,
+  "human_signoff": false
+}
