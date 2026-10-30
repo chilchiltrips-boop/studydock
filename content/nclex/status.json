@@ -6,13 +6,18 @@
   "originalPN": 1546,
   "newAdaptedImages": 100,
   "latestWorkingMasterRewrittenTextFields": 548,
-  "aiFinalQAPass": 548,
-  "clinicalReviewPending": 2346,
+  "aiFinalQAPass": 400,
+  "clinicalReviewPending": 2494,
   "clinicalFinalQAPassConfirmed": 0,
   "humanExpertSignoffs": 0,
   "topicMappingsFlaggedForHumanReview": 623,
   "licensedContentPublished": false,
-  "notes": "Metadata only. No copyrighted question text or source image assets are hosted here. AI QA is not independent human clinical certification; clinically pending entries remain excluded from scored quizzes.",
-  "latestCheckpoint": "FINALQA100-20261030-06: 48 of selected 100 completed; 52 remain.",
-  "latestSimilarityCandidatePairs": 12460
+  "notes": "Metadata only. Earlier 548 completion claim is superseded. No copyrighted question text or figures hosted. Earlier 400 flags are a historical baseline, not revalidated here. No final project or independent human certification.",
+  "latestCheckpoint": "2026-10-30: unsupported extra 148 PASS claims retracted; 100 Batch-5 rewrites and 48 Batch-6 rewrites preserved, all require revalidation.",
+  "latestSimilarityCandidatePairs": 12460,
+  "aiFinalQAPassCountBasis": "Earlier 400 stored flags retained as historical baseline; not independently re-audited in the recovery. Not a newly verified count.",
+  "retractedAdditionalPassClaims": 148,
+  "batch5FullQARevalidated": 0,
+  "batch5RevalidationPending": 100,
+  "batch6RevalidationPending": 48
 }
